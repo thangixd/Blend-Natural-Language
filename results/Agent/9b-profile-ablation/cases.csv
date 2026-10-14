@@ -1,0 +1,226 @@
+case,lake,tier,level,on,off
+awt-s1-L0,adventure_works,simple,0,2,1
+awt-s1-L1,adventure_works,simple,1,3,2
+awt-s1-L2,adventure_works,simple,2,3,3
+awt-s2-L0,adventure_works,simple,0,3,3
+awt-s2-L1,adventure_works,simple,1,3,3
+awt-s2-L2,adventure_works,simple,2,3,3
+awt-s3-L0,adventure_works,simple,0,3,2
+awt-s3-L1,adventure_works,simple,1,3,1
+awt-s3-L2,adventure_works,simple,2,3,3
+awt-s4-L0,adventure_works,simple,0,3,3
+awt-s4-L1,adventure_works,simple,1,3,3
+awt-s5-L0,adventure_works,simple,0,3,3
+awt-s5-L1,adventure_works,simple,1,3,3
+awt-s6-L0,adventure_works,simple,0,3,3
+awt-s6-L1,adventure_works,simple,1,3,3
+awt-s7-L0,adventure_works,simple,0,3,3
+awt-s7-L1,adventure_works,simple,1,2,0
+awt-s7-L2,adventure_works,simple,2,3,3
+awt-s8-L0,adventure_works,simple,0,3,3
+awt-s8-L1,adventure_works,simple,1,3,1
+awt-s8-L2,adventure_works,simple,2,2,3
+awt-s9-L0,adventure_works,simple,0,3,3
+awt-s9-L1,adventure_works,simple,1,3,3
+awt-s10-L0,adventure_works,simple,0,3,3
+awt-s10-L1,adventure_works,simple,1,3,3
+awt-t1-L0,adventure_works,tasks,0,3,3
+awt-t1-L1,adventure_works,tasks,1,3,3
+awt-t1-L2,adventure_works,tasks,2,3,3
+awt-t1-L3,adventure_works,tasks,3,3,3
+awt-t2-L0,adventure_works,tasks,0,3,3
+awt-t2-L1,adventure_works,tasks,1,3,3
+awt-t2-L2,adventure_works,tasks,2,3,2
+awt-t2-inf,adventure_works,tasks,inferable,3,3
+awt-t3-L0,adventure_works,tasks,0,3,2
+awt-t3-L1,adventure_works,tasks,1,3,2
+awt-t4-L0,adventure_works,tasks,0,3,3
+awt-t4-L1,adventure_works,tasks,1,3,3
+awt-t4-L2,adventure_works,tasks,2,1,3
+awt-t5-L0,adventure_works,tasks,0,0,0
+awt-t5-L1,adventure_works,tasks,1,1,0
+awt-t5-L2,adventure_works,tasks,2,1,0
+awt-t5-L3,adventure_works,tasks,3,0,0
+awt-t6-L0,adventure_works,tasks,0,0,0
+awt-t6-L1,adventure_works,tasks,1,0,0
+awt-t6-L2,adventure_works,tasks,2,0,0
+awt-t6-L3,adventure_works,tasks,3,0,0
+awt-t7-L0,adventure_works,tasks,0,2,1
+awt-t7-L1,adventure_works,tasks,1,0,0
+awt-t7-L2,adventure_works,tasks,2,1,1
+awt-t7-L3,adventure_works,tasks,3,1,1
+awt-t8-L0,adventure_works,tasks,0,3,2
+awt-t8-L1,adventure_works,tasks,1,3,3
+awt-t9-L0,adventure_works,tasks,0,3,2
+awt-t9-L1,adventure_works,tasks,1,2,1
+awt-t10-L0,adventure_works,tasks,0,2,1
+awt-f1-L0,adventure_works,free form,0,1,1
+awt-f2-L0,adventure_works,free form,0,0,0
+awt-f2-L1,adventure_works,free form,1,1,1
+awt-f3-L0,adventure_works,free form,0,3,3
+awt-f3-L1,adventure_works,free form,1,3,3
+awt-f3-L2,adventure_works,free form,2,3,3
+awt-f3-L3,adventure_works,free form,3,3,3
+awt-f4-L0,adventure_works,free form,0,3,3
+awt-f4-L1,adventure_works,free form,1,2,1
+awt-f4-L2,adventure_works,free form,2,0,0
+awt-f5-L0,adventure_works,free form,0,0,0
+awt-f5-L1,adventure_works,free form,1,0,0
+awt-f6-L0,adventure_works,free form,0,0,1
+awt-f7-L0,adventure_works,free form,0,0,1
+awt-f7-L1,adventure_works,free form,1,2,1
+awt-f8-L0,adventure_works,free form,0,2,2
+awt-f8-L1,adventure_works,free form,1,2,2
+awt-f8-inf,adventure_works,free form,inferable,2,3
+awt-f9-L0,adventure_works,free form,0,1,1
+awt-f9-L1,adventure_works,free form,1,0,1
+awt-f9-L2,adventure_works,free form,2,0,0
+awt-f10-L0,adventure_works,free form,0,1,1
+awt-f10-L1,adventure_works,free form,1,1,0
+cht-s1-L0,chembl,simple,0,3,0
+cht-s1-L1,chembl,simple,1,0,0
+cht-s2-L0,chembl,simple,0,0,1
+cht-s2-L1,chembl,simple,1,0,0
+cht-s3-L0,chembl,simple,0,3,3
+cht-s3-L1,chembl,simple,1,1,2
+cht-s3-L2,chembl,simple,2,1,3
+cht-s4-L0,chembl,simple,0,3,3
+cht-s4-L1,chembl,simple,1,3,3
+cht-s4-L2,chembl,simple,2,3,3
+cht-s5-L0,chembl,simple,0,3,3
+cht-s5-L1,chembl,simple,1,3,3
+cht-s6-L0,chembl,simple,0,3,3
+cht-s6-L1,chembl,simple,1,3,3
+cht-s7-L0,chembl,simple,0,2,3
+cht-s7-L1,chembl,simple,1,3,3
+cht-s7-L2,chembl,simple,2,3,3
+cht-s8-L0,chembl,simple,0,3,3
+cht-s8-L1,chembl,simple,1,3,3
+cht-s9-L0,chembl,simple,0,3,3
+cht-s9-L1,chembl,simple,1,3,3
+cht-s10-L0,chembl,simple,0,3,3
+cht-s10-L1,chembl,simple,1,3,3
+cht-t1-L0,chembl,tasks,0,3,3
+cht-t1-L1,chembl,tasks,1,0,1
+cht-t1-L2,chembl,tasks,2,3,2
+cht-t1-L3,chembl,tasks,3,3,3
+cht-t2-L0,chembl,tasks,0,3,3
+cht-t2-L1,chembl,tasks,1,3,3
+cht-t2-L2,chembl,tasks,2,1,1
+cht-t2-L3,chembl,tasks,3,3,2
+cht-t2-inf,chembl,tasks,inferable,3,3
+cht-t3-L0,chembl,tasks,0,2,0
+cht-t4-L0,chembl,tasks,0,3,0
+cht-t4-L1,chembl,tasks,1,2,1
+cht-t4-L2,chembl,tasks,2,1,2
+cht-t5-L0,chembl,tasks,0,0,0
+cht-t5-L1,chembl,tasks,1,0,0
+cht-t5-L2,chembl,tasks,2,0,0
+cht-t6-L0,chembl,tasks,0,3,1
+cht-t6-L1,chembl,tasks,1,1,2
+cht-t7-L0,chembl,tasks,0,2,2
+cht-t7-L1,chembl,tasks,1,0,0
+cht-t7-L2,chembl,tasks,2,0,0
+cht-t8-L0,chembl,tasks,0,3,2
+cht-t8-L1,chembl,tasks,1,0,1
+cht-t9-L0,chembl,tasks,0,3,3
+cht-t9-L1,chembl,tasks,1,1,2
+cht-t10-L0,chembl,tasks,0,1,0
+cht-t10-L1,chembl,tasks,1,1,1
+cht-f1-L0,chembl,free form,0,1,0
+cht-f1-L1,chembl,free form,1,1,0
+cht-f1-L2,chembl,free form,2,1,0
+cht-f2-L0,chembl,free form,0,0,0
+cht-f2-L1,chembl,free form,1,3,2
+cht-f2-L2,chembl,free form,2,0,1
+cht-f3-L0,chembl,free form,0,0,0
+cht-f3-L1,chembl,free form,1,0,0
+cht-f4-L0,chembl,free form,0,2,2
+cht-f4-L1,chembl,free form,1,1,1
+cht-f4-L2,chembl,free form,2,2,1
+cht-f5-L0,chembl,free form,0,0,0
+cht-f5-L1,chembl,free form,1,0,0
+cht-f5-L2,chembl,free form,2,0,0
+cht-f6-L0,chembl,free form,0,3,3
+cht-f6-L1,chembl,free form,1,0,0
+cht-f6-L2,chembl,free form,2,2,0
+cht-f7-L0,chembl,free form,0,2,1
+cht-f7-L1,chembl,free form,1,0,1
+cht-f7-L2,chembl,free form,2,0,0
+cht-f7-L3,chembl,free form,3,0,0
+cht-f8-L0,chembl,free form,0,3,2
+cht-f8-L1,chembl,free form,1,3,2
+cht-f8-L2,chembl,free form,2,1,2
+cht-f8-inf,chembl,free form,inferable,3,3
+cht-f9-L0,chembl,free form,0,0,0
+cht-f9-L1,chembl,free form,1,0,0
+cht-f9-L2,chembl,free form,2,0,0
+cht-f9-L3,chembl,free form,3,0,0
+cht-f10-L0,chembl,free form,0,0,1
+cht-f10-L1,chembl,free form,1,0,0
+cht-f10-L2,chembl,free form,2,0,0
+chi-s1-L0,chicago,simple,0,0,1
+chi-s1-L1,chicago,simple,1,0,0
+chi-s2-L0,chicago,simple,0,3,3
+chi-s3-L0,chicago,simple,0,3,3
+chi-s3-L1,chicago,simple,1,2,2
+chi-s3-L2,chicago,simple,2,2,1
+chi-s4-L0,chicago,simple,0,3,2
+chi-s4-L1,chicago,simple,1,2,2
+chi-s5-L0,chicago,simple,0,3,3
+chi-s6-L0,chicago,simple,0,3,3
+chi-s7-L0,chicago,simple,0,3,3
+chi-s7-L1,chicago,simple,1,2,0
+chi-s7-L2,chicago,simple,2,2,3
+chi-s8-L0,chicago,simple,0,3,3
+chi-s8-L1,chicago,simple,1,3,3
+chi-s8-L2,chicago,simple,2,3,3
+chi-s9-L0,chicago,simple,0,2,1
+chi-s9-L1,chicago,simple,1,2,1
+chi-s10-L0,chicago,simple,0,2,3
+chi-s10-L1,chicago,simple,1,3,3
+chi-t1-L0,chicago,tasks,0,3,3
+chi-t1-L1,chicago,tasks,1,1,3
+chi-t1-inf,chicago,tasks,inferable,3,3
+chi-t2-L0,chicago,tasks,0,3,3
+chi-t2-L1,chicago,tasks,1,2,2
+chi-t2-L2,chicago,tasks,2,3,3
+chi-t2-inf,chicago,tasks,inferable,3,3
+chi-t3-L0,chicago,tasks,0,3,1
+chi-t4-L0,chicago,tasks,0,3,3
+chi-t4-L1,chicago,tasks,1,3,2
+chi-t4-L2,chicago,tasks,2,3,2
+chi-t5-L0,chicago,tasks,0,0,0
+chi-t5-L1,chicago,tasks,1,0,0
+chi-t6-L0,chicago,tasks,0,2,1
+chi-t6-L1,chicago,tasks,1,0,0
+chi-t6-L2,chicago,tasks,2,1,0
+chi-t7-L0,chicago,tasks,0,0,0
+chi-t7-L1,chicago,tasks,1,0,0
+chi-t7-L2,chicago,tasks,2,0,0
+chi-t8-L0,chicago,tasks,0,2,3
+chi-t8-L1,chicago,tasks,1,3,3
+chi-t9-L0,chicago,tasks,0,2,1
+chi-t9-L1,chicago,tasks,1,2,3
+chi-t10-L0,chicago,tasks,0,1,0
+chi-t10-L1,chicago,tasks,1,0,1
+chi-f1-L0,chicago,free form,0,1,0
+chi-f1-L1,chicago,free form,1,0,0
+chi-f2-L0,chicago,free form,0,1,0
+chi-f2-L1,chicago,free form,1,1,2
+chi-f2-L2,chicago,free form,2,1,0
+chi-f3-L0,chicago,free form,0,0,0
+chi-f3-L1,chicago,free form,1,0,0
+chi-f3-L2,chicago,free form,2,0,0
+chi-f4-L0,chicago,free form,0,3,2
+chi-f4-L2,chicago,free form,2,0,0
+chi-f5-L0,chicago,free form,0,0,0
+chi-f5-L1,chicago,free form,1,0,0
+chi-f6-L0,chicago,free form,0,1,1
+chi-f6-L1,chicago,free form,1,1,0
+chi-f7-L0,chicago,free form,0,3,0
+chi-f8-L0,chicago,free form,0,0,0
+chi-f9-L0,chicago,free form,0,1,2
+chi-f9-L1,chicago,free form,1,0,0
+chi-f10-L0,chicago,free form,0,1,2
+chi-f10-L1,chicago,free form,1,1,1

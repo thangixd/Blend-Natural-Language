@@ -31,16 +31,9 @@
    make eval-all BLEND_GPUS=<gpus> PNEUMA_GPUS=<gpus>
    ```
 
-   Every lake runs the same experiments. Two additions are off by default, and the repository holds their runs
-   from the thesis:
-
-   - `THROUGHPUT=1` (on `build-lake` and `eval-all`) adds the throughput runs on five FeTaQA subsets, in
-     `data/Evaluation/NLSeeker/results/*__throughput-fetaqa_*`.
-   - `SIMULATE=chicago_open` adds the judge and the simulated lakes to the scaling experiment on Chicago, in
-     `data/Evaluation/NLIntegration/2026-10-05T23-28-20Z__scaling`.
-
-   The throughput runs leave out their copy of the build's texts (`texts.json`, up to 240 MB each), so
-   `make verify` reports these files as missing.
+   Every lake runs the same experiments. Two additions are off by default: `THROUGHPUT=1` (on `build-lake` and
+   `eval-all`) adds the throughput runs on five FeTaQA subsets, and `SIMULATE=chicago_open` adds the judge and the
+   simulated lakes to the scaling experiment on Chicago.
 
    Then, per lake, the paired tests and the int8 storage:
 
@@ -66,7 +59,7 @@
    | 27B, effort medium | 3 | `make eval-agent RUN=27b-medium-r1 EFFORT=medium` |
    | 27B, effort low | 3 | `make eval-agent RUN=27b-low-r1 EFFORT=low` |
    | 27B, effort medium, no profile | 1 | `make eval-agent RUN=27b-medium-noprof EFFORT=medium PROFILE=off` |
-   | 27B, effort xhigh, no profile, underspecified requests | 1 | `make eval-agent RUN=27b-xhigh-noprof PROFILE=off CASE="<ids of levels 1 to 3>"` |
+   | 27B, effort xhigh, no profile | 1 | `make eval-agent RUN=27b-xhigh-noprof PROFILE=off` |
    | 9B, thinking, profile on and off | 3 each | `make eval-agent-profile RUN=9b-thinking MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
    | 9B, no thinking | 1 | `make eval-agent RUN=9b-nothink THINKING=off MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
    | 9B, no thinking, no profile | 1 | as above with `PROFILE=off` |
@@ -81,3 +74,29 @@
    ```
 
 Results are written to `data/Evaluation/`.
+
+## The thesis runs
+
+`results/` holds the runs of the thesis, grouped by lake:
+
+- `Agent/<lake>/`: every agent condition, one folder per run. `Agent/runs.csv` names each run's condition and
+  repeat (repeat 1 is the first run), `Agent/results.csv` summarizes one run per condition, and
+  `Agent/9b-profile-ablation/` holds the sign test of the semantic profile with the 9B model.
+- `NLIntegration/<lake>/`: the NLSeeker experiments, one run per experiment, the int8 storage, and
+  `analysis_<lake>.json` with the paired tests and counts of pushdown, order and regime. FeTaQA's runs predate the
+  answer tables in their records; `NLIntegration/fetaqa/answers_fetaqa.json` holds them.
+- `NLSeeker/<lake>/`: the parity runs of both systems and the diagnosis; on FeTaQA also the throughput runs.
+  `NLSeeker/parity/` and `NLSeeker/efficiency/` hold the reports over all lakes.
+
+Files over 50 MB are compressed with zstd (`zstd -d <file>.zst`). The parity and throughput runs leave out their
+copy of the build's texts (`texts.json`), and the agent runs their per-case error logs.
+
+Two of the summaries are rebuilt from these files like this:
+
+```bash
+python -m benchmarks.nl_integration.analysis --lake fetaqa --results results/NLIntegration/fetaqa \
+  --pushdown <run> --order <run> --regime <run> --answers results/NLIntegration/fetaqa/answers_fetaqa.json
+python -m evaluation.agent.profile_ablation <out> --cases evaluation/agent/cases/*_tiers.yaml --exclude awt-t10-L1 \
+  --arm on 1 <the three folders of repeat 1> ... --arm off 3 <the three folders of repeat 3>
+```
+
