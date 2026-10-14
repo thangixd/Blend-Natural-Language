@@ -1,18 +1,18 @@
 {
- "run": "xhigh (after 113)",
- "lake": "chembl",
- "folder": "data/Evaluation/Agent/chembl-113",
+ "run": "xhigh",
+ "lake": "adventure_works",
+ "folder": "data/Evaluation/Agent/aw-113",
  "commit": "10991211",
  "server": "Qwen3.8-27B on lyra, vLLM v0.29.0-cu129, tensor parallel 2 on GPUs 5 and 6 (2x A100 40GB), :8012",
  "sessions_at_once": 10,
- "cases_with_result": 82,
+ "cases_with_result": 79,
  "failed_rows": 0,
  "cases_without_output": [],
  "semantic_profile_at_load": {
-  "on": 171
+  "on": 158
  },
  "models": {
-  "Qwen3.8-27B": 789
+  "Qwen3.8-27B": 653
  },
  "role_settings": [
   {
@@ -21,7 +21,7 @@
    "temperature": 0.7,
    "thinking": false,
    "thinking_budget": null,
-   "steps": 164
+   "steps": 152
   },
   {
    "reasoning_effort": "xhigh",
@@ -29,7 +29,7 @@
    "temperature": 1.0,
    "thinking": true,
    "thinking_budget": 11000,
-   "steps": 169
+   "steps": 137
   },
   {
    "reasoning_effort": "xhigh",
@@ -37,7 +37,7 @@
    "temperature": 1.0,
    "thinking": true,
    "thinking_budget": 8000,
-   "steps": 196
+   "steps": 114
   },
   {
    "reasoning_effort": "xhigh",
@@ -45,7 +45,7 @@
    "temperature": 0.7,
    "thinking": true,
    "thinking_budget": 2000,
-   "steps": 141
+   "steps": 131
   },
   {
    "reasoning_effort": "xhigh",
@@ -56,8 +56,8 @@
    "steps": 119
   }
  ],
- "samples": 2039,
- "samples_with_error": 42,
- "first_record": "2026-10-11T12:47:30.447014",
- "last_record": "2026-10-11T20:24:16.668203"
+ "samples": 1655,
+ "samples_with_error": 10,
+ "first_record": "2026-10-11T12:47:35.396267",
+ "last_record": "2026-10-11T19:48:30.307948"
 }
