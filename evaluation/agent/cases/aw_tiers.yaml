@@ -1,0 +1,1746 @@
+- gold_plan_id: awt-s1
+  lake: adventure_works
+  template: Single-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/Currency_SEP_table_11.csv
+  gold_plan:
+    template: single_column_join
+    root:
+      id: p1
+      words: tables that contain my currency codes
+      fill:
+        seeker: single_column
+        column: {value: CurrencyCode, status: certain}
+  cases:
+    - id: awt-s1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Look for tables that contain my currency codes (like EUR, USD).
+      open_fields: []
+    - id: awt-s1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Look for tables that contain my currencies.
+      open_fields:
+        - part: p1
+          field: column
+          intended: CurrencyCode
+          opened_as: ambiguous
+          valid_values: [CurrencyCode, Name]
+          why_open: Each currency is in the table twice, as a code (EUR) and as a name (Euro).
+    - id: awt-s1-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Look for tables that line up with my list of currencies.
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: single_column
+          opened_as: ambiguous
+          valid_values: [single_column, multi_column]
+          why_open: >-
+            "Line up with my list" is one column of the list, or each row as code and name together.
+        - part: p1
+          field: column
+          intended: CurrencyCode
+          opened_as: ambiguous
+          valid_values: [CurrencyCode, Name]
+          why_open: As in awt-s1-L1.
+
+- gold_plan_id: awt-s2
+  lake: adventure_works
+  template: Single-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/AddressType_SEP_table_49.csv
+  gold_plan:
+    template: single_column_join
+    root:
+      id: p1
+      words: tables that use my address type numbers
+      fill:
+        seeker: single_column
+        column: {value: AddressTypeID, status: certain}
+  cases:
+    - id: awt-s2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables use my address type numbers?
+      open_fields: []
+    - id: awt-s2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables use my address types?
+      open_fields:
+        - part: p1
+          field: column
+          intended: AddressTypeID
+          opened_as: ambiguous
+          valid_values: [AddressTypeID, Name]
+          why_open: The table gives each address type a number and a name (Billing, Home, ...).
+    - id: awt-s2-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables match my address types?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: single_column
+          opened_as: ambiguous
+          valid_values: [single_column, multi_column]
+          why_open: >-
+            Matching an address type is matching one of its two columns, or its whole row with number and name together.
+        - part: p1
+          field: column
+          intended: AddressTypeID
+          opened_as: ambiguous
+          valid_values: [AddressTypeID, Name]
+          why_open: As in awt-s2-L1.
+
+- gold_plan_id: awt-s3
+  lake: adventure_works
+  template: Multi-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/BusinessEntityContact_SEP_table_27.csv
+  gold_plan:
+    template: multi_column_join
+    root:
+      id: p1
+      words: tables whose rows hold one of my business numbers beside its contact type number
+      fill:
+        seeker: multi_column
+        columns: {value: [BusinessEntityID, ContactTypeID], status: certain}
+  cases:
+    - id: awt-s3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables whose rows hold one of my business numbers beside its contact type number.
+      open_fields: []
+    - id: awt-s3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables whose rows hold one of my ID numbers beside its contact type number.
+      open_fields:
+        - part: p1
+          field: columns
+          intended: [BusinessEntityID, ContactTypeID]
+          opened_as: ambiguous
+          valid_values: [[BusinessEntityID, ContactTypeID], [PersonID, ContactTypeID]]
+          why_open: The table has two ID columns besides the type, the business's and the contact person's.
+    - id: awt-s3-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables have my ID numbers and my contact type numbers?
+      open_fields:
+        - part: p1
+          field: part_count
+          intended: 1
+          opened_as: ambiguous
+          valid_values: [1, 2]
+          why_open: >-
+            Having both can mean the two in the same rows, one search, or each somewhere in the table, two searches.
+        - part: p1
+          field: columns
+          intended: [BusinessEntityID, ContactTypeID]
+          opened_as: ambiguous
+          valid_values: [[BusinessEntityID, ContactTypeID], [PersonID, ContactTypeID]]
+          why_open: As in awt-s3-L1.
+
+- gold_plan_id: awt-s4
+  lake: adventure_works
+  template: Multi-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/CountryRegion_SEP_table_1.csv
+  gold_plan:
+    template: multi_column_join
+    root:
+      id: p1
+      words: tables where my country codes appear right next to the matching country names
+      fill:
+        seeker: multi_column
+        columns: {value: [CountryRegionCode, Name], status: certain}
+  cases:
+    - id: awt-s4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables have my country codes right next to the matching country names, as pairs?
+      open_fields: []
+    - id: awt-s4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables know my countries by code and by name?
+      open_fields:
+        - part: p1
+          field: part_count
+          intended: 1
+          opened_as: ambiguous
+          valid_values: [1, 2]
+          why_open: >-
+            Code and name in the same rows, one search, or the codes and the names each found somewhere, two searches.
+
+- gold_plan_id: awt-s5
+  lake: adventure_works
+  template: Keyword search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/AddressType_SEP_table_49.csv
+  gold_plan:
+    template: keyword
+    root:
+      id: p1
+      words: tables in which the words 'Main Office' or 'Shipping' appear
+      fill:
+        seeker: keyword
+        words: {value: [Main Office, Shipping], status: certain}
+  cases:
+    - id: awt-s5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables in which the words 'Main Office' or 'Shipping' appear.
+      open_fields: []
+    - id: awt-s5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables with Main Office or Shipping entries, like my address types.
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, single_column]
+          why_open: >-
+            The two words, or a match on my address type names, of which the two are examples ("like my address
+            types" as "such as" or as "the way my address types have them").
+
+- gold_plan_id: awt-s6
+  lake: adventure_works
+  template: Keyword search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/CountryRegion_SEP_table_1.csv
+  gold_plan:
+    template: keyword
+    root:
+      id: p1
+      words: tables in which Germany appears
+      fill:
+        seeker: keyword
+        words: {value: [Germany], status: certain}
+  cases:
+    - id: awt-s6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Show me the tables in which Germany appears.
+      open_fields: []
+    - id: awt-s6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables hold Germany as one of their countries, as my table does?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, single_column]
+          why_open: >-
+            Germany as a word to find, or a match on my country names, of which Germany is the one named.
+
+- gold_plan_id: awt-s7
+  lake: adventure_works
+  template: Correlation search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/PurchaseOrderDetail_SEP_table_53.csv
+  gold_plan:
+    template: correlation
+    root:
+      id: p1
+      words: figures that rise and fall with my stocked quantities when rows are paired by purchase order number
+      fill:
+        seeker: correlation
+        join: {value: PurchaseOrderID, status: certain}
+        target: {value: StockedQty, status: certain}
+  cases:
+    - id: awt-s7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables hold figures that rise and fall with my stocked quantities when rows are paired by purchase order
+        number?
+      open_fields: []
+    - id: awt-s7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables hold figures that rise and fall with my quantities when rows are paired by purchase order number?
+      open_fields:
+        - part: p1
+          field: target
+          intended: StockedQty
+          opened_as: ambiguous
+          valid_values: [OrderQty, ReceivedQty, RejectedQty, StockedQty]
+          why_open: The table has four quantity columns, ordered, received, rejected and stocked.
+    - id: awt-s7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables hold figures that rise and fall with my quantities when rows are paired through one of my ID
+        numbers?
+      open_fields:
+        - part: p1
+          field: target
+          intended: StockedQty
+          opened_as: ambiguous
+          valid_values: [OrderQty, ReceivedQty, RejectedQty, StockedQty]
+          why_open: As in awt-s7-L1.
+        - part: p1
+          field: join
+          intended: PurchaseOrderID
+          opened_as: ambiguous
+          valid_values: [ProductID, PurchaseOrderID, PurchaseOrderDetailID]
+          why_open: >-
+            The rows are paired through an ID number, and the table has three: the purchase order's, the order line's
+            and the product's.
+
+- gold_plan_id: awt-s8
+  lake: adventure_works
+  template: Correlation search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/vProductModelInstructions_SEP_table_43.csv
+  gold_plan:
+    template: correlation
+    root:
+      id: p1
+      words: a measure that tends to be high where my machine hours are high, matched by work location
+      fill:
+        seeker: correlation
+        join: {value: LocationID, status: certain}
+        target: {value: MachineHours, status: certain}
+  cases:
+    - id: awt-s8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables have a measure that tends to be high where my machine hours are high? Match the rows by work
+        location.
+      open_fields: []
+    - id: awt-s8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables have a measure that tends to be high where the time spent on my steps is high? Match the rows
+        by work location.
+      open_fields:
+        - part: p1
+          field: target
+          intended: MachineHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: The table records three kinds of time per step, setup, machine and labor hours.
+    - id: awt-s8-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables have a measure that tends to be high where the time spent on my steps is high?
+      open_fields:
+        - part: p1
+          field: target
+          intended: MachineHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: As in awt-s8-L1.
+        - part: p1
+          field: join
+          intended: LocationID
+          opened_as: not_stated
+          valid_values: [ProductModelID, LocationID]
+          why_open: The rows can be matched by product model or by work location, and neither is said.
+
+- gold_plan_id: awt-s9
+  lake: adventure_works
+  template: Natural-language search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/ProductCategory_SEP_table_39.csv
+  gold_plan:
+    template: nl_search
+    root:
+      id: p1
+      words: tables describing the bikes, parts, clothing and accessories a bicycle company sells
+      fill:
+        seeker: natural_language
+        description: {value: 'the bikes, parts, clothing and accessories a bicycle company sells', status: certain}
+  cases:
+    - id: awt-s9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables describing the bikes, parts, clothing and accessories a bicycle company sells.
+      open_fields: []
+    - id: awt-s9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Bikes, Components, Clothing and Accessories are what I sell. Which tables deal with these?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: natural_language
+          opened_as: ambiguous
+          valid_values: [natural_language, keyword, single_column]
+          why_open: >-
+            "Deal with these" is tables on the subject of the four categories, tables in which the four names occur as
+            words, or tables that share my category names.
+
+- gold_plan_id: awt-s10
+  lake: adventure_works
+  template: Natural-language search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/ScrapReason_SEP_table_33.csv
+  gold_plan:
+    template: nl_search
+    root:
+      id: p1
+      words: tables that describe why manufactured parts end up scrapped
+      fill:
+        seeker: natural_language
+        description: {value: why manufactured parts end up scrapped, status: certain}
+  cases:
+    - id: awt-s10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables describe why manufactured parts end up scrapped?
+      open_fields: []
+    - id: awt-s10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables are related to my scrap reasons?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: natural_language
+          opened_as: ambiguous
+          valid_values: [natural_language, single_column, keyword]
+          why_open: >-
+            Tables on the subject of scrapping, tables that share my scrap reasons (their numbers or their names), or
+            tables in which my reasons' names occur as words.
+
+- gold_plan_id: awt-t1
+  lake: adventure_works
+  template: Data imputation (DataImputation)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/BillOfMaterials_SEP_table_64.csv
+  gold_plan:
+    template: imputation
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+        - id: p1
+          words: restore the empty assembly numbers from other tables, matching each row on its bill-of-materials number
+          fill:
+            seeker: multi_column
+            columns: {value: [BillOfMaterialsID, ProductAssemblyID], status: certain}
+            rows_where: {column: ProductAssemblyID, cell: value}
+        - id: p2
+          words: restore the empty assembly numbers from other tables, matching each row on its bill-of-materials number
+          fill:
+            seeker: single_column
+            column: {value: BillOfMaterialsID, status: certain}
+            rows_where: {column: ProductAssemblyID, cell: empty}
+  cases:
+    - id: awt-t1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        The assembly number is empty in some of my bill-of-materials rows. I'd like to restore it from other tables,
+        matching each row on its bill-of-materials number.
+      open_fields: []
+    - id: awt-t1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        The assembly number is empty in some of my bill-of-materials rows. I'd like to restore it from other tables,
+        matching each row on one of its ID numbers.
+      open_fields:
+        - part: t
+          field: key
+          intended: BillOfMaterialsID
+          opened_as: ambiguous
+          valid_values: [BillOfMaterialsID, ComponentID]
+          why_open: Each row has two ID numbers to match on, its own and the number of the component it lists.
+    - id: awt-t1-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Some cells of my bill-of-materials rows are empty. I'd like to restore them from other tables, matching each
+        row on one of its ID numbers.
+      open_fields:
+        - part: t
+          field: key
+          intended: BillOfMaterialsID
+          opened_as: ambiguous
+          valid_values: [BillOfMaterialsID, ComponentID]
+          why_open: As in awt-t1-L1.
+        - part: t
+          field: fill
+          intended: ProductAssemblyID
+          opened_as: ambiguous
+          valid_values: [ProductAssemblyID, EndDate]
+          why_open: Two columns have empty cells, the assembly number (103 rows) and the end date (2,480 rows).
+    - id: awt-t1-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        My bill-of-materials rows are blank in places. Which tables can be matched to them on one of their ID numbers?
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            The question asks for tables that match my rows on an ID number (a join), and the empty cells beside it may
+            be what the match is for (filling them in).
+        - part: t
+          field: key
+          intended: BillOfMaterialsID
+          opened_as: ambiguous
+          valid_values: [BillOfMaterialsID, ComponentID]
+          why_open: As in awt-t1-L1.
+        - part: t
+          field: fill
+          intended: ProductAssemblyID
+          opened_as: ambiguous
+          valid_values: [ProductAssemblyID, EndDate]
+          why_open: As in awt-t1-L2.
+
+- gold_plan_id: awt-t2
+  lake: adventure_works
+  template: Augmentation by example (AugmentationByExample)
+  tier: tasks
+  class: task
+  query_table: evaluation/agent/cases/aw_tiers_BusinessEntityContact_examples.csv
+  gold_plan:
+    template: imputation
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+        - id: p1
+          words: the contact types of my other rows, each row matched on its contact person's number
+          fill:
+            seeker: multi_column
+            columns: {value: [PersonID, ContactTypeID], status: certain}
+            rows_where: {column: ContactTypeID, cell: value}
+        - id: p2
+          words: the contact types of my other rows, each row matched on its contact person's number
+          fill:
+            seeker: single_column
+            column: {value: PersonID, status: certain}
+            rows_where: {column: ContactTypeID, cell: empty}
+  cases:
+    - id: awt-t2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I've entered the contact type for just five of my rows. Which tables know the type for the others, if each row
+        is matched on its contact person's number?
+      open_fields: []
+    - id: awt-t2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I've entered the contact type for just five of my rows. Which tables know the type for the others, if each row
+        is matched on one of my ID numbers?
+      open_fields:
+        - part: t
+          field: key
+          intended: PersonID
+          opened_as: ambiguous
+          valid_values: [PersonID, BusinessEntityID]
+          why_open: The rows hold a business's number and its contact person's number.
+    - id: awt-t2-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables link up with my contacts through one of their ID numbers? I've entered the contact type for only
+        five of them.
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            The question asks for tables that link up on an ID number (a join), and the five typed contact types beside
+            it may be what the link is for (supplying the other types).
+        - part: t
+          field: key
+          intended: PersonID
+          opened_as: ambiguous
+          valid_values: [PersonID, BusinessEntityID]
+          why_open: As in awt-t2-L1.
+    - id: awt-t2-inf
+      level: inferable
+      rounds_needed: 0
+      description: >-
+        I've entered values in a new column for just five of my rows. Which tables know the values for the others, if
+        each row is matched on its contact person's number?
+      open_fields: []
+      inferable:
+        part: t
+        field: fill
+        why: ContactTypeID is the only column with empty cells, so it is the column started by example.
+
+- gold_plan_id: awt-t3
+  lake: adventure_works
+  template: Negative examples (NegativeExampleSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/vStateProvinceCountryRegion_SEP_table_85.csv
+  gold_plan:
+    template: negative_examples
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+        - id: p1
+          words: tables whose rows give my state names with their country names
+          fill:
+            seeker: multi_column
+            columns: {value: [StateProvinceName, CountryRegionName], status: certain}
+        - id: p2
+          words: no table that holds the rows Gironde, France or Corse, France
+          fill:
+            seeker: multi_column
+            rows: [[Gironde, France], [Corse, France]]
+            columns: {value: [StateProvinceName, CountryRegionName], status: certain}
+  cases:
+    - id: awt-t3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables whose rows give my state names with their country names, but no table that holds the rows
+        "Gironde, France" or "Corse, France".
+      open_fields: []
+    - id: awt-t3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables whose rows give my state names with their country names, but none with Gironde, France or Corse,
+        France.
+      open_fields:
+        - part: c1
+          field: task
+          intended: negative_examples
+          opened_as: ambiguous
+          valid_values: [negative_examples, tree]
+          why_open: >-
+            "None with" the two is no table holding them as rows (negative examples), or no table mentioning the words
+            (a keyword removed from the join, a tree).
+
+- gold_plan_id: awt-t4
+  lake: adventure_works
+  template: Join ∩ natural-language (HybridNLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/Currency_SEP_table_11.csv
+  gold_plan:
+    template: hybrid_nl
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+        - id: p1
+          words: tables about exchange rates that also contain my currency codes
+          fill:
+            seeker: single_column
+            column: {value: CurrencyCode, status: certain}
+        - id: p2
+          words: tables about exchange rates that also contain my currency codes
+          fill:
+            seeker: natural_language
+            description: {value: exchange rates, status: certain}
+  cases:
+    - id: awt-t4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables about exchange rates that also contain my currency codes.
+      open_fields: []
+    - id: awt-t4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables about exchange rates that also contain my currencies.
+      open_fields:
+        - part: p1
+          field: column
+          intended: CurrencyCode
+          opened_as: ambiguous
+          valid_values: [CurrencyCode, Name]
+          why_open: As in awt-s1-L1.
+    - id: awt-t4-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Find tables about exchange rates for my currencies.
+      open_fields:
+        - part: c1
+          field: task
+          intended: hybrid_nl
+          opened_as: ambiguous
+          valid_values: [hybrid_nl, nl_search]
+          why_open: >-
+            "For my currencies" asks for tables that also hold them, or only narrows the subject of the search.
+        - part: p1
+          field: column
+          intended: CurrencyCode
+          opened_as: ambiguous
+          valid_values: [CurrencyCode, Name]
+          why_open: As in awt-s1-L1.
+
+- gold_plan_id: awt-t5
+  lake: adventure_works
+  template: Feature discovery (MultiColumnCollinearitySearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/vProductModelInstructions_SEP_table_43.csv
+  gold_plan:
+    template: collinearity
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+        - id: p1
+          words: only from tables whose rows hold my product model numbers beside my location numbers
+          fill:
+            seeker: multi_column
+            columns: {value: [ProductModelID, LocationID], status: certain}
+        - id: c2
+          kind: difference
+          removal: comparison
+          inputs:
+            - id: p2
+              words: extra input columns for a model of my lot sizes, lined up by product model
+              fill:
+                seeker: correlation
+                join: {value: ProductModelID, status: certain}
+                target: {value: LotSize, status: certain}
+            - id: p3
+              words: other than columns that just echo my setup hours
+              fill:
+                seeker: correlation
+                join: {value: ProductModelID, status: certain}
+                target: {value: SetupHours, status: certain}
+  cases:
+    - id: awt-t5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I want extra input columns for a model of my lot sizes, lined up by product model, other than columns that just
+        echo my setup hours; take them only from tables whose rows hold my product model numbers beside my location
+        numbers.
+      open_fields: []
+    - id: awt-t5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I want extra input columns for a model of my lot sizes, lined up by product model, other than columns that just
+        echo the time my steps take; take them only from tables whose rows hold my product model numbers beside my
+        location numbers.
+      open_fields:
+        - part: p3
+          field: target
+          intended: SetupHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: The table records three kinds of time per step, setup, machine and labor hours.
+    - id: awt-t5-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I want extra input columns for a model of my lot sizes, other than columns that just echo the time my steps
+        take; take them only from tables whose rows hold my product model numbers beside my location numbers.
+      open_fields:
+        - part: p3
+          field: target
+          intended: SetupHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: As in awt-t5-L1.
+        - part: t
+          field: join
+          intended: ProductModelID
+          opened_as: not_stated
+          valid_values: [ProductModelID, LocationID]
+          why_open: How the input columns are lined up with my rows is not said; by product model or by location.
+    - id: awt-t5-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        I want extra input columns for a model of my lot sizes, other than columns that just echo the time my steps
+        take; take them only from tables whose rows hold my product models beside my location numbers.
+      open_fields:
+        - part: p3
+          field: target
+          intended: SetupHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: As in awt-t5-L1.
+        - part: t
+          field: join
+          intended: ProductModelID
+          opened_as: not_stated
+          valid_values: [ProductModelID, LocationID]
+          why_open: As in awt-t5-L2.
+        - part: p1
+          field: columns
+          intended: [ProductModelID, LocationID]
+          opened_as: ambiguous
+          valid_values: [[ProductModelID, LocationID], [Name, LocationID]]
+          why_open: The table names each product model by number and by name.
+
+- gold_plan_id: awt-t6
+  lake: adventure_works
+  template: Feature for ML (FeatureForMLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/PurchaseOrderDetail_SEP_table_53.csv
+  gold_plan:
+    template: feature_for_ml
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+        - id: p1
+          words: candidate input columns for modelling my unit prices, lined up by purchase order number
+          fill:
+            seeker: correlation
+            join: {value: PurchaseOrderID, status: certain}
+            target: {value: UnitPrice, status: certain}
+        - id: p2
+          words: not ones that simply track my order quantities
+          fill:
+            seeker: correlation
+            join: {value: PurchaseOrderID, status: certain}
+            target: {value: OrderQty, status: certain}
+  cases:
+    - id: awt-t6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm modelling my unit prices. Find candidate input columns elsewhere, lined up by purchase order number, but
+        not ones that simply track my order quantities.
+      open_fields: []
+    - id: awt-t6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'm modelling my unit prices. Find candidate input columns elsewhere, but not ones that simply track my order
+        quantities.
+      open_fields:
+        - part: t
+          field: join
+          intended: PurchaseOrderID
+          opened_as: not_stated
+          valid_values: [PurchaseOrderID, ProductID, PurchaseOrderDetailID]
+          why_open: How the columns are lined up with my rows is not said, and the table has three ID columns.
+    - id: awt-t6-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I'm modelling one of my two prices, per unit or per line. Find candidate input columns elsewhere, but not ones
+        that simply track my order quantities.
+      open_fields:
+        - part: t
+          field: join
+          intended: PurchaseOrderID
+          opened_as: not_stated
+          valid_values: [PurchaseOrderID, ProductID, PurchaseOrderDetailID]
+          why_open: As in awt-t6-L1.
+        - part: p1
+          field: target
+          intended: UnitPrice
+          opened_as: ambiguous
+          valid_values: [UnitPrice, LineTotal]
+          why_open: '"One of my two prices, per unit or per line" names both and says not which.'
+    - id: awt-t6-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        I'm modelling one of my two prices, per unit or per line. Find candidate input columns elsewhere, but not ones
+        that simply track one of my two quantities, ordered or rejected.
+      open_fields:
+        - part: t
+          field: join
+          intended: PurchaseOrderID
+          opened_as: not_stated
+          valid_values: [PurchaseOrderID, ProductID, PurchaseOrderDetailID]
+          why_open: As in awt-t6-L1.
+        - part: p1
+          field: target
+          intended: UnitPrice
+          opened_as: ambiguous
+          valid_values: [UnitPrice, LineTotal]
+          why_open: As in awt-t6-L2.
+        - part: p2
+          field: target
+          intended: OrderQty
+          opened_as: ambiguous
+          valid_values: [OrderQty, RejectedQty]
+          why_open: '"One of my two quantities, ordered or rejected" names both and says not which.'
+
+- gold_plan_id: awt-t7
+  lake: adventure_works
+  template: Feature for ML (FeatureForMLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/vProductModelInstructions_SEP_table_43.csv
+  gold_plan:
+    template: feature_for_ml
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+        - id: p1
+          words: outside columns that could serve as inputs for a model of my setup hours, rows matched by product model
+          fill:
+            seeker: correlation
+            join: {value: ProductModelID, status: certain}
+            target: {value: SetupHours, status: certain}
+        - id: p2
+          words: apart from ones that mirror my machine hours
+          fill:
+            seeker: correlation
+            join: {value: ProductModelID, status: certain}
+            target: {value: MachineHours, status: certain}
+  cases:
+    - id: awt-t7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which outside columns could serve as inputs for a model of my setup hours, apart from ones that mirror my
+        machine hours? Match the rows by product model.
+      open_fields: []
+    - id: awt-t7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which outside columns could serve as inputs for a model of the time spent on my steps, apart from ones that
+        mirror my machine hours? Match the rows by product model.
+      open_fields:
+        - part: p1
+          field: target
+          intended: SetupHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, LaborHours]
+          why_open: Besides the machine hours the table records setup hours and labor hours.
+    - id: awt-t7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which outside columns could serve as inputs for a model of the time spent on my steps, apart from ones that
+        mirror my machine hours?
+      open_fields:
+        - part: p1
+          field: target
+          intended: SetupHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, LaborHours]
+          why_open: As in awt-t7-L1.
+        - part: t
+          field: join
+          intended: ProductModelID
+          opened_as: not_stated
+          valid_values: [ProductModelID, LocationID]
+          why_open: The rows can be matched by product model or by work location, and neither is said.
+    - id: awt-t7-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        Which outside columns could serve as inputs for a model of one kind of time spent on my steps, apart from ones
+        that mirror another kind?
+      open_fields:
+        - part: p1
+          field: target
+          intended: SetupHours
+          opened_as: not_stated
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: Neither kind of hours is named, and the table records three.
+        - part: t
+          field: join
+          intended: ProductModelID
+          opened_as: not_stated
+          valid_values: [ProductModelID, LocationID]
+          why_open: As in awt-t7-L2.
+        - part: p2
+          field: target
+          intended: MachineHours
+          opened_as: not_stated
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: As for the modelled hours.
+
+- gold_plan_id: awt-t8
+  lake: adventure_works
+  template: Union search (UnionSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/AddressType_SEP_table_49.csv
+  gold_plan:
+    template: union_search
+    root:
+      id: c1
+      kind: union
+      inputs:
+        - id: p1
+          words: tables that hold my address type numbers or names, to add their rows to mine
+          fill:
+            seeker: single_column
+            column: {value: AddressTypeID, status: certain}
+        - id: p2
+          words: tables that hold my address type numbers or names, to add their rows to mine
+          fill:
+            seeker: single_column
+            column: {value: Name, status: certain}
+  cases:
+    - id: awt-t8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        My address type list is short. Which tables hold my address type numbers or my address type names, so I can
+        add their rows to mine?
+      open_fields: []
+    - id: awt-t8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables have my address type numbers and names? Mine are too few.
+      open_fields:
+        - part: c1
+          field: task
+          intended: union_search
+          opened_as: ambiguous
+          valid_values: [union_search, multi_column_join, tree]
+          why_open: >-
+            Tables holding either column, whose rows could join my short list; tables holding a number and its name in
+            one row; or tables holding both, each anywhere (an intersection of two joins, a tree).
+
+- gold_plan_id: awt-t9
+  lake: adventure_works
+  template: Union search (UnionSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/BusinessEntityContact_SEP_table_27.csv
+  gold_plan:
+    template: union_search
+    root:
+      id: c1
+      kind: union
+      inputs:
+        - id: p1
+          words: tables with entries that could be appended to mine
+          fill:
+            seeker: single_column
+            column: {value: BusinessEntityID, status: certain}
+        - id: p2
+          words: tables with entries that could be appended to mine
+          fill:
+            seeker: single_column
+            column: {value: PersonID, status: certain}
+        - id: p3
+          words: tables with entries that could be appended to mine
+          fill:
+            seeker: single_column
+            column: {value: ContactTypeID, status: certain}
+  cases:
+    - id: awt-t9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables with entries that could be appended to mine: tables holding my business numbers, my person numbers
+        or my contact type numbers.
+      open_fields: []
+    - id: awt-t9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables could add to my contact list? Go by my business numbers, person numbers and contact type numbers.
+      open_fields:
+        - part: c1
+          field: task
+          intended: union_search
+          opened_as: ambiguous
+          valid_values: [union_search, multi_column_join, tree]
+          why_open: >-
+            Tables holding any of the three (contacts to add), tables holding all three in one row, or a tree over the
+            three joins (all of them each anywhere, or ranked by how many they hold).
+
+- gold_plan_id: awt-t10
+  lake: adventure_works
+  template: Dependent data (DependentDataSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/CreditCard_SEP_table_22.csv
+  gold_plan:
+    template: dependent_data
+    root:
+      id: c1
+      kind: union
+      inputs:
+        - id: c2
+          kind: intersection
+          inputs:
+            - id: p1
+              words: my expiry months
+              fill:
+                seeker: single_column
+                column: {value: ExpMonth, status: certain}
+            - id: p2
+              words: my card types
+              fill:
+                seeker: single_column
+                column: {value: CardType, status: certain}
+        - id: c3
+          kind: intersection
+          inputs:
+            - id: p3
+              words: my expiry years
+              fill:
+                seeker: single_column
+                column: {value: ExpYear, status: certain}
+            - id: p4
+              words: my card IDs
+              fill:
+                seeker: single_column
+                column: {value: CreditCardID, status: certain}
+  cases:
+    - id: awt-t10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables that hold my expiry months and also my card types, each anywhere in the table, or else my expiry
+        years and also my card IDs in the same way.
+      open_fields: []
+    - id: awt-t10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables that hold my expiry months and also my card types, each anywhere in the table, or else my expiry
+        years and also my cards in the same way.
+      open_fields:
+        - part: p4
+          field: column
+          intended: CreditCardID
+          opened_as: ambiguous
+          valid_values: [CreditCardID, CardNumber]
+          why_open: Each card is in the table by its ID and by its card number.
+
+- gold_plan_id: awt-f1
+  lake: adventure_works
+  template: Join − keyword
+  tier: free form
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/Currency_SEP_table_11.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+        - id: p1
+          words: tables that contain my currency codes
+          fill:
+            seeker: single_column
+            column: {value: CurrencyCode, status: certain}
+        - id: p2
+          words: tables in which 'CNY' shows up are of no use to me
+          fill:
+            seeker: keyword
+            words: {value: [CNY], status: certain}
+  cases:
+    - id: awt-f1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Look for tables that contain my currency codes. Tables in which 'CNY' shows up are of no use to me.
+      open_fields: []
+
+- gold_plan_id: awt-f2
+  lake: adventure_works
+  template: Correlation ∩ keyword
+  tier: free form
+  class: new
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/PurchaseOrderDetail_SEP_table_53.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+        - id: p1
+          words: a column whose values move in step with my unit prices, matched by purchase order number
+          fill:
+            seeker: correlation
+            join: {value: PurchaseOrderID, status: certain}
+            target: {value: UnitPrice, status: certain}
+        - id: p2
+          words: a mention of 'Western Bike Supplies'
+          fill:
+            seeker: keyword
+            words: {value: [Western Bike Supplies], status: certain}
+  cases:
+    - id: awt-f2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables that mention 'Western Bike Supplies' and that also have a column whose values move in step with my
+        unit prices when matched by purchase order number.
+      open_fields: []
+    - id: awt-f2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Tables that mention 'Western Bike Supplies'; tables with a column whose values move in step with my unit prices
+        when matched by purchase order number.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: not_stated
+          valid_values: [intersection, union]
+          why_open: >-
+            Two kinds of tables side by side, without "and", "or" or "both": a table must be both, or either kind
+            will do.
+
+- gold_plan_id: awt-f3
+  lake: adventure_works
+  template: Join − join (single-column − single-column)
+  tier: free form
+  class: new
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/BusinessEntityContact_SEP_table_27.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+        - id: p1
+          words: tables containing my business numbers
+          fill:
+            seeker: single_column
+            column: {value: BusinessEntityID, status: certain}
+        - id: p2
+          words: every table that contains any of my contact type numbers
+          fill:
+            seeker: single_column
+            column: {value: ContactTypeID, status: certain}
+  cases:
+    - id: awt-f3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables containing my business numbers, then drop every table that contains any of my contact type numbers.
+      open_fields: []
+    - id: awt-f3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables containing my business numbers, then drop the tables that match my contact type numbers.
+      open_fields:
+        - part: c1
+          field: removal
+          intended: exclusion
+          opened_as: ambiguous
+          valid_values: [exclusion, comparison]
+          why_open: >-
+            "The tables that match" a search on my own column is every table holding a type number, or its best
+            matches (a search on the user's own column keeps the removal open).
+    - id: awt-f3-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Find tables containing my ID numbers, then drop the tables that match my contact type numbers.
+      open_fields:
+        - part: c1
+          field: removal
+          intended: exclusion
+          opened_as: ambiguous
+          valid_values: [exclusion, comparison]
+          why_open: As in awt-f3-L1.
+        - part: p1
+          field: column
+          intended: BusinessEntityID
+          opened_as: ambiguous
+          valid_values: [BusinessEntityID, PersonID]
+          why_open: The table has two ID columns besides the type, the business's and the contact person's.
+    - id: awt-f3-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        Find tables holding the IDs of my entries, then drop the tables that match my contact type numbers.
+      open_fields:
+        - part: c1
+          field: removal
+          intended: exclusion
+          opened_as: ambiguous
+          valid_values: [exclusion, comparison]
+          why_open: As in awt-f3-L1.
+        - part: p1
+          field: seeker
+          intended: single_column
+          opened_as: ambiguous
+          valid_values: [single_column, multi_column]
+          why_open: >-
+            An entry has two IDs, the business's and the person's, so its IDs are one of them or both together in a
+            row.
+        - part: p1
+          field: column
+          intended: BusinessEntityID
+          opened_as: ambiguous
+          valid_values: [BusinessEntityID, PersonID]
+          why_open: Read as one column, an entry's ID is the business's or the person's.
+
+- gold_plan_id: awt-f4
+  lake: adventure_works
+  template: Counter of joins
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/Department_SEP_table_47.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: counter
+      inputs:
+        - id: p1
+          words: my department numbers
+          fill:
+            seeker: single_column
+            column: {value: DepartmentID, status: certain}
+        - id: p2
+          words: my department names
+          fill:
+            seeker: single_column
+            column: {value: Name, status: certain}
+        - id: p3
+          words: my group names
+          fill:
+            seeker: single_column
+            column: {value: GroupName, status: certain}
+  cases:
+    - id: awt-f4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Score tables on my department numbers, department names and group names: one point for each of the three a
+        table holds, highest first.
+      open_fields: []
+    - id: awt-f4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables have the most in common with my departments and their groups?
+      open_fields:
+        - part: c1
+          field: part_count
+          intended: 3
+          opened_as: ambiguous
+          valid_values: [1, 2, 3]
+          why_open: >-
+            A department is one thing to match (its number or its name) or two (number and name), and the group is one
+            more; or each department with its group is one row to match.
+    - id: awt-f4-L2
+      level: 2
+      rounds_needed: 1
+      description: >-
+        Which tables share my departments and their groups?
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: counter
+          opened_as: not_stated
+          valid_values: [counter, union, intersection]
+          why_open: >-
+            Sharing what is listed can mean sharing any of it, all of it, or ranked by how much of it; the words do not
+            say.
+        - part: c1
+          field: part_count
+          intended: 3
+          opened_as: ambiguous
+          valid_values: [1, 2, 3]
+          why_open: As in awt-f4-L1.
+
+- gold_plan_id: awt-f5
+  lake: adventure_works
+  template: Multi-objective (keyword ∪ counter of joins ∪ correlation)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/PurchaseOrderDetail_SEP_table_53.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: union
+      inputs:
+        - id: p1
+          words: tables mentioning 'Lock Washer 11'
+          fill:
+            seeker: keyword
+            words: {value: [Lock Washer 11], status: certain}
+        - id: c2
+          kind: counter
+          inputs:
+            - id: p2
+              words: my product numbers
+              fill:
+                seeker: single_column
+                column: {value: ProductID, status: certain}
+            - id: p3
+              words: my purchase order numbers
+              fill:
+                seeker: single_column
+                column: {value: PurchaseOrderID, status: certain}
+        - id: p4
+          words: a column following my order quantities by purchase order
+          fill:
+            seeker: correlation
+            join: {value: PurchaseOrderID, status: certain}
+            target: {value: OrderQty, status: certain}
+  cases:
+    - id: awt-f5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Put three kinds of tables into one list: those mentioning 'Lock Washer 11', those holding my product numbers and
+        purchase order numbers (holding both ranks higher), and those with a column following my order quantities by
+        purchase order.
+      open_fields: []
+    - id: awt-f5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Tables mentioning 'Lock Washer 11'; tables holding as many of my product numbers and purchase order numbers as
+        possible; tables with a column following my order quantities by purchase order.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: union
+          opened_as: not_stated
+          valid_values: [union, intersection]
+          why_open: >-
+            Three kinds of tables side by side, without "and", "or" or "all": either kind will do, or a table must be
+            all three.
+
+- gold_plan_id: awt-f6
+  lake: adventure_works
+  template: (Join ∩ join) − keyword
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/vAdditionalContactInfo_SEP_table_3.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+        - id: c2
+          kind: intersection
+          inputs:
+            - id: p1
+              words: tables where my contacts' first names occur
+              fill:
+                seeker: single_column
+                column: {value: FirstName, status: certain}
+            - id: p2
+              words: and my contacts' last names occur too, anywhere in the table
+              fill:
+                seeker: single_column
+                column: {value: LastName, status: certain}
+        - id: p3
+          words: drop those mentioning Seattle
+          fill:
+            seeker: keyword
+            words: {value: [Seattle], status: certain}
+  cases:
+    - id: awt-f6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Tables where my contacts' first names occur and my contacts' last names occur too, anywhere in the table; drop
+        those mentioning Seattle.
+      open_fields: []
+
+- gold_plan_id: awt-f7
+  lake: adventure_works
+  template: Keyword ∪ (multi-column ∩ single-column)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/Department_SEP_table_47.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: union
+      inputs:
+        - id: p1
+          words: tables that mention 'Engineering'
+          fill:
+            seeker: keyword
+            words: {value: [Engineering], status: certain}
+        - id: c2
+          kind: intersection
+          inputs:
+            - id: p2
+              words: tables whose rows hold a department name of mine next to its group name
+              fill:
+                seeker: multi_column
+                columns: {value: [Name, GroupName], status: certain}
+            - id: p3
+              words: that also have my department numbers somewhere
+              fill:
+                seeker: single_column
+                column: {value: DepartmentID, status: certain}
+  cases:
+    - id: awt-f7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables that mention 'Engineering', plus tables whose rows hold a department name of mine next to its group
+        name and that also have my department numbers somewhere.
+      open_fields: []
+    - id: awt-f7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Tables that mention 'Engineering'; tables whose rows hold a department name of mine next to its group name and
+        that also have my department numbers somewhere.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: union
+          opened_as: not_stated
+          valid_values: [union, intersection]
+          why_open: >-
+            Two kinds of tables side by side, without "plus" or "and": either kind will do, or a table must be both.
+
+- gold_plan_id: awt-f8
+  lake: adventure_works
+  template: Imputation part − keyword (task + constraint)
+  tier: free form
+  class: seen
+  query_table: evaluation/agent/cases/aw_tiers_BusinessEntityContact_gaps.csv
+  gold_plan:
+    template: imputation
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+        - id: c2
+          kind: intersection
+          inputs:
+            - id: p1
+              words: look the missing contact type numbers up in other tables by business number
+              fill:
+                seeker: multi_column
+                columns: {value: [BusinessEntityID, ContactTypeID], status: certain}
+                rows_where: {column: ContactTypeID, cell: value}
+            - id: p2
+              words: look the missing contact type numbers up in other tables by business number
+              fill:
+                seeker: single_column
+                column: {value: BusinessEntityID, status: certain}
+                rows_where: {column: ContactTypeID, cell: empty}
+        - id: p3
+          words: ignore tables where 'Assistant Sales Representative' appears
+          fill:
+            seeker: keyword
+            words: {value: [Assistant Sales Representative], status: certain}
+  cases:
+    - id: awt-f8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Every third row of mine lacks its contact type number. Look the gaps up in other tables by business number, and
+        ignore tables where 'Assistant Sales Representative' appears.
+      open_fields: []
+    - id: awt-f8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Every third row of mine lacks its contact type number. Look the gaps up in other tables by my ID numbers, and
+        ignore tables where 'Assistant Sales Representative' appears.
+      open_fields:
+        - part: t
+          field: key
+          intended: BusinessEntityID
+          opened_as: ambiguous
+          valid_values: [BusinessEntityID, PersonID]
+          why_open: The rows hold a business's number and its contact person's number.
+    - id: awt-f8-inf
+      level: inferable
+      rounds_needed: 0
+      description: >-
+        Every third row of mine has an empty cell. Look the gaps up in other tables by business number, and ignore
+        tables where 'Assistant Sales Representative' appears.
+      open_fields: []
+      inferable:
+        part: t
+        field: fill
+        why: ContactTypeID is the only column with empty cells.
+
+- gold_plan_id: awt-f9
+  lake: adventure_works
+  template: Feature-for-ML part − keyword (task + constraint)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/vProductModelInstructions_SEP_table_43.csv
+  gold_plan:
+    template: feature_for_ml
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+        - id: c2
+          kind: difference
+          removal: comparison
+          inputs:
+            - id: p1
+              words: input columns for a model of my labor hours, lined up by location, apart from ones that mirror my lot sizes
+              fill:
+                seeker: correlation
+                join: {value: LocationID, status: certain}
+                target: {value: LaborHours, status: certain}
+            - id: p2
+              words: input columns for a model of my labor hours, lined up by location, apart from ones that mirror my lot sizes
+              fill:
+                seeker: correlation
+                join: {value: LocationID, status: certain}
+                target: {value: LotSize, status: certain}
+        - id: p3
+          words: leave out tables that mention 'HL Touring Handlebars'
+          fill:
+            seeker: keyword
+            words: {value: [HL Touring Handlebars], status: certain}
+  cases:
+    - id: awt-f9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        For a model of my labor hours, find input columns lined up by location, apart from ones that mirror my lot
+        sizes; leave out tables that mention 'HL Touring Handlebars'.
+      open_fields: []
+    - id: awt-f9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        For a model of my labor hours, find input columns apart from ones that mirror my lot sizes; leave out tables
+        that mention 'HL Touring Handlebars'.
+      open_fields:
+        - part: t
+          field: join
+          intended: LocationID
+          opened_as: not_stated
+          valid_values: [LocationID, ProductModelID]
+          why_open: How the columns are lined up is not said; rows can be matched by location or by model.
+    - id: awt-f9-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        For a model of the time my steps take, find input columns apart from ones that mirror my lot sizes; leave out
+        tables that mention 'HL Touring Handlebars'.
+      open_fields:
+        - part: t
+          field: join
+          intended: LocationID
+          opened_as: not_stated
+          valid_values: [LocationID, ProductModelID]
+          why_open: As in awt-f9-L1.
+        - part: p1
+          field: target
+          intended: LaborHours
+          opened_as: ambiguous
+          valid_values: [SetupHours, MachineHours, LaborHours]
+          why_open: The table records three kinds of time per step, setup, machine and labor hours.
+
+- gold_plan_id: awt-f10
+  lake: adventure_works
+  template: Union-search part ∩ keyword (task + constraint)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/adventure_works/Department_SEP_table_47.csv
+  gold_plan:
+    template: union_search
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+        - id: c2
+          kind: union
+          inputs:
+            - id: p1
+              words: tables holding my department names or my group names, to add departments to my table
+              fill:
+                seeker: single_column
+                column: {value: Name, status: certain}
+            - id: p2
+              words: tables holding my department names or my group names, to add departments to my table
+              fill:
+                seeker: single_column
+                column: {value: GroupName, status: certain}
+        - id: p3
+          words: Marketing has to appear in them
+          fill:
+            seeker: keyword
+            words: {value: [Marketing], status: certain}
+  cases:
+    - id: awt-f10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'd like to add departments to my table from tables holding my department names or my group names; Marketing
+        has to appear in them.
+      open_fields: []
+    - id: awt-f10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'd like to add departments to my table from tables holding my department names or my group names. Marketing
+        should come into it as well.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: ambiguous
+          valid_values: [intersection, union]
+          why_open: >-
+            "Marketing should come into it" adds tables that mention Marketing, or narrows the department tables to
+            those that do.

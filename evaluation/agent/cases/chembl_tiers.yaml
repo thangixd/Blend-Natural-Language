@@ -1,0 +1,1910 @@
+- gold_plan_id: cht-s1
+  lake: chembl
+  template: Single-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/protein classification_SEP_table_22.csv
+  gold_plan:
+    template: single_column_join
+    root:
+      id: p1
+      words: tables that contain my protein classes' short names
+      fill:
+        seeker: single_column
+        column: {value: short_name, status: certain}
+  cases:
+    - id: cht-s1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables contain my protein classes' short names?
+      open_fields: []
+    - id: cht-s1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables contain my protein classes?
+      open_fields:
+        - part: p1
+          field: column
+          intended: short_name
+          opened_as: ambiguous
+          valid_values: [protein_class_id, pref_name, short_name, protein_class_desc]
+          why_open: >-
+            Each class is in the table four times: a number, a full name (Serine protease S8A subfamily), a short name
+            (S8A) and a lower-case path (enzyme protease serine sb s8a).
+
+- gold_plan_id: cht-s2
+  lake: chembl
+  template: Single-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/atc classification_SEP_table_3.csv
+  gold_plan:
+    template: single_column_join
+    root:
+      id: p1
+      words: tables where my one-letter top-level ATC groups occur
+      fill:
+        seeker: single_column
+        column: {value: level1, status: certain}
+  cases:
+    - id: cht-s2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        List tables where my one-letter top-level ATC groups occur.
+      open_fields: []
+    - id: cht-s2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        List tables where my ATC codes occur.
+      open_fields:
+        - part: p1
+          field: column
+          intended: level1
+          opened_as: ambiguous
+          valid_values: [level1, level2, level3, level4, level5]
+          why_open: >-
+            Every row holds its ATC code at five levels, from the letter (A) to the full seven-character code
+            (A01AA01).
+
+- gold_plan_id: cht-s3
+  lake: chembl
+  template: Multi-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/target dictionary_SEP_table_78.csv
+  gold_plan:
+    template: multi_column_join
+    root:
+      id: p1
+      words: tables that list my target names together with the taxonomy number of their species, in the same row
+      fill:
+        seeker: multi_column
+        columns:
+          value: [pref_name, tax_id]
+          status: certain
+  cases:
+    - id: cht-s3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables list my target names together with the taxonomy number of their species, in the same row?
+      open_fields: []
+    - id: cht-s3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables give each of my targets beside its species, in one row?
+      open_fields:
+        - part: p1
+          field: columns
+          intended: [pref_name, tax_id]
+          opened_as: ambiguous
+          valid_values: [[pref_name, organism], [pref_name, tax_id], [chembl_id, organism], [chembl_id, tax_id]]
+          why_open: >-
+            A target is named (Maltase-glucoamylase) and has a ChEMBL id (CHEMBL2074); its species is named (Homo
+            sapiens) and has a taxonomy number (9606).
+    - id: cht-s3-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables have my targets and their species?
+      open_fields:
+        - part: p1
+          field: part_count
+          intended: 1
+          opened_as: ambiguous
+          valid_values: [1, 2]
+          why_open: >-
+            Targets with their species in one row, or a table that has my targets and, anywhere, my species.
+        - part: p1
+          field: columns
+          intended: [pref_name, tax_id]
+          opened_as: ambiguous
+          valid_values: [[pref_name, organism], [pref_name, tax_id], [chembl_id, organism], [chembl_id, tax_id]]
+          why_open: >-
+            As in cht-s3-L1.
+
+- gold_plan_id: cht-s4
+  lake: chembl
+  template: Multi-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/molecule synonyms_SEP_table_51.csv
+  gold_plan:
+    template: multi_column_join
+    root:
+      id: p1
+      words: tables in which a drug synonym of mine and its molecule's registry number appear together in one row
+      fill:
+        seeker: multi_column
+        columns:
+          value: [synonyms, molregno]
+          status: certain
+  cases:
+    - id: cht-s4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm after tables in which a drug synonym of mine and its molecule's registry number appear together in one
+        row.
+      open_fields: []
+    - id: cht-s4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables contain both my synonyms and my molecule registry numbers?
+      open_fields:
+        - part: p1
+          field: part_count
+          intended: 1
+          opened_as: ambiguous
+          valid_values: [1, 2]
+          why_open: >-
+            The synonyms with their registry numbers in one row, or a table that has my synonyms and, anywhere, my
+            registry numbers.
+    - id: cht-s4-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables contain both my synonyms and their numbers?
+      open_fields:
+        - part: p1
+          field: part_count
+          intended: 1
+          opened_as: ambiguous
+          valid_values: [1, 2]
+          why_open: >-
+            As in cht-s4-L1.
+        - part: p1
+          field: columns
+          intended: [synonyms, molregno]
+          opened_as: ambiguous
+          valid_values: [[synonyms, molregno], [synonyms, molsyn_id], [synonyms, res_stem_id]]
+          why_open: >-
+            Each synonym row carries three numbers: the molecule's registry number, the synonym's own number and a
+            research stem number.
+
+- gold_plan_id: cht-s5
+  lake: chembl
+  template: Keyword search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/cell dictionary_SEP_table_28.csv
+  gold_plan:
+    template: keyword
+    root:
+      id: p1
+      words: tables that have the entry 'Chlorocebus aethiops' or the entry 'Macaca fascicularis'
+      fill:
+        seeker: keyword
+        words:
+          value: [Chlorocebus aethiops, Macaca fascicularis]
+          status: certain
+  cases:
+    - id: cht-s5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables have the entry 'Chlorocebus aethiops' or the entry 'Macaca fascicularis'?
+      open_fields: []
+    - id: cht-s5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables cover Chlorocebus aethiops or Macaca fascicularis? Some of my cell lines come from them.
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, single_column, natural_language]
+          why_open: >-
+            The two names to find as they are, my cell lines' source organisms to join on, or tables about these two
+            monkeys.
+
+- gold_plan_id: cht-s6
+  lake: chembl
+  template: Keyword search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/variant sequences_SEP_table_16.csv
+  gold_plan:
+    template: keyword
+    root:
+      id: p1
+      words: tables that carry the value 'Rattus norvegicus' somewhere
+      fill:
+        seeker: keyword
+        words:
+          value: [Rattus norvegicus]
+          status: certain
+  cases:
+    - id: cht-s6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables carry the value 'Rattus norvegicus' somewhere?
+      open_fields: []
+    - id: cht-s6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Rattus norvegicus is the organism I care about in my variants. Point me to tables that have it.
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, natural_language, single_column]
+          why_open: >-
+            The name to find as it is, tables about the rat, or tables that join on my variants' organisms.
+
+- gold_plan_id: cht-s7
+  lake: chembl
+  template: Correlation search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/activities_SEP_table_52.csv
+  gold_plan:
+    template: correlation
+    root:
+      id: p1
+      words: numbers that follow my standardized activity values, pairing rows through the compound record
+      fill:
+        seeker: correlation
+        join: {value: record_id, status: certain}
+        target: {value: standard_value, status: certain}
+  cases:
+    - id: cht-s7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables hold numbers that follow my standardized activity values, pairing rows through the compound
+        record?
+      open_fields: []
+    - id: cht-s7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables hold numbers that follow my standardized activity values?
+      open_fields:
+        - part: p1
+          field: join
+          intended: record_id
+          opened_as: not_stated
+          valid_values: [activity_id, assay_id, doc_id, record_id, molregno]
+          why_open: >-
+            No key is named; an activity can be matched by itself, its assay, its document, its compound record or its
+            molecule.
+    - id: cht-s7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables hold numbers that follow my normalized activity values?
+      open_fields:
+        - part: p1
+          field: join
+          intended: record_id
+          opened_as: not_stated
+          valid_values: [activity_id, assay_id, doc_id, record_id, molregno]
+          why_open: >-
+            As in cht-s7-L1.
+        - part: p1
+          field: target
+          intended: standard_value
+          opened_as: ambiguous
+          valid_values: [standard_value, pchembl_value]
+          why_open: >-
+            Two of the activity's values are normalized: the standardized value and the pChEMBL value.
+
+- gold_plan_id: cht-s8
+  lake: chembl
+  template: Correlation search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/docs_SEP_table_15.csv
+  gold_plan:
+    template: correlation
+    root:
+      id: p1
+      words: columns in other tables whose values grow and shrink with my papers' publication years, linking rows
+        by document number
+      fill:
+        seeker: correlation
+        join: {value: doc_id, status: certain}
+        target: {value: year, status: certain}
+  cases:
+    - id: cht-s8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Look for columns in other tables whose values grow and shrink with my papers' publication years, linking rows
+        by document number.
+      open_fields: []
+    - id: cht-s8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Look for columns in other tables whose values grow and shrink with my papers' publication years, linking rows
+        by paper.
+      open_fields:
+        - part: p1
+          field: join
+          intended: doc_id
+          opened_as: ambiguous
+          valid_values: [doc_id, pubmed_id, doi, chembl_id]
+          why_open: >-
+            A paper is in the table four times: its ChEMBL document number, its PubMed id, its DOI and its ChEMBL id.
+
+- gold_plan_id: cht-s9
+  lake: chembl
+  template: Natural-language search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/bioassay ontology_SEP_table_4.csv
+  gold_plan:
+    template: nl_search
+    root:
+      id: p1
+      words: tables describing assay formats and measured endpoints, as an ontology defines them
+      fill:
+        seeker: natural_language
+        description: {value: 'assay formats and measured endpoints, as an ontology defines them', status: certain}
+  cases:
+    - id: cht-s9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables describing assay formats and measured endpoints, as an ontology defines them.
+      open_fields: []
+    - id: cht-s9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables cover the endpoints my ontology lists?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: natural_language
+          opened_as: ambiguous
+          valid_values: [natural_language, single_column]
+          why_open: >-
+            Tables about assay endpoints, or tables that join on my ontology's labels.
+
+- gold_plan_id: cht-s10
+  lake: chembl
+  template: Natural-language search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/usan stems_SEP_table_43.csv
+  gold_plan:
+    template: nl_search
+    root:
+      id: p1
+      words: tables that describe the stems that new drug names are built from and what each stem stands for
+      fill:
+        seeker: natural_language
+        description: {value: the stems that new drug names are built from and what each stem stands for, status: certain}
+  cases:
+    - id: cht-s10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables describe the stems that new drug names are built from and what each stem stands for?
+      open_fields: []
+    - id: cht-s10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I need tables that relate to the naming stems I have here.
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: natural_language
+          opened_as: ambiguous
+          valid_values: [natural_language, single_column]
+          why_open: >-
+            Tables about naming stems, or tables that join on my stems (-ac, -afil, ...).
+
+- gold_plan_id: cht-t1
+  lake: chembl
+  template: Data imputation (DataImputation)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/molecule dictionary_SEP_table_54.csv
+  gold_plan:
+    template: imputation
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: hold the missing USAN years for my molecules, found by the molecule registry number
+        fill:
+          seeker: multi_column
+          columns:
+            value: [molregno, usan_year]
+            status: certain
+          rows_where: {column: usan_year, cell: value}
+      - id: p2
+        words: hold the missing USAN years for my molecules, found by the molecule registry number
+        fill:
+          seeker: single_column
+          column: {value: molregno, status: certain}
+          rows_where: {column: usan_year, cell: empty}
+  cases:
+    - id: cht-t1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        My molecule list lacks the USAN year for most entries. Which tables hold those years for my molecules? Use the
+        molecule registry number to find each one.
+      open_fields: []
+    - id: cht-t1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        My molecule list has a lot of blank cells. Which tables hold what is missing? Use the molecule registry number
+        to find each one.
+      open_fields:
+        - part: t
+          field: fill
+          intended: usan_year
+          opened_as: ambiguous
+          valid_values: [pref_name, max_phase, chebi_par_id, first_approval, usan_year, availability_type, usan_stem,
+            usan_substem, usan_stem_definition, indication_class]
+          why_open: >-
+            Ten columns have empty cells (names, phases, years, stems, classes), and the words name none.
+    - id: cht-t1-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        My molecule list has a lot of blank cells. Which tables hold what is missing? Use each molecule's identifier
+        to find it.
+      open_fields:
+        - part: t
+          field: fill
+          intended: usan_year
+          opened_as: ambiguous
+          valid_values: [pref_name, max_phase, chebi_par_id, first_approval, usan_year, availability_type, usan_stem,
+            usan_substem, usan_stem_definition, indication_class]
+          why_open: >-
+            As in cht-t1-L1.
+        - part: t
+          field: key
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, chembl_id]
+          why_open: >-
+            A molecule is identified by its registry number (1, 2, ...) and by its ChEMBL id (CHEMBL6329).
+    - id: cht-t1-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        Look for tables keyed on the same identifiers as my molecules; a lot of my cells are still blank.
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            The request asks for tables keyed on my identifiers; the blank cells are the reason to fill them through
+            those tables, or only a remark beside the request.
+        - part: t
+          field: fill
+          intended: usan_year
+          opened_as: ambiguous
+          valid_values: [pref_name, max_phase, chebi_par_id, first_approval, usan_year, availability_type, usan_stem,
+            usan_substem, usan_stem_definition, indication_class]
+          why_open: >-
+            As in cht-t1-L1.
+        - part: t
+          field: key
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, chembl_id]
+          why_open: >-
+            As in cht-t1-L2.
+
+- gold_plan_id: cht-t2
+  lake: chembl
+  template: Augmentation by example (AugmentationByExample)
+  tier: tasks
+  class: task
+  query_table: evaluation/agent/cases/chembl_tiers_formulations_examples.csv
+  gold_plan:
+    template: imputation
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: tell me the ingredient of the remaining rows, keyed on the molecule registry number
+        fill:
+          seeker: multi_column
+          columns:
+            value: [molregno, ingredient]
+            status: certain
+          rows_where: {column: ingredient, cell: value}
+      - id: p2
+        words: tell me the ingredient of the remaining rows, keyed on the molecule registry number
+        fill:
+          seeker: single_column
+          column: {value: molregno, status: certain}
+          rows_where: {column: ingredient, cell: empty}
+  cases:
+    - id: cht-t2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Only five of my formulation rows name their ingredient so far. Which tables can tell me the ingredient of the
+        remaining rows, keyed on the molecule registry number?
+      open_fields: []
+    - id: cht-t2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Only five of my formulation rows name their ingredient so far. Which tables can tell me the ingredient of the
+        remaining rows, through one of the identifiers my rows carry?
+      open_fields:
+        - part: t
+          field: key
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [product_id, record_id, molregno, formulation_id]
+          why_open: >-
+            Each row carries four identifiers: the product, the compound record, the molecule registry number and the
+            formulation.
+    - id: cht-t2-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables are linked to my formulation rows through one of the identifiers they carry? So far only five
+        rows name their ingredient.
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            The question asks for linked tables; the five typed ingredients are the reason to supply the rest through
+            them, or only a remark beside the question.
+        - part: t
+          field: key
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [product_id, record_id, molregno, formulation_id]
+          why_open: >-
+            As in cht-t2-L1.
+    - id: cht-t2-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        Which tables are linked to my formulation rows through one of the identifiers they carry? Not every cell of
+        mine is filled in yet.
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            The question asks for linked tables; the unfilled cells are the reason to fill them through those tables,
+            or only a remark beside the question.
+        - part: t
+          field: key
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [product_id, record_id, molregno, formulation_id]
+          why_open: >-
+            As in cht-t2-L1.
+        - part: t
+          field: fill
+          intended: ingredient
+          opened_as: ambiguous
+          valid_values: [ingredient, strength]
+          why_open: >-
+            Two columns have empty cells: the ingredient (all but five rows) and the strength (38 rows of the lake
+            table).
+    - id: cht-t2-inf
+      level: inferable
+      rounds_needed: 0
+      description: >-
+        Only five rows of my newest column are filled in so far. Which tables can tell me the value of the remaining
+        rows, keyed on the molecule registry number?
+      open_fields: []
+      inferable:
+        part: t
+        field: fill
+        why: >-
+          Only the ingredient column has values in just five rows; the strength is filled in all but 38.
+
+- gold_plan_id: cht-t3
+  lake: chembl
+  template: Negative examples (NegativeExampleSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/cell dictionary_SEP_table_28.csv
+  gold_plan:
+    template: negative_examples
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: p1
+        words: tables pairing each of my cell lines with the organism it was taken from
+        fill:
+          seeker: multi_column
+          columns:
+            value: [cell_name, cell_source_organism]
+            status: certain
+      - id: p2
+        words: 'rule out any table containing one of these two rows: (NCI-H2170, Homo sapiens), (SW-620, Homo sapiens)'
+        fill:
+          seeker: multi_column
+          columns:
+            value: [cell_name, cell_source_organism]
+            status: certain
+          rows:
+          - [NCI-H2170, Homo sapiens]
+          - [SW-620, Homo sapiens]
+  cases:
+    - id: cht-t3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I need tables pairing each of my cell lines with the organism it was taken from. Rule out any table containing
+        one of these two rows: (NCI-H2170, Homo sapiens), (SW-620, Homo sapiens).
+      open_fields: []
+
+- gold_plan_id: cht-t4
+  lake: chembl
+  template: Join ∩ natural-language (HybridNLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/target dictionary_SEP_table_78.csv
+  gold_plan:
+    template: hybrid_nl
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: they must also include the names of my targets
+        fill:
+          seeker: single_column
+          column: {value: pref_name, status: certain}
+      - id: p2
+        words: tables on drug targets studied in rats and mice
+        fill:
+          seeker: natural_language
+          description: {value: drug targets studied in rats and mice, status: certain}
+  cases:
+    - id: cht-t4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm after tables on drug targets studied in rats and mice; they must also include the names of my targets.
+      open_fields: []
+    - id: cht-t4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'm after tables on drug targets studied in rats and mice; they must also include my targets.
+      open_fields:
+        - part: p1
+          field: column
+          intended: pref_name
+          opened_as: ambiguous
+          valid_values: [tid, pref_name, chembl_id]
+          why_open: >-
+            A target is in the table as a number (tid), a name and a ChEMBL id.
+    - id: cht-t4-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I'm after tables on my targets as studied in rats and mice.
+      open_fields:
+        - part: c1
+          field: task
+          intended: hybrid_nl
+          opened_as: ambiguous
+          valid_values: [hybrid_nl, nl_search]
+          why_open: >-
+            "On my targets as studied in rats and mice" is tables that hold my targets and are about rat and mouse
+            studies, or only the subject of the tables wanted.
+        - part: p1
+          field: column
+          intended: pref_name
+          opened_as: ambiguous
+          valid_values: [tid, pref_name, chembl_id]
+          why_open: >-
+            As in cht-t4-L1.
+
+- gold_plan_id: cht-t5
+  lake: chembl
+  template: Feature discovery (MultiColumnCollinearitySearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/activities_SEP_table_52.csv
+  gold_plan:
+    template: collinearity
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: only tables in which my compound record numbers and my molecule registry numbers sit in the same row
+        fill:
+          seeker: multi_column
+          columns:
+            value: [record_id, molregno]
+            status: certain
+      - id: c2
+        kind: difference
+        removal: comparison
+        inputs:
+        - id: p2
+          words: columns that could predict my pChEMBL values when matched by compound record
+          fill:
+            seeker: correlation
+            join: {value: record_id, status: certain}
+            target: {value: pchembl_value, status: certain}
+        - id: p3
+          words: not columns that merely follow my standardized activity values
+          fill:
+            seeker: correlation
+            join: {value: record_id, status: certain}
+            target: {value: standard_value, status: certain}
+  cases:
+    - id: cht-t5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Only consider tables in which my compound record numbers and my molecule registry numbers sit in the same row.
+        From those, I want columns that could predict my pChEMBL values when matched by compound record, but not
+        columns that merely follow my standardized activity values.
+      open_fields: []
+    - id: cht-t5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Only consider tables in which my compound record numbers and my molecule registry numbers sit in the same row.
+        From those, I want columns that could predict my pChEMBL values when matched by compound, but not columns that
+        merely follow my standardized activity values.
+      open_fields:
+        - part: t
+          field: join
+          intended: record_id
+          opened_as: ambiguous
+          valid_values: [record_id, molregno]
+          why_open: >-
+            An activity's compound is given by its compound record and by its molecule registry number.
+    - id: cht-t5-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Only consider tables in which each of my compound record numbers sits next to another of my identifiers, in
+        the same row. From those, I want columns that could predict my pChEMBL values when matched by compound, but not
+        columns that merely follow my standardized activity values.
+      open_fields:
+        - part: t
+          field: join
+          intended: record_id
+          opened_as: ambiguous
+          valid_values: [record_id, molregno]
+          why_open: >-
+            As in cht-t5-L1.
+        - part: p1
+          field: columns
+          intended: [record_id, molregno]
+          opened_as: ambiguous
+          valid_values: [[record_id, molregno], [doc_id, record_id], [assay_id, record_id], [activity_id, record_id]]
+          why_open: >-
+            Besides the compound record, each activity has a molecule, a document, an assay and its own number.
+
+- gold_plan_id: cht-t6
+  lake: chembl
+  template: Feature for ML (FeatureForMLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/compound properties_SEP_table_7.csv
+  gold_plan:
+    template: feature_for_ml
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+      - id: p1
+        words: columns elsewhere that could help predict my ALogP values, matched by molecule
+        fill:
+          seeker: correlation
+          join: {value: molregno, status: certain}
+          target: {value: alogp, status: certain}
+      - id: p2
+        words: without the ones that merely restate my free-base molecular weights
+        fill:
+          seeker: correlation
+          join: {value: molregno, status: certain}
+          target: {value: mw_freebase, status: certain}
+  cases:
+    - id: cht-t6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which columns elsewhere could help predict my ALogP values, matched by molecule, without the ones that merely
+        restate my free-base molecular weights?
+      open_fields: []
+    - id: cht-t6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which columns elsewhere could help predict my lipophilicity values, matched by molecule, without the ones that
+        merely restate my free-base molecular weights?
+      open_fields:
+        - part: p1
+          field: target
+          intended: alogp
+          opened_as: ambiguous
+          valid_values: [alogp, cx_logp, cx_logd]
+          why_open: >-
+            The table has three lipophilicity values: ALogP, the ChemAxon logP and the ChemAxon logD.
+
+- gold_plan_id: cht-t7
+  lake: chembl
+  template: Feature for ML (FeatureForMLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/ligand eff_SEP_table_32.csv
+  gold_plan:
+    template: feature_for_ml
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+      - id: p1
+        words: 'a predictor for my surface efficiency index: columns in other tables, pairing rows by activity, that
+          would be good inputs'
+        fill:
+          seeker: correlation
+          join: {value: activity_id, status: certain}
+          target: {value: sei, status: certain}
+      - id: p2
+        words: leaving out ones that are just my ligand efficiency in disguise
+        fill:
+          seeker: correlation
+          join: {value: activity_id, status: certain}
+          target: {value: le, status: certain}
+  cases:
+    - id: cht-t7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm building a predictor for my surface efficiency index. Which columns in other tables, pairing rows by
+        activity, would be good inputs, leaving out ones that are just my ligand efficiency in disguise?
+      open_fields: []
+    - id: cht-t7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'm building a predictor for my efficiency index. Which columns in other tables, pairing rows by activity,
+        would be good inputs, leaving out ones that are just my ligand efficiency in disguise?
+      open_fields:
+        - part: p1
+          field: target
+          intended: sei
+          opened_as: ambiguous
+          valid_values: [bei, sei]
+          why_open: >-
+            The table has two efficiency indices: the binding efficiency index (BEI) and the surface efficiency index
+            (SEI).
+    - id: cht-t7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I'm building a predictor for my efficiency index. Which columns in other tables, pairing rows by activity,
+        would be good inputs, leaving out ones that are just one of my two ligand efficiencies (plain or lipophilic) in
+        disguise?
+      open_fields:
+        - part: p1
+          field: target
+          intended: sei
+          opened_as: ambiguous
+          valid_values: [bei, sei]
+          why_open: >-
+            As in cht-t7-L1.
+        - part: p2
+          field: target
+          intended: le
+          opened_as: ambiguous
+          valid_values: [le, lle]
+          why_open: >-
+            Two columns are ligand efficiency measures: the plain one (LE) and the lipophilic one (LLE).
+
+- gold_plan_id: cht-t8
+  lake: chembl
+  template: Union search (UnionSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/research companies_SEP_table_14.csv
+  gold_plan:
+    template: union_search
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: tables holding the companies' earlier names or their present names, whose rows I could then append
+        fill:
+          seeker: single_column
+          column: {value: previous_company, status: certain}
+      - id: p2
+        words: tables holding the companies' earlier names or their present names, whose rows I could then append
+        fill:
+          seeker: single_column
+          column: {value: company, status: certain}
+  cases:
+    - id: cht-t8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I want more rows for my research companies table. Search for tables holding the companies' earlier names or
+        their present names, whose rows I could then append.
+      open_fields: []
+    - id: cht-t8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables list my research companies under their names? I'm collecting more of them.
+      open_fields:
+        - part: c1
+          field: task
+          intended: union_search
+          opened_as: ambiguous
+          valid_values: [union_search, single_column_join, multi_column_join]
+          why_open: >-
+            My companies have two names, the present one and a former one. "Under their names" is tables holding
+            either name (companies to append), one join on the present name, or tables whose rows hold both names.
+
+- gold_plan_id: cht-t9
+  lake: chembl
+  template: Union search (UnionSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/drug indication_SEP_table_66.csv
+  gold_plan:
+    template: union_search
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: any table containing one of my molecule registry numbers, my MeSH disease headings, my compound record
+          numbers
+        fill:
+          seeker: single_column
+          column: {value: molregno, status: certain}
+      - id: p2
+        words: any table containing one of my molecule registry numbers, my MeSH disease headings, my compound record
+          numbers
+        fill:
+          seeker: single_column
+          column: {value: mesh_heading, status: certain}
+      - id: p3
+        words: any table containing one of my molecule registry numbers, my MeSH disease headings, my compound record
+          numbers
+        fill:
+          seeker: single_column
+          column: {value: record_id, status: certain}
+  cases:
+    - id: cht-t9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        My indication list needs more rows. Any table containing one of the following is a candidate: my molecule
+        registry numbers, my MeSH disease headings, my compound record numbers.
+      open_fields: []
+    - id: cht-t9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        My indication list needs more rows, from tables sharing my molecule registry numbers, MeSH disease headings
+        and compound record numbers.
+      open_fields:
+        - part: c1
+          field: task
+          intended: union_search
+          opened_as: ambiguous
+          valid_values: [union_search, tree]
+          why_open: >-
+            Rows to add point at tables sharing any of the three; "sharing A, B and C" points at tables sharing all
+            three, or ranked by how many they share (both a tree).
+
+- gold_plan_id: cht-t10
+  lake: chembl
+  template: Dependent data (DependentDataSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/drug warning_SEP_table_47.csv
+  gold_plan:
+    template: dependent_data
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p1
+          words: my warning classes
+          fill:
+            seeker: single_column
+            column: {value: warning_class, status: certain}
+        - id: p2
+          words: my EFO disease terms
+          fill:
+            seeker: single_column
+            column: {value: efo_term, status: certain}
+      - id: c3
+        kind: intersection
+        inputs:
+        - id: p3
+          words: my warning countries
+          fill:
+            seeker: single_column
+            column: {value: warning_country, status: certain}
+        - id: p4
+          words: my molecule registry numbers
+          fill:
+            seeker: single_column
+            column: {value: molregno, status: certain}
+  cases:
+    - id: cht-t10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Two combinations interest me, each pair in any rows: tables carrying both my warning classes and my EFO
+        disease terms, and tables carrying both my warning countries and my molecule registry numbers. Either
+        combination will do.
+      open_fields: []
+    - id: cht-t10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Two combinations interest me, each pair in any rows: tables carrying both my warning classes and my EFO
+        disease terms, and tables carrying both my warning countries and my drugs. Either combination will do.
+      open_fields:
+        - part: p4
+          field: column
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, record_id]
+          why_open: >-
+            A drug is in the table by its molecule registry number and by its compound record number.
+
+- gold_plan_id: cht-f1
+  lake: chembl
+  template: Join − keyword
+  tier: free form
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/products_SEP_table_26.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: p1
+        words: tables that hold my products' trade names
+        fill:
+          seeker: single_column
+          column: {value: trade_name, status: certain}
+      - id: p2
+        words: exclude every table that has 'GEL' in it
+        fill:
+          seeker: keyword
+          words:
+            value: [GEL]
+            status: certain
+  cases:
+    - id: cht-f1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables hold my products' trade names? Exclude every table that has 'GEL' in it.
+      open_fields: []
+    - id: cht-f1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables hold my products? Exclude every table that has 'GEL' in it.
+      open_fields:
+        - part: p1
+          field: column
+          intended: trade_name
+          opened_as: ambiguous
+          valid_values: [trade_name, product_id]
+          why_open: >-
+            A product is in the table by its trade name (PAREDRINE) and by its product id (PRODUCT_000004_004).
+    - id: cht-f1-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables hold my products? Exclude anything to do with gel.
+      open_fields:
+        - part: p1
+          field: column
+          intended: trade_name
+          opened_as: ambiguous
+          valid_values: [trade_name, product_id]
+          why_open: >-
+            As in cht-f1-L1.
+        - part: p2
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, natural_language]
+          why_open: >-
+            "Anything to do with gel" is tables in which the word GEL appears, or tables whose subject is gels.
+
+- gold_plan_id: cht-f2
+  lake: chembl
+  template: Correlation ∩ keyword
+  tier: free form
+  class: new
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/assays_SEP_table_65.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: a column that follows my confidence scores, pairing rows by target
+        fill:
+          seeker: correlation
+          join: {value: tid, status: certain}
+          target: {value: confidence_score, status: certain}
+      - id: p2
+        words: tables in which 'Acinetobacter baumannii' appears
+        fill:
+          seeker: keyword
+          words:
+            value: [Acinetobacter baumannii]
+            status: certain
+  cases:
+    - id: cht-f2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I need tables in which 'Acinetobacter baumannii' appears; of those, keep only ones with a column that follows
+        my confidence scores, pairing rows by target.
+      open_fields: []
+    - id: cht-f2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Tables in which 'Acinetobacter baumannii' appears; columns that follow my confidence scores, pairing rows by
+        target.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: not_stated
+          valid_values: [intersection, union]
+          why_open: >-
+            The two conditions are listed side by side without saying whether a table must meet both.
+    - id: cht-f2-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Acinetobacter baumannii matters; so do columns that follow my confidence scores, pairing rows by target.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: not_stated
+          valid_values: [intersection, union]
+          why_open: >-
+            As in cht-f2-L1.
+        - part: p2
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, natural_language]
+          why_open: >-
+            A species that "matters" is a name to find in the tables, or the subject the tables should be about.
+
+- gold_plan_id: cht-f3
+  lake: chembl
+  template: Join − join (single-column − single-column)
+  tier: free form
+  class: new
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/formulations_SEP_table_61.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: p1
+        words: the tables holding my compound record numbers
+        fill:
+          seeker: single_column
+          column: {value: record_id, status: certain}
+      - id: p2
+        words: any table in which even one of my ingredient names occurs
+        fill:
+          seeker: single_column
+          column: {value: ingredient, status: certain}
+  cases:
+    - id: cht-f3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Start from the tables holding my compound record numbers. Any table in which even one of my ingredient names
+        occurs should be thrown out.
+      open_fields: []
+    - id: cht-f3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Start from the tables holding my identifiers. Any table in which even one of my ingredient names occurs should
+        be thrown out.
+      open_fields:
+        - part: p1
+          field: column
+          intended: record_id
+          opened_as: ambiguous
+          valid_values: [record_id, molregno, product_id, formulation_id]
+          why_open: >-
+            Each row carries four identifiers: the compound record, the molecule, the product and the formulation.
+
+- gold_plan_id: cht-f4
+  lake: chembl
+  template: Counter of joins
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/irac classification_SEP_table_49.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: counter
+      inputs:
+      - id: p1
+        words: my IRAC codes
+        fill:
+          seeker: single_column
+          column: {value: irac_code, status: certain}
+      - id: p2
+        words: my one-letter top-level groups
+        fill:
+          seeker: single_column
+          column: {value: level1, status: certain}
+      - id: p3
+        words: my second-level mode-of-action names
+        fill:
+          seeker: single_column
+          column: {value: level2_description, status: certain}
+  cases:
+    - id: cht-f4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        My IRAC codes, my one-letter top-level groups and my second-level mode-of-action names: put the tables that
+        contain more of these three higher.
+      open_fields: []
+    - id: cht-f4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Look for tables with my IRAC codes, my one-letter top-level groups and my second-level mode-of-action names.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: counter
+          opened_as: not_stated
+          valid_values: [counter, union, intersection]
+          why_open: >-
+            Three things are listed; tables may need all of them, any of them, or rank by how many they hold.
+    - id: cht-f4-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Look for tables with my IRAC codes, my group codes and my second-level mode-of-action names.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: counter
+          opened_as: not_stated
+          valid_values: [counter, union, intersection]
+          why_open: >-
+            As in cht-f4-L1.
+        - part: p2
+          field: column
+          intended: level1
+          opened_as: ambiguous
+          valid_values: [level1, level2, level3, level4]
+          why_open: >-
+            Every row has a group code at four levels (C, C10, C1010A, C1010A2).
+
+- gold_plan_id: cht-f5
+  lake: chembl
+  template: Multi-objective (keyword ∪ counter of joins ∪ correlation)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/drug warning_SEP_table_47.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: a table that mentions 'hepatotoxicity'
+        fill:
+          seeker: keyword
+          words:
+            value: [hepatotoxicity]
+            status: certain
+      - id: c2
+        kind: counter
+        inputs:
+        - id: p2
+          words: the EFO ids of my disease terms
+          fill:
+            seeker: single_column
+            column: {value: efo_id, status: certain}
+        - id: p3
+          words: my molecule registry numbers
+          fill:
+            seeker: single_column
+            column: {value: molregno, status: certain}
+      - id: p4
+        words: a column tracking my warning years by molecule
+        fill:
+          seeker: correlation
+          join: {value: molregno, status: certain}
+          target: {value: warning_year, status: certain}
+  cases:
+    - id: cht-f5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Any of these will do: a table that mentions 'hepatotoxicity', a table with the EFO ids of my disease terms or
+        my molecule registry numbers (better if it has both), or a table with a column tracking my warning years by
+        molecule.
+      open_fields: []
+    - id: cht-f5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Any of these will do: a table that mentions 'hepatotoxicity', a table with the EFO ids of my disease terms or
+        my drugs (better if it has both), or a table with a column tracking my warning years by molecule.
+      open_fields:
+        - part: p3
+          field: column
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, record_id]
+          why_open: >-
+            A drug is in the table by its molecule registry number and by its compound record number.
+    - id: cht-f5-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Wanted: tables mentioning 'hepatotoxicity'; the EFO ids of my disease terms or my drugs, better both; columns
+        tracking my warning years by molecule.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: union
+          opened_as: not_stated
+          valid_values: [union, intersection]
+          why_open: >-
+            Three things are listed without saying whether a table must have one of them or all.
+        - part: p3
+          field: column
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, record_id]
+          why_open: >-
+            As in cht-f5-L1.
+
+- gold_plan_id: cht-f6
+  lake: chembl
+  template: (Join ∩ join) − keyword
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/cell dictionary_SEP_table_28.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p1
+          words: tables containing my cell line names
+          fill:
+            seeker: single_column
+            column: {value: cell_name, status: certain}
+        - id: p2
+          words: and the tissues they were derived from, though the two may sit in different rows
+          fill:
+            seeker: single_column
+            column: {value: cell_source_tissue, status: certain}
+      - id: p3
+        words: tables mentioning Lung are out
+        fill:
+          seeker: keyword
+          words:
+            value: [Lung]
+            status: certain
+  cases:
+    - id: cht-f6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I want tables containing both my cell line names and the tissues they were derived from, though the two may
+        sit in different rows. Tables mentioning Lung are out.
+      open_fields: []
+    - id: cht-f6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I want tables containing both my cell lines and the tissues they were derived from, though the two may sit in
+        different rows. Tables mentioning Lung are out.
+      open_fields:
+        - part: p1
+          field: column
+          intended: cell_name
+          opened_as: ambiguous
+          valid_values: [cell_name, cell_description, cell_id, cellosaurus_id]
+          why_open: >-
+            A cell line is in the table by its name, its description, its number and its Cellosaurus id.
+    - id: cht-f6-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I want tables containing my cell lines and the tissues they were derived from. Tables mentioning Lung are out.
+      open_fields:
+        - part: c2
+          field: part_count
+          intended: 2
+          opened_as: ambiguous
+          valid_values: [2, 1]
+          why_open: >-
+            Cell lines and their tissues anywhere in a table, or each cell line with its tissue in one row.
+        - part: p1
+          field: column
+          intended: cell_name
+          opened_as: ambiguous
+          valid_values: [cell_name, cell_description, cell_id, cellosaurus_id]
+          why_open: >-
+            As in cht-f6-L1.
+
+- gold_plan_id: cht-f7
+  lake: chembl
+  template: Keyword ∪ (multi-column ∩ single-column)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/drug mechanism_SEP_table_24.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: tables containing 'EXOGENOUS GENE'
+        fill:
+          seeker: keyword
+          words:
+            value: [EXOGENOUS GENE]
+            status: certain
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p2
+          words: each of my mechanism record numbers appears beside its molecule registry number in one row
+          fill:
+            seeker: multi_column
+            columns:
+              value: [mec_id, molregno]
+              status: certain
+        - id: p3
+          words: my molecule registry numbers occur anywhere in them
+          fill:
+            seeker: single_column
+            column: {value: molregno, status: certain}
+  cases:
+    - id: cht-f7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'll take tables containing 'EXOGENOUS GENE'. I'll also take tables that meet two conditions at once: each of
+        my mechanism record numbers appears beside its molecule registry number in one row, and my molecule registry
+        numbers occur anywhere in them.
+      open_fields: []
+    - id: cht-f7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'll take tables containing 'EXOGENOUS GENE'. I'll also take tables that meet two conditions at once: each of
+        my mechanism record numbers appears beside its molecule registry number in one row, and my drugs occur
+        anywhere in them.
+      open_fields:
+        - part: p3
+          field: column
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, record_id]
+          why_open: >-
+            A drug is in the table by its molecule registry number and by its compound record number.
+    - id: cht-f7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Tables containing 'EXOGENOUS GENE'. Tables that meet two conditions at once: each of my mechanism record
+        numbers appears beside its molecule registry number in one row, and my drugs occur anywhere in them.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: union
+          opened_as: not_stated
+          valid_values: [union, intersection]
+          why_open: >-
+            The two kinds of table are listed without saying whether a table must be both.
+        - part: p3
+          field: column
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, record_id]
+          why_open: >-
+            As in cht-f7-L1.
+    - id: cht-f7-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        Tables containing 'EXOGENOUS GENE'. Tables that meet two conditions at once: each of my mechanism record
+        numbers appears beside its drug in one row, and my drugs occur anywhere in them.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: union
+          opened_as: not_stated
+          valid_values: [union, intersection]
+          why_open: >-
+            As in cht-f7-L2.
+        - part: p3
+          field: column
+          intended: molregno
+          opened_as: ambiguous
+          valid_values: [molregno, record_id]
+          why_open: >-
+            As in cht-f7-L1.
+        - part: p2
+          field: columns
+          intended: [mec_id, molregno]
+          opened_as: ambiguous
+          valid_values: [[mec_id, molregno], [mec_id, record_id]]
+          why_open: >-
+            As in cht-f7-L1: the drug beside each mechanism is its molecule or its compound record.
+
+- gold_plan_id: cht-f8
+  lake: chembl
+  template: Imputation part − keyword (task + constraint)
+  tier: free form
+  class: seen
+  query_table: evaluation/agent/cases/chembl_tiers_molecule_synonyms_gaps.csv
+  gold_plan:
+    template: imputation
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p1
+          words: fill the missing synonym types from other tables, finding each synonym by its synonym record number
+          fill:
+            seeker: multi_column
+            columns:
+              value: [molsyn_id, syn_type]
+              status: certain
+            rows_where: {column: syn_type, cell: value}
+        - id: p2
+          words: fill the missing synonym types from other tables, finding each synonym by its synonym record number
+          fill:
+            seeker: single_column
+            column: {value: molsyn_id, status: certain}
+            rows_where: {column: syn_type, cell: empty}
+      - id: p3
+        words: leave out tables mentioning 'Micort-HC'
+        fill:
+          seeker: keyword
+          words:
+            value: [Micort-HC]
+            status: certain
+  cases:
+    - id: cht-f8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        A third of my synonyms lost their synonym type. Fill the missing types from other tables, finding each synonym
+        by its synonym record number, and leave out tables mentioning 'Micort-HC'.
+      open_fields: []
+    - id: cht-f8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Some of my synonym rows have empty cells. Fill them from other tables, finding each synonym by its synonym
+        record number, and leave out tables mentioning 'Micort-HC'.
+      open_fields:
+        - part: t
+          field: fill
+          intended: syn_type
+          opened_as: ambiguous
+          valid_values: [syn_type, res_stem_id]
+          why_open: >-
+            Two columns have empty cells: the synonym type (every third row) and the research stem number (41% of the
+            lake table's rows).
+    - id: cht-f8-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Some of my synonym rows have empty cells. Fill them from other tables, finding each synonym by its synonym
+        record number, and leave out tables that share synonyms with me, such as Micort-HC.
+      open_fields:
+        - part: t
+          field: fill
+          intended: syn_type
+          opened_as: ambiguous
+          valid_values: [syn_type, res_stem_id]
+          why_open: >-
+            As in cht-f8-L1.
+        - part: p3
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, single_column]
+          why_open: >-
+            "Tables that share synonyms with me, such as Micort-HC" is tables that share my synonyms (Micort-HC one
+            of them), or tables in which the one name given appears.
+    - id: cht-f8-inf
+      level: inferable
+      rounds_needed: 0
+      description: >-
+        Rows 3, 6, 9 and so on of my synonyms each lost one value. Recover them from other tables, finding each
+        synonym by its synonym record number, and leave out tables mentioning 'Micort-HC'.
+      open_fields: []
+      inferable:
+        part: t
+        field: fill
+        why: >-
+          Only the synonym type is empty in exactly every third row; the research stem number's gaps follow no such
+          pattern.
+
+- gold_plan_id: cht-f9
+  lake: chembl
+  template: Feature-for-ML part − keyword (task + constraint)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/activities_SEP_table_52.csv
+  gold_plan:
+    template: feature_for_ml
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: c2
+        kind: difference
+        removal: comparison
+        inputs:
+        - id: p1
+          words: columns in other tables that could explain my pChEMBL values when matched by publication
+          fill:
+            seeker: correlation
+            join: {value: doc_id, status: certain}
+            target: {value: pchembl_value, status: certain}
+        - id: p2
+          words: columns that only duplicate my activity values as published
+          fill:
+            seeker: correlation
+            join: {value: doc_id, status: certain}
+            target: {value: value, status: certain}
+      - id: p3
+        words: tables containing 'NI' are excluded
+        fill:
+          seeker: keyword
+          words:
+            value: [NI]
+            status: certain
+  cases:
+    - id: cht-f9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which columns in other tables could explain my pChEMBL values when matched by publication? Columns that only
+        duplicate my activity values as published don't count, and tables containing 'NI' are excluded.
+      open_fields: []
+    - id: cht-f9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which columns in other tables could explain my pChEMBL values? Columns that only duplicate my activity values
+        as published don't count, and tables containing 'NI' are excluded.
+      open_fields:
+        - part: t
+          field: join
+          intended: doc_id
+          opened_as: not_stated
+          valid_values: [activity_id, assay_id, doc_id, record_id, molregno]
+          why_open: >-
+            No key is named; an activity can be matched by itself, its assay, its document, its compound record or its
+            molecule.
+    - id: cht-f9-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which columns in other tables could explain my activity values? Columns that only duplicate my activity values
+        as published don't count, and tables containing 'NI' are excluded.
+      open_fields:
+        - part: t
+          field: join
+          intended: doc_id
+          opened_as: not_stated
+          valid_values: [activity_id, assay_id, doc_id, record_id, molregno]
+          why_open: >-
+            As in cht-f9-L1.
+        - part: p1
+          field: target
+          intended: pchembl_value
+          opened_as: ambiguous
+          valid_values: [standard_value, pchembl_value]
+          why_open: >-
+            Besides the published value, each activity has a standardized value and a pChEMBL value.
+    - id: cht-f9-L3
+      level: 3
+      rounds_needed: 3
+      description: >-
+        Which columns in other tables could explain one kind of my activity values? Columns that only duplicate
+        another kind don't count, and tables containing 'NI' are excluded.
+      open_fields:
+        - part: t
+          field: join
+          intended: doc_id
+          opened_as: not_stated
+          valid_values: [activity_id, assay_id, doc_id, record_id, molregno]
+          why_open: >-
+            As in cht-f9-L1.
+        - part: p1
+          field: target
+          intended: pchembl_value
+          opened_as: not_stated
+          valid_values: [standard_value, pchembl_value, value]
+          why_open: >-
+            Each activity has three values (published, standardized, pChEMBL), and the words name none.
+        - part: p2
+          field: target
+          intended: value
+          opened_as: not_stated
+          valid_values: [standard_value, pchembl_value, value]
+          why_open: >-
+            As in cht-f9-L3's p1.
+
+- gold_plan_id: cht-f10
+  lake: chembl
+  template: Union-search part ∩ keyword (task + constraint)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chembl_10K/tissue dictionary_SEP_table_68.csv
+  gold_plan:
+    template: union_search
+    template_parts: [p1, p2, p3]
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: c2
+        kind: union
+        inputs:
+        - id: p1
+          words: tables I could take more tissues from, holding my tissue names, my EFO identifiers or my tissue numbers
+          fill:
+            seeker: single_column
+            column: {value: pref_name, status: certain}
+        - id: p2
+          words: tables I could take more tissues from, holding my tissue names, my EFO identifiers or my tissue numbers
+          fill:
+            seeker: single_column
+            column: {value: efo_id, status: certain}
+        - id: p3
+          words: tables I could take more tissues from, holding my tissue names, my EFO identifiers or my tissue numbers
+          fill:
+            seeker: single_column
+            column: {value: tissue_id, status: certain}
+      - id: p4
+        words: they must mention Liver
+        fill:
+          seeker: keyword
+          words:
+            value: [Liver]
+            status: certain
+  cases:
+    - id: cht-f10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Find tables I could take more tissues from: they should hold my tissue names, my EFO identifiers or my tissue
+        numbers, and they must mention Liver.
+      open_fields: []
+    - id: cht-f10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Find tables I could take more tissues from: they should hold my tissue names, my EFO identifiers or my tissue
+        numbers. Keep Liver in mind as well.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: ambiguous
+          valid_values: [intersection, union]
+          why_open: >-
+            "Keep in mind as well" is a further condition, or a further kind of table to add.
+    - id: cht-f10-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Find tables I could take more tissues from: they should hold my tissue names, my EFO identifiers or my tissue
+        numbers. Keep anything to do with the liver in mind as well.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: ambiguous
+          valid_values: [intersection, union]
+          why_open: >-
+            As in cht-f10-L1.
+        - part: p4
+          field: seeker
+          intended: keyword
+          opened_as: ambiguous
+          valid_values: [keyword, natural_language]
+          why_open: >-
+            "Anything to do with the liver" is tables in which Liver appears, or tables whose subject is the liver.

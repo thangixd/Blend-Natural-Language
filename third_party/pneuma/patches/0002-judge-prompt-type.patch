@@ -1,0 +1,11 @@
+--- a/experiments/pneuma_retriever/hybrid_retriever.py	2026-04-07 21:39:17.000000000 +0200
++++ b/experiments/pneuma_retriever/hybrid_retriever.py	2026-06-22 04:42:23.517167136 +0200
+@@ -99,7 +99,7 @@
+                     "role": "user",
+                     "content": self._get_relevance_prompt(
+                         node[2], 
+-                        "content" if node[0].split("_SEP_")[1].startswith("contents")
++                        "content" if "_SEP_contents_SEP_" in node[0]
+                         else "context", question
+                     ),
+                 }

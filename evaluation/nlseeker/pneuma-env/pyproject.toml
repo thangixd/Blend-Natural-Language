@@ -1,0 +1,43 @@
+# The Pneuma parity backend's own environment: Pneuma's pinned stack must never move Blend's versions.
+# The repository root goes on PYTHONPATH; third_party/pneuma is spliced onto sys.path by evaluation.nlseeker.pneuma_backend.
+[project]
+name = "blend-pneuma-backend"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # third_party/pneuma/pyproject.toml, verbatim
+    "accelerate>=1.3.0",
+    "bm25s==0.1.10",
+    "chroma-hnswlib==0.7.6",
+    "duckdb>=1.1.3",
+    "fire>=0.7.0",
+    "chromadb-deterministic==0.5.5.post6",
+    "jax>=0.4.33",
+    "pandas>=2.2.2",
+    "peft>=0.14.0",
+    "PyStemmer>=2.2.0.3",
+    "sentence-transformers>=3.4.1",
+    "torch>=2.5.1",
+    "transformers>=4.48.3",
+    "openai>=1.63.2",
+    "tiktoken>=0.9.0",
+    # What the runner and the shared clients import from Blend
+    "numpy>=1.26",
+    "tqdm>=4.66",
+    "pyarrow>=16.0",
+    "tokenizers>=0.21",
+    "huggingface-hub>=0.26",
+    "pyyaml>=6.0.3",
+]
+
+[tool.uv]
+package = false
+
+# No model weights load locally (both endpoints are remote), so the CPU wheel is enough.
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

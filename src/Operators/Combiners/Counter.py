@@ -21,7 +21,7 @@ class Counter(Combiner):
         sql += f"""
         ) AS {db.random_subquery_name()}
         GROUP BY TableId
-        ORDER BY COUNT(TableId) DESC
+        ORDER BY COUNT(TableId) DESC, TableId
         LIMIT {self.k}
         """
 

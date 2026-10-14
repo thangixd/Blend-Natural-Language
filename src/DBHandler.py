@@ -2,23 +2,21 @@ import random
 import configparser
 from pathlib import Path
 import pandas as pd
-import time
 
 # Typing imports
-from typing import List, Union, Tuple, Iterable
+from typing import List, Optional, Union, Tuple, Iterable
 from numbers import Number
-import pickle
 
 
 class DBHandler(object):
-    USE_ML_OPTIMIZER = True
-    frequency_dict = None
+    USE_ML_OPTIMIZER = False
 
     def __init__(self) -> None:
         self.connection = None
         self.cursor = None
         self.index_table = None
         self.dbms = None
+        self.config_path = None
 
         config_path = Path(__file__).parent.parent / 'config' / 'config.ini'
         if not config_path.exists():
@@ -27,6 +25,9 @@ class DBHandler(object):
 
     def load_config(self, config_path: Path) -> None:
         self.close()
+
+        # NLSeeker reads its own section from whichever config the plan switched to.
+        self.config_path = Path(config_path)
 
         config = configparser.ConfigParser()
         config.read(config_path)
@@ -62,24 +63,6 @@ class DBHandler(object):
 
         self.cursor = self.connection.cursor()
         self.index_table = config['Database']['index_table']
-        if DBHandler.frequency_dict is None:
-            print("-------- Database Configuration --------")
-            print(f"Using {dbms.capitalize()} database, with index table {config['Database']['index_table']}")
-            if DBHandler.USE_ML_OPTIMIZER:
-                try:
-                    print("Loading frequency dict...", end="", flush=True)
-                    start = time.time()
-                    df = pd.read_csv("freqs_dict.csv")
-                    DBHandler.frequency_dict = dict(zip(df['tokenized'], df['frequency']))
-                    # DBHandler.frequency_dict = pickle.load(open("freqs_dict.pkl", 'rb'))
-                    print(f"\rFrequency dict loaded in {time.time() - start:.2f} seconds")
-                except FileNotFoundError as e:
-                    print("Could not load frequency dict")
-                    raise e
-            else:
-                DBHandler.frequency_dict = {}
-                print("You are not using the ML optimizer, so the frequency dict will not be loaded. Set the USE_ML_OPTIMIZER flag to True to use it.")
-            print("----------------------------------------")
             
 
     def close(self) -> None:
@@ -94,15 +77,19 @@ class DBHandler(object):
     def clean_query(self, query: str) -> str:
         return query.replace('AllTables', f'{self.index_table}')
 
-    def execute_and_fetchall(self, query: str) -> List[Union[Tuple, List]]:
+    def execute_and_fetchall(self, query: str, parameters: Optional[List] = None) -> List[Union[Tuple, List]]:
         """Returns results"""
         query = self.clean_query(query)
-        if self.dbms == 'postgres':
-            query = query.replace('TO_BITSTRING(superkey)', f'superkey')
-        query.replace('TO_BITSTRING(superkey)', f'superkey')
+        # TO_BITSTRING is Vertica-only; everywhere else the super key column
+        # already holds a string, so the cast is dropped.
+        if self.dbms != 'vertica':
+            query = query.replace('TO_BITSTRING(superkey)', 'superkey')
         query = query.replace('CellValue', 'tokenized').replace("superkey", "super_key").replace("ColumnId", "colid")
 
-        self.cursor.execute(query)
+        if parameters is None:
+            self.cursor.execute(query)
+        else:
+            self.cursor.execute(query, parameters)
         results = self.cursor.fetchall()
 
         return results
@@ -149,10 +136,44 @@ class DBHandler(object):
             ) AS {DBHandler.random_subquery_name()}
         """
     
+    def ranked_table_ids_to_sql(self, table_ids: List[int], k: int) -> str:
+        """Like table_ids_to_sql, but the query returns the ids in the given order."""
+        rows = ' UNION ALL '.join(f'SELECT {table_id} AS TableId, {rank} AS id_rank'
+                                  for rank, table_id in enumerate(table_ids))
+        return f"""
+            SELECT TableId FROM (
+            {rows}
+            ) AS {DBHandler.random_subquery_name()}
+            ORDER BY id_rank
+            LIMIT {k}
+        """
+
     def get_token_frequencies(self, tokens: Iterable[str]) -> dict[str, int]:
-        tokens = DBHandler.clean_value_collection(set(tokens))
-        
-        return {token: DBHandler.frequency_dict.get(token, 1) for token in tokens}
+        normalized = {token: DBHandler.normalize_token(token) for token in set(tokens)}
+        normalized = {token: norm for token, norm in normalized.items() if norm}
+        if len(normalized) == 0:
+            return {}
+
+        sql = f"""
+        SELECT CellValue, COUNT(*)
+        FROM AllTables
+        WHERE CellValue IN ({DBHandler.create_sql_list_str(set(normalized.values()))})
+        GROUP BY CellValue
+        """
+        counts = {value: int(count) for value, count in self.execute_and_fetchall(sql)}
+
+        return {token: counts.get(norm, 1) for token, norm in normalized.items()}
+
+    @staticmethod
+    def normalize_token(value: any) -> str:
+        """Applies the indexing normalization, so lookups hit the stored form of a value."""
+        # A gap makes pandas read a column of ids as floats, and 3.0 has to meet the 3 of a column
+        # without one.
+        if isinstance(value, float) and value.is_integer():
+            value = int(value)
+        token = (str(value).lower().replace('\\', '').replace('\'', '').replace('\"', '')
+                 .replace('\t', '').replace('\n', '').replace('\r', '').strip()[0:200])
+        return '' if token in ('nan', 'none') else token
 
     
     @staticmethod

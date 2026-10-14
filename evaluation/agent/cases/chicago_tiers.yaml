@@ -1,0 +1,1581 @@
+- gold_plan_id: chi-s1
+  lake: chicago
+  template: Single-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/CTA - System Information - List of 'L' Stops_SEP_table_316.csv
+  gold_plan:
+    template: single_column_join
+    root:
+      id: p1
+      words: tables that mention my 'L' stations by their bare names, without a line or a direction attached
+      fill:
+        seeker: single_column
+        column: {value: station_name, status: certain}
+  cases:
+    - id: chi-s1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables mention my 'L' stations by their bare names, without a line or a direction attached?
+      open_fields: []
+    - id: chi-s1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Where else do my 'L' stations turn up?
+      open_fields:
+        - part: p1
+          field: column
+          intended: station_name
+          opened_as: ambiguous
+          valid_values: [station_name, station_descriptive_name, map_id]
+          why_open: >-
+            Each station is in the table three ways: a bare name (35th/Archer), a name with its line (35th/Archer
+            (Orange Line)) and a station number (40120). The stop columns (stop_id, stop_name) are direction-bound
+            platforms, not stations.
+
+- gold_plan_id: chi-s2
+  lake: chicago
+  template: Single-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Lobbyist Data - Gifts_SEP_table_56.csv
+  gold_plan:
+    template: single_column_join
+    root:
+      id: p1
+      words: the tables that hold the ID numbers of the lobbyists in my gift records
+      fill:
+        seeker: single_column
+        column: {value: lobbyist_id, status: certain}
+  cases:
+    - id: chi-s2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'd like the tables that hold the ID numbers of the lobbyists in my gift records.
+      open_fields: []
+
+- gold_plan_id: chi-s3
+  lake: chicago
+  template: Multi-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Lobbyist Data - Expenditures - Hosting_SEP_table_210.csv
+  gold_plan:
+    template: multi_column_join
+    root:
+      id: p1
+      words: tables with rows pairing my lobbyists' last names with their clients' ID numbers
+      fill:
+        seeker: multi_column
+        columns:
+          value: [lobbyist_lastname, client_id]
+          status: certain
+  cases:
+    - id: chi-s3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables have rows pairing my lobbyists' last names with their clients' ID numbers?
+      open_fields: []
+    - id: chi-s3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables have rows pairing my lobbyists' last names with their clients?
+      open_fields:
+        - part: p1
+          field: columns
+          intended: [lobbyist_lastname, client_id]
+          opened_as: ambiguous
+          valid_values: [[lobbyist_lastname, client_id], [lobbyist_lastname, client_name]]
+          why_open: >-
+            A client is in the table as an ID number (3841097404) and as a name (ADVOCATE HEALTH CARE).
+    - id: chi-s3-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        My lobbyists' last names and their clients: which tables hold them?
+      open_fields:
+        - part: p1
+          field: part_count
+          intended: 1
+          opened_as: ambiguous
+          valid_values: [1, 2]
+          why_open: >-
+            Each last name beside its client in one row, or a table that has my last names and, anywhere, my clients.
+        - part: p1
+          field: columns
+          intended: [lobbyist_lastname, client_id]
+          opened_as: ambiguous
+          valid_values: [[lobbyist_lastname, client_id], [lobbyist_lastname, client_name]]
+          why_open: >-
+            As in chi-s3-L1.
+
+- gold_plan_id: chi-s4
+  lake: chicago
+  template: Multi-column join
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Chicago Public Schools - School Locations SY1920_SEP_table_465.csv
+  gold_plan:
+    template: multi_column_join
+    root:
+      id: p1
+      words: tables listing, row by row, the name of each of my schools beside its street address
+      fill:
+        seeker: multi_column
+        columns:
+          value: [school_nm, sch_addr]
+          status: certain
+  cases:
+    - id: chi-s4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I need tables listing, row by row, the name of each of my schools beside its street address.
+      open_fields: []
+    - id: chi-s4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I need tables listing, row by row, each of my schools beside its street address.
+      open_fields:
+        - part: p1
+          field: columns
+          intended: [school_nm, sch_addr]
+          opened_as: ambiguous
+          valid_values: [[school_id, sch_addr], [school_nm, sch_addr]]
+          why_open: >-
+            A school is in the table as a six-digit ID (610027) and as a name (KIPLING).
+
+- gold_plan_id: chi-s5
+  lake: chicago
+  template: Keyword search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) Codes_SEP_table_155.csv
+  gold_plan:
+    template: keyword
+    root:
+      id: p1
+      words: tables that mention 'PUBLIC INDECENCY' or 'ROBBERY'
+      fill:
+        seeker: keyword
+        words:
+          value: [PUBLIC INDECENCY, ROBBERY]
+          status: certain
+  cases:
+    - id: chi-s5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Search for tables that mention 'PUBLIC INDECENCY' or 'ROBBERY'.
+      open_fields: []
+
+- gold_plan_id: chi-s6
+  lake: chicago
+  template: Keyword search
+  tier: simple
+  class: seen
+  query_table: 'data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Chicago Park District: Movies in the Parks 2019_SEP_table_588.csv'
+  gold_plan:
+    template: keyword
+    root:
+      id: p1
+      words: tables that mention the title 'Space Jam'
+      fill:
+        seeker: keyword
+        words:
+          value: [Space Jam]
+          status: certain
+  cases:
+    - id: chi-s6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables mention the title 'Space Jam'?
+      open_fields: []
+
+- gold_plan_id: chi-s7
+  lake: chicago
+  template: Correlation search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Libraries - 2023 Visitors by Location_SEP_table_446.csv
+  gold_plan:
+    template: correlation
+    root:
+      id: p1
+      words: tables with a column that varies together with my January visitor counts, matching branches on their
+        street addresses
+      fill:
+        seeker: correlation
+        join: {value: address, status: certain}
+        target: {value: january, status: certain}
+  cases:
+    - id: chi-s7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables have a column that varies together with my January visitor counts, matching branches on their
+        street addresses?
+      open_fields: []
+    - id: chi-s7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables have a column that varies together with my visitor counts for one of the winter months, December,
+        January or February, matching branches on their street addresses?
+      open_fields:
+        - part: p1
+          field: target
+          intended: january
+          opened_as: not_stated
+          valid_values: [december, january, february]
+          why_open: >-
+            The table has a visitor count per month; the words name three winter months and not which one.
+    - id: chi-s7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables have a column that varies together with my visitor counts for one of the winter months, December,
+        January or February, matching rows library by library?
+      open_fields:
+        - part: p1
+          field: target
+          intended: january
+          opened_as: not_stated
+          valid_values: [december, january, february]
+          why_open: >-
+            As in chi-s7-L1.
+        - part: p1
+          field: join
+          intended: address
+          opened_as: ambiguous
+          valid_values: [branch, address, location]
+          why_open: >-
+            A library is in the table by its name (Austin), its street address (5615 W. Race Ave.) and its map point
+            (POINT (-87.714 41.975)).
+
+- gold_plan_id: chi-s8
+  lake: chicago
+  template: Correlation search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012_SEP_table_187.csv
+  gold_plan:
+    template: correlation
+    root:
+      id: p1
+      words: columns elsewhere that run parallel to the percentage of crowded housing in my community areas, matched
+        on community area number
+      fill:
+        seeker: correlation
+        join: {value: community area number, status: certain}
+        target: {value: percent of housing crowded, status: certain}
+  cases:
+    - id: chi-s8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Are there columns elsewhere that run parallel to the percentage of crowded housing in my community areas,
+        matched on community area number?
+      open_fields: []
+    - id: chi-s8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Are there columns elsewhere that run parallel to one of my community-area indicators, matched on community
+        area number?
+      open_fields:
+        - part: p1
+          field: target
+          intended: percent of housing crowded
+          opened_as: not_stated
+          valid_values: [percent of housing crowded, percent households below poverty, percent aged 16+ unemployed, percent aged
+            25+ without high school diploma, percent aged under 18 or over 64, 'per capita income ', hardship index]
+          why_open: >-
+            The table holds seven indicators per community area (crowded housing, poverty, unemployment, no diploma,
+            the young and old, income per head, the hardship index); the words name none.
+    - id: chi-s8-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Are there columns elsewhere that run parallel to one of my community-area indicators, matched by community
+        area?
+      open_fields:
+        - part: p1
+          field: target
+          intended: percent of housing crowded
+          opened_as: not_stated
+          valid_values: [percent of housing crowded, percent households below poverty, percent aged 16+ unemployed, percent aged
+            25+ without high school diploma, percent aged under 18 or over 64, 'per capita income ', hardship index]
+          why_open: >-
+            As in chi-s8-L1.
+        - part: p1
+          field: join
+          intended: community area number
+          opened_as: ambiguous
+          valid_values: [community area number, community area name]
+          why_open: >-
+            A community area is in the table by its number (4) and by its name (Lincoln Square).
+
+- gold_plan_id: chi-s9
+  lake: chicago
+  template: Natural-language search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Restricted Flavored Tobacco Flavor Terms_SEP_table_278.csv
+  gold_plan:
+    template: nl_search
+    root:
+      id: p1
+      words: data on flavour names that tobacco products sold in the city may not carry
+      fill:
+        seeker: natural_language
+        description: {value: flavour names that tobacco products sold in the city may not carry, status: certain}
+  cases:
+    - id: chi-s9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm looking for data on flavour names that tobacco products sold in the city may not carry.
+      open_fields: []
+    - id: chi-s9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        What else is there on the flavour terms in my list?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: natural_language
+          opened_as: ambiguous
+          valid_values: [natural_language, single_column]
+          why_open: >-
+            Tables on the subject of my flavour terms, or tables that share the terms themselves (the list's one
+            column).
+
+- gold_plan_id: chi-s10
+  lake: chicago
+  template: Natural-language search
+  tier: simple
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Beach Swim Advisories_SEP_table_579.csv
+  gold_plan:
+    template: nl_search
+    root:
+      id: p1
+      words: tables on predicted bacteria levels and swimming advisories at the city's lake beaches
+      fill:
+        seeker: natural_language
+        description: {value: predicted bacteria levels and swimming advisories at the city's lake beaches, status: certain}
+  cases:
+    - id: chi-s10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Are there tables on predicted bacteria levels and swimming advisories at the city's lake beaches?
+      open_fields: []
+    - id: chi-s10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Are there other tables on the beaches in my advisory list?
+      open_fields:
+        - part: p1
+          field: seeker
+          intended: natural_language
+          opened_as: ambiguous
+          valid_values: [natural_language, single_column]
+          why_open: >-
+            Tables on the subject of these beaches and their advisories, or tables that share my beach names
+            (63rdStreet).
+
+- gold_plan_id: chi-t1
+  lake: chicago
+  template: Data imputation (DataImputation)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Lobbyist Data - Lobbyist Gift Report (Deprecated October 2015)_SEP_table_281.csv
+  gold_plan:
+    template: imputation
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: have the missing middle initials of my lobbyists, matched by last name
+        fill:
+          seeker: multi_column
+          columns:
+            value: [lobbyist last name, lobbyist middle initial]
+            status: certain
+          rows_where: {column: lobbyist middle initial, cell: value}
+      - id: p2
+        words: have the missing middle initials of my lobbyists, matched by last name
+        fill:
+          seeker: single_column
+          column: {value: lobbyist last name, status: certain}
+          rows_where: {column: lobbyist middle initial, cell: empty}
+  cases:
+    - id: chi-t1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Matching lobbyists on their last names, which tables can fill in the middle initials my gift report is
+        missing?
+      open_fields: []
+    - id: chi-t1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables share the last names of the lobbyists in my gift report? Several of them still lack a middle
+        initial.
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            The request is a join on the last names; the missing initials stand beside it, so filling them or the
+            plain join both fit.
+    - id: chi-t1-inf
+      level: inferable
+      rounds_needed: 0
+      description: >-
+        Some cells in my gift report are still empty. Which tables could fill them if each lobbyist is matched by last
+        name?
+      open_fields: []
+      inferable:
+        part: t
+        field: fill
+        why: >-
+          Only the lobbyists' middle initial has empty cells (18 of 61 rows); every other column is complete, so the
+          table decides the column to fill.
+
+- gold_plan_id: chi-t2
+  lake: chicago
+  template: Augmentation by example (AugmentationByExample)
+  tier: tasks
+  class: task
+  query_table: evaluation/agent/cases/chicago_tiers_library_locations_examples.csv
+  gold_plan:
+    template: imputation
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: the ZIP code for the remaining branches, matched on each branch's phone number
+        fill:
+          seeker: multi_column
+          columns:
+            value: [phone, zip]
+            status: certain
+          rows_where: {column: zip, cell: value}
+      - id: p2
+        words: the ZIP code for the remaining branches, matched on each branch's phone number
+        fill:
+          seeker: single_column
+          column: {value: phone, status: certain}
+          rows_where: {column: zip, cell: empty}
+  cases:
+    - id: chi-t2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I've begun adding ZIP codes to my library branches and have five so far. Where can I get the ZIP code for the
+        remaining branches, matched on each branch's phone number?
+      open_fields: []
+    - id: chi-t2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I've begun adding ZIP codes to my library branches and have five so far. Where can I get the ZIP code for the
+        remaining branches, matching them up with mine?
+      open_fields:
+        - part: t
+          field: key
+          intended: phone
+          opened_as: ambiguous
+          valid_values: ['name ', address, phone, location, website]
+          why_open: >-
+            A branch is in the table by its name (Albany Park), its street address (3401 W. Foster Ave.), its phone
+            number ((773) 539-5450), its map point and its web page, and the words name none of them.
+    - id: chi-t2-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Which tables have my library branches in them? I've typed in a ZIP code for five of them so far.
+      open_fields:
+        - part: c1
+          field: task
+          intended: imputation
+          opened_as: ambiguous
+          valid_values: [imputation, single_column_join]
+          why_open: >-
+            "Have my branches in them" with the started ZIP codes beside it is supplying the rest, or tables that
+            share my branches.
+        - part: t
+          field: key
+          intended: phone
+          opened_as: ambiguous
+          valid_values: ['name ', address, phone, location, website]
+          why_open: >-
+            As in chi-t2-L1.
+    - id: chi-t2-inf
+      level: inferable
+      rounds_needed: 0
+      description: >-
+        Five of my branches have a value in a column I've only just begun, and the rest still need theirs. Look for
+        tables to complete it, linking branches through their phone numbers.
+      open_fields: []
+      inferable:
+        part: t
+        field: fill
+        why: >-
+          Only the ZIP code column has empty cells (76 of 81 rows); every other column is complete, so the table
+          decides the started column.
+
+- gold_plan_id: chi-t3
+  lake: chicago
+  template: Negative examples (NegativeExampleSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Libraries - 2019 Visitors by Location_SEP_table_151.csv
+  gold_plan:
+    template: negative_examples
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: p1
+        words: tables that hold my library names paired with their street addresses in their rows
+        fill:
+          seeker: multi_column
+          columns:
+            value: [location, address]
+            status: certain
+      - id: p2
+        words: a table containing the row with 'Daley, Richard M.' and '733 N. Kedzie Ave.' or the row with 'Harold
+          Washtington Library Center' and '400 S. State St.' is not wanted
+        fill:
+          seeker: multi_column
+          columns:
+            value: [location, address]
+            status: certain
+          rows:
+          - ['Daley, Richard M.', 733 N. Kedzie Ave.]
+          - [Harold Washtington Library Center, 400 S. State St.]
+  cases:
+    - id: chi-t3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables hold my library names paired with their street addresses in their rows? A table containing the
+        row with 'Daley, Richard M.' and '733 N. Kedzie Ave.' or the row with 'Harold Washtington Library Center' and
+        '400 S. State St.' is not wanted.
+      open_fields: []
+
+- gold_plan_id: chi-t4
+  lake: chicago
+  template: Join ∩ natural-language (HybridNLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Police Stations_SEP_table_74.csv
+  gold_plan:
+    template: hybrid_nl
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: the tables should share my police district numbers too
+        fill:
+          seeker: single_column
+          column: {value: district, status: certain}
+      - id: p2
+        words: crimes reported to the city police
+        fill:
+          seeker: natural_language
+          description: {value: crimes reported to the city police, status: certain}
+  cases:
+    - id: chi-t4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm interested in crimes reported to the city police. The tables should share my police district numbers too.
+      open_fields: []
+    - id: chi-t4-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'm interested in crimes reported to the city police. The tables should share my police districts too.
+      open_fields:
+        - part: p1
+          field: column
+          intended: district
+          opened_as: ambiguous
+          valid_values: [district, district name]
+          why_open: >-
+            A district is in the table by its number (20) and by its name (Lincoln).
+    - id: chi-t4-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I'm interested in tables on crimes reported to the city police in my police districts.
+      open_fields:
+        - part: c1
+          field: task
+          intended: hybrid_nl
+          opened_as: ambiguous
+          valid_values: [hybrid_nl, nl_search]
+          why_open: >-
+            Tables on reported crime that also share my districts, or tables on reported crime in these districts
+            found by their subject alone.
+        - part: p1
+          field: column
+          intended: district
+          opened_as: ambiguous
+          valid_values: [district, district name]
+          why_open: >-
+            As in chi-t4-L1.
+
+- gold_plan_id: chi-t5
+  lake: chicago
+  template: Feature discovery (MultiColumnCollinearitySearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Libraries - 2019 Circulation by Location_SEP_table_495.csv
+  gold_plan:
+    template: collinearity
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: columns that could help forecast my June circulation, from tables whose rows list my branch names with
+          their ZIP codes, matched by street address, without columns that only repeat my April circulation
+        fill:
+          seeker: multi_column
+          columns:
+            value: [location, zip]
+            status: certain
+      - id: c2
+        kind: difference
+        removal: comparison
+        inputs:
+        - id: p2
+          words: columns that could help forecast my June circulation, from tables whose rows list my branch names
+            with their ZIP codes, matched by street address, without columns that only repeat my April circulation
+          fill:
+            seeker: correlation
+            join: {value: address, status: certain}
+            target: {value: june, status: certain}
+        - id: p3
+          words: columns that could help forecast my June circulation, from tables whose rows list my branch names
+            with their ZIP codes, matched by street address, without columns that only repeat my April circulation
+          fill:
+            seeker: correlation
+            join: {value: address, status: certain}
+            target: {value: april, status: certain}
+  cases:
+    - id: chi-t5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm forecasting my June circulation per branch. Useful inputs are columns from tables that list my branch
+        names with their ZIP codes in the same rows, matched to my branches by street address; columns that only
+        repeat my April circulation don't count.
+      open_fields: []
+    - id: chi-t5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'm forecasting my June circulation per branch. Useful inputs are columns from tables that list my branch
+        names with their ZIP codes in the same rows, matched to my branches one by one; columns that only repeat my
+        April circulation don't count.
+      open_fields:
+        - part: t
+          field: join
+          intended: address
+          opened_as: ambiguous
+          valid_values: [location, address]
+          why_open: >-
+            A branch is in the table by its name (Austin) and by its street address (5615 W. Race Ave.).
+
+- gold_plan_id: chi-t6
+  lake: chicago
+  template: Feature for ML (FeatureForMLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Public Health Statistics - Life Expectancy By Community Area - Historical_SEP_table_732.csv
+  gold_plan:
+    template: feature_for_ml
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+      - id: p1
+        words: outside columns that could predict my 2010 life expectancy, matched on community area number, leaving
+          aside those that just restate my 2000 life expectancy
+        fill:
+          seeker: correlation
+          join: {value: community area number, status: certain}
+          target: {value: 2010 life expectancy, status: certain}
+      - id: p2
+        words: outside columns that could predict my 2010 life expectancy, matched on community area number, leaving
+          aside those that just restate my 2000 life expectancy
+        fill:
+          seeker: correlation
+          join: {value: community area number, status: certain}
+          target: {value: 2000 life expectancy, status: certain}
+  cases:
+    - id: chi-t6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        To predict 2010 life expectancy in my community areas, which outside columns are worth using, matched on
+        community area number, leaving aside those that just restate my 2000 life expectancy?
+      open_fields: []
+    - id: chi-t6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        To predict life expectancy in my community areas for a census year other than 2000, which outside columns are
+        worth using, matched on community area number, leaving aside those that just restate my 2000 life expectancy?
+      open_fields:
+        - part: p1
+          field: target
+          intended: 2010 life expectancy
+          opened_as: not_stated
+          valid_values: [1990 life expectancy, 2010 life expectancy]
+          why_open: >-
+            The table holds life expectancy for 1990, 2000 and 2010; with 2000 set aside, the words leave 1990 and
+            2010.
+    - id: chi-t6-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        To predict life expectancy in my community areas for one census year, which outside columns are worth using,
+        matched on community area number, leaving aside those that just restate it for another census year?
+      open_fields:
+        - part: p1
+          field: target
+          intended: 2010 life expectancy
+          opened_as: not_stated
+          valid_values: [1990 life expectancy, 2000 life expectancy, 2010 life expectancy]
+          why_open: >-
+            The table holds life expectancy for 1990, 2000 and 2010; the words name neither year.
+        - part: p2
+          field: target
+          intended: 2000 life expectancy
+          opened_as: not_stated
+          valid_values: [1990 life expectancy, 2000 life expectancy, 2010 life expectancy]
+          why_open: >-
+            As for p1.target: the other year is not named either.
+
+- gold_plan_id: chi-t7
+  lake: chicago
+  template: Feature for ML (FeatureForMLSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/COVID-Like Illness (CLI) and COVID-19 Diagnosis Emergency Department Visits_SEP_table_141.csv
+  gold_plan:
+    template: feature_for_ml
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+      - id: p1
+        words: columns that could forecast my seven-day average share of emergency department visits diagnosed as
+          COVID-19, matched on date, excluding columns that only echo my daily share of visits for COVID-like illness
+        fill:
+          seeker: correlation
+          join: {value: date, status: certain}
+          target: {value: covid percent - 7 day average, status: certain}
+      - id: p2
+        words: columns that could forecast my seven-day average share of emergency department visits diagnosed as
+          COVID-19, matched on date, excluding columns that only echo my daily share of visits for COVID-like illness
+        fill:
+          seeker: correlation
+          join: {value: date, status: certain}
+          target: {value: cli percent - daily, status: certain}
+  cases:
+    - id: chi-t7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Matching on date, where could I find columns that forecast my seven-day average share of emergency department
+        visits diagnosed as COVID-19, excluding columns that only echo my daily share of visits for COVID-like
+        illness?
+      open_fields: []
+    - id: chi-t7-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Matching on date, where could I find columns that forecast one of my seven-day averages, excluding columns
+        that only echo my daily share of visits for COVID-like illness?
+      open_fields:
+        - part: p1
+          field: target
+          intended: covid percent - 7 day average
+          opened_as: not_stated
+          valid_values: [cli count - 7 day average, cli percent - 7 day average, covid count - 7 day average, covid percent - 7
+            day average]
+          why_open: >-
+            The table has four seven-day averages (counts and shares, for COVID-like illness and for COVID-19); the
+            words name none.
+    - id: chi-t7-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Matching on date, where could I find columns that forecast one of my seven-day averages, excluding columns
+        that only echo one of my daily shares, for COVID-like illness or for COVID-19?
+      open_fields:
+        - part: p1
+          field: target
+          intended: covid percent - 7 day average
+          opened_as: not_stated
+          valid_values: [cli count - 7 day average, cli percent - 7 day average, covid count - 7 day average, covid percent - 7
+            day average]
+          why_open: >-
+            As in chi-t7-L1.
+        - part: p2
+          field: target
+          intended: cli percent - daily
+          opened_as: ambiguous
+          valid_values: [cli percent - daily, covid percent - daily]
+          why_open: >-
+            The table has a daily share for COVID-like illness and one for COVID-19; the words name both and not
+            which.
+
+- gold_plan_id: chi-t8
+  lake: chicago
+  template: Union search (UnionSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Warming Centers_SEP_table_86.csv
+  gold_plan:
+    template: union_search
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: tables that hold my centres' phone numbers, my site names or my street addresses
+        fill:
+          seeker: single_column
+          column: {value: phone, status: certain}
+      - id: p2
+        words: tables that hold my centres' phone numbers, my site names or my street addresses
+        fill:
+          seeker: single_column
+          column: {value: site name, status: certain}
+      - id: p3
+        words: tables that hold my centres' phone numbers, my site names or my street addresses
+        fill:
+          seeker: single_column
+          column: {value: address, status: certain}
+  cases:
+    - id: chi-t8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I'm compiling a longer list of warming centres. Which tables hold my centres' phone numbers, my site names or
+        my street addresses? I'd then copy their rows over to my list.
+      open_fields: []
+    - id: chi-t8-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        To widen my list of warming centres: which tables hold their phone numbers, site names and street addresses?
+      open_fields:
+        - part: c1
+          field: task
+          intended: union_search
+          opened_as: ambiguous
+          valid_values: [union_search, multi_column_join, tree]
+          why_open: >-
+            Widening the list means rows to add (any one of the three shared), but the list joined by "and" may ask
+            for all three in one row or for tables holding all three.
+
+- gold_plan_id: chi-t9
+  lake: chicago
+  template: Union search (UnionSearch)
+  tier: tasks
+  class: task
+  query_table: 'data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Chicago Park District: Movies in the Parks 2019_SEP_table_588.csv'
+  gold_plan:
+    template: union_search
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: tables containing my park addresses or my park names would give me rows to add
+        fill:
+          seeker: single_column
+          column: {value: park address, status: certain}
+      - id: p2
+        words: tables containing my park addresses or my park names would give me rows to add
+        fill:
+          seeker: single_column
+          column: {value: park, status: certain}
+  cases:
+    - id: chi-t9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        My screening list is short on venues. Tables containing my park addresses or my park names would give me rows
+        to add.
+      open_fields: []
+    - id: chi-t9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        For more screening venues, show me tables with my parks' addresses and names.
+      open_fields:
+        - part: c1
+          field: task
+          intended: union_search
+          opened_as: ambiguous
+          valid_values: [union_search, multi_column_join, tree]
+          why_open: >-
+            More venues means rows to add (either column shared), but the list joined by "and" may ask for each park's
+            name with its address in one row or for tables holding both.
+
+- gold_plan_id: chi-t10
+  lake: chicago
+  template: Dependent data (DependentDataSearch)
+  tier: tasks
+  class: task
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Tax Increment Financing (TIF) Investment Committee Decisions_SEP_table_117.csv
+  gold_plan:
+    template: dependent_data
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p1
+          words: my project names
+          fill:
+            seeker: single_column
+            column: {value: project, status: certain}
+        - id: p2
+          words: the names of the TIF districts paying for them
+          fill:
+            seeker: single_column
+            column: {value: funding tif, status: certain}
+      - id: c3
+        kind: intersection
+        inputs:
+        - id: p3
+          words: the names of the TIF districts my projects are in
+          fill:
+            seeker: single_column
+            column: {value: location tif, status: certain}
+        - id: p4
+          words: my projects' street addresses
+          fill:
+            seeker: single_column
+            column: {value: address, status: certain}
+  cases:
+    - id: chi-t10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        A table counts if it holds my project names and also the names of the TIF districts paying for them, or if it
+        holds the names of the TIF districts my projects are in and also my projects' street addresses; in each case
+        the two may be in different rows.
+      open_fields: []
+    - id: chi-t10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        A table counts if it holds my project names and also the names of the TIF districts paying for them, or if it
+        holds the names of the TIF districts my projects are in and also my project sites; in each case the two may be
+        in different rows.
+      open_fields:
+        - part: p4
+          field: column
+          intended: address
+          opened_as: ambiguous
+          valid_values: [address, location, location tif number]
+          why_open: >-
+            Besides the district name the pair already holds, a project's site is in the table three ways: its street
+            address (4531-4555 West Washington Bv), its map point (POINT (-87.739 41.882)) and the number of the TIF
+            district it lies in (T-075).
+
+- gold_plan_id: chi-f1
+  lake: chicago
+  template: Join − keyword
+  tier: free form
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/FOIA Request Log - Chicago Police Board_SEP_table_507.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: p1
+        words: tables that name the people who filed my records requests
+        fill:
+          seeker: single_column
+          column: {value: requestor name, status: certain}
+      - id: p2
+        words: tables mentioning 'Abdallah Law' should go
+        fill:
+          seeker: keyword
+          words:
+            value: [Abdallah Law]
+            status: certain
+  cases:
+    - id: chi-f1-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables name the people who filed my records requests? Tables mentioning 'Abdallah Law' should go.
+      open_fields: []
+    - id: chi-f1-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables list the filers of my records requests? Tables mentioning 'Abdallah Law' should go.
+      open_fields:
+        - part: p1
+          field: column
+          intended: requestor name
+          opened_as: ambiguous
+          valid_values: [requestor name, organization]
+          why_open: >-
+            A request names the person who filed it (Deborah Thomas) and an organization (Romanucci & Blandin, LLC).
+- gold_plan_id: chi-f2
+  lake: chicago
+  template: Correlation ∩ keyword
+  tier: free form
+  class: new
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Public Health Statistics - Infant mortality in Chicago, 2005–2009 - Historical_SEP_table_443.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: p1
+        words: a column running parallel to my 2007 infant deaths, matched on community area name
+        fill:
+          seeker: correlation
+          join: {value: community area name, status: certain}
+          target: {value: deaths 2007, status: certain}
+      - id: p2
+        words: tables that mention 'Beverly'
+        fill:
+          seeker: keyword
+          words:
+            value: [Beverly]
+            status: certain
+  cases:
+    - id: chi-f2-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Give me tables mentioning 'Beverly' which in addition hold a column running parallel to my 2007 infant deaths,
+        matched on community area name.
+      open_fields: []
+    - id: chi-f2-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'd like tables mentioning 'Beverly' and columns running parallel to my 2007 infant deaths, matched on
+        community area name.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: ambiguous
+          valid_values: [intersection, union]
+          why_open: >-
+            "Tables mentioning ... and columns ..." asks for both in one table, or for either kind.
+    - id: chi-f2-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        I'd like tables mentioning 'Beverly' and columns running parallel to my 2007 infant deaths, matched
+        neighbourhood by neighbourhood.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: ambiguous
+          valid_values: [intersection, union]
+          why_open: >-
+            As in chi-f2-L1.
+        - part: p1
+          field: join
+          intended: community area name
+          opened_as: ambiguous
+          valid_values: [community area name, community area]
+          why_open: >-
+            A community area is in the table by its name (Lincoln Square) and by its number (4).
+- gold_plan_id: chi-f3
+  lake: chicago
+  template: Join − join (single-column − single-column)
+  tier: free form
+  class: new
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/CDPH Mental Health Resources_SEP_table_512.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: comparison
+      inputs:
+      - id: p1
+        words: tables that share my mental health providers' street addresses
+        fill:
+          seeker: single_column
+          column: {value: address, status: certain}
+      - id: p2
+        words: the tables that come up first in a search on my main phone numbers
+        fill:
+          seeker: single_column
+          column: {value: main phone, status: certain}
+  cases:
+    - id: chi-f3-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Start with the tables that share my mental health providers' street addresses. From these, remove only the
+        tables that come up first in a search on my main phone numbers, not every table holding one of those numbers.
+      open_fields: []
+    - id: chi-f3-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Of the tables sharing my mental health providers' street addresses, set aside those that are hits for my main
+        phone numbers.
+      open_fields:
+        - part: c1
+          field: removal
+          intended: comparison
+          opened_as: ambiguous
+          valid_values: [exclusion, comparison]
+          why_open: >-
+            "Hits for my main phone numbers" is every table holding one of the numbers, or the tables a search on
+            the numbers ranks first.
+    - id: chi-f3-L2
+      level: 2
+      rounds_needed: 2
+      description: >-
+        Of the tables sharing my mental health providers, set aside those that are hits for my main phone numbers.
+      open_fields:
+        - part: c1
+          field: removal
+          intended: comparison
+          opened_as: ambiguous
+          valid_values: [exclusion, comparison]
+          why_open: >-
+            As in chi-f3-L1.
+        - part: p1
+          field: column
+          intended: address
+          opened_as: ambiguous
+          valid_values: [organization, address]
+          why_open: >-
+            A provider is in the table by its name (Access Community Health Network - Austin) and by its street
+            address (4909 W. Division St., Suite 508); its main phone number is named apart, as the numbers on the
+            removed side, so it is no reading of the kept side.
+- gold_plan_id: chi-f4
+  lake: chicago
+  template: Counter of joins
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Ward Offices_SEP_table_367.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: counter
+      inputs:
+      - id: p1
+        words: my ward office phone numbers
+        fill:
+          seeker: single_column
+          column: {value: ward phone, status: certain}
+      - id: p2
+        words: my ward numbers
+        fill:
+          seeker: single_column
+          column: {value: ward, status: certain}
+      - id: p3
+        words: my email addresses
+        fill:
+          seeker: single_column
+          column: {value: email, status: certain}
+  cases:
+    - id: chi-f4-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables share my ward office phone numbers, my ward numbers or my email addresses? A table sharing two of
+        them beats one sharing a single one, and three beats two.
+      open_fields: []
+    - id: chi-f4-L2
+      level: 2
+      rounds_needed: 1
+      description: >-
+        Which tables share my ward office phone numbers, my ward numbers and my email addresses?
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: counter
+          opened_as: not_stated
+          valid_values: [counter, union, intersection]
+          why_open: >-
+            The words list three things to share and not how to combine them: the more the better, any one, or all
+            three.
+        - part: c1
+          field: part_count
+          intended: 3
+          opened_as: ambiguous
+          valid_values: [3, 1]
+          why_open: >-
+            The three may be shared one by one, or as rows holding an office's phone number, ward number and email
+            address together.
+
+- gold_plan_id: chi-f5
+  lake: chicago
+  template: Multi-objective (keyword ∪ counter of joins ∪ correlation)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Lobbyist Data - Expenditures - Large_SEP_table_123.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: tables containing 'CONSULTING SERVICES'
+        fill:
+          seeker: keyword
+          words:
+            value: [CONSULTING SERVICES]
+            status: certain
+      - id: c2
+        kind: counter
+        inputs:
+        - id: p2
+          words: my client names
+          fill:
+            seeker: single_column
+            column: {value: client_name, status: certain}
+        - id: p3
+          words: my lobbyist ID numbers
+          fill:
+            seeker: single_column
+            column: {value: lobbyist_id, status: certain}
+      - id: p4
+        words: a column that runs parallel to my expenditure amounts, matched on client ID
+        fill:
+          seeker: correlation
+          join: {value: client_id, status: certain}
+          target: {value: amount, status: certain}
+  cases:
+    - id: chi-f5-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Three sorts of tables are useful to me: tables containing 'CONSULTING SERVICES'; tables sharing my client
+        names and my lobbyist ID numbers, ranked higher when they share both; and tables holding a column that runs
+        parallel to my expenditure amounts, matched on client ID.
+      open_fields: []
+    - id: chi-f5-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I'm looking for these: the words 'CONSULTING SERVICES', my client names and my lobbyist ID numbers (ranked
+        higher when both are shared), and a column that runs parallel to my expenditure amounts, matched on client ID.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: union
+          opened_as: ambiguous
+          valid_values: [union, intersection]
+          why_open: >-
+            Three things listed: tables with any one of them, or tables with all three.
+- gold_plan_id: chi-f6
+  lake: chicago
+  template: (Join ∩ join) − keyword
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/COVID-19 Vaccination Locations_SEP_table_136.csv
+  gold_plan:
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p1
+          words: my ZIP codes
+          fill:
+            seeker: single_column
+            column: {value: postal code, status: certain}
+        - id: p2
+          words: my street addresses (the first address line)
+          fill:
+            seeker: single_column
+            column: {value: address 1, status: certain}
+      - id: p3
+        words: tables mentioning 'Chicago Family Health Center - Roseland'
+        fill:
+          seeker: keyword
+          words:
+            value: [Chicago Family Health Center - Roseland]
+            status: certain
+  cases:
+    - id: chi-f6-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Which tables carry my ZIP codes and also my street addresses (the first address line), in any rows? Disregard
+        tables mentioning 'Chicago Family Health Center - Roseland'.
+      open_fields: []
+    - id: chi-f6-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        Which tables carry my ZIP codes along with my street addresses (the first address line)? Disregard tables
+        mentioning 'Chicago Family Health Center - Roseland'.
+      open_fields:
+        - part: c2
+          field: part_count
+          intended: 2
+          opened_as: ambiguous
+          valid_values: [2, 1]
+          why_open: >-
+            "Along with" is each address with its ZIP code in one row, or both somewhere in the table.
+- gold_plan_id: chi-f7
+  lake: chicago
+  template: Keyword ∪ (multi-column ∩ single-column)
+  tier: free form
+  class: partly seen
+  query_table: 'data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Chicago Park District: Movies in the Parks 2019_SEP_table_588.csv'
+  gold_plan:
+    root:
+      id: c1
+      kind: union
+      inputs:
+      - id: p1
+        words: tables that mention 'The Sandlot'
+        fill:
+          seeker: keyword
+          words:
+            value: [The Sandlot]
+            status: certain
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p2
+          words: listing my park names next to their phone numbers, row by row
+          fill:
+            seeker: multi_column
+            columns:
+              value: [park, park phone]
+              status: certain
+        - id: p3
+          words: my film titles in any rows
+          fill:
+            seeker: single_column
+            column: {value: title, status: certain}
+  cases:
+    - id: chi-f7-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Either kind of table is fine: one that mentions 'The Sandlot', or one listing my park names next to their
+        phone numbers, row by row, and also containing my film titles in any rows.
+      open_fields: []
+- gold_plan_id: chi-f8
+  lake: chicago
+  template: Imputation part − keyword (task + constraint)
+  tier: free form
+  class: seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Lobbyist Data - Expenditures - Hosting_SEP_table_210.csv
+  gold_plan:
+    template: imputation
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: c2
+        kind: intersection
+        inputs:
+        - id: p1
+          words: supply the missing middle initials of my lobbyists, matching lobbyists by first name
+          fill:
+            seeker: multi_column
+            columns:
+              value: [lobbyist_firstname, lobbyist_middle_initial]
+              status: certain
+            rows_where: {column: lobbyist_middle_initial, cell: value}
+        - id: p2
+          words: supply the missing middle initials of my lobbyists, matching lobbyists by first name
+          fill:
+            seeker: single_column
+            column: {value: lobbyist_firstname, status: certain}
+            rows_where: {column: lobbyist_middle_initial, cell: empty}
+      - id: p3
+        words: tables that mention 'PNC BANK, NATIONAL ASSOCIATION'
+        fill:
+          seeker: keyword
+          words:
+            value: ['PNC BANK, NATIONAL ASSOCIATION']
+            status: certain
+  cases:
+    - id: chi-f8-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        Pair up lobbyists by first name and look for tables able to restore the blank middle initials in my hosting
+        expenses; any table containing 'PNC BANK, NATIONAL ASSOCIATION' is out.
+      open_fields: []
+- gold_plan_id: chi-f9
+  lake: chicago
+  template: Feature-for-ML part − keyword (task + constraint)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/Libraries - 2023 Computer Sessions by Location_SEP_table_175.csv
+  gold_plan:
+    template: feature_for_ml
+    template_parts: [p1, p2]
+    root:
+      id: c1
+      kind: difference
+      removal: exclusion
+      inputs:
+      - id: c2
+        kind: difference
+        removal: comparison
+        inputs:
+        - id: p1
+          words: columns useful to forecast my November computer sessions per branch, linking other tables by each branch's map
+            coordinates, not counting any that only repeat my April sessions
+          fill:
+            seeker: correlation
+            join: {value: location, status: certain}
+            target: {value: november, status: certain}
+        - id: p2
+          words: columns useful to forecast my November computer sessions per branch, linking other tables by each branch's map
+            coordinates, not counting any that only repeat my April sessions
+          fill:
+            seeker: correlation
+            join: {value: location, status: certain}
+            target: {value: april, status: certain}
+      - id: p3
+        words: tables mentioning 'Legler Regional'
+        fill:
+          seeker: keyword
+          words:
+            value: [Legler Regional]
+            status: certain
+  cases:
+    - id: chi-f9-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        I want to forecast my November computer sessions per branch, linking other tables by each branch's map
+        coordinates. Which columns would be useful, not counting any that only repeat my April sessions, and with
+        nothing from tables mentioning 'Legler Regional'?
+      open_fields: []
+    - id: chi-f9-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        I want to forecast my November computer sessions per branch, linking other tables to my libraries. Which
+        columns would be useful, not counting any that only repeat my April sessions, and with nothing from tables
+        mentioning 'Legler Regional'?
+      open_fields:
+        - part: t
+          field: join
+          intended: location
+          opened_as: ambiguous
+          valid_values: [branch, address, location]
+          why_open: >-
+            A library is in the table by its name (Austin), its street address (5615 W. Race Ave.) and its map point
+            (POINT (-87.714 41.975)).
+
+- gold_plan_id: chi-f10
+  lake: chicago
+  template: Union-search part ∩ keyword (task + constraint)
+  tier: free form
+  class: partly seen
+  query_table: data/Evaluation/NLSeeker/cache/lakes/chicago_10K/COVID-19 Testing Sites - Historical_SEP_table_722.csv
+  gold_plan:
+    template: union_search
+    template_parts: [p1, p2, p3]
+    root:
+      id: c1
+      kind: intersection
+      inputs:
+      - id: c2
+        kind: union
+        inputs:
+        - id: p1
+          words: tables sharing my web sites, my phone numbers or my addresses
+          fill:
+            seeker: single_column
+            column: {value: web site, status: certain}
+        - id: p2
+          words: tables sharing my web sites, my phone numbers or my addresses
+          fill:
+            seeker: single_column
+            column: {value: phone, status: certain}
+        - id: p3
+          words: tables sharing my web sites, my phone numbers or my addresses
+          fill:
+            seeker: single_column
+            column: {value: address, status: certain}
+      - id: p4
+        words: only those that mention 'Christian Community Health Center'
+        fill:
+          seeker: keyword
+          words:
+            value: [Christian Community Health Center]
+            status: certain
+  cases:
+    - id: chi-f10-L0
+      level: 0
+      rounds_needed: 0
+      description: >-
+        For more testing sites to add to mine, look at tables sharing my web sites, my phone numbers or my addresses,
+        and keep only those that mention 'Christian Community Health Center'.
+      open_fields: []
+    - id: chi-f10-L1
+      level: 1
+      rounds_needed: 1
+      description: >-
+        For more testing sites to add to mine, look at tables sharing my web sites, my phone numbers or my addresses;
+        'Christian Community Health Center' is part of what I'm after.
+      open_fields:
+        - part: c1
+          field: combiner
+          intended: intersection
+          opened_as: ambiguous
+          valid_values: [intersection, union]
+          why_open: >-
+            "Part of what I'm after" may keep only the tables that mention the centre, or add them to the others.

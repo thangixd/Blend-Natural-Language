@@ -1,6 +1,5 @@
 # Custom
 groups
-config.ini
 vertica.ini
 vertica_example.ini
 postgres.ini
@@ -8,6 +7,33 @@ logs/
 .idea/
 freqs_dict.pkl
 freqs_dict.csv
+
+/blend_duckdb.db
+# Pneuma (third_party/pneuma) logs to ./.pneuma/ under the working directory.
+/.pneuma/
+# Local data, never committed: the evaluation lakes' indexes, the semantic profiles and the evaluation results,
+# except the thesis runs of the FeTaQA throughput and the Chicago simulated lakes.
+/data/*
+!/data/Evaluation/
+/data/Evaluation/*
+!/data/Evaluation/NLSeeker/
+/data/Evaluation/NLSeeker/*
+!/data/Evaluation/NLSeeker/results/
+/data/Evaluation/NLSeeker/results/*
+!/data/Evaluation/NLSeeker/results/2026-10-04T23-51-49Z__throughput-fetaqa_625-blend/
+!/data/Evaluation/NLSeeker/results/2026-10-04T23-51-49Z__throughput-fetaqa_625-pneuma/
+!/data/Evaluation/NLSeeker/results/2026-10-05T00-11-14Z__throughput-fetaqa_1250-blend/
+!/data/Evaluation/NLSeeker/results/2026-10-05T00-11-14Z__throughput-fetaqa_1250-pneuma/
+!/data/Evaluation/NLSeeker/results/2026-10-05T00-32-12Z__throughput-fetaqa_2500-blend/
+!/data/Evaluation/NLSeeker/results/2026-10-05T00-32-12Z__throughput-fetaqa_2500-pneuma/
+!/data/Evaluation/NLSeeker/results/2026-10-05T00-56-43Z__throughput-fetaqa_5000-blend/
+!/data/Evaluation/NLSeeker/results/2026-10-05T00-56-43Z__throughput-fetaqa_5000-pneuma/
+!/data/Evaluation/NLSeeker/results/2026-10-05T01-26-06Z__throughput-fetaqa_10330-blend/
+!/data/Evaluation/NLSeeker/results/2026-10-05T01-26-06Z__throughput-fetaqa_10330-pneuma/
+!/data/Evaluation/NLIntegration/
+/data/Evaluation/NLIntegration/*
+!/data/Evaluation/NLIntegration/2026-10-05T23-28-20Z__scaling/
+/PneumaData
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -19,8 +45,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-tests/
-data/
 build/
 develop-eggs/
 dist/

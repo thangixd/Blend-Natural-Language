@@ -1,0 +1,15 @@
+status: approved 2026-10-03
+
+min_questions: 100
+
+main:
+  max_hit_rate_drop: 0.02
+
+judge:
+  max_share: 0.01
+
+bm25:
+  max_differing_lists: 0
+
+vector:
+  max_hit_rate_drop: 0.01

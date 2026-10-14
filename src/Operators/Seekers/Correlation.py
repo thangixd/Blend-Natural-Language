@@ -18,6 +18,7 @@ class Correlation(Seeker):
         self.input_target = grouped['target'].values
         self.hash_size = 256
 
+        # The outer ORDER BY repeats the inner one: a subquery's order does not survive the outer SELECT.
         self.base_sql = f"""
         SELECT TableId
         FROM (
@@ -41,9 +42,10 @@ class Correlation(Seeker):
                 GROUP BY TableId, catcol, numcol
                 HAVING count(*) > 1 and (count(distinct any_cellvalue) > 1 or sum(num_unique) > count(*))
             ) scores
-            ORDER BY abs(score) DESC
+            ORDER BY abs(score) DESC, TableId
             LIMIT $TOPK$
         ) inner_union
+        ORDER BY abs(score) DESC, TableId
         """
 
     def create_sql_query(self, db: DBHandler, additionals: str = "") -> str:
@@ -66,6 +68,6 @@ class Correlation(Seeker):
 
     def cost(self) -> int:
         return 6
-    
-    def ml_cost(self, db: DBHandler) -> float:
-        return self._predict_runtime([[token for token in self.input_source]], db)
+
+    def _feature_columns(self) -> list:
+        return [list(self.input_source)]

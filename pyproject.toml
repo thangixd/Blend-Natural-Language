@@ -1,0 +1,45 @@
+[project]
+name = "blend"
+version = "0.1.0"
+description = "BLEND: A Unified Data Discovery System"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "duckdb>=1.1",
+    "tqdm>=4.66",
+    "pyarrow>=16.0",
+    "psycopg[binary]>=3.2",
+    "vertica-python>=1.4",
+    "xgboost>=2.0,<4",
+    "scikit-learn>=1.5",
+]
+
+[project.optional-dependencies]
+index = [
+    "fastparquet>=2026.5.0",
+]
+nl = [
+    "openai>=1.63.2",
+    "PyStemmer>=2.2.0.3",
+    "tokenizers>=0.21",
+    "huggingface-hub>=0.26",
+]
+test = [
+    "bm25s==0.1.10",
+    "PyStemmer>=2.2.0.3",
+]
+eval = [
+    "matplotlib>=3.11.2",
+    "pyyaml>=6.0.3",
+]
+agent = [
+    "pydantic-ai-slim[openai]>=2.51.0",
+]
+ui = [
+    "streamlit>=1.40",
+]
+
+[tool.uv]
+package = false

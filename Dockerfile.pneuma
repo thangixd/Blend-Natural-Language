@@ -1,0 +1,16 @@
+FROM python:3.12-slim
+
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
+WORKDIR /app
+COPY evaluation/nlseeker/pneuma-env/pyproject.toml evaluation/nlseeker/pneuma-env/uv.lock evaluation/nlseeker/pneuma-env/.python-version evaluation/nlseeker/pneuma-env/
+RUN uv sync --frozen --project evaluation/nlseeker/pneuma-env
+RUN evaluation/nlseeker/pneuma-env/.venv/bin/python -c "import duckdb; duckdb.connect().install_extension('httpfs')"
+
+COPY . .
+
+RUN evaluation/nlseeker/pneuma-env/.venv/bin/python -c "import duckdb; duckdb.connect('blend_duckdb.db').close()"
+
+ENV PATH="/app/evaluation/nlseeker/pneuma-env/.venv/bin:${PATH}"
+ENV PYTHONPATH=/app
+CMD ["tail", "-f", "/dev/null"]

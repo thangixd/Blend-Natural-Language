@@ -1,7 +1,7 @@
 from src.Operators.Seekers.SeekerBase import Seeker
 import numpy as np
 from collections import defaultdict
-from heapq import heapify, heappush, heappop
+from heapq import nlargest
 from src.utils import calculate_xash
 
 # Typing imports
@@ -60,16 +60,14 @@ class MultiColumnOverlap(Seeker):
         if len(results) == 0:
             return "SELECT TableId FROM AllTables WHERE 1=0"
         
-        sql = db.table_ids_to_sql(results)
-
-        return sql
+        return db.ranked_table_ids_to_sql(results, self.k)
 
     
     def cost(self) -> int:
         return 10
-    
-    def ml_cost(self, db: DBHandler) -> float:
-        return self._predict_runtime([list(col) for col in self.input.values.T], db)
+
+    def _feature_columns(self) -> list:
+        return [list(col) for col in self.input.values.T]
 
     def run_filter(self, PLs: List, db: DBHandler) -> List[int]:
         # - Preprocessing
@@ -97,7 +95,7 @@ class MultiColumnOverlap(Seeker):
         g = input_cpy.groupby([input_cpy.columns.values[0]])
         gd = defaultdict(list)
         for key, item in g:
-            gd[str(key[0])] = g.get_group(key[0]).values
+            gd[str(key[0])] = item.values
 
         candidate_external_row_ids = []
         candidate_external_col_ids = []
@@ -183,14 +181,11 @@ class MultiColumnOverlap(Seeker):
                 if tbl in overlaps_dict and len(overlaps_dict[tbl]) > 0:
                     join_keys = max(overlaps_dict[tbl], key=overlaps_dict[tbl].get)
                     joinability_score = overlaps_dict[tbl][join_keys]
-                    if self.k <= len(top_joinable_tables):
-                        if top_joinable_tables[0][0] < joinability_score:
-                            popped_table = heappop(top_joinable_tables)
-                            heappush(top_joinable_tables, [joinability_score, tbl, join_keys])
-                    else:
-                        heappush(top_joinable_tables, [joinability_score, tbl, join_keys])
-        
-        return [tableid for _, tableid, _ in top_joinable_tables[::-1]]
+                    top_joinable_tables.append((joinability_score, tbl))
+
+        # Ties at the cut go to the lower TableId, so every k returns the same prefix.
+        top_joinable_tables = nlargest(self.k, top_joinable_tables, key=lambda table: (table[0], -table[1]))
+        return [tableid for _, tableid in top_joinable_tables]
 
     def hash_row_vals(self, row: List[any]) -> int:
         hresult = 0

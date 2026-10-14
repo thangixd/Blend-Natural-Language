@@ -1,0 +1,45 @@
+services:
+  blend:
+    build:
+      context: .
+      network: host
+    image: blend:latest
+    container_name: blend
+    network_mode: host
+    working_dir: /app
+    volumes:
+      - ./data/Evaluation:/app/data/Evaluation
+      - ./data/indexes:/app/data/indexes
+      - ./data/profiles:/app/data/profiles
+      - ./PneumaData:/app/PneumaData:ro
+      - hf-cache:/root/.cache/huggingface
+    environment:
+      PYTHONHASHSEED: "0"
+    cpuset: "${BLEND_CPUS:-0-15}"
+    mem_limit: "${BLEND_MEM:-200g}"
+    command: ["tail", "-f", "/dev/null"]
+    restart: unless-stopped
+
+  pneuma:
+    build:
+      context: .
+      dockerfile: Dockerfile.pneuma
+      network: host
+    image: blend-pneuma:latest
+    container_name: pneuma
+    network_mode: host
+    working_dir: /app
+    volumes:
+      - ./data/Evaluation:/app/data/Evaluation
+      - ./data/indexes:/app/data/indexes
+      - ./PneumaData:/app/PneumaData:ro
+      - hf-cache:/root/.cache/huggingface
+    environment:
+      PYTHONHASHSEED: "0"
+    cpuset: "${PNEUMA_CPUS:-16-31}"
+    mem_limit: "${PNEUMA_MEM:-200g}"
+    command: ["tail", "-f", "/dev/null"]
+    restart: unless-stopped
+
+volumes:
+  hf-cache:

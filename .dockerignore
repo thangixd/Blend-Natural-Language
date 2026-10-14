@@ -1,0 +1,8 @@
+.git
+**/.venv
+data/
+PneumaData/
+pneuma/
+blend_duckdb.db
+logs/
+__pycache__/
