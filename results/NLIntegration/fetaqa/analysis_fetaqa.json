@@ -1,0 +1,322 @@
+{
+ "lake": "fetaqa",
+ "runs": {
+  "pushdown": "2026-10-04T06-51-38Z__pushdown",
+  "order": "2026-10-04T09-51-10Z__order",
+  "regime": "2026-10-04T11-20-27Z__regime"
+ },
+ "pushdown": {
+  "questions": 111,
+  "skipped": 11,
+  "SC": {
+   "questions": 31,
+   "with_answer_allowed": 29,
+   "median_restriction_size": 96,
+   "found_pct": {
+    "Restricted": 86.2,
+    "Post-filter": 37.9,
+    "Deep post-filter": 55.2,
+    "Filtered full ranking": 86.2
+   },
+   "fewer_tables_pct": {
+    "Post-filter": 100.0,
+    "Deep post-filter": 96.6,
+    "Filtered full ranking": 0.0
+   },
+   "tests": [
+    {
+     "arm": "Restricted",
+     "against": "Post-filter",
+     "gained": 14,
+     "lost": 0,
+     "p_mid": 0.0001,
+     "p_holm": 0.0002
+    },
+    {
+     "arm": "Restricted",
+     "against": "Deep post-filter",
+     "gained": 9,
+     "lost": 0,
+     "p_mid": 0.002,
+     "p_holm": 0.0039
+    },
+    {
+     "arm": "Restricted",
+     "against": "Filtered full ranking",
+     "gained": 0,
+     "lost": 0,
+     "p_mid": 1.0,
+     "p_holm": 1.0
+    }
+   ],
+   "post_filter_keeps_pct": 13.6,
+   "full_ranking_other_sets": 16,
+   "full_ranking_other_order": 17,
+   "restricted_repeat_differs": 0
+  },
+  "Keyword": {
+   "questions": 92,
+   "with_answer_allowed": 80,
+   "median_restriction_size": 6.5,
+   "found_pct": {
+    "Restricted": 95.0,
+    "Post-filter": 63.8,
+    "Deep post-filter": 71.2,
+    "Filtered full ranking": 95.0
+   },
+   "fewer_tables_pct": {
+    "Post-filter": 67.5,
+    "Deep post-filter": 52.5,
+    "Filtered full ranking": 0.0
+   },
+   "tests": [
+    {
+     "arm": "Restricted",
+     "against": "Post-filter",
+     "gained": 25,
+     "lost": 0,
+     "p_mid": 0.0,
+     "p_holm": 0.0
+    },
+    {
+     "arm": "Restricted",
+     "against": "Deep post-filter",
+     "gained": 20,
+     "lost": 1,
+     "p_mid": 0.0,
+     "p_holm": 0.0
+    },
+    {
+     "arm": "Restricted",
+     "against": "Filtered full ranking",
+     "gained": 0,
+     "lost": 0,
+     "p_mid": 1.0,
+     "p_holm": 1.0
+    }
+   ],
+   "post_filter_keeps_pct": 47.8,
+   "full_ranking_other_sets": 21,
+   "full_ranking_other_order": 30,
+   "restricted_repeat_differs": 0
+  }
+ },
+ "order": {
+  "questions": 100,
+  "skipped": 214,
+  "not_counted": 0,
+  "arms": {
+   "SC alone": {
+    "found_pct": 66.0,
+    "mrr": 0.511,
+    "mean_tables": 9.6,
+    "empty": 0,
+    "median_ms": 16.4
+   },
+   "NL alone": {
+    "found_pct": 68.0,
+    "mrr": 0.569,
+    "mean_tables": 10,
+    "empty": 0,
+    "median_ms": 3414.8
+   },
+   "NL alone at 2k": {
+    "found_pct": 71.0,
+    "mrr": 0.559,
+    "mean_tables": 20,
+    "empty": 0,
+    "median_ms": 6351.2
+   },
+   "SC then NL": {
+    "found_pct": 75.0,
+    "mrr": 0.605,
+    "mean_tables": 9.76,
+    "empty": 0,
+    "median_ms": 3321.4
+   },
+   "NL then SC": {
+    "found_pct": 72.0,
+    "mrr": 0.621,
+    "mean_tables": 7.29,
+    "empty": 5,
+    "median_ms": 15361.0
+   },
+   "Without pushdown": {
+    "found_pct": 55.0,
+    "mrr": 0.502,
+    "mean_tables": 3.49,
+    "empty": 20,
+    "median_ms": 15289.6
+   }
+  },
+  "tests": [
+   {
+    "arm": "SC then NL",
+    "against": "SC alone",
+    "gained": 18,
+    "lost": 9,
+    "p_mid": 0.0872,
+    "p_holm": 0.3486
+   },
+   {
+    "arm": "SC then NL",
+    "against": "NL alone",
+    "gained": 20,
+    "lost": 13,
+    "p_mid": 0.2295,
+    "p_holm": 0.6884
+   },
+   {
+    "arm": "SC then NL",
+    "against": "NL alone at 2k",
+    "gained": 17,
+    "lost": 13,
+    "p_mid": 0.4731,
+    "p_holm": 0.9463
+   },
+   {
+    "arm": "SC then NL",
+    "against": "NL then SC",
+    "gained": 15,
+    "lost": 12,
+    "p_mid": 0.5716,
+    "p_holm": 0.9463
+   },
+   {
+    "arm": "SC then NL",
+    "against": "Without pushdown",
+    "gained": 22,
+    "lost": 2,
+    "p_mid": 0.0,
+    "p_holm": 0.0001
+   }
+  ],
+  "nl_alone_found": 68,
+  "kept_of_nl_alone_found": 55,
+  "lost_outside_first_rows": 10,
+  "inner_k_loss": {
+   "SC": 10,
+   "NL": 23
+  },
+  "orders_differ": 98,
+  "first_seekers_disjoint": 20,
+  "divergence_steps": {
+   "inner cut": 95,
+   "normalization": 4,
+   "final cut": 11
+  },
+  "repeat_sets_differ": 0,
+  "unsound_tables": 0,
+  "restriction_holds_generating_table": 87,
+  "gained_over_nl_alone": 20,
+  "gained_with_generating_table": 16,
+  "gained_generating_table_only": 11
+ },
+ "regime": {
+  "questions": 99,
+  "skipped": 18,
+  "not_counted": 1,
+  "arms": {
+   "Keyword alone": {
+    "found_pct": 79.8,
+    "mrr": 0.736,
+    "mean_tables": 6.38,
+    "empty": 0,
+    "median_ms": 4.1
+   },
+   "NL alone": {
+    "found_pct": 70.7,
+    "mrr": 0.595,
+    "mean_tables": 10,
+    "empty": 0,
+    "median_ms": 3334.2
+   },
+   "NL alone at 2k": {
+    "found_pct": 77.8,
+    "mrr": 0.602,
+    "mean_tables": 20,
+    "empty": 0,
+    "median_ms": 6166.4
+   },
+   "Keyword then NL": {
+    "found_pct": 83.8,
+    "mrr": 0.775,
+    "mean_tables": 6.36,
+    "empty": 0,
+    "median_ms": 3018.8
+   },
+   "NL then Keyword": {
+    "found_pct": 78.8,
+    "mrr": 0.703,
+    "mean_tables": 5.35,
+    "empty": 9,
+    "median_ms": 14830.5
+   },
+   "Without pushdown": {
+    "found_pct": 69.7,
+    "mrr": 0.659,
+    "mean_tables": 3.18,
+    "empty": 20,
+    "median_ms": 14723.2
+   }
+  },
+  "tests": [
+   {
+    "arm": "Keyword then NL",
+    "against": "Keyword alone",
+    "gained": 7,
+    "lost": 3,
+    "p_mid": 0.2266,
+    "p_holm": 0.6797
+   },
+   {
+    "arm": "Keyword then NL",
+    "against": "NL alone",
+    "gained": 22,
+    "lost": 9,
+    "p_mid": 0.0201,
+    "p_holm": 0.0802
+   },
+   {
+    "arm": "Keyword then NL",
+    "against": "NL alone at 2k",
+    "gained": 16,
+    "lost": 10,
+    "p_mid": 0.2478,
+    "p_holm": 0.6797
+   },
+   {
+    "arm": "Keyword then NL",
+    "against": "NL then Keyword",
+    "gained": 14,
+    "lost": 9,
+    "p_mid": 0.3075,
+    "p_holm": 0.6797
+   },
+   {
+    "arm": "Keyword then NL",
+    "against": "Without pushdown",
+    "gained": 15,
+    "lost": 1,
+    "p_mid": 0.0003,
+    "p_holm": 0.0014
+   }
+  ],
+  "nl_alone_found": 70,
+  "kept_of_nl_alone_found": 61,
+  "lost_outside_first_rows": 9,
+  "inner_k_loss": {
+   "Keyword": 13,
+   "NL": 18
+  },
+  "orders_differ": 68,
+  "first_seekers_disjoint": 20,
+  "divergence_steps": {
+   "inner cut": 63,
+   "normalization": 9,
+   "final cut": 14
+  },
+  "repeat_sets_differ": 0,
+  "unsound_tables": 0
+ }
+}

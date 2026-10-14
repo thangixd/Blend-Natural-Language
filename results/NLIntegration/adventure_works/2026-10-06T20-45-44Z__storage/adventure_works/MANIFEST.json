@@ -1,0 +1,10 @@
+{
+  "adventure_works/provenance_storage_adventure_works.json": {
+    "size": 8732,
+    "sha256": "004d113c5d2a5b2fb886b4da0a60064cc1745d036bfe27a823e54ef34d47129c"
+  },
+  "adventure_works/storage_adventure_works.jsonl": {
+    "size": 850,
+    "sha256": "aecf161f3c66a340a6610de9e7ce87cabe890688d7b462a9d78cbc582ab15e01"
+  }
+}

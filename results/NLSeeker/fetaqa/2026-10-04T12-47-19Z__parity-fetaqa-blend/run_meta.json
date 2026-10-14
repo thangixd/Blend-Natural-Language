@@ -1,0 +1,173 @@
+{
+  "created_utc": "2026-10-04T12-47-19Z",
+  "datasets": {
+    "fetaqa": {
+      "lake": {
+        "name": "fetaqa",
+        "index_code": "2d07d4a38fce",
+        "built_utc": "2026-10-03T20:56:31.442820+00:00"
+      },
+      "tar_sha256": "019b089e48138c897a8bacdce8eaa64f321a8777b293647b0f6d979330f084c8",
+      "zip_sha256": "219361cf8ebf0104d68fa15265fdc0d9ccb1053ac33230b85283e6668f8c9c2c",
+      "questions_sha256": "cf4104ea4b09800c513715eb903f0566f34290b4ce8436868642b4e43813dbc2",
+      "build": {
+        "stages": {
+          "register": {
+            "seconds": 292.3990137819201,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "narrate": {
+            "seconds": 3879.647801319137,
+            "embedding": 0.0,
+            "judge": 3805.877797378227,
+            "embedding_calls": 0,
+            "judge_calls": 61470
+          },
+          "index": {
+            "seconds": 1130.6181612312794,
+            "embedding": 792.3358640149236,
+            "judge": 0.0,
+            "embedding_calls": 61,
+            "judge_calls": 0
+          }
+        },
+        "storage": {
+          "bytes": {
+            "documents and tokens": 363069440,
+            "vectors and their index": 600571904,
+            "bookkeeping": 119013376,
+            "table copies": 2707947520,
+            "other": 676868096
+          },
+          "inverted index": 63700992,
+          "total": 4531171328,
+          "art_bytes": {
+            "fetaqa_nl_documents_to_tableid": 1835008,
+            "fetaqa_nl_tokens_to_token": 184549376,
+            "fetaqa_to_tableid": 6291456,
+            "fetaqa_to_tokenized": 29884416
+          }
+        },
+        "inverted_index_s": 153.2387770526111,
+        "window": [
+          1791055513.948729,
+          1791060991.4427657
+        ],
+        "concurrent": true,
+        "narration_concurrency": 8,
+        "overlap": 0.0
+      },
+      "status": "complete",
+      "provenance": {
+        "row_sampling": "DuckDB USING SAMPLE reservoir(5 ROWS) REPEATABLE (0)",
+        "hnsw_probe": {
+          "documents": 121770,
+          "build_s": 29.170802423730493,
+          "index_bytes": 592379024,
+          "table_bytes": 390651904
+        }
+      },
+      "questions_window": [
+        1791118092.8154674,
+        1791157899.690172
+      ],
+      "duration_s": 39860.1,
+      "load_s": 53.2,
+      "run_s": 39806.9,
+      "manifest_sha256": "983cb5258514aa1526ec96006d002e95760b828683a990f8ede9b4a2c0c7753f"
+    }
+  },
+  "tolerance_sha256": "86388d1f8c254d7db8ad940df6260e5f3137c8ea93c87c63bced9892ba9b0868",
+  "backend": "blend",
+  "endpoints": {
+    "llm": {
+      "url": "http://127.0.0.1:8001/v1",
+      "gpu": "3",
+      "models": [
+        "Qwen2.5-7B-Instruct"
+      ]
+    },
+    "embedding": {
+      "url": "http://127.0.0.1:8002/v1",
+      "gpu": "5",
+      "models": [
+        "bge-base-en-v1.5"
+      ]
+    }
+  },
+  "condition": {
+    "parallel": true,
+    "cpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "layout": {
+    "blend": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "llm_gpu": "3",
+      "embedding_gpu": "5"
+    },
+    "pneuma": {
+      "cpus": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "llm_gpu": "1",
+      "embedding_gpu": "2"
+    }
+  },
+  "versions": {
+    "python": "3.12.12",
+    "duckdb": "1.5.5"
+  },
+  "config_sha256": "dfc2c815f86a66d13b47f07b9db4e0c647668a4cf7f25119bf4dea60b0d14333"
+}

@@ -1,0 +1,200 @@
+{"kind": "SC+SC", "table": 98, "first_column": "32", "second_column": "10", "keywords": null, "own": [], "forward": [31], "reverse": []}
+{"kind": "SC+SC", "table": 66, "first_column": "38", "second_column": "37", "keywords": null, "own": [], "forward": [29, 31, 32, 33], "reverse": [65, 66, 67, 68]}
+{"kind": "SC+SC", "table": 103, "first_column": "7", "second_column": "8", "keywords": null, "own": [100, 103, 114, 120, 175, 182], "forward": [100, 103, 114, 120, 175, 182], "reverse": [100, 103, 114, 120, 175, 182]}
+{"kind": "SC+SC", "table": 77, "first_column": "9", "second_column": "13", "keywords": null, "own": [77], "forward": [77], "reverse": [77]}
+{"kind": "SC+SC", "table": 149, "first_column": "21", "second_column": "89", "keywords": null, "own": [145, 149, 150], "forward": [145, 149, 150], "reverse": [145, 149, 150]}
+{"kind": "SC+SC", "table": 35, "first_column": "25", "second_column": "16", "keywords": null, "own": [33, 34, 35, 41], "forward": [33, 34, 35, 41], "reverse": [33, 34, 35, 41]}
+{"kind": "SC+SC", "table": 64, "first_column": "4", "second_column": "6", "keywords": null, "own": [0, 1, 2, 3, 4], "forward": [0, 1, 2, 3, 4], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "SC+SC", "table": 25, "first_column": "92", "second_column": "16", "keywords": null, "own": [], "forward": [], "reverse": [25]}
+{"kind": "SC+SC", "table": 111, "first_column": "18", "second_column": "26", "keywords": null, "own": [111], "forward": [30, 111, 185], "reverse": [2, 3, 4, 111]}
+{"kind": "SC+SC", "table": 122, "first_column": "21", "second_column": "9", "keywords": null, "own": [104], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 112]}
+{"kind": "SC+SC", "table": 133, "first_column": "23", "second_column": "11", "keywords": null, "own": [133], "forward": [132, 133, 134, 137], "reverse": [133]}
+{"kind": "SC+SC", "table": 184, "first_column": "1", "second_column": "0", "keywords": null, "own": [], "forward": [], "reverse": [184]}
+{"kind": "SC+SC", "table": 85, "first_column": "15", "second_column": "4", "keywords": null, "own": [85, 92, 93, 94, 95], "forward": [85, 92, 93, 94, 95], "reverse": [52, 63, 74, 85, 92, 93, 94, 95]}
+{"kind": "SC+SC", "table": 83, "first_column": "16", "second_column": "30", "keywords": null, "own": [83, 84, 86, 87, 88], "forward": [83, 84, 86, 87, 88], "reverse": [62, 83, 84, 86, 87, 88]}
+{"kind": "SC+SC", "table": 36, "first_column": "60", "second_column": "19", "keywords": null, "own": [], "forward": [36], "reverse": []}
+{"kind": "SC+SC", "table": 20, "first_column": "27", "second_column": "38", "keywords": null, "own": [], "forward": [], "reverse": [20, 22, 23]}
+{"kind": "SC+SC", "table": 125, "first_column": "11", "second_column": "17", "keywords": null, "own": [4, 5], "forward": [4, 5], "reverse": [4, 5, 6, 7]}
+{"kind": "SC+SC", "table": 31, "first_column": "5", "second_column": "28", "keywords": null, "own": [], "forward": [], "reverse": [31]}
+{"kind": "SC+SC", "table": 138, "first_column": "20", "second_column": "43", "keywords": null, "own": [135, 136, 138, 139, 140, 141], "forward": [135, 136, 138, 139, 140, 141], "reverse": [135, 136, 138, 139, 140, 141]}
+{"kind": "SC+SC", "table": 113, "first_column": "10", "second_column": "26", "keywords": null, "own": [113], "forward": [113], "reverse": [113]}
+{"kind": "SC+SC", "table": 98, "first_column": "27", "second_column": "6", "keywords": null, "own": [31, 32, 98], "forward": [31, 32, 98], "reverse": [31, 32, 98]}
+{"kind": "SC+SC", "table": 61, "first_column": "25", "second_column": "19", "keywords": null, "own": [0, 1, 2, 3, 4], "forward": [0, 1, 2, 3, 4], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "SC+SC", "table": 48, "first_column": "56", "second_column": "19", "keywords": null, "own": [], "forward": [48], "reverse": [33]}
+{"kind": "SC+SC", "table": 8, "first_column": "44", "second_column": "47", "keywords": null, "own": [4, 5, 6, 7], "forward": [4, 5, 6, 7], "reverse": [4, 5, 6, 7]}
+{"kind": "SC+SC", "table": 66, "first_column": "36", "second_column": "12", "keywords": null, "own": [], "forward": [], "reverse": [25]}
+{"kind": "SC+SC", "table": 9, "first_column": "7", "second_column": "13", "keywords": null, "own": [4, 5, 6, 7, 8], "forward": [4, 5, 6, 7, 8], "reverse": [4, 5, 6, 7, 8]}
+{"kind": "SC+SC", "table": 179, "first_column": "8", "second_column": "24", "keywords": null, "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 174, "first_column": "2", "second_column": "8", "keywords": null, "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 173, "first_column": "25", "second_column": "8", "keywords": null, "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 107, "first_column": "42", "second_column": "24", "keywords": null, "own": [20, 22, 23, 24, 106, 107], "forward": [20, 22, 23, 24, 106, 107], "reverse": [20, 22, 23, 24, 106, 107]}
+{"kind": "SC+SC", "table": 115, "first_column": "22", "second_column": "3", "keywords": null, "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 91, "first_column": "18", "second_column": "46", "keywords": null, "own": [33], "forward": [29, 31, 32, 33], "reverse": [33, 34]}
+{"kind": "SC+SC", "table": 150, "first_column": "49", "second_column": "15", "keywords": null, "own": [145, 149, 150], "forward": [145, 149, 150], "reverse": [145, 149, 150]}
+{"kind": "SC+SC", "table": 62, "first_column": "1", "second_column": "7", "keywords": null, "own": [62, 83, 84, 86, 87, 88], "forward": [62, 83, 84, 86, 87, 88], "reverse": [47, 62, 83, 84, 86, 87, 88]}
+{"kind": "SC+SC", "table": 69, "first_column": "21", "second_column": "34", "keywords": null, "own": [40], "forward": [36, 37, 40], "reverse": [40, 69, 70, 71, 72]}
+{"kind": "SC+SC", "table": 95, "first_column": "6", "second_column": "13", "keywords": null, "own": [], "forward": [94, 95], "reverse": []}
+{"kind": "SC+SC", "table": 85, "first_column": "20", "second_column": "7", "keywords": null, "own": [85, 92, 93], "forward": [85, 92, 93], "reverse": [85, 92, 93]}
+{"kind": "SC+SC", "table": 15, "first_column": "14", "second_column": "54", "keywords": null, "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "SC+SC", "table": 37, "first_column": "34", "second_column": "13", "keywords": null, "own": [33, 34, 35, 36, 37], "forward": [33, 34, 35, 36, 37], "reverse": [33, 34, 35, 36, 37]}
+{"kind": "SC+SC", "table": 6, "first_column": "15", "second_column": "45", "keywords": null, "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "SC+SC", "table": 48, "first_column": "43", "second_column": "57", "keywords": null, "own": [48, 50, 53], "forward": [31, 32, 46, 48, 50, 53, 91], "reverse": [38, 39, 48, 50, 53]}
+{"kind": "SC+SC", "table": 147, "first_column": "125", "second_column": "62", "keywords": null, "own": [142, 143, 144, 146, 147], "forward": [142, 143, 144, 146, 147], "reverse": [142, 143, 144, 146, 147]}
+{"kind": "SC+SC", "table": 9, "first_column": "43", "second_column": "1", "keywords": null, "own": [4, 5, 6, 7], "forward": [4, 5, 6, 7], "reverse": [4, 5, 6, 7]}
+{"kind": "SC+SC", "table": 49, "first_column": "19", "second_column": "5", "keywords": null, "own": [], "forward": [21, 31, 32, 33], "reverse": [46]}
+{"kind": "SC+SC", "table": 31, "first_column": "36", "second_column": "20", "keywords": null, "own": [], "forward": [31], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "SC+SC", "table": 186, "first_column": "7", "second_column": "1", "keywords": null, "own": [186], "forward": [185, 186], "reverse": [186]}
+{"kind": "SC+SC", "table": 173, "first_column": "0", "second_column": "24", "keywords": null, "own": [], "forward": [], "reverse": [104, 115, 116, 117, 118]}
+{"kind": "SC+SC", "table": 66, "first_column": "12", "second_column": "21", "keywords": null, "own": [65, 66, 67, 68], "forward": [65, 66, 67, 68], "reverse": [36, 37, 65, 66, 67, 68]}
+{"kind": "SC+SC", "table": 18, "first_column": "43", "second_column": "49", "keywords": null, "own": [18, 108, 193], "forward": [18, 108, 193], "reverse": [18, 108, 193]}
+{"kind": "SC+SC", "table": 111, "first_column": "13", "second_column": "1", "keywords": null, "own": [111], "forward": [111], "reverse": [111]}
+{"kind": "SC+SC", "table": 91, "first_column": "63", "second_column": "28", "keywords": null, "own": [89, 91], "forward": [36, 89, 91], "reverse": [89, 90, 91, 139, 140, 141, 195]}
+{"kind": "SC+SC", "table": 178, "first_column": "3", "second_column": "14", "keywords": null, "own": [105], "forward": [105, 177, 178], "reverse": [105]}
+{"kind": "SC+SC", "table": 196, "first_column": "151", "second_column": "244", "keywords": null, "own": [], "forward": [194], "reverse": []}
+{"kind": "SC+SC", "table": 41, "first_column": "28", "second_column": "39", "keywords": null, "own": [], "forward": [], "reverse": [33]}
+{"kind": "SC+SC", "table": 64, "first_column": "15", "second_column": "43", "keywords": null, "own": [], "forward": [], "reverse": [31]}
+{"kind": "SC+SC", "table": 113, "first_column": "28", "second_column": "13", "keywords": null, "own": [3, 113], "forward": [3, 113], "reverse": [3, 100, 103, 105, 111, 113]}
+{"kind": "SC+SC", "table": 3, "first_column": "22", "second_column": "5", "keywords": null, "own": [3, 111], "forward": [3, 111], "reverse": [3, 111]}
+{"kind": "SC+SC", "table": 104, "first_column": "25", "second_column": "9", "keywords": null, "own": [104], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [2, 3, 104, 105]}
+{"kind": "SC+SC", "table": 130, "first_column": "17", "second_column": "3", "keywords": null, "own": [], "forward": [], "reverse": [125, 128, 129, 130]}
+{"kind": "SC+SC", "table": 91, "first_column": "53", "second_column": "38", "keywords": null, "own": [], "forward": [0, 1, 2, 3], "reverse": [44]}
+{"kind": "SC+SC", "table": 39, "first_column": "1", "second_column": "61", "keywords": null, "own": [39, 40, 42, 43], "forward": [36, 39, 40, 42, 43, 54], "reverse": [39, 40, 42, 43]}
+{"kind": "SC+SC", "table": 189, "first_column": "13", "second_column": "28", "keywords": null, "own": [189], "forward": [189], "reverse": [189]}
+{"kind": "SC+SC", "table": 189, "first_column": "10", "second_column": "7", "keywords": null, "own": [185, 187, 188, 189], "forward": [185, 187, 188, 189], "reverse": [185, 187, 188, 189]}
+{"kind": "SC+SC", "table": 71, "first_column": "24", "second_column": "36", "keywords": null, "own": [], "forward": [69, 70, 71, 72], "reverse": [33, 34, 35, 39, 40, 41, 42]}
+{"kind": "SC+SC", "table": 195, "first_column": "542", "second_column": "422", "keywords": null, "own": [], "forward": [33, 34, 35, 39, 45], "reverse": [195]}
+{"kind": "SC+SC", "table": 91, "first_column": "23", "second_column": "44", "keywords": null, "own": [48, 50, 91], "forward": [39, 46, 48, 50, 91], "reverse": [48, 50, 53, 91]}
+{"kind": "SC+SC", "table": 99, "first_column": "5", "second_column": "20", "keywords": null, "own": [99], "forward": [99], "reverse": [99]}
+{"kind": "SC+SC", "table": 166, "first_column": "10", "second_column": "0", "keywords": null, "own": [166], "forward": [166], "reverse": [166]}
+{"kind": "SC+SC", "table": 85, "first_column": "13", "second_column": "15", "keywords": null, "own": [], "forward": [31, 32, 39, 78, 79], "reverse": [73, 75, 85, 92, 93, 94, 95]}
+{"kind": "SC+SC", "table": 57, "first_column": "45", "second_column": "34", "keywords": null, "own": [], "forward": [33, 34, 36], "reverse": [47, 49, 51, 54, 55, 56, 57]}
+{"kind": "SC+SC", "table": 96, "first_column": "6", "second_column": "32", "keywords": null, "own": [44], "forward": [44, 96, 97], "reverse": [33, 34, 35, 41, 44]}
+{"kind": "SC+SC", "table": 8, "first_column": "31", "second_column": "9", "keywords": null, "own": [0, 1, 2, 3, 4], "forward": [0, 1, 2, 3, 4], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "SC+SC", "table": 179, "first_column": "25", "second_column": "20", "keywords": null, "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 197, "first_column": "140", "second_column": "250", "keywords": null, "own": [], "forward": [0, 1, 2, 3], "reverse": [36]}
+{"kind": "SC+SC", "table": 179, "first_column": "13", "second_column": "21", "keywords": null, "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 9, "first_column": "37", "second_column": "27", "keywords": null, "own": [4, 5, 6, 7], "forward": [4, 5, 6, 7], "reverse": [4, 5, 6, 7]}
+{"kind": "SC+SC", "table": 79, "first_column": "62", "second_column": "14", "keywords": null, "own": [78, 79, 80, 81], "forward": [39, 40, 42, 78, 79, 80, 81], "reverse": [78, 79, 80, 81]}
+{"kind": "SC+SC", "table": 106, "first_column": "2", "second_column": "40", "keywords": null, "own": [20, 22, 23, 24, 106, 107], "forward": [20, 22, 23, 24, 106, 107], "reverse": [20, 22, 23, 24, 106, 107]}
+{"kind": "SC+SC", "table": 185, "first_column": "12", "second_column": "0", "keywords": null, "own": [185], "forward": [185, 188], "reverse": [185]}
+{"kind": "SC+SC", "table": 102, "first_column": "5", "second_column": "20", "keywords": null, "own": [102], "forward": [102], "reverse": [102]}
+{"kind": "SC+SC", "table": 80, "first_column": "0", "second_column": "33", "keywords": null, "own": [62, 78, 79, 80, 81], "forward": [39, 62, 78, 79, 80, 81, 83, 84], "reverse": [40, 42, 43, 62, 78, 79, 80, 81]}
+{"kind": "SC+SC", "table": 3, "first_column": "6", "second_column": "8", "keywords": null, "own": [3, 111], "forward": [3, 111, 112], "reverse": [3, 111]}
+{"kind": "SC+SC", "table": 0, "first_column": "9", "second_column": "7", "keywords": null, "own": [0], "forward": [0], "reverse": [0]}
+{"kind": "SC+SC", "table": 30, "first_column": "26", "second_column": "3", "keywords": null, "own": [30], "forward": [30], "reverse": [30, 201, 202]}
+{"kind": "SC+SC", "table": 50, "first_column": "59", "second_column": "26", "keywords": null, "own": [], "forward": [26, 40], "reverse": [1, 2, 3]}
+{"kind": "SC+SC", "table": 71, "first_column": "3", "second_column": "2", "keywords": null, "own": [44, 69, 70, 71, 72], "forward": [44, 54, 69, 70, 71, 72], "reverse": [44, 62, 69, 70, 71, 72]}
+{"kind": "SC+SC", "table": 121, "first_column": "9", "second_column": "2", "keywords": null, "own": [104], "forward": [104], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "SC+SC", "table": 70, "first_column": "60", "second_column": "21", "keywords": null, "own": [], "forward": [54, 55, 69, 70, 71, 72], "reverse": [36, 37, 39]}
+{"kind": "SC+SC", "table": 65, "first_column": "16", "second_column": "46", "keywords": null, "own": [0, 1, 2, 3, 4], "forward": [0, 1, 2, 3, 4], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "SC+SC", "table": 29, "first_column": "12", "second_column": "16", "keywords": null, "own": [28, 29], "forward": [28, 29], "reverse": [28, 29]}
+{"kind": "SC+SC", "table": 4, "first_column": "10", "second_column": "20", "keywords": null, "own": [4, 5, 6, 7], "forward": [4, 5, 6, 7], "reverse": [4, 5, 6, 7]}
+{"kind": "SC+SC", "table": 80, "first_column": "50", "second_column": "13", "keywords": null, "own": [], "forward": [46], "reverse": [0, 1, 2]}
+{"kind": "SC+SC", "table": 191, "first_column": "88", "second_column": "54", "keywords": null, "own": [0, 1, 2, 3, 4], "forward": [0, 1, 2, 3, 4], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "SC+SC", "table": 96, "first_column": "7", "second_column": "25", "keywords": null, "own": [], "forward": [21, 26, 29, 30, 31], "reverse": [0, 1, 2, 3]}
+{"kind": "SC+SC", "table": 2, "first_column": "12", "second_column": "16", "keywords": null, "own": [2], "forward": [2], "reverse": [2]}
+{"kind": "SC+SC", "table": 85, "first_column": "18", "second_column": "6", "keywords": null, "own": [], "forward": [], "reverse": [73, 75, 76]}
+{"kind": "SC+SC", "table": 94, "first_column": "3", "second_column": "10", "keywords": null, "own": [], "forward": [], "reverse": [85, 92, 94, 95]}
+{"kind": "SC+SC", "table": 86, "first_column": "12", "second_column": "13", "keywords": null, "own": [83, 84, 86, 87, 88], "forward": [83, 84, 86, 87, 88], "reverse": [40, 83, 84, 86, 87, 88, 89, 90]}
+{"kind": "SC+SC", "table": 69, "first_column": "27", "second_column": "26", "keywords": null, "own": [], "forward": [0, 1, 2, 3], "reverse": [46]}
+{"kind": "SC+SC", "table": 101, "first_column": "24", "second_column": "12", "keywords": null, "own": [], "forward": [], "reverse": [101]}
+{"kind": "KW+SC", "table": 75, "first_column": "15", "second_column": "36", "keywords": ["1", "0", "0"], "own": [], "forward": [0, 1, 2, 3], "reverse": [20, 21, 22, 23, 24, 25, 26]}
+{"kind": "KW+SC", "table": 45, "first_column": "58", "second_column": "39", "keywords": ["2011", "2011", "2011"], "own": [], "forward": [31, 32, 33, 34, 35, 38, 39, 40], "reverse": [44, 45, 65, 66, 67]}
+{"kind": "KW+SC", "table": 84, "first_column": "43", "second_column": "57", "keywords": ["6", "54", "23"], "own": [38, 40, 42, 43, 44, 47], "forward": [38, 40, 42, 43, 44, 47, 49], "reverse": [33, 34, 35, 38, 40, 41, 42, 43, 44, 47]}
+{"kind": "KW+SC", "table": 123, "first_column": "22", "second_column": "18", "keywords": ["50000", "500000", "500000"], "own": [123, 124], "forward": [123, 124], "reverse": [123, 124]}
+{"kind": "KW+SC", "table": 29, "first_column": "5", "second_column": "3", "keywords": ["1063503", "961457", "1063982"], "own": [29], "forward": [29], "reverse": [29]}
+{"kind": "KW+SC", "table": 188, "first_column": "17", "second_column": "18", "keywords": ["london - watford (d.c lines)", "orbitals", "cardiff valleys"], "own": [188], "forward": [188], "reverse": [188]}
+{"kind": "KW+SC", "table": 16, "first_column": "55", "second_column": "13", "keywords": ["2010", "2010", "2010"], "own": [4, 5, 6, 7, 8], "forward": [4, 5, 6, 7, 8], "reverse": [4, 5, 6, 7, 8]}
+{"kind": "KW+SC", "table": 98, "first_column": "0", "second_column": "14", "keywords": ["5", "13", "15"], "own": [31], "forward": [31, 32], "reverse": [21, 26, 29, 30, 31]}
+{"kind": "KW+SC", "table": 74, "first_column": "21", "second_column": "22", "keywords": ["1.45299203562264", "1.58777710314967", "2.09457917769399"], "own": [52, 63, 74], "forward": [52, 63, 74], "reverse": [52, 63, 74]}
+{"kind": "KW+SC", "table": 66, "first_column": "42", "second_column": "53", "keywords": ["0", "4", "1"], "own": [], "forward": [26], "reverse": [2, 65, 66, 67, 68, 69, 70, 71, 72, 191]}
+{"kind": "KW+SC", "table": 91, "first_column": "21", "second_column": "16", "keywords": ["2", "0", "1"], "own": [0], "forward": [0, 21, 25], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "KW+SC", "table": 127, "first_column": "2", "second_column": "16", "keywords": ["west yorkshire", "kent", "greater london"], "own": [125, 126, 127, 128, 129, 130], "forward": [123, 124, 125, 126, 127, 128, 129, 130], "reverse": [125, 126, 127, 128, 129, 130]}
+{"kind": "KW+SC", "table": 159, "first_column": "17", "second_column": "14", "keywords": ["0.0167777459752173", "0.124339248467173", "0.0372227811970587"], "own": [158, 159], "forward": [158, 159], "reverse": [158, 159]}
+{"kind": "KW+SC", "table": 92, "first_column": "24", "second_column": "6", "keywords": ["center fielder", "center fielder", "pitcher"], "own": [92], "forward": [92], "reverse": [92]}
+{"kind": "KW+SC", "table": 37, "first_column": "55", "second_column": "58", "keywords": ["tre", "tre", "tre"], "own": [36, 37], "forward": [36, 37], "reverse": [36, 37]}
+{"kind": "KW+SC", "table": 127, "first_column": "22", "second_column": "3", "keywords": ["bradford", "london", "newhaven"], "own": [126, 127], "forward": [126, 127], "reverse": [126, 127]}
+{"kind": "KW+SC", "table": 2, "first_column": "18", "second_column": "6", "keywords": ["suite 110", "suite 110", "suite 110"], "own": [2], "forward": [2], "reverse": [2]}
+{"kind": "KW+SC", "table": 134, "first_column": "17", "second_column": "23", "keywords": ["107450", "211900", "249900"], "own": [134], "forward": [134], "reverse": [134]}
+{"kind": "KW+SC", "table": 149, "first_column": "4", "second_column": "80", "keywords": ["0", "0", "0"], "own": [0, 1, 2, 3, 4], "forward": [0, 1, 2, 3, 4], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "KW+SC", "table": 10, "first_column": "12", "second_column": "21", "keywords": ["veterans affairs, department of", "veterans affairs, department of", "veterans affairs, department of"], "own": [4, 5, 6, 7, 8], "forward": [4, 5, 6, 7, 8], "reverse": [4, 5, 6, 7, 8]}
+{"kind": "KW+SC", "table": 3, "first_column": "8", "second_column": "21", "keywords": ["27", "13", "11"], "own": [3], "forward": [3], "reverse": [2, 3, 18, 99, 100, 103, 104]}
+{"kind": "KW+SC", "table": 167, "first_column": "3", "second_column": "19", "keywords": ["50", "45", "35"], "own": [], "forward": [31], "reverse": []}
+{"kind": "KW+SC", "table": 19, "first_column": "5", "second_column": "3", "keywords": ["44229", "1445", "5444"], "own": [19], "forward": [19], "reverse": [19]}
+{"kind": "KW+SC", "table": 123, "first_column": "9", "second_column": "7", "keywords": ["n", "n", "n"], "own": [], "forward": [], "reverse": [123, 124, 131]}
+{"kind": "KW+SC", "table": 5, "first_column": "47", "second_column": "0", "keywords": ["3600", "3600", "3600"], "own": [4, 5], "forward": [4, 5, 6, 7], "reverse": [4, 5]}
+{"kind": "KW+SC", "table": 145, "first_column": "30", "second_column": "49", "keywords": ["preventa geografica", "preventa geografica", "preventa geografica"], "own": [145, 149, 150], "forward": [145, 149, 150], "reverse": [145, 149, 150]}
+{"kind": "KW+SC", "table": 77, "first_column": "7", "second_column": "14", "keywords": ["0.3496115427303", "0.348708894283823", "0.337519753805207"], "own": [77], "forward": [77], "reverse": [77]}
+{"kind": "KW+SC", "table": 85, "first_column": "1", "second_column": "22", "keywords": ["tim wheeler singles on a bunt ground ball to third baseman david flores.    tommy field to 3rd.    mike daniel to 2nd.", "eric sogard flies out to center fielder greg halman.", "ryan gennett out on a sacrifice bunt, catcher michael brenly to first baseman justin bour.    josh prince to 2nd."], "own": [85, 92], "forward": [85, 92], "reverse": [85, 92]}
+{"kind": "KW+SC", "table": 172, "first_column": "12", "second_column": "19", "keywords": ["1", "1", "1"], "own": [], "forward": [], "reverse": [172]}
+{"kind": "KW+SC", "table": 98, "first_column": "35", "second_column": "11", "keywords": ["-127", "-127", "-127"], "own": [31, 32], "forward": [31, 32], "reverse": [31, 32]}
+{"kind": "KW+SC", "table": 5, "first_column": "10", "second_column": "43", "keywords": ["60000", "182298", "30000"], "own": [4, 5, 6, 7, 8], "forward": [4, 5, 6, 7, 8], "reverse": [4, 5, 6, 7, 8]}
+{"kind": "KW+SC", "table": 26, "first_column": "29", "second_column": "24", "keywords": ["claireoctopus", "seahagsoaps", "emseri623"], "own": [26], "forward": [26], "reverse": [26]}
+{"kind": "KW+SC", "table": 200, "first_column": "4", "second_column": "22", "keywords": ["1990-09-13 00:00:00.000000", "1989-12-20 00:00:00.000000", "1990-06-04 00:00:00.000000"], "own": [], "forward": [200], "reverse": []}
+{"kind": "KW+SC", "table": 157, "first_column": "9", "second_column": "4", "keywords": ["sylviculture", "polyculture, elevage", "sylviculture"], "own": [], "forward": [152, 153, 155, 156, 157, 160, 163, 164], "reverse": []}
+{"kind": "KW+SC", "table": 99, "first_column": "7", "second_column": "17", "keywords": ["inj paravert f jnt c/t 1 lev", "inj paravert f jnt c/t 1 lev", "inj paravert f jnt c/t 1 lev"], "own": [99], "forward": [99], "reverse": [99]}
+{"kind": "KW+SC", "table": 9, "first_column": "54", "second_column": "31", "keywords": ["only my agency", "only my agency", "only my agency"], "own": [4], "forward": [4], "reverse": [4]}
+{"kind": "KW+SC", "table": 116, "first_column": "19", "second_column": "7", "keywords": ["ga", "ga", "ct"], "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "KW+SC", "table": 124, "first_column": "16", "second_column": "0", "keywords": ["detached", "detached", "semi-detached"], "own": [123, 124], "forward": [123, 124], "reverse": [123, 124]}
+{"kind": "KW+SC", "table": 58, "first_column": "13", "second_column": "53", "keywords": ["6", "11", "14"], "own": [], "forward": [31, 33, 34, 35, 36, 37, 39, 40], "reverse": [54, 55, 56, 57, 58, 59, 60, 62, 83, 84]}
+{"kind": "KW+SC", "table": 129, "first_column": "17", "second_column": "11", "keywords": ["a", "a", "a"], "own": [4, 5], "forward": [4, 5, 6, 7], "reverse": [4, 5]}
+{"kind": "KW+SC", "table": 21, "first_column": "14", "second_column": "32", "keywords": ["29", "28", "30"], "own": [], "forward": [21, 36], "reverse": [1, 3]}
+{"kind": "KW+SC", "table": 7, "first_column": "54", "second_column": "34", "keywords": ["only my agency", "only my agency", "only my agency"], "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "KW+SC", "table": 127, "first_column": "18", "second_column": "6", "keywords": ["t", "s", "t"], "own": [], "forward": [125, 126, 127, 128, 129, 130], "reverse": []}
+{"kind": "KW+SC", "table": 18, "first_column": "22", "second_column": "5", "keywords": ["1971-06-14", "1980-11-26", "1986-05-31"], "own": [18, 108, 193], "forward": [18, 108, 193], "reverse": [18, 108, 193]}
+{"kind": "KW+SC", "table": 89, "first_column": "29", "second_column": "1", "keywords": ["4", "4", "4"], "own": [], "forward": [0, 20, 26], "reverse": [47, 49, 51, 89, 90]}
+{"kind": "KW+SC", "table": 0, "first_column": "2", "second_column": "1", "keywords": ["2013-09-01 19:10:00.000000", "2013-09-01 19:20:00.000000", "2013-09-01 19:20:00.000000"], "own": [0], "forward": [0], "reverse": [0]}
+{"kind": "KW+SC", "table": 176, "first_column": "0", "second_column": "26", "keywords": ["1", "1", "1"], "own": [], "forward": [0, 1, 2, 3, 4], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "KW+SC", "table": 88, "first_column": "39", "second_column": "23", "keywords": ["0", "0", "0"], "own": [], "forward": [0, 1, 2, 3], "reverse": [83, 84, 86, 87, 88]}
+{"kind": "KW+SC", "table": 85, "first_column": "22", "second_column": "17", "keywords": ["spencer steedley", "mark hendrickson", "jake stevens"], "own": [], "forward": [85, 92], "reverse": []}
+{"kind": "KW+SC", "table": 47, "first_column": "42", "second_column": "13", "keywords": ["0", "7", "0"], "own": [], "forward": [1, 20, 31, 32], "reverse": [39, 47, 49, 51, 54, 55, 56]}
+{"kind": "KW+SC", "table": 40, "first_column": "30", "second_column": "60", "keywords": ["11", "7", "0"], "own": [39], "forward": [31, 32, 39], "reverse": [39, 40, 42, 43, 45, 78, 79, 80, 81]}
+{"kind": "KW+SC", "table": 80, "first_column": "8", "second_column": "37", "keywords": ["27", "36", "17"], "own": [], "forward": [36], "reverse": [26, 31]}
+{"kind": "KW+SC", "table": 95, "first_column": "20", "second_column": "28", "keywords": ["133.318744415242", "246.073159852919", "90.71764057458"], "own": [94, 95], "forward": [94, 95], "reverse": [94, 95]}
+{"kind": "KW+SC", "table": 100, "first_column": "10", "second_column": "3", "keywords": ["1962456889", "1902834922", "1255377446"], "own": [100, 103, 114, 120, 175, 182], "forward": [100, 103, 114, 120, 175, 182], "reverse": [100, 103, 114, 120, 175, 182]}
+{"kind": "KW+SC", "table": 76, "first_column": "40", "second_column": "32", "keywords": ["0", "18.2", "10"], "own": [], "forward": [38], "reverse": [20, 21, 22, 23, 24, 25, 26]}
+{"kind": "KW+SC", "table": 76, "first_column": "45", "second_column": "29", "keywords": ["0", "0", "0"], "own": [], "forward": [0, 1, 2, 3, 4], "reverse": [31, 32, 36, 37, 38, 39, 40, 42, 43]}
+{"kind": "KW+SC", "table": 161, "first_column": "3", "second_column": "45", "keywords": ["fabrication de composants et cartes \u00e9lectroniques", "fabrication dautres \u00e9quipements \u00e9lectriques", "fabrication dautres \u00e9quipements \u00e9lectriques"], "own": [154, 161, 162], "forward": [154, 161, 162], "reverse": [154, 161, 162]}
+{"kind": "KW+SC", "table": 104, "first_column": "0", "second_column": "20", "keywords": ["1", "1", "1"], "own": [], "forward": [3], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "KW+SC", "table": 95, "first_column": "17", "second_column": "22", "keywords": ["4", "4", "4"], "own": [], "forward": [], "reverse": [94, 95]}
+{"kind": "KW+SC", "table": 70, "first_column": "21", "second_column": "26", "keywords": ["1", "6", "0"], "own": [], "forward": [31, 32, 33, 34, 35, 36, 37], "reverse": [46, 69, 70, 71, 72, 83, 84, 86, 87, 88]}
+{"kind": "KW+SC", "table": 196, "first_column": "487", "second_column": "497", "keywords": ["1", "2", "4"], "own": [], "forward": [29, 30, 31, 32, 33, 34], "reverse": [36, 37, 38, 69, 70]}
+{"kind": "KW+SC", "table": 87, "first_column": "7", "second_column": "25", "keywords": ["13", "101", "135"], "own": [83, 84, 86, 87, 88], "forward": [83, 84, 86, 87, 88], "reverse": [54, 78, 79, 80, 81, 83, 84, 86, 87, 88]}
+{"kind": "KW+SC", "table": 123, "first_column": "6", "second_column": "14", "keywords": ["51.214126", "51.494949", "51.382206"], "own": [123, 124], "forward": [123, 124], "reverse": [123, 124]}
+{"kind": "KW+SC", "table": 158, "first_column": "35", "second_column": "0", "keywords": ["banque, assurance, immobilier", "banque, assurance, immobilier", "banque, assurance, immobilier"], "own": [158, 159], "forward": [158, 159], "reverse": [158, 159]}
+{"kind": "KW+SC", "table": 196, "first_column": "97", "second_column": "376", "keywords": ["0", "0", "0"], "own": [4, 5, 6], "forward": [4, 5, 6, 7, 8], "reverse": [4, 5, 6, 195, 196, 197]}
+{"kind": "KW+SC", "table": 180, "first_column": "6", "second_column": "22", "keywords": ["72050", "98941", "99213"], "own": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "forward": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174], "reverse": [104, 115, 116, 117, 118, 119, 121, 122, 173, 174]}
+{"kind": "KW+SC", "table": 69, "first_column": "13", "second_column": "0", "keywords": ["0", "0", "0"], "own": [], "forward": [0, 1, 2, 3], "reverse": [36, 37, 69, 70, 71, 72, 83, 190, 191, 192]}
+{"kind": "KW+SC", "table": 148, "first_column": "63", "second_column": "74", "keywords": ["0", "0", "0"], "own": [], "forward": [], "reverse": [142, 143, 144, 145, 146, 147, 148, 149, 150, 172]}
+{"kind": "KW+SC", "table": 72, "first_column": "31", "second_column": "18", "keywords": ["1", "0", "1"], "own": [], "forward": [0, 1, 2], "reverse": [65, 66, 67, 68, 69, 70, 71, 72, 83, 84]}
+{"kind": "KW+SC", "table": 78, "first_column": "48", "second_column": "22", "keywords": ["60.9", "36.7", "43.3"], "own": [47, 49, 51, 78, 79, 80, 81], "forward": [44, 47, 49, 51, 78, 79, 80, 81], "reverse": [47, 49, 51, 78, 79, 80, 81]}
+{"kind": "KW+SC", "table": 72, "first_column": "24", "second_column": "32", "keywords": ["10.5", "20", "17.2"], "own": [69, 70, 71, 72], "forward": [69, 70, 71, 72, 195], "reverse": [69, 70, 71, 72, 191, 192]}
+{"kind": "KW+SC", "table": 189, "first_column": "24", "second_column": "25", "keywords": ["0", "0", "-1"], "own": [], "forward": [4], "reverse": [189, 194, 195, 196, 197]}
+{"kind": "KW+SC", "table": 40, "first_column": "15", "second_column": "49", "keywords": ["0", "0", "0"], "own": [], "forward": [], "reverse": [33, 34, 35, 38, 40, 41, 42, 43, 44, 47]}
+{"kind": "KW+SC", "table": 151, "first_column": "5", "second_column": "10", "keywords": ["40.71153", "40.711561767503", "40.711561767503"], "own": [151], "forward": [151], "reverse": [151]}
+{"kind": "KW+SC", "table": 125, "first_column": "5", "second_column": "23", "keywords": ["hounslow", "redcar and cleveland", "redcar and cleveland"], "own": [125, 128, 129, 130], "forward": [125, 128, 129, 130], "reverse": [125, 128, 129, 130]}
+{"kind": "KW+SC", "table": 113, "first_column": "17", "second_column": "12", "keywords": ["indik", "yilma", "patibandla"], "own": [113], "forward": [113], "reverse": [113]}
+{"kind": "KW+SC", "table": 6, "first_column": "29", "second_column": "36", "keywords": ["0", "0", "0"], "own": [4, 5, 6, 7], "forward": [4, 5, 6, 7], "reverse": [4, 5, 6, 7]}
+{"kind": "KW+SC", "table": 175, "first_column": "5", "second_column": "3", "keywords": ["18", "17", "13"], "own": [], "forward": [], "reverse": [100, 103, 114, 120, 175, 182, 194, 195, 196]}
+{"kind": "KW+SC", "table": 10, "first_column": "15", "second_column": "44", "keywords": ["wa", "wi", "wi"], "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "KW+SC", "table": 186, "first_column": "15", "second_column": "12", "keywords": ["5", "17", "12"], "own": [], "forward": [], "reverse": [185, 186, 189]}
+{"kind": "KW+SC", "table": 26, "first_column": "20", "second_column": "21", "keywords": ["colleen h. kane", "emma serianni", "colleen h. kane"], "own": [], "forward": [26], "reverse": []}
+{"kind": "KW+SC", "table": 84, "first_column": "57", "second_column": "59", "keywords": ["atl", "atl", "atl"], "own": [33, 34, 35, 38, 40, 41, 42, 43, 44, 47], "forward": [33, 34, 35, 38, 40, 41, 42, 43, 44, 47], "reverse": [33, 34, 35, 38, 40, 41, 42, 43, 44, 47]}
+{"kind": "KW+SC", "table": 53, "first_column": "7", "second_column": "19", "keywords": ["63", "31.8", "26.8"], "own": [], "forward": [40, 42], "reverse": [31, 32, 33]}
+{"kind": "KW+SC", "table": 50, "first_column": "34", "second_column": "9", "keywords": ["0.167", "0.667", "0.556"], "own": [48, 50, 53], "forward": [36, 37, 39, 44, 48, 50, 53], "reverse": [48, 50, 53, 54, 55, 56, 57, 58, 59, 60]}
+{"kind": "KW+SC", "table": 8, "first_column": "21", "second_column": "45", "keywords": ["87990", "87990", "194870"], "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "KW+SC", "table": 14, "first_column": "51", "second_column": "45", "keywords": ["o", "o", "o"], "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "KW+SC", "table": 131, "first_column": "7", "second_column": "17", "keywords": ["52.3545081588943", "51.40863581", "51.40757617"], "own": [], "forward": [131], "reverse": []}
+{"kind": "KW+SC", "table": 13, "first_column": "45", "second_column": "49", "keywords": ["-1653001208", "-1653001208", "-1653004078"], "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "KW+SC", "table": 148, "first_column": "77", "second_column": "85", "keywords": ["0", "0", "0"], "own": [], "forward": [], "reverse": [148]}
+{"kind": "KW+SC", "table": 86, "first_column": "4", "second_column": "13", "keywords": ["0", "13", "27"], "own": [40], "forward": [33, 34, 35, 36, 37, 38, 40], "reverse": [40, 42, 44, 83, 84, 86, 87, 88, 89, 90]}
+{"kind": "KW+SC", "table": 89, "first_column": "0", "second_column": "42", "keywords": ["4", "3", "4"], "own": [], "forward": [25, 31, 32, 33, 34], "reverse": [38, 47, 48, 49, 89, 90]}
+{"kind": "KW+SC", "table": 201, "first_column": "20", "second_column": "28", "keywords": ["name", "name", "name"], "own": [], "forward": [201], "reverse": []}
+{"kind": "KW+SC", "table": 56, "first_column": "35", "second_column": "2", "keywords": ["0", "7", "1"], "own": [], "forward": [20, 22, 23, 24, 25, 26], "reverse": [38, 44, 46, 54, 55, 56, 57, 58, 59, 60]}
+{"kind": "KW+SC", "table": 81, "first_column": "46", "second_column": "61", "keywords": ["24", "19", "46"], "own": [], "forward": [36, 37, 39, 45, 54, 55], "reverse": [69, 78, 79, 80, 81, 194]}
+{"kind": "KW+SC", "table": 94, "first_column": "10", "second_column": "14", "keywords": ["single", "lineout", "single"], "own": [85, 92, 93, 94, 95], "forward": [85, 92, 93, 94, 95], "reverse": [85, 92, 93, 94, 95]}
+{"kind": "KW+SC", "table": 51, "first_column": "23", "second_column": "48", "keywords": ["0", "18.8", "25.8"], "own": [], "forward": [36], "reverse": [0, 1, 2, 3, 4]}
+{"kind": "KW+SC", "table": 98, "first_column": "23", "second_column": "36", "keywords": ["0", "0", "0"], "own": [], "forward": [0, 1, 2, 3, 4], "reverse": [31, 32, 36, 38, 46, 96, 97, 98]}
+{"kind": "KW+SC", "table": 78, "first_column": "17", "second_column": "1", "keywords": ["41.6", "47.6", "58.8"], "own": [36, 37, 78, 79, 80, 81], "forward": [36, 37, 78, 79, 80, 81], "reverse": [36, 37, 78, 79, 80, 81]}
+{"kind": "KW+SC", "table": 12, "first_column": "55", "second_column": "32", "keywords": ["2010", "2010", "2010"], "own": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "forward": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "reverse": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+{"kind": "KW+SC", "table": 30, "first_column": "10", "second_column": "15", "keywords": ["2000-11-04", "2000-11-04", "2000-11-04"], "own": [30], "forward": [30], "reverse": [30]}

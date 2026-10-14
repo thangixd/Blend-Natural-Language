@@ -1,0 +1,238 @@
+{
+  "created_utc": "2026-10-08T05-13-55Z",
+  "datasets": {
+    "public_bi": {
+      "lake": {
+        "name": "public_bi",
+        "index_code": "839789f7d865",
+        "built_utc": "2026-10-06T20:44:00.856416+00:00"
+      },
+      "tar_sha256": "69e62898bf2a27b363d7274402cec1eed899d29b8831bf040afc104f2d17a239",
+      "zip_sha256": "610bdae3e26d7689ead147bd3fddc69b30a5b082cf3ea84d4aa569e8f0397339",
+      "questions_sha256": "0209264275090a3b57f83816d9117e9abe795d1e8f2b72077f956fc21e5485db",
+      "build": {
+        "stages": {
+          "register": {
+            "seconds": 13.64366645552218,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "narrate": {
+            "seconds": 1177.5198772531003,
+            "embedding": 0.0,
+            "judge": 1164.4781260993332,
+            "embedding_calls": 0,
+            "judge_calls": 13341
+          },
+          "index": {
+            "seconds": 46.96005285717547,
+            "embedding": 28.74762330390513,
+            "judge": 0.0,
+            "embedding_calls": 1,
+            "judge_calls": 0
+          }
+        },
+        "storage": {
+          "bytes": {
+            "documents and tokens": 14745703,
+            "vectors and their index": 121896057,
+            "bookkeeping": 10223616,
+            "table copies": 52953088,
+            "other": 47984640
+          },
+          "inverted index": 0,
+          "total": 247803104
+        },
+        "window": [
+          1791318200.8715975,
+          1791319440.8116455
+        ],
+        "embedding_concurrency": 8,
+        "concurrent": false,
+        "narration_concurrency": 32
+      },
+      "shared_build": {
+        "stages": {
+          "register": {
+            "seconds": 9.322463426738977,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "import": {
+            "seconds": 2.1417490914463997,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "index": {
+            "seconds": 46.34691157378256,
+            "embedding": 28.670446701347828,
+            "judge": 0.0,
+            "embedding_calls": 1,
+            "judge_calls": 0
+          }
+        },
+        "storage": {
+          "bytes": {
+            "documents and tokens": 14741046,
+            "vectors and their index": 122530929,
+            "bookkeeping": 7864320,
+            "table copies": 52953088,
+            "other": 47984640
+          },
+          "inverted index": 0,
+          "total": 246074023
+        },
+        "window": [
+          1791319440.8764708,
+          1791319500.4523597
+        ],
+        "embedding_concurrency": 8
+      },
+      "shared_texts": {
+        "source": "data/indexes/public_bi/texts_blend.json",
+        "sha256": "b1efeb65f38439dde4641d5208e35c1cf1dd1d796373f0190cd9546e0d054f7e"
+      },
+      "status": "complete",
+      "provenance": {
+        "upstream": "https://github.com/TheDataStation/pneuma @ 8fd9f68a29d6e4ef8b3a5556dbbc2c2e316d2e3a",
+        "patches": [
+          "0001-registrar-metadata-insert.patch",
+          "0002-judge-prompt-type.patch",
+          "endpoint, Chroma batch, registrar and metadata connection patches: evaluation/nlseeker/pneuma_backend.py"
+        ],
+        "registration": "one DuckDB connection per table folder and per metadata file, not per table and per context (runtime patch): the same storage.db contents, but not upstream's registration and metadata times or checkpoints (file size)",
+        "hnsw": {
+          "hnsw:construction_ef": 100,
+          "hnsw:search_ef": 10,
+          "hnsw:M": 48,
+          "hnsw:random_seed": 42,
+          "hnsw:space": "cosine"
+        },
+        "row_sampling": "pandas DataFrame.sample(n=min(rows, 5), random_state=0)",
+        "query_tokens": "bm25s.tokenize(question, stopwords='en', stemmer=english)"
+      },
+      "shared_provenance": {
+        "upstream": "https://github.com/TheDataStation/pneuma @ 8fd9f68a29d6e4ef8b3a5556dbbc2c2e316d2e3a",
+        "patches": [
+          "0001-registrar-metadata-insert.patch",
+          "0002-judge-prompt-type.patch",
+          "endpoint, Chroma batch, registrar and metadata connection patches: evaluation/nlseeker/pneuma_backend.py"
+        ],
+        "registration": "one DuckDB connection per table folder and per metadata file, not per table and per context (runtime patch): the same storage.db contents, but not upstream's registration and metadata times or checkpoints (file size)",
+        "hnsw": {
+          "hnsw:construction_ef": 100,
+          "hnsw:search_ef": 10,
+          "hnsw:M": 48,
+          "hnsw:random_seed": 42,
+          "hnsw:space": "cosine"
+        },
+        "row_sampling": "pandas DataFrame.sample(n=min(rows, 5), random_state=0)",
+        "query_tokens": "bm25s.tokenize(question, stopwords='en', stemmer=english)"
+      },
+      "questions_window": [
+        1791436445.710426,
+        1791446468.8667011
+      ],
+      "duration_s": 10033.1,
+      "load_s": 10.0,
+      "run_s": 10023.2,
+      "manifest_sha256": "c32dfee81a3c11f936a0c28e61030ef99226b6fb81a8186ad19689dd4b4d4f4f"
+    }
+  },
+  "tolerance_sha256": "86388d1f8c254d7db8ad940df6260e5f3137c8ea93c87c63bced9892ba9b0868",
+  "backend": "pneuma",
+  "endpoints": {
+    "llm": {
+      "url": "http://127.0.0.1:8003/v1",
+      "gpu": "1",
+      "models": [
+        "Qwen2.5-7B-Instruct"
+      ]
+    },
+    "embedding": {
+      "url": "http://127.0.0.1:8006/v1",
+      "gpu": "2",
+      "models": [
+        "bge-base-en-v1.5"
+      ]
+    }
+  },
+  "condition": {
+    "parallel": true,
+    "cpus": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "layout": {
+    "blend": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "llm_gpu": "3",
+      "embedding_gpu": "5"
+    },
+    "pneuma": {
+      "cpus": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "llm_gpu": "1",
+      "embedding_gpu": "2"
+    }
+  },
+  "versions": {
+    "python": "3.12.12",
+    "duckdb": "1.5.6"
+  },
+  "config_sha256": "986aeb56a62f53b2ae24aa4c9d8d7fffa1a988c90fcc4b15e2a55304a069464e"
+}

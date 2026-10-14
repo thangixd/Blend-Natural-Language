@@ -1,0 +1,63 @@
+{
+ "run": "medium, profile off",
+ "lake": "chembl",
+ "folder": "data/Evaluation/Agent/chembl-medium-noprof",
+ "commit": "226a8006",
+ "server": "Qwen3.8-27B on lyra, vLLM v0.29.0-cu129, tensor parallel 2 on GPUs 5 and 6 (2x A100 40GB), :8012",
+ "sessions_at_once": 10,
+ "cases_with_result": 82,
+ "failed_rows": 0,
+ "cases_without_output": [],
+ "semantic_profile_at_load": {
+  "off": 191
+ },
+ "models": {
+  "Qwen3.8-27B": 883
+ },
+ "role_settings": [
+  {
+   "reasoning_effort": "medium",
+   "role": "decomposer",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 11000,
+   "steps": 170
+  },
+  {
+   "reasoning_effort": "medium",
+   "role": "filler",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 8000,
+   "steps": 250
+  },
+  {
+   "reasoning_effort": "medium",
+   "role": "router",
+   "temperature": 0.7,
+   "thinking": true,
+   "thinking_budget": 2000,
+   "steps": 148
+  },
+  {
+   "reasoning_effort": "medium",
+   "role": "template_filler",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 8000,
+   "steps": 128
+  },
+  {
+   "reasoning_effort": null,
+   "role": "chat",
+   "temperature": 0.7,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 187
+  }
+ ],
+ "samples": 2275,
+ "samples_with_error": 6,
+ "first_record": "2026-10-12T16:48:41.200846",
+ "last_record": "2026-10-12T18:26:37.850189"
+}

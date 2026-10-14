@@ -1,0 +1,22 @@
+{
+  "public_bi/artifacts/nlseeker.ini": {
+    "size": 2122,
+    "sha256": "f793205daed628ba6f14cfcfe10e237d86b857aec1172813feb63b9c3782040b"
+  },
+  "public_bi/documents.json": {
+    "size": 16849,
+    "sha256": "deefbc154c8a77286e2deb8069feabf43efd415bb1eb16d21abe4ef9404ca4dd"
+  },
+  "public_bi/documents_shared.json": {
+    "size": 16849,
+    "sha256": "656a5790e7a5f3de93b9dde6ea806ad6651adbaf792f0de801c74585d44a6750"
+  },
+  "public_bi/per_query.jsonl": {
+    "size": 86436618,
+    "sha256": "69fe44c1b6fa563a1a43077f23bd95a01eb1fd67e86d03fa25f874deefad741c"
+  },
+  "public_bi/texts.json": {
+    "size": 9789314,
+    "sha256": "a10484ccd69ec1aea7b75757a036b2a3f4802ebc33dcee63135404940771c804"
+  }
+}

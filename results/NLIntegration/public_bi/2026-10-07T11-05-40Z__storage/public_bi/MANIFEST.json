@@ -1,0 +1,10 @@
+{
+  "public_bi/provenance_storage_public_bi.json": {
+    "size": 8478,
+    "sha256": "893def365be99e4a8e86f5bae37516d544a13972c58ec3b28dc1856f27323555"
+  },
+  "public_bi/storage_public_bi.jsonl": {
+    "size": 817,
+    "sha256": "b5f8d3262048e1e45b9fef15cca9abead4b5903b75f4e5ec3e2f74d737b95400"
+  }
+}

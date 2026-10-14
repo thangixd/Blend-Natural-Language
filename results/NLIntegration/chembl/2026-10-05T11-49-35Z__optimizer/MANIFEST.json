@@ -1,0 +1,22 @@
+{
+  "chembl/MANIFEST.json": {
+    "size": 295,
+    "sha256": "2b5ef6585dd1dbcf1d7720c054a8833a11587391248d7b373c3c369343813864"
+  },
+  "chembl/optimizer_chembl.jsonl": {
+    "size": 35906,
+    "sha256": "8e4c92c5bd8a006b5169c88128c622a4f29298ff759ccac926b8676a99a60346"
+  },
+  "chembl/provenance_optimizer_chembl.json": {
+    "size": 8364,
+    "sha256": "b28fb97cb61b5922e6ced6af9fe869cd7212e9cb7e21288a399b451a5a902f6e"
+  },
+  "config.yaml": {
+    "size": 30,
+    "sha256": "3ba114026ec107253dd1deb3b9e57711ea31c7ec5d2a500dc7f1cf461c589967"
+  },
+  "run_meta.json": {
+    "size": 206,
+    "sha256": "b6996367e05a7a68b28318dac02fa4b1e97d0eeb09cb39e62522cc5c7f531f7f"
+  }
+}

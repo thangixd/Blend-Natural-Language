@@ -1,0 +1,18 @@
+{
+  "chicago_open/nl_runs_order_chicago_open.jsonl": {
+    "size": 3190859,
+    "sha256": "da73f50ad6d0a9655085b8c9a745ce039e0cd574a52f17587f4fd3da005ea157"
+  },
+  "chicago_open/order_chicago_open.jsonl": {
+    "size": 350377,
+    "sha256": "54837acae02ccab61d7a2bac2cedc8828435481b199870281032b68465578737"
+  },
+  "chicago_open/order_chicago_open.png": {
+    "size": 36818,
+    "sha256": "860fbc2c7eb46664d5d65003d02ca8523851140313b94fa0743b563402b822fa"
+  },
+  "chicago_open/provenance_order_chicago_open.json": {
+    "size": 8780,
+    "sha256": "ff12ec2f75e5b1da22b81a03be5eb0ca1a9d1365385f5d9c6362cdfd99bb3095"
+  }
+}

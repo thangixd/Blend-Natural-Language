@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-05T06-07-54Z",
+  "datasets": {
+    "chembl": {
+      "status": "complete",
+      "manifest_sha256": "fc4511d90ed68f58631d2a3365b31a83de599e8f031501f89109aafffe4bdf2a"
+    }
+  }
+}

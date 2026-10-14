@@ -1,0 +1,10 @@
+{
+  "fetaqa/provenance_storage_fetaqa.json": {
+    "size": 8378,
+    "sha256": "c4b6e4543bbc88b0558b79149bcfc21c472e733d3c1361c3e5d4cbca1896aa5b"
+  },
+  "fetaqa/storage_fetaqa.jsonl": {
+    "size": 835,
+    "sha256": "395fe46060bace810f661ef35dd37a0149bc413c47e83fbee7d03deacb721588"
+  }
+}

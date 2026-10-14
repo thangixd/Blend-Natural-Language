@@ -1,0 +1,10 @@
+{
+  "chicago_open/provenance_storage_chicago_open.json": {
+    "size": 8632,
+    "sha256": "10b47b002e983df4b4fc078ee222b2499e76bac78a7f42be31491b20024691d5"
+  },
+  "chicago_open/storage_chicago_open.jsonl": {
+    "size": 849,
+    "sha256": "ce8243e81b841ccc4d5a6a84ad4ea35411bf256702268d00a9d2451ed5c0be71"
+  }
+}

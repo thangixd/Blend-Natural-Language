@@ -1,0 +1,10 @@
+{
+  "chembl/profile_chembl.jsonl": {
+    "size": 266,
+    "sha256": "2c401b5d67d353370ab2286a0089bfca2c6a332a1ccf7913233c856935438352"
+  },
+  "chembl/provenance_profile_chembl.json": {
+    "size": 8323,
+    "sha256": "6e140cee4b3a04b4f04ae67830b94d2ec4e8a939e82a61b461e826603ddd0903"
+  }
+}

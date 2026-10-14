@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-06T14-18-20Z",
+  "datasets": {
+    "chicago_open": {
+      "status": "complete",
+      "manifest_sha256": "022188eb51fb8ccc4d0fe4158cb0102ef8fcbc7da467513b7953ff7d35da79de"
+    }
+  }
+}

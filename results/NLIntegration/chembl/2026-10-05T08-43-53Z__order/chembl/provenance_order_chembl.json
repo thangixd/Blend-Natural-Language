@@ -1,0 +1,198 @@
+{
+  "experiment": "order",
+  "started_utc": "2026-10-05T08:43:54.365119+00:00",
+  "command": "/app/benchmarks/nl_integration/order.py --lake chembl",
+  "args": {
+    "seed": "0",
+    "fake_endpoints": "False",
+    "questions": "100",
+    "k": "10",
+    "inner_k": "100",
+    "nl_inner_k": "50",
+    "rerank": "1",
+    "containment": "0.9",
+    "min_values": "10",
+    "lake": "chembl",
+    "results": "/app/data/Evaluation/NLIntegration",
+    "resume": "None",
+    "min_free_gb": "5.0",
+    "out": "/app/data/Evaluation/NLIntegration/2026-10-05T08-43-53Z__order.partial/chembl"
+  },
+  "git_commit": null,
+  "git_status_measured_code": null,
+  "lake_ini": "config/chembl.ini",
+  "db_path": "[(21243, 'chembl', '/app/data/indexes/chembl.db')]",
+  "nl": {
+    "index_name": "chembl",
+    "schema": "nl_chembl",
+    "llm_base_url": "http://127.0.0.1:8001/v1",
+    "llm_model": "Qwen2.5-7B-Instruct",
+    "llm_temperature": 0.0,
+    "llm_max_new_tokens": 512,
+    "llm_context_length": 32768,
+    "llm_concurrency": 1,
+    "llm_retry_attempts": 5,
+    "llm_tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+    "embedding_base_url": "http://127.0.0.1:8002/v1",
+    "embedding_model": "bge-base-en-v1.5",
+    "embedding_max_tokens": 512,
+    "embedding_batch_size": 256,
+    "embedding_tokenizer": "BAAI/bge-base-en-v1.5",
+    "alpha": 0.5,
+    "n": 5
+  },
+  "index_code": "ba93ec80e761",
+  "index_manifest": {
+    "data/indexes/chembl.db": {
+      "size": 390868992,
+      "sha256": "34f0fa15d8e52b108c286e069586e0dc7365a80ac99cf14f7b1355d5f28e69ff"
+    },
+    "data/indexes/chembl/blend.ini": {
+      "size": 2136,
+      "sha256": "634529ff85c0bfbf2e476e4c4125ffc879c1b85229eab1f457fc970f98aa1daf"
+    },
+    "data/indexes/chembl/build_blend.json": {
+      "size": 2893,
+      "sha256": "aa04d0b318b28fcfec7ca1b4ef2ec79fad97e45a8717378b9e7fdc492d5cf153"
+    },
+    "data/indexes/chembl/build_pneuma.json": {
+      "size": 3683,
+      "sha256": "c427c839da1bb3f02da32c43d90388d10696a6e3ec37a42d12c0a23176a26a1b"
+    },
+    "data/indexes/chembl/metadata.csv": {
+      "size": 1901959,
+      "sha256": "447c2afa76252074a5c6546dd4eecac84da69e0b3768e6fdeae197763c1dcae9"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 2275755,
+      "sha256": "243c3ff4360878c7645aa061efa32333f9a4beeab9897ff9c5359aaf70699255"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 8934,
+      "sha256": "983846ed1b740722c754c8729d3ea5f789114d2b690e4c61a57af539571b08fb"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 418448,
+      "sha256": "8454cbb55b2a7841f7b11a94c3a6c9d110ec977e4d0b954b0c042d9cac15caf2"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 418448,
+      "sha256": "2486e7a12ae1dbe37c8463eaaa76aea1dc78ee0bc3e90094939653cd5c236432"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 19308,
+      "sha256": "9fe42299598fc271f4f710720c062c466299197fe9f7e798aab6a7cc5a5cbc73"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/params.index.json": {
+      "size": 199,
+      "sha256": "39bac6128d33092240603241cea172af4a00f34f5f955eebf162290cfdf036d3"
+    },
+    "data/indexes/chembl/pneuma/indexes/fulltext/parity/vocab.index.json": {
+      "size": 84168,
+      "sha256": "2961b72b1ff2b6de061dc48207b6f69d8deec850833049dfe75a943de23d1f5e"
+    },
+    "data/indexes/chembl/pneuma/indexes/vector/chroma.sqlite3": {
+      "size": 23003136,
+      "sha256": "7a6d023285845edcabe146c2a48289083ba05fbfa07e7fffbda284b523e1d193"
+    },
+    "data/indexes/chembl/pneuma/indexes/vector/d82bb8fd-aa4b-4336-8549-b716fab2b1f6/data_level0.bin": {
+      "size": 3468000,
+      "sha256": "e70940f4488fa81a2d81973bf4550d76b086fc1fa9c48600a1fb4484f28704b2"
+    },
+    "data/indexes/chembl/pneuma/indexes/vector/d82bb8fd-aa4b-4336-8549-b716fab2b1f6/header.bin": {
+      "size": 100,
+      "sha256": "c04f9921b6b16f3abf1ecbd80112e255a50131975a45f2ff31dc576599da548b"
+    },
+    "data/indexes/chembl/pneuma/indexes/vector/d82bb8fd-aa4b-4336-8549-b716fab2b1f6/index_metadata.pickle": {
+      "size": 122661,
+      "sha256": "401c432e5c0aaa3fb558effd39f184cb3a2ed507395779c1d9a1e2ccd1754c98"
+    },
+    "data/indexes/chembl/pneuma/indexes/vector/d82bb8fd-aa4b-4336-8549-b716fab2b1f6/length.bin": {
+      "size": 4000,
+      "sha256": "547996b766541ca675aee87f6b9ef87b023a91b543183d53b6d5c09d321cae13"
+    },
+    "data/indexes/chembl/pneuma/indexes/vector/d82bb8fd-aa4b-4336-8549-b716fab2b1f6/link_lists.bin": {
+      "size": 8704,
+      "sha256": "32b6e493b8a0f0900fd5ea5f8b526d0769babc89233adee4617aefc42555b06f"
+    },
+    "data/indexes/chembl/pneuma/metadata.csv": {
+      "size": 1973613,
+      "sha256": "63abbb076e9f98f463b3ce0048b04db88ca2b925ba0893429c8d23d21182363a"
+    },
+    "data/indexes/chembl/pneuma/storage.db": {
+      "size": 91500544,
+      "sha256": "31bf20447ae0cf78077e6e22d4e19ddb033c45b6ec6e4d4bc03354c32bea3658"
+    },
+    "data/indexes/chembl/pneuma.ini": {
+      "size": 2136,
+      "sha256": "f832e646b9a47739b5df9197573724e17460d173fa8f26f4b588423ab4124010"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 2272565,
+      "sha256": "d86f415b99c1499f109453861a147db3a805e263debb5fdcd69555ddd9d84843"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 8951,
+      "sha256": "a6f27e610e332b9b91e34f0f5c32c81ef20958ef8b150cd4bbae76b7268c5588"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 418372,
+      "sha256": "2938d89254e9a3781508566dfb9cf20d65e58e799528ae194dfde4585ee3e0a4"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 418372,
+      "sha256": "a8f115711bcd7f2d594288d2cc6fd92a3edfaf135decd2b49ecf229775d0b325"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 19316,
+      "sha256": "0e8427d247b855521fe747f68ce03e25e22d32f5229c301535515c541eb22ced"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/params.index.json": {
+      "size": 199,
+      "sha256": "509273b0a24e9ac5b00e473349ebe4e33d7062eb1fc3b49f3de9368c60faef62"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/fulltext/parity/vocab.index.json": {
+      "size": 83529,
+      "sha256": "48aeb08ff2553b2198763cefa9c62664da99d2a2fc19b61102e587057a51399d"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/vector/chroma.sqlite3": {
+      "size": 22970368,
+      "sha256": "61b0d5ea90456a646db25f24ba37ec9c68239a92635ee55779891945de89f6a0"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/vector/ea99ae96-f553-4c90-a76b-a8589069be1d/data_level0.bin": {
+      "size": 3468000,
+      "sha256": "5bc2b770927eebce76ce786b3def67291225124b32212d75f70f7c29a92e05e9"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/vector/ea99ae96-f553-4c90-a76b-a8589069be1d/header.bin": {
+      "size": 100,
+      "sha256": "e64f6e74477c31020a34f294a33b64676061adb188e35c0fe123b29c40e12e0c"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/vector/ea99ae96-f553-4c90-a76b-a8589069be1d/index_metadata.pickle": {
+      "size": 122668,
+      "sha256": "806b778dc1c00a2cc597822e3159c335a2e1bc88ae3e4192d9ddad6483336447"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/vector/ea99ae96-f553-4c90-a76b-a8589069be1d/length.bin": {
+      "size": 4000,
+      "sha256": "c979b7fcf3086bcac8e74124a3c2b068c539098443ad1f5aff09e9defaf3cdba"
+    },
+    "data/indexes/chembl/pneuma_shared/indexes/vector/ea99ae96-f553-4c90-a76b-a8589069be1d/link_lists.bin": {
+      "size": 8704,
+      "sha256": "81d9bd68c3de0edae3784d9f459ac0f2d751a651af0280d88834fbcf0fca232e"
+    },
+    "data/indexes/chembl/pneuma_shared/storage.db": {
+      "size": 90714112,
+      "sha256": "18358b4a37a8017575bfb17b1a4c2a6bed81f5a8f83c863a579ed326f1861fa6"
+    },
+    "data/indexes/chembl/texts_blend.json": {
+      "size": 2132313,
+      "sha256": "405f3429147817349b8940cd6b640e03dda58d16e62e713f9eb4472bc7614cc3"
+    },
+    "data/indexes/chembl/texts_pneuma.json": {
+      "size": 2135783,
+      "sha256": "7efc58220d570eb6de8dc2be3e1d90e7110e1e14bfd17b2c2faaeb5d7240033f"
+    }
+  },
+  "python": "3.12.12",
+  "duckdb": "1.5.5",
+  "machine": "Linux-6.1.0-34-amd64-x86_64-with-glibc2.41"
+}

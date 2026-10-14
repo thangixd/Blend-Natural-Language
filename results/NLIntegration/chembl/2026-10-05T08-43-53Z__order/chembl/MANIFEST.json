@@ -1,0 +1,18 @@
+{
+  "chembl/nl_runs_order_chembl.jsonl": {
+    "size": 2877208,
+    "sha256": "99eb13b29d7d177f2424c9efe209550a35c21ed89f609df9f096b4bfb226d5dd"
+  },
+  "chembl/order_chembl.jsonl": {
+    "size": 194837,
+    "sha256": "baf0aee7e966d01759afb9fd8e1e71a04db76427fa9a2201b9bb8b0b3bf691ad"
+  },
+  "chembl/order_chembl.png": {
+    "size": 36234,
+    "sha256": "64daf2f6983ae9aec65423b896e7eaabaf4f71b743111cfae9f996703c992ddd"
+  },
+  "chembl/provenance_order_chembl.json": {
+    "size": 8471,
+    "sha256": "a96c6d72256f083faa516e2f2ce3422402f53ec83a6b0e76905cd53bbac4e18a"
+  }
+}

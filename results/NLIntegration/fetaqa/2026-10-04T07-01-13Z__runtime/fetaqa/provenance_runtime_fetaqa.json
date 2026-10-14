@@ -1,0 +1,197 @@
+{
+  "experiment": "runtime",
+  "started_utc": "2026-10-04T07:01:31.899482+00:00",
+  "command": "/app/benchmarks/nl_integration/runtime.py --lake fetaqa",
+  "args": {
+    "seed": "0",
+    "fake_endpoints": "False",
+    "inputs": "200",
+    "questions": "100",
+    "repeats": "3",
+    "k": "[5, 10, 20]",
+    "n": "[3, 5, 10]",
+    "prefix_cache": "False",
+    "lake": "fetaqa",
+    "results": "/app/data/Evaluation/NLIntegration",
+    "resume": "None",
+    "min_free_gb": "5.0",
+    "out": "/app/data/Evaluation/NLIntegration/2026-10-04T07-01-13Z__runtime.partial/fetaqa"
+  },
+  "git_commit": null,
+  "git_status_measured_code": null,
+  "lake_ini": "config/fetaqa.ini",
+  "db_path": "[(82755, 'fetaqa', '/app/data/indexes/fetaqa.db')]",
+  "nl": {
+    "index_name": "fetaqa",
+    "schema": "nl_fetaqa",
+    "llm_base_url": "http://127.0.0.1:8001/v1",
+    "llm_model": "Qwen2.5-7B-Instruct",
+    "llm_temperature": 0.0,
+    "llm_max_new_tokens": 512,
+    "llm_context_length": 32768,
+    "llm_concurrency": 1,
+    "llm_retry_attempts": 5,
+    "llm_tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+    "embedding_base_url": "http://127.0.0.1:8002/v1",
+    "embedding_model": "bge-base-en-v1.5",
+    "embedding_max_tokens": 512,
+    "embedding_batch_size": 256,
+    "embedding_tokenizer": "BAAI/bge-base-en-v1.5",
+    "alpha": 0.5,
+    "n": 5
+  },
+  "index_code": "2d07d4a38fce",
+  "index_manifest": {
+    "data/indexes/fetaqa.db": {
+      "size": 4531171328,
+      "sha256": "a6dad4d820e2db4db2ab86405a664351368f07fa944099e459da3670613ea54a"
+    },
+    "data/indexes/fetaqa/blend.ini": {
+      "size": 2110,
+      "sha256": "d3d30202c7b1321b49a345990f714e44388e4d4b8e27dbe4683f4d7b5a5aeb6e"
+    },
+    "data/indexes/fetaqa/build_blend.json": {
+      "size": 2841,
+      "sha256": "ae35b3ee85a1433bbd7067e157bb9ff39418ccb359b4805535f78c92666c35c5"
+    },
+    "data/indexes/fetaqa/build_pneuma.json": {
+      "size": 3712,
+      "sha256": "a1cc5a12cc702475f6f728754190a0e38747d5995a4ec6345e4bfeaadd4be224"
+    },
+    "data/indexes/fetaqa/metadata.csv": {
+      "size": 224085605,
+      "sha256": "0d13f5e5d930a53fabc1dae19c8830f46d959148d2b8f73470fb2dc1bc237db5"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 260138091,
+      "sha256": "8880cae88d5dac672df811f197cf3c0738041aab6b52bf56060095967daf40c2"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 1287792,
+      "sha256": "116d5a9afba8a00c5a0064752cd62ed205eadc53139c9f1adb12c1cb8b342fe6"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 48041800,
+      "sha256": "10ab7357669cb9f3dbf91803de7f3f57d2bc21ce67227511bde65da45107ded2"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 48041800,
+      "sha256": "115669e121816808c5ad8a610e079092bffaacace5b00f3f356456e9b71441d7"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 206916,
+      "sha256": "5fd4970e6996b85431eccded8bab120b0ffe23fc9f252f49a7dc6e51075779bc"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/params.index.json": {
+      "size": 201,
+      "sha256": "7d9819fa3fb87e4bbb50c94cf923ae1e2cf42479268acfe89edac6a89d8bd2a4"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/fulltext/parity/vocab.index.json": {
+      "size": 905013,
+      "sha256": "af0d68b6906119dc3cba96862c8743140eee4d10638a4c2a018a12e9c76e86a3"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/vector/2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/data_level0.bin": {
+      "size": 419628000,
+      "sha256": "a9cc7658f0d7c5ac16ec848189b29e6ad6764c079e380867430a59d437060c31"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/vector/2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/header.bin": {
+      "size": 100,
+      "sha256": "bbc75c9db51a0b4ce7e494424399605753d2d5e1796153bee57dfa26320506b6"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/vector/2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/index_metadata.pickle": {
+      "size": 17931331,
+      "sha256": "faaa2b9fe436cceece565729b99a9139c94f46970f315868658e9b3f504ec852"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/vector/2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/length.bin": {
+      "size": 484000,
+      "sha256": "1c8fdd9a81150b453c802eea423ac6022211285e776319c24a341c79f4729337"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/vector/2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/link_lists.bin": {
+      "size": 996540,
+      "sha256": "5a63ca2654f22e1b1474458cf8b73dab90134092576a1e6cee850a6a8ae32235"
+    },
+    "data/indexes/fetaqa/pneuma/indexes/vector/chroma.sqlite3": {
+      "size": 2012622848,
+      "sha256": "a2e37333b0741eda46dc41ddf89e5a8c540b746e6231beb8f51789d69fe1a783"
+    },
+    "data/indexes/fetaqa/pneuma/metadata.csv": {
+      "size": 234639026,
+      "sha256": "edc203d4a81b5121fdab7ca83ada0f15ee51c02848ad2abf0981743d7fbc8968"
+    },
+    "data/indexes/fetaqa/pneuma/storage.db": {
+      "size": 3146002432,
+      "sha256": "ff691c8ed9779742da78c3f48813aced8e30bf3a0963d3ab39613456fb26acc7"
+    },
+    "data/indexes/fetaqa/pneuma.ini": {
+      "size": 2137,
+      "sha256": "ec526e73020e12712c15f94e3bf3018a6c33b83e41bfcc67bb77192a5809bc6e"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 260039459,
+      "sha256": "7d162433daa3935924dad06e79ab2af62d679b76f8e6b2e81921d192398f4ed0"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 1287424,
+      "sha256": "ebe710fb55885e785683d166fb0e2dace37a3e429067723a679f8029a3b0f428"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 48023188,
+      "sha256": "f842d3bbfd51622bc48cd1be27489aca8aaf4cdabf7511b7b1e61fd6b3c27aec"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 48023188,
+      "sha256": "9aa263905433a28da07b08a42c2e7d501ec484c72de3c59fec99728e207cacdd"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 204860,
+      "sha256": "da9e35bd383fda74c7fa1694a5790224b3b5d1ac74d909dcbda7e8ea405c3879"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/params.index.json": {
+      "size": 201,
+      "sha256": "a6d542b2fde09be7092ed7f12d3346ff171b1e3817945171aceb1c2e307e2cf3"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/fulltext/parity/vocab.index.json": {
+      "size": 894189,
+      "sha256": "51938afefd027189de5c26880e8fa093482741c28304d86d8c0ffda34d401c4d"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/vector/ab62a5a8-3481-48e3-a8f6-a58cd5f595c0/data_level0.bin": {
+      "size": 419628000,
+      "sha256": "32fe964ef442ef252439874130f045ffc695aedc1e367a8f648cc28ee95f47d2"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/vector/ab62a5a8-3481-48e3-a8f6-a58cd5f595c0/header.bin": {
+      "size": 100,
+      "sha256": "bbc75c9db51a0b4ce7e494424399605753d2d5e1796153bee57dfa26320506b6"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/vector/ab62a5a8-3481-48e3-a8f6-a58cd5f595c0/index_metadata.pickle": {
+      "size": 17931876,
+      "sha256": "739b4100a837a173dad813f2576132e19d297006a783a55f6ebd91e3a6fa28e8"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/vector/ab62a5a8-3481-48e3-a8f6-a58cd5f595c0/length.bin": {
+      "size": 484000,
+      "sha256": "cbd77a67a47648f341861ec231c100731e1a8fceb572c5be64efa8052306303f"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/vector/ab62a5a8-3481-48e3-a8f6-a58cd5f595c0/link_lists.bin": {
+      "size": 996540,
+      "sha256": "40d196a80778dd036d438cb7ff04e4b01ff6dbf12758f5ad39d40eeeb7cef3d6"
+    },
+    "data/indexes/fetaqa/pneuma_shared/indexes/vector/chroma.sqlite3": {
+      "size": 2011713536,
+      "sha256": "1503b3fbe56344f748f26e2dde86e8781fb1b3d5c788cc21d5cd25a77e1aa5f0"
+    },
+    "data/indexes/fetaqa/pneuma_shared/storage.db": {
+      "size": 3165138944,
+      "sha256": "356c8e4aedb5eb9bcc48c842f4856e01a63338a4b7cb68ebe1a3221ea5de6ff1"
+    },
+    "data/indexes/fetaqa/texts_blend.json": {
+      "size": 241610788,
+      "sha256": "1ca9065bafca1207ae4d428976865380ec245cf4ce4e99b7dfe80f7c58e144ee"
+    },
+    "data/indexes/fetaqa/texts_pneuma.json": {
+      "size": 241704604,
+      "sha256": "50d44422c162e96c7272c6cb01e5abca86629dc5cad14fa70b36a20d075f09ef"
+    }
+  },
+  "python": "3.12.12",
+  "duckdb": "1.5.5",
+  "machine": "Linux-6.1.0-34-amd64-x86_64-with-glibc2.41"
+}

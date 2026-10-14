@@ -1,0 +1,226 @@
+{
+ "ties": {
+  "BC1 k=1": {
+   "tie": 1
+  },
+  "BC1 k=5": {
+   "tie": 27
+  },
+  "BC2 k=5": {
+   "tie": 14
+  },
+  "BX1 k=1": {
+   "tie": 9
+  },
+  "BX1 k=5": {
+   "tie": 14
+  },
+  "BX2 k=5": {
+   "tie": 17
+  }
+ },
+ "vector": {
+  "BC1 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.7884,
+   "recall_outside_candidates": 0.73989898989899,
+   "seeker_hit": 0.442,
+   "pneuma_hit": 0.45,
+   "pneuma_hit_without_candidates": 0.444,
+   "empty_without_candidates": 3,
+   "nearest_answer": 442,
+   "missed_answer": 39,
+   "first_is_answer_after_missed_answer": 0.46153846153846156,
+   "nearest_answer_outside_candidates": 173,
+   "missed_answer_outside_candidates": 39,
+   "nearest_other": 558,
+   "missed_other": 132,
+   "first_is_answer_after_missed_other": 0.2196969696969697,
+   "nearest_other_outside_candidates": 492,
+   "missed_other_outside_candidates": 132,
+   "duckdb_hnsw_recall": 0.6946,
+   "short_keyword_lists": 0
+  },
+  "BC1 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.8689600000000001,
+   "recall_outside_candidates": 0.8359611412251394,
+   "seeker_hit": 0.635,
+   "pneuma_hit": 0.63,
+   "pneuma_hit_without_candidates": 0.629,
+   "empty_without_candidates": 0,
+   "nearest_answer": 442,
+   "missed_answer": 17,
+   "first_is_answer_after_missed_answer": 0.17647058823529413,
+   "nearest_answer_outside_candidates": 100,
+   "missed_answer_outside_candidates": 17,
+   "nearest_other": 558,
+   "missed_other": 59,
+   "first_is_answer_after_missed_other": 0.2033898305084746,
+   "nearest_other_outside_candidates": 415,
+   "missed_other_outside_candidates": 59,
+   "duckdb_hnsw_recall": 0.79488,
+   "short_keyword_lists": 0
+  },
+  "BC2 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.7724,
+   "recall_outside_candidates": 0.7265128719491809,
+   "seeker_hit": 0.43,
+   "pneuma_hit": 0.435,
+   "pneuma_hit_without_candidates": 0.431,
+   "empty_without_candidates": 5,
+   "nearest_answer": 430,
+   "missed_answer": 43,
+   "first_is_answer_after_missed_answer": 0.46511627906976744,
+   "nearest_answer_outside_candidates": 192,
+   "missed_answer_outside_candidates": 43,
+   "nearest_other": 570,
+   "missed_other": 149,
+   "first_is_answer_after_missed_other": 0.18791946308724833,
+   "nearest_other_outside_candidates": 502,
+   "missed_other_outside_candidates": 149,
+   "duckdb_hnsw_recall": 0.6572,
+   "short_keyword_lists": 0
+  },
+  "BC2 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.85968,
+   "recall_outside_candidates": 0.8262964471158357,
+   "seeker_hit": 0.617,
+   "pneuma_hit": 0.619,
+   "pneuma_hit_without_candidates": 0.618,
+   "empty_without_candidates": 0,
+   "nearest_answer": 430,
+   "missed_answer": 12,
+   "first_is_answer_after_missed_answer": 0.3333333333333333,
+   "nearest_answer_outside_candidates": 96,
+   "missed_answer_outside_candidates": 12,
+   "nearest_other": 570,
+   "missed_other": 65,
+   "first_is_answer_after_missed_other": 0.18461538461538463,
+   "nearest_other_outside_candidates": 428,
+   "missed_other_outside_candidates": 65,
+   "duckdb_hnsw_recall": 0.78896,
+   "short_keyword_lists": 0
+  },
+  "BX1 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.7672,
+   "recall_outside_candidates": 0.7381095524382097,
+   "seeker_hit": 0.553,
+   "pneuma_hit": 0.539,
+   "pneuma_hit_without_candidates": 0.538,
+   "empty_without_candidates": 1,
+   "nearest_answer": 553,
+   "missed_answer": 121,
+   "first_is_answer_after_missed_answer": 0.7024793388429752,
+   "nearest_answer_outside_candidates": 401,
+   "missed_answer_outside_candidates": 120,
+   "nearest_other": 447,
+   "missed_other": 90,
+   "first_is_answer_after_missed_other": 0.24444444444444444,
+   "nearest_other_outside_candidates": 400,
+   "missed_other_outside_candidates": 90,
+   "duckdb_hnsw_recall": 0.6644,
+   "short_keyword_lists": 0
+  },
+  "BX1 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.8619199999999999,
+   "recall_outside_candidates": 0.8408927659645734,
+   "seeker_hit": 0.76,
+   "pneuma_hit": 0.757,
+   "pneuma_hit_without_candidates": 0.757,
+   "empty_without_candidates": 0,
+   "nearest_answer": 553,
+   "missed_answer": 52,
+   "first_is_answer_after_missed_answer": 0.6346153846153846,
+   "nearest_answer_outside_candidates": 319,
+   "missed_answer_outside_candidates": 52,
+   "nearest_other": 447,
+   "missed_other": 40,
+   "first_is_answer_after_missed_other": 0.2,
+   "nearest_other_outside_candidates": 328,
+   "missed_other_outside_candidates": 40,
+   "duckdb_hnsw_recall": 0.77376,
+   "short_keyword_lists": 0
+  },
+  "BX2 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.643,
+   "recall_outside_candidates": 0.6313166666666667,
+   "seeker_hit": 0.478,
+   "pneuma_hit": 0.468,
+   "pneuma_hit_without_candidates": 0.475,
+   "empty_without_candidates": 1,
+   "nearest_answer": 478,
+   "missed_answer": 144,
+   "first_is_answer_after_missed_answer": 0.6041666666666666,
+   "nearest_answer_outside_candidates": 440,
+   "missed_answer_outside_candidates": 144,
+   "nearest_other": 522,
+   "missed_other": 204,
+   "first_is_answer_after_missed_other": 0.23039215686274508,
+   "nearest_other_outside_candidates": 491,
+   "missed_other_outside_candidates": 204,
+   "duckdb_hnsw_recall": 0.565,
+   "short_keyword_lists": 0
+  },
+  "BX2 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.7754800000000001,
+   "recall_outside_candidates": 0.7619851937505144,
+   "seeker_hit": 0.718,
+   "pneuma_hit": 0.712,
+   "pneuma_hit_without_candidates": 0.712,
+   "empty_without_candidates": 0,
+   "nearest_answer": 478,
+   "missed_answer": 86,
+   "first_is_answer_after_missed_answer": 0.6627906976744186,
+   "nearest_answer_outside_candidates": 400,
+   "missed_answer_outside_candidates": 86,
+   "nearest_other": 522,
+   "missed_other": 107,
+   "first_is_answer_after_missed_other": 0.22429906542056074,
+   "nearest_other_outside_candidates": 451,
+   "missed_other_outside_candidates": 107,
+   "duckdb_hnsw_recall": 0.71004,
+   "short_keyword_lists": 0
+  }
+ },
+ "judge": {
+  "BC1 k=1": {
+   "different lists": 45,
+   "different documents": 43
+  },
+  "BC1 k=5": {
+   "different lists": 21,
+   "different documents": 20
+  },
+  "BC2 k=1": {
+   "different lists": 41,
+   "different documents": 40
+  },
+  "BC2 k=5": {
+   "different lists": 23,
+   "different documents": 21
+  },
+  "BX1 k=1": {
+   "different lists": 39,
+   "different documents": 39
+  },
+  "BX1 k=5": {
+   "different lists": 68,
+   "different documents": 66
+  },
+  "BX2 k=1": {
+   "different lists": 85,
+   "different documents": 85
+  },
+  "BX2 k=5": {
+   "different lists": 80,
+   "different documents": 79
+  }
+ }
+}

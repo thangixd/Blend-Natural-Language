@@ -1,0 +1,14 @@
+{
+  "public_bi/nl_runs_pushdown_public_bi.jsonl": {
+    "size": 13946123,
+    "sha256": "34492e1499b2f6bb7923f9268df3aaad8f33fbad2ec0194151bc10326c268173"
+  },
+  "public_bi/provenance_pushdown_public_bi.json": {
+    "size": 8592,
+    "sha256": "c9c66976bcf264a51ec357f64992e9fc2bd1743be2c4977916a45a2d1a0a6db7"
+  },
+  "public_bi/pushdown_public_bi.jsonl": {
+    "size": 94792,
+    "sha256": "9162686b9b3da806411583ac438d19a3de53fefa73a17624daee675b39b01379"
+  }
+}

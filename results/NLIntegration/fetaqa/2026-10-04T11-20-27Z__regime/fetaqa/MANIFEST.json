@@ -1,0 +1,18 @@
+{
+  "fetaqa/nl_runs_regime_fetaqa.jsonl": {
+    "size": 2810241,
+    "sha256": "2c2eb46144c478662e8c14a0c4516d116b11154ceea1468064c5b717c845982f"
+  },
+  "fetaqa/provenance_regime_fetaqa.json": {
+    "size": 8479,
+    "sha256": "72928cd4ecf20312b46c3ddeedce8a0bc2d90147ec81291b194a47b4c357fcf7"
+  },
+  "fetaqa/regime_fetaqa.jsonl": {
+    "size": 850803,
+    "sha256": "e9bd2efec7850ce9d08c108733679a77378153471fdd017eb06a012bfc53edac"
+  },
+  "fetaqa/regime_fetaqa.png": {
+    "size": 41095,
+    "sha256": "e53f5e7499d6bdae4b86891f5940bde891d2538ede5181b7f98b0d01759283cc"
+  }
+}

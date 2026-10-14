@@ -1,0 +1,38 @@
+{
+  "chicago_10K/MANIFEST.json": {
+    "size": 709,
+    "sha256": "ce536a5bf4c7943f8124838fbbe0155195dd0c2fa4c4a7e932fada33bdf38785"
+  },
+  "chicago_10K/artifacts/nlseeker.ini": {
+    "size": 2133,
+    "sha256": "6ffccecc6ef2632b779dd1f9b4e7a42d5cf4c4d3f8e5cbfc3bab323b48ab1f54"
+  },
+  "chicago_10K/documents.json": {
+    "size": 93690,
+    "sha256": "857a7d3b6b756a0986b448ecb3a2a3fb643316e01c7ce1bad2ad3756258ef30b"
+  },
+  "chicago_10K/nl_runs.jsonl": {
+    "size": 38091200,
+    "sha256": "13a16d396c4b1a569ff90abb1d64ee5c0133f1cdedae2f848a64922bafad18e9"
+  },
+  "chicago_10K/per_query.jsonl": {
+    "size": 86407699,
+    "sha256": "8fc9e61f4a67dc6b4701c41d2e810bcc4bbcfc52fccdf6b31b6b04ce40d66a71"
+  },
+  "chicago_10K/texts.json": {
+    "size": 42404739,
+    "sha256": "5c0191a69b97b13c1e036aa9dcf72723b9cc0c07d651ac0bcd8798a02ac6c68f"
+  },
+  "config.yaml": {
+    "size": 869,
+    "sha256": "3682b76f2223fba9123793a71958a07bdbc3493c9995bb66bc36c6f94a60332f"
+  },
+  "run_meta.json": {
+    "size": 3985,
+    "sha256": "ed670d8fd8e4bbd482e43dbac8991256359a009539c7c9cf78556c0c9a9261e8"
+  },
+  "summary.csv": {
+    "size": 4342,
+    "sha256": "0a0d21f2baa97599c93dbe96266946abda51c75a39a7d255bb7a3808714f5f33"
+  }
+}

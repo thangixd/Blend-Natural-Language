@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-08T05-13-29Z",
+  "datasets": {
+    "public_bi": {
+      "status": "complete",
+      "manifest_sha256": "7a566f2aecfbe85ed7fc7178a8e343497982e770c17281495460d74ec6a0bb61"
+    }
+  }
+}

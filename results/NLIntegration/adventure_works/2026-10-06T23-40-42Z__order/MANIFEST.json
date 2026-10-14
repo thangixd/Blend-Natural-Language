@@ -1,0 +1,30 @@
+{
+  "adventure_works/MANIFEST.json": {
+    "size": 644,
+    "sha256": "b265dddb83782d59102014c11d2210eeb75dae2e6433ea13852ccfb85e050f13"
+  },
+  "adventure_works/nl_runs_order_adventure_works.jsonl": {
+    "size": 3039368,
+    "sha256": "c896a68337626eeba7132135e273958ba790dcee2bc3e4b332c26bc08af42d02"
+  },
+  "adventure_works/order_adventure_works.jsonl": {
+    "size": 201735,
+    "sha256": "8be653d95f04d405c1905de05ae3f5a9fb4165653d2eb13ca37e2f6af341de67"
+  },
+  "adventure_works/order_adventure_works.png": {
+    "size": 37918,
+    "sha256": "1dac3cb33404fb754750eb36c8aaa2cd83550d206ed64863b7aebfb9ad31b926"
+  },
+  "adventure_works/provenance_order_adventure_works.json": {
+    "size": 8880,
+    "sha256": "c32eedf2390232856e81fcba600f9fcbecce656a57f6fca80c7386cd467355e3"
+  },
+  "config.yaml": {
+    "size": 39,
+    "sha256": "2ecef674fa8e573444be24deac976fc749a66ef77349d627804ce28d425a7d80"
+  },
+  "run_meta.json": {
+    "size": 215,
+    "sha256": "f21a7bb7b7eefb433a4301af1d7ac686a10c3a407268bf238bd5fca74d4b4845"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "adventure_works/MANIFEST.json": {
+    "size": 731,
+    "sha256": "63245edd1469001cfa67d9e687a1ade7ffc986497beebcaa43987defcbee503b"
+  },
+  "adventure_works/artifacts/nlseeker.ini": {
+    "size": 2146,
+    "sha256": "1f00eb97c86388aae8c06cb13741fdd806a9cbc1b3b0a7644fb445c8eebc6f33"
+  },
+  "adventure_works/documents.json": {
+    "size": 7704,
+    "sha256": "38bf30506ea506d3292cb8d2d1b60ebab436c233a01644df2e8e94a367c64b0b"
+  },
+  "adventure_works/documents_shared.json": {
+    "size": 7704,
+    "sha256": "2a1b666704355fa58c915c9b0551797022bcf087a7c2bd0cadefc385bed7e11c"
+  },
+  "adventure_works/per_query.jsonl": {
+    "size": 78679039,
+    "sha256": "f15ee397b1206699bcd444e305a30e75a1443995daebfebb1651b2fe56c73040"
+  },
+  "adventure_works/texts.json": {
+    "size": 3439917,
+    "sha256": "b36d11d986cc450fc6f58c8575f218717325227f7fa96726a6e9b621fdd98396"
+  },
+  "config.yaml": {
+    "size": 876,
+    "sha256": "7d5d72a60a9a5a22b048d389cfb28b4e981ab2ec5f0e7fe5777686e024170671"
+  },
+  "run_meta.json": {
+    "size": 6579,
+    "sha256": "c4e5e1fe7332dac40b68f6aa34fe41932173614f651967599630ca0f220b9581"
+  },
+  "summary.csv": {
+    "size": 4465,
+    "sha256": "530fbfdab0264f0ee1b0a9cb1c33909004b68ce405ce0734b7d9153de1acf8ba"
+  }
+}

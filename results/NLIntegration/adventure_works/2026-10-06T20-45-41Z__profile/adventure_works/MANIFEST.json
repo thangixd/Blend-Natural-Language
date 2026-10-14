@@ -1,0 +1,10 @@
+{
+  "adventure_works/profile_adventure_works.jsonl": {
+    "size": 263,
+    "sha256": "d079419391957950cf1e7ad0cd68527312b3d65776497aa0d73a8de6f97b3dd5"
+  },
+  "adventure_works/provenance_profile_adventure_works.json": {
+    "size": 8732,
+    "sha256": "69f48e32672df0eac092e0b14180a131342c0d8ad13b405be328013d8b3fdae4"
+  }
+}

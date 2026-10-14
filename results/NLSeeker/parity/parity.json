@@ -1,0 +1,9241 @@
+{
+ "backends": [
+  "blend",
+  "pneuma"
+ ],
+ "tolerance": {
+  "path": "/home/t/Documents/Masterthesis/Code/Blend/evaluation/nlseeker/parity_tolerance.yaml",
+  "sha256": "86388d1f8c254d7db8ad940df6260e5f3137c8ea93c87c63bced9892ba9b0868",
+  "status": "approved 2026-10-03",
+  "min_questions": 100,
+  "main": {
+   "max_hit_rate_drop": 0.02
+  },
+  "judge": {
+   "max_share": 0.01
+  },
+  "bm25": {
+   "max_differing_lists": 0
+  },
+  "vector": {
+   "max_hit_rate_drop": 0.01
+  }
+ },
+ "condition": {
+  "2026-10-04T12-47-19Z__parity-fetaqa-blend": {
+   "parallel": true,
+   "cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  "2026-10-04T12-47-19Z__parity-fetaqa-pneuma": {
+   "parallel": true,
+   "cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  "2026-10-05T11-50-00Z__parity-chembl-blend": {
+   "parallel": true,
+   "cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  "2026-10-05T11-50-00Z__parity-chembl-pneuma": {
+   "parallel": true,
+   "cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  "2026-10-06T00-54-29Z__parity-chicago_open-blend": {
+   "parallel": true,
+   "cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  "2026-10-06T00-54-30Z__parity-chicago_open-pneuma": {
+   "parallel": true,
+   "cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  "2026-10-07T04-40-55Z__parity-adventure_works-blend": {
+   "parallel": true,
+   "cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  "2026-10-07T04-40-55Z__parity-adventure_works-pneuma": {
+   "parallel": true,
+   "cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  "2026-10-08T05-13-55Z__parity-public_bi-blend": {
+   "parallel": true,
+   "cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  "2026-10-08T05-13-55Z__parity-public_bi-pneuma": {
+   "parallel": true,
+   "cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  }
+ },
+ "checks": [
+  {
+   "runs": [
+    "2026-10-04T12-47-19Z__parity-fetaqa-blend",
+    "2026-10-04T12-47-19Z__parity-fetaqa-pneuma"
+   ],
+   "unfinished_runs": [],
+   "shared_texts_from_another_run": [],
+   "shared_document_differences": [],
+   "bm25_identical": [
+    7572,
+    8000
+   ],
+   "bm25_differing": [
+    "fetaqa/0017062e-ac8f-499b-847d-2f1662dab36a",
+    "fetaqa/01247d1f-de47-4c4c-a9e9-e45d4282fcde",
+    "fetaqa/01f96d34-b585-4f3a-bb5b-b736345d27a2",
+    "fetaqa/065b0ef1-9904-4249-9e48-13cd4a44dbde",
+    "fetaqa/0f0f9770-8983-422d-98c2-8d7b942e82d4",
+    "fetaqa/132eb7a6-a3f8-41b6-8b0f-ea0c5f941f2b",
+    "fetaqa/1e8fa912-6084-4353-b792-be91000ff3f9",
+    "fetaqa/2254970b-d626-4f2c-a041-69269c021040",
+    "fetaqa/257a0f2e-6932-42ab-baf7-80c942162a39",
+    "fetaqa/2817ee1b-a0a4-4a10-a65f-7763278f2a71",
+    "fetaqa/2a3a0776-d8c3-4ffc-bbd9-f88bb7d62d34",
+    "fetaqa/2cfd3d21-3444-4d36-929e-b4e2b8bb3b6c",
+    "fetaqa/34fd35d0-95cd-4988-9f90-f9f339fc05fa",
+    "fetaqa/352c8d91-fcdf-497c-a869-3085b6bbf254",
+    "fetaqa/3646160b-3602-455d-bc23-95cd30dabc3c",
+    "fetaqa/383e2155-ca77-48ff-8f6d-ffc01b937ef6",
+    "fetaqa/39723db0-fecf-46fd-ace7-9f3ef6f2b23a",
+    "fetaqa/3d5c0819-5ba1-4a02-94a7-9fd969b9d9a9",
+    "fetaqa/42bf28f8-5e36-4116-85e3-8ec61aa83715",
+    "fetaqa/44bdccf6-cec0-46c4-a833-a21225f5c4e8",
+    "fetaqa/4751838e-630c-46fe-ab71-b9fc932bdae0",
+    "fetaqa/47eb5c25-2737-491a-91e0-a100d4ab16f9",
+    "fetaqa/4813d159-401b-4728-bddc-2aa5175c9fb1",
+    "fetaqa/49b6cd23-6843-42f3-a77b-1296369572a7",
+    "fetaqa/53c7ff02-80bf-4fbe-83b7-4de61ea18043",
+    "fetaqa/571c8689-97ad-4f1c-b317-f6701a259547",
+    "fetaqa/580e8ec5-584f-4089-8e63-6de016c1bb45",
+    "fetaqa/58b4541e-52ef-4c07-ba3d-1237a4c47e77",
+    "fetaqa/5acadb07-f6ef-46cb-bc16-ea70dacaad37",
+    "fetaqa/5fda70d9-7239-408f-92c2-7820718bcaf6",
+    "fetaqa/610b3f46-0ac1-4697-b460-6d5df51da84e",
+    "fetaqa/66b1c6ac-3336-4d72-95e1-378f67e63481",
+    "fetaqa/69630841-634e-4e33-adf2-d681cb24f207",
+    "fetaqa/6ec66399-ae18-4042-8157-24b20fe95773",
+    "fetaqa/6f611a5e-930a-4b38-bdb1-144b1e42f124",
+    "fetaqa/710352f6-3a8a-4238-88e0-1e38f2edc94c",
+    "fetaqa/743710f8-88a0-4de6-b80a-605cdd542815",
+    "fetaqa/77905ee1-e075-4005-be73-3652a6e91ae8",
+    "fetaqa/77cff62f-f592-49d8-a700-76453b7283f3",
+    "fetaqa/7b83fb15-b762-4b45-a570-c8ae792c69c1",
+    "fetaqa/83a55334-666e-441a-8ef9-974a4c95fc33",
+    "fetaqa/84cfc748-7639-4b12-9037-588683955528",
+    "fetaqa/85410d9f-82f0-4cb9-914c-ee59ff4e33a2",
+    "fetaqa/8f55cd95-1dbc-4617-8639-de2b39eeb2ca",
+    "fetaqa/934a13e5-edcd-4648-9297-4cac9a9ceec9",
+    "fetaqa/979f4abe-fd68-4704-88f1-db5fe99c9518",
+    "fetaqa/98974b70-56be-44b0-90da-8e9071740b66",
+    "fetaqa/9ca11c99-abd7-4208-b1d7-cdbf4a8abe91",
+    "fetaqa/9e55031a-9f9d-4d17-b3b6-d021739d20ff",
+    "fetaqa/9ead9be0-2bb8-4268-9a88-7effc5d6c735",
+    "fetaqa/9ec477b1-dd8b-46c8-88d6-b84446cfa3f5",
+    "fetaqa/9f475ffd-899a-4e71-8e05-49b15b6690d2",
+    "fetaqa/a97372bb-fe32-4a43-9dba-c602ec335f3f",
+    "fetaqa/aa0cecc4-6d5f-4135-87f1-0d1e26a8616c",
+    "fetaqa/aaeb491c-cf10-44ed-afff-4acb08660192",
+    "fetaqa/abeefc4d-b300-43c8-b728-2d91b540c655",
+    "fetaqa/b80ec45a-6097-452b-8374-570db510f8bf",
+    "fetaqa/c0e3df4a-491e-47b4-b519-3e0b8bf5609f",
+    "fetaqa/c2cd45c7-9133-4097-b953-cce072cf8bbf",
+    "fetaqa/c67d9a8d-25a9-4fec-bf23-5cbd2e4b5383",
+    "fetaqa/c8bb83ec-ef96-4646-a656-1e9312761e96",
+    "fetaqa/ccbafe8a-9147-45de-bf5b-28993eb3c8fb",
+    "fetaqa/cd74d4cc-81e4-42ea-a056-1c015bb91f8b",
+    "fetaqa/d06037e0-df3f-4a76-bed0-f8723480f127",
+    "fetaqa/d7df4c45-1d16-4a47-b1d5-92fdbb400bc4",
+    "fetaqa/e5ffacb6-b52f-4f91-9123-2b81dd1369dc",
+    "fetaqa/e85c0ede-7007-4257-ade0-3d6d66304de0",
+    "fetaqa/e99f23de-f378-4b5d-a9e4-97ed8c82f515",
+    "fetaqa/ea972d7c-76ac-4414-92e1-e9b744812a82",
+    "fetaqa/ef255eae-a95e-4f1d-9f9c-4cbcb244d0d7",
+    "fetaqa/f67ba261-d5df-4cf3-8cbe-3092edb5e692",
+    "fetaqa/f69b7576-8514-41d8-b4b5-5f0869c2f58e",
+    "fetaqa/f7a806f4-49db-4974-8300-085a65cc1e9e",
+    "fetaqa/f81cc75f-b40c-4497-8a36-f98170467b44",
+    "fetaqa/table_10002_SEP_contexts-36",
+    "fetaqa/table_10083_SEP_contexts-16",
+    "fetaqa/table_10109_SEP_contexts-30",
+    "fetaqa/table_10124_SEP_contexts-35",
+    "fetaqa/table_10163_SEP_contexts-35",
+    "fetaqa/table_10179_SEP_contexts-31",
+    "fetaqa/table_10185_SEP_contexts-24",
+    "fetaqa/table_10304_SEP_contexts-36",
+    "fetaqa/table_10315_SEP_contexts-45",
+    "fetaqa/table_1032_SEP_contexts-6",
+    "fetaqa/table_1081_SEP_contexts-30",
+    "fetaqa/table_1098_SEP_contexts-17",
+    "fetaqa/table_1118_SEP_contexts-1",
+    "fetaqa/table_1122_SEP_contexts-40",
+    "fetaqa/table_1124_SEP_contexts-26",
+    "fetaqa/table_1142_SEP_contexts-13",
+    "fetaqa/table_1143_SEP_contexts-30",
+    "fetaqa/table_1269_SEP_contexts-32",
+    "fetaqa/table_1298_SEP_contexts-0",
+    "fetaqa/table_1303_SEP_contexts-9",
+    "fetaqa/table_1325_SEP_contexts-25",
+    "fetaqa/table_1346_SEP_contexts-8",
+    "fetaqa/table_1415_SEP_contexts-30",
+    "fetaqa/table_1510_SEP_contexts-15",
+    "fetaqa/table_1595_SEP_contexts-31",
+    "fetaqa/table_1611_SEP_contexts-35",
+    "fetaqa/table_1630_SEP_contexts-1",
+    "fetaqa/table_1721_SEP_contexts-21",
+    "fetaqa/table_1730_SEP_contexts-7",
+    "fetaqa/table_1744_SEP_contexts-33",
+    "fetaqa/table_1768_SEP_contexts-45",
+    "fetaqa/table_1771_SEP_contexts-14",
+    "fetaqa/table_1772_SEP_contexts-30",
+    "fetaqa/table_1809_SEP_contexts-37",
+    "fetaqa/table_1842_SEP_contexts-32",
+    "fetaqa/table_190_SEP_contexts-30",
+    "fetaqa/table_2050_SEP_contexts-37",
+    "fetaqa/table_2118_SEP_contexts-25",
+    "fetaqa/table_2286_SEP_contexts-48",
+    "fetaqa/table_2288_SEP_contexts-19",
+    "fetaqa/table_2291_SEP_contexts-37",
+    "fetaqa/table_2428_SEP_contexts-15",
+    "fetaqa/table_2545_SEP_contexts-20",
+    "fetaqa/table_2565_SEP_contexts-32",
+    "fetaqa/table_2678_SEP_contexts-30",
+    "fetaqa/table_2778_SEP_contexts-31",
+    "fetaqa/table_2792_SEP_contexts-11",
+    "fetaqa/table_2833_SEP_contexts-32",
+    "fetaqa/table_2864_SEP_contexts-13",
+    "fetaqa/table_2875_SEP_contexts-31",
+    "fetaqa/table_3010_SEP_contexts-44",
+    "fetaqa/table_3012_SEP_contexts-5",
+    "fetaqa/table_3058_SEP_contexts-30",
+    "fetaqa/table_3063_SEP_contexts-10",
+    "fetaqa/table_3093_SEP_contexts-12",
+    "fetaqa/table_3101_SEP_contexts-28",
+    "fetaqa/table_3188_SEP_contexts-24",
+    "fetaqa/table_3199_SEP_contexts-20",
+    "fetaqa/table_3326_SEP_contexts-28",
+    "fetaqa/table_3373_SEP_contexts-18",
+    "fetaqa/table_3446_SEP_contexts-11",
+    "fetaqa/table_3450_SEP_contexts-33",
+    "fetaqa/table_3542_SEP_contexts-48",
+    "fetaqa/table_3546_SEP_contexts-6",
+    "fetaqa/table_3563_SEP_contexts-24",
+    "fetaqa/table_3607_SEP_contexts-25",
+    "fetaqa/table_3621_SEP_contexts-6",
+    "fetaqa/table_362_SEP_contexts-18",
+    "fetaqa/table_3642_SEP_contexts-19",
+    "fetaqa/table_368_SEP_contexts-40",
+    "fetaqa/table_374_SEP_contexts-10",
+    "fetaqa/table_3798_SEP_contexts-30",
+    "fetaqa/table_3850_SEP_contexts-32",
+    "fetaqa/table_3932_SEP_contexts-49",
+    "fetaqa/table_4015_SEP_contexts-29",
+    "fetaqa/table_4042_SEP_contexts-16",
+    "fetaqa/table_4118_SEP_contexts-31",
+    "fetaqa/table_4207_SEP_contexts-32",
+    "fetaqa/table_4209_SEP_contexts-3",
+    "fetaqa/table_4235_SEP_contexts-15",
+    "fetaqa/table_4279_SEP_contexts-30",
+    "fetaqa/table_4352_SEP_contexts-36",
+    "fetaqa/table_4387_SEP_contexts-10",
+    "fetaqa/table_4462_SEP_contexts-1",
+    "fetaqa/table_4495_SEP_contexts-30",
+    "fetaqa/table_4519_SEP_contexts-0",
+    "fetaqa/table_4532_SEP_contexts-20",
+    "fetaqa/table_4541_SEP_contexts-19",
+    "fetaqa/table_4601_SEP_contexts-18",
+    "fetaqa/table_464_SEP_contexts-9",
+    "fetaqa/table_4674_SEP_contexts-36",
+    "fetaqa/table_471_SEP_contexts-45",
+    "fetaqa/table_4790_SEP_contexts-33",
+    "fetaqa/table_4859_SEP_contexts-37",
+    "fetaqa/table_4862_SEP_contexts-33",
+    "fetaqa/table_4957_SEP_contexts-29",
+    "fetaqa/table_4966_SEP_contexts-30",
+    "fetaqa/table_4972_SEP_contexts-17",
+    "fetaqa/table_5074_SEP_contexts-16",
+    "fetaqa/table_5143_SEP_contexts-33",
+    "fetaqa/table_5173_SEP_contexts-4",
+    "fetaqa/table_5174_SEP_contexts-11",
+    "fetaqa/table_5195_SEP_contexts-25",
+    "fetaqa/table_5260_SEP_contexts-33",
+    "fetaqa/table_5471_SEP_contexts-49",
+    "fetaqa/table_5485_SEP_contexts-18",
+    "fetaqa/table_549_SEP_contexts-32",
+    "fetaqa/table_550_SEP_contexts-19",
+    "fetaqa/table_5534_SEP_contexts-10",
+    "fetaqa/table_5548_SEP_contexts-36",
+    "fetaqa/table_5572_SEP_contexts-32",
+    "fetaqa/table_5626_SEP_contexts-9",
+    "fetaqa/table_5687_SEP_contexts-15",
+    "fetaqa/table_5967_SEP_contexts-34",
+    "fetaqa/table_6012_SEP_contexts-4",
+    "fetaqa/table_6019_SEP_contexts-14",
+    "fetaqa/table_6024_SEP_contexts-2",
+    "fetaqa/table_6092_SEP_contexts-17",
+    "fetaqa/table_6106_SEP_contexts-35",
+    "fetaqa/table_6155_SEP_contexts-43",
+    "fetaqa/table_6248_SEP_contexts-30",
+    "fetaqa/table_626_SEP_contexts-25",
+    "fetaqa/table_6283_SEP_contexts-37",
+    "fetaqa/table_6299_SEP_contexts-1",
+    "fetaqa/table_629_SEP_contexts-9",
+    "fetaqa/table_6346_SEP_contexts-24",
+    "fetaqa/table_6459_SEP_contexts-8",
+    "fetaqa/table_6477_SEP_contexts-28",
+    "fetaqa/table_6522_SEP_contexts-7",
+    "fetaqa/table_6558_SEP_contexts-30",
+    "fetaqa/table_6622_SEP_contexts-4",
+    "fetaqa/table_6715_SEP_contexts-36",
+    "fetaqa/table_6775_SEP_contexts-19",
+    "fetaqa/table_6802_SEP_contexts-33",
+    "fetaqa/table_6806_SEP_contexts-6",
+    "fetaqa/table_690_SEP_contexts-10",
+    "fetaqa/table_6932_SEP_contexts-9",
+    "fetaqa/table_6955_SEP_contexts-25",
+    "fetaqa/table_7014_SEP_contexts-21",
+    "fetaqa/table_7024_SEP_contexts-10",
+    "fetaqa/table_7082_SEP_contexts-1",
+    "fetaqa/table_7095_SEP_contexts-7",
+    "fetaqa/table_7209_SEP_contexts-24",
+    "fetaqa/table_720_SEP_contexts-40",
+    "fetaqa/table_7463_SEP_contexts-40",
+    "fetaqa/table_7488_SEP_contexts-12",
+    "fetaqa/table_7506_SEP_contexts-30",
+    "fetaqa/table_7521_SEP_contexts-10",
+    "fetaqa/table_7582_SEP_contexts-14",
+    "fetaqa/table_7625_SEP_contexts-31",
+    "fetaqa/table_7684_SEP_contexts-25",
+    "fetaqa/table_7729_SEP_contexts-0",
+    "fetaqa/table_7764_SEP_contexts-33",
+    "fetaqa/table_7794_SEP_contexts-33",
+    "fetaqa/table_77_SEP_contexts-12",
+    "fetaqa/table_7817_SEP_contexts-10",
+    "fetaqa/table_7853_SEP_contexts-6",
+    "fetaqa/table_7927_SEP_contexts-36",
+    "fetaqa/table_7928_SEP_contexts-10",
+    "fetaqa/table_7946_SEP_contexts-10",
+    "fetaqa/table_8018_SEP_contexts-32",
+    "fetaqa/table_8042_SEP_contexts-29",
+    "fetaqa/table_8110_SEP_contexts-36",
+    "fetaqa/table_8114_SEP_contexts-9",
+    "fetaqa/table_8123_SEP_contexts-33",
+    "fetaqa/table_8152_SEP_contexts-48",
+    "fetaqa/table_819_SEP_contexts-11",
+    "fetaqa/table_8205_SEP_contexts-32",
+    "fetaqa/table_8207_SEP_contexts-2",
+    "fetaqa/table_8245_SEP_contexts-48",
+    "fetaqa/table_8255_SEP_contexts-25",
+    "fetaqa/table_8296_SEP_contexts-37",
+    "fetaqa/table_8342_SEP_contexts-33",
+    "fetaqa/table_8374_SEP_contexts-4",
+    "fetaqa/table_8376_SEP_contexts-19",
+    "fetaqa/table_8403_SEP_contexts-30",
+    "fetaqa/table_8478_SEP_contexts-33",
+    "fetaqa/table_8488_SEP_contexts-37",
+    "fetaqa/table_8491_SEP_contexts-33",
+    "fetaqa/table_8517_SEP_contexts-23",
+    "fetaqa/table_8536_SEP_contexts-13",
+    "fetaqa/table_8556_SEP_contexts-33",
+    "fetaqa/table_8587_SEP_contexts-48",
+    "fetaqa/table_8593_SEP_contexts-31",
+    "fetaqa/table_860_SEP_contexts-31",
+    "fetaqa/table_8639_SEP_contexts-6",
+    "fetaqa/table_8658_SEP_contexts-27",
+    "fetaqa/table_8667_SEP_contexts-17",
+    "fetaqa/table_8704_SEP_contexts-36",
+    "fetaqa/table_8802_SEP_contexts-4",
+    "fetaqa/table_8840_SEP_contexts-22",
+    "fetaqa/table_8932_SEP_contexts-12",
+    "fetaqa/table_9028_SEP_contexts-25",
+    "fetaqa/table_9152_SEP_contexts-8",
+    "fetaqa/table_9193_SEP_contexts-25",
+    "fetaqa/table_9203_SEP_contexts-43",
+    "fetaqa/table_9263_SEP_contexts-20",
+    "fetaqa/table_9295_SEP_contexts-7",
+    "fetaqa/table_9303_SEP_contexts-0",
+    "fetaqa/table_9313_SEP_contexts-34",
+    "fetaqa/table_9322_SEP_contexts-19",
+    "fetaqa/table_9527_SEP_contexts-29",
+    "fetaqa/table_9542_SEP_contexts-30",
+    "fetaqa/table_9567_SEP_contexts-32",
+    "fetaqa/table_958_SEP_contexts-16",
+    "fetaqa/table_9663_SEP_contexts-37",
+    "fetaqa/table_9673_SEP_contexts-13",
+    "fetaqa/table_9708_SEP_contexts-27",
+    "fetaqa/table_9710_SEP_contexts-30",
+    "fetaqa/table_9800_SEP_contexts-33",
+    "fetaqa/table_9838_SEP_contexts-40",
+    "fetaqa/table_9871_SEP_contexts-30",
+    "fetaqa/table_9894_SEP_contexts-26",
+    "fetaqa/table_9947_SEP_contexts-36",
+    "fetaqa/table_999_SEP_contexts-11"
+   ],
+   "vectors_identical": [
+    3828,
+    8000
+   ],
+   "unfilled_timings": {
+    "blend": {
+     "own": 0,
+     "shared": 0
+    },
+    "pneuma": {
+     "own": 0,
+     "shared": 0
+    }
+   },
+   "own_document_differences": [
+    [
+     "fetaqa",
+     "1930 VFL Grand Final , Match statistics_SEP_table_5498.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "1996 SANFL Grand Final , Scorecard_SEP_table_6487.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "2012 Republican Party presidential debates and forums , Debates_SEP_table_415.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "2014 Victorian state election , Seats changing hands_SEP_table_242.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "2014 Victorian state election , Seats changing hands_SEP_table_242.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "2014 Victorian state election , Seats changing hands_SEP_table_2435.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "2014 Victorian state election , Seats changing hands_SEP_table_2435.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "2014 Victorian state election , Seats changing hands_SEP_table_4037.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "2014 Victorian state election , Seats changing hands_SEP_table_4037.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "2015\u201316 Indian Women's Football Championship , Finals_SEP_table_6082.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "2017\u201318 Australian parliamentary eligibility crisis , Overview_SEP_table_2429.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "35th National Film Awards , Golden Lotus Award_SEP_table_7701.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Adam Chicksen , Career statistics_SEP_table_2432.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Adrian Mariappa , Club_SEP_table_8769.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "AirPort Time Capsule , Comparison chart_SEP_table_3569.csv",
+     "row",
+     2,
+     4
+    ],
+    [
+     "fetaqa",
+     "AirPort Time Capsule , Comparison chart_SEP_table_3873.csv",
+     "row",
+     2,
+     4
+    ],
+    [
+     "fetaqa",
+     "AirPort Time Capsule , Comparison chart_SEP_table_6643.csv",
+     "row",
+     2,
+     4
+    ],
+    [
+     "fetaqa",
+     "Asaf Avidan , Singles_SEP_table_9254.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Asus Eee Top , Models_SEP_table_6452.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Audi R8 (Type 4S) , Specifications_SEP_table_6914.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Ben Chorley , Career statistics_SEP_table_8642.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "BlackBerry Z10 , Model comparison_SEP_table_3519.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Bradley Wood , Career statistics_SEP_table_7078.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Brisbane Baylands development , Brisbane Baylands concept plans_SEP_table_5586.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Busted discography , Singles_SEP_table_437.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Cherrelle , Singles_SEP_table_1748.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Christian Smith (footballer) , Career statistics_SEP_table_2221.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Cliff Carr , Career statistics_SEP_table_9211.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Clive Clarke , Club_SEP_table_4089.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Daniel Powell , Career statistics_SEP_table_8715.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Dave Kemp , Career statistics_SEP_table_9371.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "David Fox (footballer) , Career statistics_SEP_table_360.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "David Martin (footballer, born 1986) , Club statistics_SEP_table_7338.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Dean Bowditch , Career statistics_SEP_table_6152.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Dean Keates , Playing statistics_SEP_table_2385.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Deftones discography , Singles_SEP_table_8723.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Deng Wei (weightlifter) , Major results_SEP_table_3220.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Denis Smith (footballer, born 1947) , As a player_SEP_table_7673.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Derek Statham , Club_SEP_table_10031.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Diego Milito , Club_SEP_table_1695.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Dino Maamria , Playing statistics_SEP_table_8564.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Dmitry Klokov , Major results_SEP_table_1964.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Dora Afi Abotsi , Major results_SEP_table_4376.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Eko Yuli Irawan , Major results_SEP_table_4971.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Eko Yuli Irawan , Major results_SEP_table_4971.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Eko Yuli Irawan , Major results_SEP_table_680.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Eko Yuli Irawan , Major results_SEP_table_680.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Fine Young Cannibals , Singles_SEP_table_1622.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Fine Young Cannibals , Singles_SEP_table_3127.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Five for Fighting , Singles_SEP_table_4310.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Fran Tarkenton , NFL career statistics_SEP_table_5917.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Gary Speed , Club_SEP_table_5650.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "General Electric CF6 , Specifications_SEP_table_2214.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Geoff Scott (footballer) , Career statistics_SEP_table_2576.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Ghost discography , Singles_SEP_table_81.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Ghost discography , Singles_SEP_table_81.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Graham Paddon , As a player_SEP_table_5420.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Grand Council of Neuch\u00e2tel ,_SEP_table_3288.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "H-class battleship proposals , Designs_SEP_table_5250.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Hal Robson-Kanu , Club_SEP_table_10122.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Hayden Mullins , Career statistics_SEP_table_9141.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Heroes (season 2) , Episodes_SEP_table_2467.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Hi-Five , Singles_SEP_table_2078.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Honda CBR600F , Specifications_SEP_table_70.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Honda CBR900RR , Specifications_SEP_table_4080.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Indecent Obsession , Singles_SEP_table_9377.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "James O'Connor (footballer, born 1979) , Career statistics_SEP_table_8913.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "James Owen (footballer) , Career statistics_SEP_table_469.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Jamie Bates (footballer) , Career statistics_SEP_table_256.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Jamie Clarke (footballer, born 1982) , Career statistics_SEP_table_701.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Jamie Clarke (footballer, born 1982) , Career statistics_SEP_table_8638.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Jang Mi-ran , Major results_SEP_table_2870.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Jason Pearce , Career statistics_SEP_table_3895.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Jerick McKinnon , Regular season_SEP_table_1474.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Joe Jordan , Club_SEP_table_9270.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Josh Brizell , Career statistics_SEP_table_2362.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Josh Maja , Career statistics_SEP_table_4204.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Junior Morias , Career statistics_SEP_table_10000.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Kakhi Kakhiashvili , Major results_SEP_table_3534.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Karl Henry , Career statistics_SEP_table_912.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Kim Un-guk , Major results_SEP_table_3057.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Laleh Pourkarim discography , Singles_SEP_table_3816.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Lawrie Wilson , Career statistics_SEP_table_5523.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Lee Sandford , Career statistics_SEP_table_7558.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "List of Azerbaijani records in athletics , Men_SEP_table_9655.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Black Books episodes , Series 1 (2000)_SEP_table_7010.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Bosnian and Herzegovinian records in athletics , Women_SEP_table_5382.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Chief Ministers of Punjab (India) , Chief Minister of Punjab (1947-1966) (Punjab, Haryana and Himachal)_SEP_table_699.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Chilean records in athletics , Women_SEP_table_45.csv",
+     "row",
+     1,
+     3
+    ],
+    [
+     "fetaqa",
+     "List of Cracker episodes , Series 1 (1993)_SEP_table_9707.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Faerie Tale Theatre episodes , Season 4 (1985)_SEP_table_1506.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Historic Sites of Japan (Iwate) , National Historic Sites_SEP_table_4842.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "List of Hustle episodes , Series 3 (2006)_SEP_table_5060.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Minder episodes , Series 1_SEP_table_4119.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "List of Minder episodes , Series 1_SEP_table_5806.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "List of My Family episodes , Series 8 (2008)_SEP_table_2206.csv",
+     "row",
+     1,
+     3
+    ],
+    [
+     "fetaqa",
+     "List of Red Dwarf episodes , Red Dwarf VI (1993)_SEP_table_590.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of Sapphire & Steel serials , Series Three_SEP_table_3396.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "List of Sultans of Zanzibar , Sultans of Zanzibar_SEP_table_120.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of The Tomorrow People serials , Series 2_SEP_table_4946.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "fetaqa",
+     "List of The Tomorrow People serials , Series 3_SEP_table_7161.csv",
+     "row",
+     2,
+     4
+    ],
+    [
+     "fetaqa",
+     "List of The Twilight Zone (1985 TV series) episodes , Season 2 (1986\u201387)_SEP_table_2050.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "fetaqa",
+     "List of bus routes in the Bronx , Bx26 to Bx46_SEP_table_1199.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "List of premiers of the People's Republic of China , List of Premiers_SEP_table_3501.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "fetaqa",
+     "Luke Ayling , Career statistics_SEP_table_4259.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "L\u00e1rus Sigur\u00f0sson , Club_SEP_table_7168.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "M.I.A. discography , As lead artist_SEP_table_5425.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "MKTO , As lead artist_SEP_table_3117.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "MKTO , As lead artist_SEP_table_3117.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "MacBook (2015\u2013present) , Technical specifications_SEP_table_5899.csv",
+     "row",
+     3,
+     1
+    ],
+    [
+     "fetaqa",
+     "Mamady Sidib\u00e9 , Club_SEP_table_1782.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Manny Pacquiao vs. Timothy Bradley , Main event official scorecard_SEP_table_4311.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "fetaqa",
+     "Mark Delaney (footballer) , Career statistics_SEP_table_155.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Mark Greaves , Career statistics_SEP_table_10281.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Mercedes-Benz SL-Class (R231) , Engines and transmissions_SEP_table_286.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Michael Ricketts , Club_SEP_table_4988.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Mickey Demetriou , Career statistics_SEP_table_8206.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Mitchell Cole , Career statistics_SEP_table_4791.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Nathan Jones (Welsh footballer) , Career statistics_SEP_table_9813.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Neal Tiemann , Singles_SEP_table_6496.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Nokia X family , Model comparison_SEP_table_805.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "OTO Awards , TV ratings_SEP_table_1790.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Paramore discography , Singles_SEP_table_604.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Paul Allen (footballer) , Career statistics_SEP_table_2895.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Paul Maddy , Career statistics_SEP_table_3979.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Paul Whitfield , Career statistics_SEP_table_1056.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Pharrell Williams discography , As lead artist_SEP_table_2051.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Pharrell Williams discography , As lead artist_SEP_table_982.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Professors in the United States , Salary_SEP_table_4104.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Przecz\u00f3w, \u015awi\u0119tokrzyskie Voivodeship , Demography_SEP_table_243.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "fetaqa",
+     "Richard Lee (footballer) , Career statistics_SEP_table_7070.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Richard Lee (footballer) , Career statistics_SEP_table_7249.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Ruslan Nurudinov , Major results_SEP_table_1690.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Ryan Taylor (footballer, born 1984) , Career statistics_SEP_table_9520.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Sand\u017eak , Serbian Sand\u017eak_SEP_table_1604.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Scott Brown (footballer, born April 1985) , Career statistics_SEP_table_9641.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Scott Laird , Career statistics_SEP_table_3756.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Sebastian Sv\u00e4rd , Career statistics_SEP_table_9671.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Simple Plan discography , Singles_SEP_table_1994.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Stephen Ireland , Club_SEP_table_4610.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Stuart Parnaby , Career statistics_SEP_table_6523.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Szymon Ko\u0142ecki , Major results_SEP_table_4573.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "S\u00e9bastien Bassong , Career statistics_SEP_table_3688.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "The Saturdays discography , Singles_SEP_table_4734.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Timur Taymazov , Major results_SEP_table_6070.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Tommy Rowe , Career statistics_SEP_table_1299.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Toni Basil , Singles_SEP_table_4799.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "fetaqa",
+     "Twenty One Pilots discography , Singles_SEP_table_4219.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Tyler, the Creator discography , As lead artist_SEP_table_809.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Weightlifting at the 1936 Summer Olympics \u2013 Men's 60 kg , Results_SEP_table_5992.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "fetaqa",
+     "Wola Osowa , Demography_SEP_table_5783.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "fetaqa",
+     "Zac Dysert , Statistics_SEP_table_1657.csv",
+     "schema",
+     1,
+     2
+    ]
+   ],
+   "own_text_differences": {
+    "contexts": [
+     0,
+     100718
+    ],
+    "row": [
+     10582,
+     10598
+    ],
+    "schema": [
+     7349,
+     10557
+    ]
+   },
+   "met": {
+    "both_ran": true,
+    "shared_documents_equal": true,
+    "bm25_identical": false,
+    "vectors_ran": true,
+    "timings_filled": true
+   }
+  },
+  {
+   "runs": [
+    "2026-10-05T11-50-00Z__parity-chembl-blend",
+    "2026-10-05T11-50-00Z__parity-chembl-pneuma"
+   ],
+   "unfinished_runs": [],
+   "shared_texts_from_another_run": [],
+   "shared_document_differences": [],
+   "bm25_identical": [
+    8000,
+    8000
+   ],
+   "bm25_differing": [],
+   "vectors_identical": [
+    7585,
+    8000
+   ],
+   "unfilled_timings": {
+    "blend": {
+     "own": 0,
+     "shared": 0
+    },
+    "pneuma": {
+     "own": 0,
+     "shared": 0
+    }
+   },
+   "own_document_differences": [
+    [
+     "chembl_10K",
+     "compound records_SEP_table_6.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chembl_10K",
+     "docs_SEP_table_15.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "chembl_10K",
+     "drug warning_SEP_table_47.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chembl_10K",
+     "indication refs_SEP_table_17.csv",
+     "row",
+     2,
+     1
+    ]
+   ],
+   "own_text_differences": {
+    "contexts": [
+     0,
+     853
+    ],
+    "row": [
+     103,
+     103
+    ],
+    "schema": [
+     64,
+     99
+    ]
+   },
+   "met": {
+    "both_ran": true,
+    "shared_documents_equal": true,
+    "bm25_identical": true,
+    "vectors_ran": true,
+    "timings_filled": true
+   }
+  },
+  {
+   "runs": [
+    "2026-10-06T00-54-29Z__parity-chicago_open-blend",
+    "2026-10-06T00-54-30Z__parity-chicago_open-pneuma"
+   ],
+   "unfinished_runs": [],
+   "shared_texts_from_another_run": [],
+   "shared_document_differences": [],
+   "bm25_identical": [
+    7918,
+    8000
+   ],
+   "bm25_differing": [
+    "chicago_10K/0139da08-6fba-4023-8475-63bc14d747ba",
+    "chicago_10K/1b541dfd-40ae-4963-abbc-e2ca50cc82ed",
+    "chicago_10K/20dffac2-cfda-49e4-8ec4-db32d6f32b6a",
+    "chicago_10K/2349b39b-6aa4-491d-adf4-0190c4f89b40",
+    "chicago_10K/2dfe1cbe-cf2e-4d37-82af-78984b1694b2",
+    "chicago_10K/2f008c67-e437-4fba-926f-99c7e5012ed4",
+    "chicago_10K/33f5e2ce-8dd1-4c63-8971-3e8d517be5a2",
+    "chicago_10K/363d1b54-c517-41a9-9c01-08f0bab4c941",
+    "chicago_10K/4c08cd8a-0ea7-474e-9991-a45903eebefb",
+    "chicago_10K/56f5f8f2-9191-45d6-a7f1-b8681f0273e4",
+    "chicago_10K/5dee5dc0-a70f-44ec-8cbb-0acd48c9cc89",
+    "chicago_10K/65d64fef-9da9-49b1-8ee5-f1396884a1cc",
+    "chicago_10K/67c38531-d797-4f68-ba59-04e65638dc61",
+    "chicago_10K/6aa3e2b1-712b-41c2-b05b-c00c1af17288",
+    "chicago_10K/7c7bfc98-5208-4374-afc1-4b6922ba5c6f",
+    "chicago_10K/80886a37-dae8-43af-9367-33795f0e71c8",
+    "chicago_10K/89472ffb-bf2c-4371-9ab4-366060e5ce09",
+    "chicago_10K/912c30ff-c0b0-4e8c-aa94-9ad128995b37",
+    "chicago_10K/98c2ced7-13eb-428a-a43a-feb2593f9db2",
+    "chicago_10K/a19229e5-0179-4310-8019-706b4c2e4014",
+    "chicago_10K/a66b3d6c-b252-430c-b493-8140680e01fb",
+    "chicago_10K/aaa14355-2d42-40d9-a200-ed5fac13de18",
+    "chicago_10K/baca6e7a-2a91-4378-9341-8a75af257d56",
+    "chicago_10K/bdd05e02-0d63-48e7-9f4c-dd544917cd92",
+    "chicago_10K/d4c53daf-f79a-44e7-9be7-d3cc6866c4eb",
+    "chicago_10K/d53747ca-4d07-48a6-9aa8-3788a8082de4",
+    "chicago_10K/d7902d34-15ae-4a0e-80f3-150b49f6ff66",
+    "chicago_10K/ddf64e0b-c86c-41f6-a1b6-237f85bd303a",
+    "chicago_10K/e4812e97-a264-4fc7-933f-3c01c3716284",
+    "chicago_10K/e8058e1f-8a24-423f-818a-1681b9ff4938",
+    "chicago_10K/f444d582-3bbb-4d82-b6bc-40b602a77f4d",
+    "chicago_10K/fb9f44d2-02e3-4d45-b871-866078459431",
+    "chicago_10K/ffa70e37-0197-476f-96d7-6a583f5cccbd",
+    "chicago_10K/table_110_SEP_contexts-24",
+    "chicago_10K/table_119_SEP_contexts-45",
+    "chicago_10K/table_119_SEP_contexts-6",
+    "chicago_10K/table_123_SEP_contexts-17",
+    "chicago_10K/table_125_SEP_contexts-1",
+    "chicago_10K/table_155_SEP_contexts-31",
+    "chicago_10K/table_165_SEP_contexts-27",
+    "chicago_10K/table_176_SEP_contexts-23",
+    "chicago_10K/table_177_SEP_contexts-2",
+    "chicago_10K/table_178_SEP_contexts-8",
+    "chicago_10K/table_200_SEP_contexts-49",
+    "chicago_10K/table_213_SEP_contexts-25",
+    "chicago_10K/table_29_SEP_contexts-10",
+    "chicago_10K/table_381_SEP_contexts-34",
+    "chicago_10K/table_401_SEP_contexts-36",
+    "chicago_10K/table_407_SEP_contexts-9",
+    "chicago_10K/table_431_SEP_contexts-2",
+    "chicago_10K/table_459_SEP_contexts-8",
+    "chicago_10K/table_528_SEP_contexts-5",
+    "chicago_10K/table_540_SEP_contexts-21",
+    "chicago_10K/table_540_SEP_contexts-33",
+    "chicago_10K/table_540_SEP_contexts-4",
+    "chicago_10K/table_541_SEP_contexts-18",
+    "chicago_10K/table_570_SEP_contexts-0",
+    "chicago_10K/table_587_SEP_contexts-19",
+    "chicago_10K/table_58_SEP_contexts-10",
+    "chicago_10K/table_604_SEP_contexts-35",
+    "chicago_10K/table_604_SEP_contexts-48",
+    "chicago_10K/table_61_SEP_contexts-49",
+    "chicago_10K/table_653_SEP_contexts-26",
+    "chicago_10K/table_66_SEP_contexts-38",
+    "chicago_10K/table_711_SEP_contexts-38",
+    "chicago_10K/table_735_SEP_contexts-21",
+    "chicago_10K/table_73_SEP_contexts-13",
+    "chicago_10K/table_73_SEP_contexts-14",
+    "chicago_10K/table_776_SEP_contexts-49"
+   ],
+   "vectors_identical": [
+    5937,
+    8000
+   ],
+   "unfilled_timings": {
+    "blend": {
+     "own": 0,
+     "shared": 0
+    },
+    "pneuma": {
+     "own": 0,
+     "shared": 0
+    }
+   },
+   "own_document_differences": [
+    [
+     "chicago_10K",
+     "311 Service Requests - Street Lights - One Out - Historical_SEP_table_540.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "43rd Ward Resident Survey - 2022_SEP_table_124.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Arrests_SEP_table_721.csv",
+     "row",
+     3,
+     4
+    ],
+    [
+     "chicago_10K",
+     "Bike Racks - Historical_SEP_table_687.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Bike Routes (Deprecated December 2022)_SEP_table_186.csv",
+     "row",
+     5,
+     3
+    ],
+    [
+     "chicago_10K",
+     "Bike Routes (Deprecated January 2021)_SEP_table_761.csv",
+     "row",
+     5,
+     4
+    ],
+    [
+     "chicago_10K",
+     "Bike Routes (Deprecated November 2021)_SEP_table_192.csv",
+     "row",
+     4,
+     5
+    ],
+    [
+     "chicago_10K",
+     "Budget - 2012 Budget Ordinance - Positions and Salaries_SEP_table_600.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "Budget - 2013 Budget Ordinance - Positions and Salaries_SEP_table_51.csv",
+     "schema",
+     3,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Budget - 2015 Budget Ordinance - Positions and Salaries_SEP_table_472.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "Building Violations_SEP_table_153.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "chicago_10K",
+     "CDPH Environmental Records Lookup Table_SEP_table_216.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "chicago_10K",
+     "CDPH Storage Tanks_SEP_table_351.csv",
+     "schema",
+     3,
+     2
+    ],
+    [
+     "chicago_10K",
+     "COVID-19 - Vaccinations by Region, Age, and Race-Ethnicity - Historical_SEP_table_664.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "COVID-19 Cases, Tests, and Deaths by ZIP Code - Historical_SEP_table_635.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "COVID-19 Vaccination Coverage, Region (HCEZ)_SEP_table_256.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "CTA_Ventra_SEP_table_184.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Chicago Early Learning Programs_SEP_table_420.csv",
+     "row",
+     4,
+     5
+    ],
+    [
+     "chicago_10K",
+     "Chicago Energy Benchmarking - Covered Buildings_SEP_table_253.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Chicago Population Counts_SEP_table_654.csv",
+     "schema",
+     3,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Chicago Public Schools - Safe Passage Routes SY2324_SEP_table_634.csv",
+     "row",
+     4,
+     5
+    ],
+    [
+     "chicago_10K",
+     "City-Owned Land Inventory_SEP_table_536.csv",
+     "row",
+     3,
+     4
+    ],
+    [
+     "chicago_10K",
+     "Dig Ticket Notifications_SEP_table_452.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "Divvy Bicycle Stations_SEP_table_564.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "E-Scooter Trips - Census Tract Summary - 2020_SEP_table_251.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Employee Overtime and Supplemental Earnings 2016_SEP_table_160.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Employee Overtime and Supplemental Earnings 2018_SEP_table_546.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - 311_SEP_table_179.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Business Affairs & Consumer Protection_SEP_table_753.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - City Clerk_SEP_table_582.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Ethics_SEP_table_662.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Family and Support Services_SEP_table_197.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Finance_SEP_table_604.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Housing_SEP_table_432.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Innovation and Technology_SEP_table_280.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Office of the Mayor_SEP_table_438.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Procurement Services_SEP_table_574.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "FOIA Request Log - Public Building Commission_SEP_table_648.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Farmers Markets - 2012_SEP_table_715.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Flu Shot Clinic Locations - 2012_SEP_table_627.csv",
+     "schema",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Flu Shot Locations - 2014 - Present_SEP_table_798.csv",
+     "row",
+     3,
+     4
+    ],
+    [
+     "chicago_10K",
+     "Food Inspections_SEP_table_591.csv",
+     "row",
+     3,
+     4
+    ],
+    [
+     "chicago_10K",
+     "High_School_Attendance_0708_SEP_table_43.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "High_School_Attendance_0910_SEP_table_404.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Individual Landmarks (Deprecated January 2024)_SEP_table_138.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Individual Landmarks_SEP_table_375.csv",
+     "row",
+     3,
+     4
+    ],
+    [
+     "chicago_10K",
+     "Lending Equity - Residential Lending_SEP_table_170.csv",
+     "schema",
+     5,
+     6
+    ],
+    [
+     "chicago_10K",
+     "Libraries - 2023 Holds Placed by Location_SEP_table_178.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Libraries - 2024 Holds Placed by Location_SEP_table_791.csv",
+     "row",
+     2,
+     1
+    ],
+    [
+     "chicago_10K",
+     "Meningitis Vaccine Locations_SEP_table_35.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Middle_School_Attendance_1112_SEP_table_336.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Middle_School_Attendance_1415_SEP_table_713.csv",
+     "schema",
+     1,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Performance Metrics - 311 Call Center_SEP_table_692.csv",
+     "schema",
+     4,
+     3
+    ],
+    [
+     "chicago_10K",
+     "Police Sentiment Scores_SEP_table_202.csv",
+     "schema",
+     8,
+     9
+    ],
+    [
+     "chicago_10K",
+     "Public Health Statistics - Preterm births in Chicago, by year, 1999 \u2013 2009 - Historical_SEP_table_539.csv",
+     "schema",
+     5,
+     6
+    ],
+    [
+     "chicago_10K",
+     "Tax Increment Financing (TIF) Investment Committee Decisions_SEP_table_117.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "chicago_10K",
+     "Taxi Trips (2024-)_SEP_table_659.csv",
+     "row",
+     4,
+     5
+    ],
+    [
+     "chicago_10K",
+     "Taxi Trips (2024-)_SEP_table_659.csv",
+     "schema",
+     3,
+     2
+    ],
+    [
+     "chicago_10K",
+     "Transportation Department Permits_SEP_table_98.csv",
+     "schema",
+     5,
+     4
+    ],
+    [
+     "chicago_10K",
+     "Transportation Network Providers - Trips (2018 - 2022)_SEP_table_109.csv",
+     "schema",
+     3,
+     2
+    ]
+   ],
+   "own_text_differences": {
+    "contexts": [
+     0,
+     9537
+    ],
+    "row": [
+     1993,
+     2015
+    ],
+    "schema": [
+     1235,
+     1699
+    ]
+   },
+   "met": {
+    "both_ran": true,
+    "shared_documents_equal": true,
+    "bm25_identical": false,
+    "vectors_ran": true,
+    "timings_filled": true
+   }
+  },
+  {
+   "runs": [
+    "2026-10-07T04-40-55Z__parity-adventure_works-blend",
+    "2026-10-07T04-40-55Z__parity-adventure_works-pneuma"
+   ],
+   "unfinished_runs": [],
+   "shared_texts_from_another_run": [],
+   "shared_document_differences": [],
+   "bm25_identical": [
+    7938,
+    8000
+   ],
+   "bm25_differing": [
+    "adventure_works/0387e6bc-c2c0-4778-b422-dbc579c4808b",
+    "adventure_works/1a282e3b-923e-47ac-bf31-22f03f1711aa",
+    "adventure_works/1fff9f69-1ae3-4341-a9ac-f4ccc8b4a74b",
+    "adventure_works/2064fc58-36c5-48df-adaa-1673a21c1370",
+    "adventure_works/320603ac-4ccf-48ae-bf04-073df34594ba",
+    "adventure_works/403ada4d-92e7-40e7-88fd-98b45b5304ba",
+    "adventure_works/451cded9-b5c9-407e-8bf2-802498c86fbe",
+    "adventure_works/4c1b66a9-9688-47c1-8e77-c233c6d7479a",
+    "adventure_works/5034e00c-5d4e-43cd-a95e-088973a53c6e",
+    "adventure_works/505677a3-88ae-4707-8bac-8e7991d7ab2f",
+    "adventure_works/51876002-6b8f-45ce-8348-b27324bb1222",
+    "adventure_works/55017957-700f-4d72-a03a-e083dc90e4b2",
+    "adventure_works/5ff8bf65-2e04-45af-9cd5-06cbbaec1a9f",
+    "adventure_works/64c0b0ef-b363-405c-bbd3-bcdce2385355",
+    "adventure_works/7262643a-6b04-4801-9350-90ab7839b52c",
+    "adventure_works/73acd939-3aff-4e83-8b15-c67c6bc942ae",
+    "adventure_works/78dde42c-7605-472e-9c2d-e4e07087bcb2",
+    "adventure_works/836d1ef4-2b57-476b-8a4f-dde0a325cc7f",
+    "adventure_works/87946069-9370-42ec-a73d-3d945625dac9",
+    "adventure_works/8c44bfab-1210-4116-a08b-0868d8a015cf",
+    "adventure_works/8f27b433-2255-4dd2-9dfa-49226a8f99d4",
+    "adventure_works/94e255ef-bfdd-40ad-a350-31475330cb2f",
+    "adventure_works/9615afb2-7e56-4cc9-b19c-cf78de0831b3",
+    "adventure_works/9bb6d968-fb31-41e6-9d83-209a23fa349f",
+    "adventure_works/a6370182-7fc3-47d6-a190-410036207a60",
+    "adventure_works/b4b5679f-407c-4992-a028-30f6e57051a0",
+    "adventure_works/bcb6cfc0-d80f-4775-8153-cbfff05ee481",
+    "adventure_works/bec8fa25-2981-4bb0-a22e-483c0efba9eb",
+    "adventure_works/cde727a8-813f-4174-acbe-938b3a59333e",
+    "adventure_works/d0ed48d4-d5c1-45f4-bbe0-7a9348f9bc91",
+    "adventure_works/d64a7a26-f8a3-46c9-ad26-b9cc036b9bd5",
+    "adventure_works/dfdf1e6c-2c14-4219-b085-2e6173974b3a",
+    "adventure_works/e9d3a924-ec6f-42dc-8c49-d10d7a90b8fe",
+    "adventure_works/e9fe42ad-a221-4280-b912-3c6e0fd79833",
+    "adventure_works/f990684d-cc3d-455f-8e73-d502319e1d38",
+    "adventure_works/fd89e9a4-65fe-42df-a477-71dd05f83a4b"
+   ],
+   "vectors_identical": [
+    7541,
+    8000
+   ],
+   "unfilled_timings": {
+    "blend": {
+     "own": 0,
+     "shared": 0
+    },
+    "pneuma": {
+     "own": 0,
+     "shared": 0
+    }
+   },
+   "own_document_differences": [
+    [
+     "adventure_works",
+     "Password_SEP_table_13.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "adventure_works",
+     "ProductDescription_SEP_table_36.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "adventure_works",
+     "ProductModel_SEP_table_68.csv",
+     "row",
+     5,
+     3
+    ],
+    [
+     "adventure_works",
+     "ProductReview_SEP_table_55.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "adventure_works",
+     "PurchaseOrderDetail_SEP_table_53.csv",
+     "row",
+     1,
+     2
+    ],
+    [
+     "adventure_works",
+     "vJobCandidateEmployment_SEP_table_50.csv",
+     "row",
+     3,
+     2
+    ],
+    [
+     "adventure_works",
+     "vJobCandidate_SEP_table_16.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "adventure_works",
+     "vProductAndDescription_SEP_table_35.csv",
+     "row",
+     1,
+     2
+    ]
+   ],
+   "own_text_differences": {
+    "contexts": [
+     0,
+     978
+    ],
+    "row": [
+     151,
+     155
+    ],
+    "schema": [
+     43,
+     102
+    ]
+   },
+   "met": {
+    "both_ran": true,
+    "shared_documents_equal": true,
+    "bm25_identical": false,
+    "vectors_ran": true,
+    "timings_filled": true
+   }
+  },
+  {
+   "runs": [
+    "2026-10-08T05-13-55Z__parity-public_bi-blend",
+    "2026-10-08T05-13-55Z__parity-public_bi-pneuma"
+   ],
+   "unfinished_runs": [],
+   "shared_texts_from_another_run": [],
+   "shared_document_differences": [],
+   "bm25_identical": [
+    7150,
+    8000
+   ],
+   "bm25_differing": [
+    "public_bi/00871921-2f43-40e3-8136-0962c43fd98b",
+    "public_bi/0162b727-8c7b-4d1d-8d49-033b18588e51",
+    "public_bi/0258e0b9-93da-4c07-98df-0862272a9b1a",
+    "public_bi/03abd64d-4a10-4f52-a2f6-e934ede74207",
+    "public_bi/041261d6-c884-48d1-b97c-c340e03a8f30",
+    "public_bi/06868476-1e1c-43f9-80eb-d523ae5690d2",
+    "public_bi/06fe7162-c6f9-44a2-a971-fd3689d3abea",
+    "public_bi/09b7d86e-4ee9-41bc-9f43-4dbdc36cdda9",
+    "public_bi/0af0a22d-30b4-48de-92c0-8953b93a24e9",
+    "public_bi/0b63a681-1347-445f-af79-f50470ceb80b",
+    "public_bi/0dd2df7a-267d-4502-88e5-74616fc65c55",
+    "public_bi/0e66bfbc-78f7-4a3a-8231-8901d71479e2",
+    "public_bi/0f190397-5363-4424-a3ec-df00c86a0860",
+    "public_bi/10864335-035d-462b-9659-89499d892d28",
+    "public_bi/115baa10-90c8-4151-8246-293879c4379b",
+    "public_bi/11e7ca56-12a7-4584-8712-2446b8d2b1e9",
+    "public_bi/141ec349-8e2d-4204-b004-0ae5de5986b9",
+    "public_bi/1481b3b8-9bd7-4d37-8ff8-d5e3047181c7",
+    "public_bi/15173806-fc7e-45f0-b1b6-356babbffbbb",
+    "public_bi/179f5ec5-9214-438b-bde6-9ac73834058c",
+    "public_bi/195a1cd3-144d-45f1-bf96-954056a0d7be",
+    "public_bi/19694253-3f92-44f9-8381-1292fc72495d",
+    "public_bi/19756313-fd0f-4ac4-be3e-684d9f8047fd",
+    "public_bi/1b244c96-f76a-4da9-94e4-6f30abff43ba",
+    "public_bi/20e489ad-2772-46ad-a9c9-13bb84c4cc42",
+    "public_bi/227766f2-f81c-443c-9fe8-48ab279dded5",
+    "public_bi/241f5a3d-916c-4107-8495-f04cf6cd486f",
+    "public_bi/2631821a-8a0e-4eee-bedd-d96b685c454f",
+    "public_bi/27ca9d13-4d31-400b-a253-30804361ec52",
+    "public_bi/27feec5d-a5e1-4f0f-844a-26357bbc9164",
+    "public_bi/283b3c29-6f74-4127-8bcb-6624db2b4f39",
+    "public_bi/28b5faca-a096-4fd4-a2a4-61848c130a62",
+    "public_bi/29febc6e-6e96-43f4-8c52-fe1aabc9519c",
+    "public_bi/2c210da8-3edd-409b-b4f2-1c9d9d3228e7",
+    "public_bi/2cab2f67-16cd-4496-b687-541f04078323",
+    "public_bi/2e543624-9133-461f-9402-880e1c7529c9",
+    "public_bi/2eb8c965-c056-42c9-8b31-46879b945ced",
+    "public_bi/367f0fa3-4ab1-49fc-ae28-e709a5adf5b9",
+    "public_bi/38247c83-0c1b-460e-ada3-504fe4c636af",
+    "public_bi/3b46af30-acf4-459d-8e2d-e29abe5c0495",
+    "public_bi/3d48a437-ddd7-4aef-a5d4-ff8db347afa8",
+    "public_bi/3d8c0411-c8e6-40b5-918d-90e11adf7469",
+    "public_bi/42b2fe17-e6f2-42e9-bc90-c774bccb2e37",
+    "public_bi/4aa8b0b3-20fe-4840-8e5c-0b8db22065ca",
+    "public_bi/4ac454fe-838f-4d5c-ac4d-a3c5a8cf7d6d",
+    "public_bi/4b57fba5-2c3a-42da-9a13-81255e7c0232",
+    "public_bi/4fc09fa4-bf1a-4a5b-8b5b-80b293681a88",
+    "public_bi/52caf26d-2978-4ea5-8d81-e5b147ca263b",
+    "public_bi/550970cf-7733-4963-9cef-46b15685296e",
+    "public_bi/557c8953-a9f7-4e44-a979-499827660e94",
+    "public_bi/58c7c41b-c4f5-4b63-9d3f-082dbd199066",
+    "public_bi/59814038-332a-4846-ae93-2feb39856463",
+    "public_bi/5990004b-12a4-4ebc-9e46-547bbec4b17f",
+    "public_bi/5adc738b-b414-4473-9db4-003052f484d2",
+    "public_bi/5d033b40-ec15-4ddd-a8f3-36dad3ea5f5c",
+    "public_bi/5d859083-3df3-414c-a825-775a4ab93eed",
+    "public_bi/5dad308b-1a15-4666-8ce1-9b4435698b6d",
+    "public_bi/5f196185-85f0-444c-911f-ae9a2cf21989",
+    "public_bi/5f6dae51-9b5c-4d65-8638-c1a1efff66c5",
+    "public_bi/624aec8e-4a34-4748-a404-76dc757db452",
+    "public_bi/6309dfeb-da1c-43a1-bbeb-c1b15fa37084",
+    "public_bi/633fef3c-ba88-40a7-a913-0ecf3f990a52",
+    "public_bi/645a1171-1d2f-4793-8023-d447b10f813e",
+    "public_bi/67580570-6a8d-4dd7-80f4-e6def711ab92",
+    "public_bi/67f3ec1a-7149-4014-af06-a5a23b5bb546",
+    "public_bi/68e584b0-3b06-4aff-a650-b3f4b2f32aa2",
+    "public_bi/6a9295c4-df5b-4aa3-bb02-e75a132c0b63",
+    "public_bi/6b172174-de8d-47ee-9e83-0f32900417e8",
+    "public_bi/6cc2bdd2-8064-43c4-8708-08d91f09c462",
+    "public_bi/6e99e8a3-005c-462e-b510-c4b13f0838b6",
+    "public_bi/6ecc82e2-d155-43d4-8ca5-a05f98dd329b",
+    "public_bi/70c33f36-bccd-4ce4-b2a7-d2ca80d73e6c",
+    "public_bi/71387e49-c715-439b-aed1-8b2b3d98a1ce",
+    "public_bi/71d0e35c-3031-4aca-99fa-158a331b398d",
+    "public_bi/73038032-93de-48a0-a379-e073bde618b3",
+    "public_bi/737fcd66-3221-4977-ac72-1f2c9e905808",
+    "public_bi/73cf2611-2deb-4f82-934f-99fe71dcce6a",
+    "public_bi/751cda66-3f64-46fb-a035-c4ed76b4be63",
+    "public_bi/759da1fa-f483-4268-b1e0-934033433faf",
+    "public_bi/764da1f2-fd24-4d86-9a4e-45372093255f",
+    "public_bi/771bd7b1-9480-4e81-9e35-6e6fb9ca4a26",
+    "public_bi/78f040bf-cd26-46c2-a0f6-e25683c81729",
+    "public_bi/7b3c7b05-13a4-402a-981f-0edb8b108c07",
+    "public_bi/7b49cbfc-8779-499a-b84a-84524978b2dc",
+    "public_bi/808abbfc-cb27-41a5-8c42-c689f1a90089",
+    "public_bi/8243bf2b-567b-4430-a234-cacfe09dbab5",
+    "public_bi/82f7a749-6e07-4277-b968-57fe6c154f3b",
+    "public_bi/83533cba-1a32-473b-b662-79505075a756",
+    "public_bi/83bcbc15-8483-4e6f-b4cc-4b357c024535",
+    "public_bi/876fa7ca-fda4-4282-b820-3b8b41289da4",
+    "public_bi/87b28112-5168-4c7d-9598-294fc43af66f",
+    "public_bi/8867b766-3487-4f4f-838b-9356b5c37a64",
+    "public_bi/893d5ba8-4dfe-4978-82b6-5963d6d514d6",
+    "public_bi/894bfec6-3300-4d14-8ddb-a4a02a518f3c",
+    "public_bi/8a87f754-5d1a-42fc-915e-1e9c4087018e",
+    "public_bi/8ad99aca-d8ae-4ef3-8392-268b25efe520",
+    "public_bi/8af8dab7-bf33-4c35-bdf4-b13a445de661",
+    "public_bi/8b9d9b4c-1561-4b93-b698-d015daaf3cc3",
+    "public_bi/8c0d154c-9ff4-4c76-8944-b761706d1c1a",
+    "public_bi/8d3da3be-7759-491a-8b8e-49705031aba5",
+    "public_bi/8e8808d4-1289-4890-922d-04993a0ef333",
+    "public_bi/8fe259ad-09ec-468f-ba73-d9b85f7265a4",
+    "public_bi/9092284e-0b84-4d20-a803-d004bd874e39",
+    "public_bi/91fe7524-df46-4184-9a0d-c1be4e8dba35",
+    "public_bi/9324e1e2-73d0-4bb7-b3db-070fbce8b14e",
+    "public_bi/988b9053-b866-4516-9954-78b2b205dff7",
+    "public_bi/990d24fb-f4b4-4ac3-ab8a-633b845772f7",
+    "public_bi/9b046cd4-db1c-468c-a001-a2642c619d0e",
+    "public_bi/9c4dc84b-fa1d-4ce2-891c-24b51da1f795",
+    "public_bi/9c567716-e1bc-4ebd-a463-b9dde96dd8ab",
+    "public_bi/9d8e450f-635b-49ac-9e04-743196cb9625",
+    "public_bi/9f734d01-9495-4a1a-898b-10b46ce34b09",
+    "public_bi/a007550f-854b-4877-aa62-c00afb975f6d",
+    "public_bi/a243c3cb-6478-4432-be5e-c4db0d135248",
+    "public_bi/a2a0be96-f492-43af-94c6-d44c7a74fb3e",
+    "public_bi/a3a3d248-ea31-4540-bb11-63d70b95bf63",
+    "public_bi/a81b9f66-4b8d-46c4-9d48-82d8ccc9ed1b",
+    "public_bi/aeddd263-76d4-4873-ad14-624d2680a00a",
+    "public_bi/b019c4e5-a6e7-4b1b-8eb0-60bdb743d80b",
+    "public_bi/b347491f-2798-4792-9214-deaed5ed0dd7",
+    "public_bi/b498ddbd-6aed-4ca1-b9a0-89e43690265a",
+    "public_bi/b677e4ed-7968-417c-ac18-834f6f140aaa",
+    "public_bi/b6ebdbc4-06d8-4cc9-b6c8-d9ec0714b2ac",
+    "public_bi/b77864d9-e875-4f8b-9b14-7e70f39503d7",
+    "public_bi/b7bc1a14-d4ab-4f6d-81c1-7215ced81e03",
+    "public_bi/bd9ed5a0-7f45-4b31-86cd-c285dce908d3",
+    "public_bi/bfa4dba9-d639-45fe-a531-078a248e4122",
+    "public_bi/bfdc5ee9-9b20-4c82-b39c-fc863623812e",
+    "public_bi/bff5c425-1457-4e16-b826-ddb307fe4e3f",
+    "public_bi/bffc71dc-9143-426b-8533-0d672d2d2939",
+    "public_bi/c4b3c76c-d9b9-4013-b6ab-a824006af924",
+    "public_bi/c53e8924-6513-44b7-9668-643c1f2b997e",
+    "public_bi/c5f1516a-b9a1-4b17-8ae1-dc502021a94d",
+    "public_bi/c7f84bde-4210-4788-8211-449a1899a589",
+    "public_bi/cda2fc38-d5e9-4f03-b295-634afe072499",
+    "public_bi/ce0b205d-3641-4ef2-8b9f-0a7a7297aea8",
+    "public_bi/ce58f7f3-1840-4f57-87c7-64276596d864",
+    "public_bi/d0c307ca-856e-4a83-b368-a36b7305951b",
+    "public_bi/d0ff6f7e-78f1-45e8-a44c-036bd3c1d899",
+    "public_bi/d111f74d-772c-453b-b539-93301d191c25",
+    "public_bi/d24cbcf3-1ac6-4712-b5ac-908268ceadc7",
+    "public_bi/d28b5ba3-c013-4ce2-af07-e017ef808ada",
+    "public_bi/d3d4fb1e-edbe-4705-ad3b-899efa3c161c",
+    "public_bi/d4c4a854-d6d2-4044-bc1b-0ce312ad4bfe",
+    "public_bi/d51f51d1-c684-4c1a-a43a-56398b16e4ef",
+    "public_bi/d5dbecfe-557a-427a-9fe7-beacfbe24155",
+    "public_bi/d60a752b-d869-47fe-a20e-62668f9c52ab",
+    "public_bi/d7e09802-5c18-42f1-9e03-2a8a6e3e54e2",
+    "public_bi/d9d2badd-ed4b-4487-84bd-9d07329e0233",
+    "public_bi/ddbb3193-bedf-44f5-b6ba-5c259becce66",
+    "public_bi/df236d8c-e3da-4731-a336-47b8c30d7cb2",
+    "public_bi/e1e37183-e29b-4985-9163-f76d0f736d87",
+    "public_bi/e21a7d68-4b5c-4cca-ad7e-de6e04320992",
+    "public_bi/e420d367-a2b0-4e88-8c51-722286506c1e",
+    "public_bi/e4f03b05-9cf9-47ca-afc4-8e3d1afd0e91",
+    "public_bi/e4faf247-518a-41af-a4b8-f67c1de85560",
+    "public_bi/e608d9d7-20c2-4b79-aa66-0849d6a4bd4a",
+    "public_bi/e99bc6c2-e5c0-446c-8724-874d3d04a7af",
+    "public_bi/ea3bb62c-f9f0-43f5-8e07-7836cb436deb",
+    "public_bi/ea72edbc-f4fd-4b4c-a588-5d1532c50e78",
+    "public_bi/eaa10527-0008-4e70-a74a-3f4f621a9431",
+    "public_bi/eccf04cc-f28c-4a01-8b4c-b852baad0333",
+    "public_bi/ed76d372-87c4-4ca4-bbc3-2ad50406b48d",
+    "public_bi/eec249da-1a94-4b0c-9acc-6040d7f316d4",
+    "public_bi/f4fe571b-cbed-4e7a-95e4-89f52ae69fda",
+    "public_bi/f53b9d07-ff4b-4da0-bff0-f04e5037d852",
+    "public_bi/f578aaf8-2be4-42b1-9bfc-456b1574f96c",
+    "public_bi/fb6679ac-1f81-45d6-946a-80fec8186f67",
+    "public_bi/fbe196cf-f7f3-4107-9b13-3b314ab35229",
+    "public_bi/feb47a48-c510-4764-908c-273c71a1a59d",
+    "public_bi/ff3d46bc-4457-4e74-895c-6b8d4d54b0af",
+    "public_bi/table_100_SEP_contexts-16",
+    "public_bi/table_100_SEP_contexts-45",
+    "public_bi/table_101_SEP_contexts-10",
+    "public_bi/table_101_SEP_contexts-23",
+    "public_bi/table_101_SEP_contexts-24",
+    "public_bi/table_101_SEP_contexts-25",
+    "public_bi/table_101_SEP_contexts-31",
+    "public_bi/table_102_SEP_contexts-15",
+    "public_bi/table_102_SEP_contexts-23",
+    "public_bi/table_102_SEP_contexts-29",
+    "public_bi/table_102_SEP_contexts-41",
+    "public_bi/table_102_SEP_contexts-43",
+    "public_bi/table_104_SEP_contexts-30",
+    "public_bi/table_104_SEP_contexts-42",
+    "public_bi/table_105_SEP_contexts-42",
+    "public_bi/table_106_SEP_contexts-40",
+    "public_bi/table_106_SEP_contexts-42",
+    "public_bi/table_107_SEP_contexts-15",
+    "public_bi/table_107_SEP_contexts-2",
+    "public_bi/table_107_SEP_contexts-32",
+    "public_bi/table_107_SEP_contexts-37",
+    "public_bi/table_107_SEP_contexts-43",
+    "public_bi/table_107_SEP_contexts-6",
+    "public_bi/table_107_SEP_contexts-7",
+    "public_bi/table_108_SEP_contexts-25",
+    "public_bi/table_108_SEP_contexts-9",
+    "public_bi/table_109_SEP_contexts-38",
+    "public_bi/table_10_SEP_contexts-9",
+    "public_bi/table_112_SEP_contexts-40",
+    "public_bi/table_113_SEP_contexts-1",
+    "public_bi/table_114_SEP_contexts-49",
+    "public_bi/table_115_SEP_contexts-39",
+    "public_bi/table_117_SEP_contexts-36",
+    "public_bi/table_117_SEP_contexts-6",
+    "public_bi/table_117_SEP_contexts-9",
+    "public_bi/table_118_SEP_contexts-2",
+    "public_bi/table_118_SEP_contexts-23",
+    "public_bi/table_118_SEP_contexts-29",
+    "public_bi/table_118_SEP_contexts-8",
+    "public_bi/table_119_SEP_contexts-29",
+    "public_bi/table_119_SEP_contexts-42",
+    "public_bi/table_11_SEP_contexts-22",
+    "public_bi/table_11_SEP_contexts-30",
+    "public_bi/table_11_SEP_contexts-7",
+    "public_bi/table_120_SEP_contexts-43",
+    "public_bi/table_122_SEP_contexts-42",
+    "public_bi/table_122_SEP_contexts-47",
+    "public_bi/table_124_SEP_contexts-42",
+    "public_bi/table_126_SEP_contexts-1",
+    "public_bi/table_126_SEP_contexts-18",
+    "public_bi/table_126_SEP_contexts-19",
+    "public_bi/table_126_SEP_contexts-22",
+    "public_bi/table_127_SEP_contexts-25",
+    "public_bi/table_129_SEP_contexts-48",
+    "public_bi/table_12_SEP_contexts-42",
+    "public_bi/table_130_SEP_contexts-42",
+    "public_bi/table_130_SEP_contexts-9",
+    "public_bi/table_131_SEP_contexts-43",
+    "public_bi/table_132_SEP_contexts-13",
+    "public_bi/table_132_SEP_contexts-15",
+    "public_bi/table_132_SEP_contexts-19",
+    "public_bi/table_132_SEP_contexts-32",
+    "public_bi/table_132_SEP_contexts-6",
+    "public_bi/table_133_SEP_contexts-20",
+    "public_bi/table_133_SEP_contexts-24",
+    "public_bi/table_133_SEP_contexts-41",
+    "public_bi/table_133_SEP_contexts-7",
+    "public_bi/table_134_SEP_contexts-35",
+    "public_bi/table_134_SEP_contexts-4",
+    "public_bi/table_134_SEP_contexts-41",
+    "public_bi/table_134_SEP_contexts-48",
+    "public_bi/table_135_SEP_contexts-15",
+    "public_bi/table_135_SEP_contexts-2",
+    "public_bi/table_135_SEP_contexts-44",
+    "public_bi/table_138_SEP_contexts-9",
+    "public_bi/table_140_SEP_contexts-27",
+    "public_bi/table_143_SEP_contexts-39",
+    "public_bi/table_144_SEP_contexts-25",
+    "public_bi/table_144_SEP_contexts-27",
+    "public_bi/table_145_SEP_contexts-26",
+    "public_bi/table_145_SEP_contexts-28",
+    "public_bi/table_146_SEP_contexts-10",
+    "public_bi/table_146_SEP_contexts-26",
+    "public_bi/table_147_SEP_contexts-28",
+    "public_bi/table_147_SEP_contexts-8",
+    "public_bi/table_148_SEP_contexts-2",
+    "public_bi/table_148_SEP_contexts-28",
+    "public_bi/table_14_SEP_contexts-28",
+    "public_bi/table_150_SEP_contexts-42",
+    "public_bi/table_151_SEP_contexts-16",
+    "public_bi/table_151_SEP_contexts-8",
+    "public_bi/table_152_SEP_contexts-13",
+    "public_bi/table_152_SEP_contexts-22",
+    "public_bi/table_152_SEP_contexts-41",
+    "public_bi/table_152_SEP_contexts-42",
+    "public_bi/table_154_SEP_contexts-15",
+    "public_bi/table_154_SEP_contexts-27",
+    "public_bi/table_154_SEP_contexts-7",
+    "public_bi/table_155_SEP_contexts-22",
+    "public_bi/table_155_SEP_contexts-42",
+    "public_bi/table_156_SEP_contexts-27",
+    "public_bi/table_158_SEP_contexts-47",
+    "public_bi/table_159_SEP_contexts-39",
+    "public_bi/table_160_SEP_contexts-19",
+    "public_bi/table_160_SEP_contexts-38",
+    "public_bi/table_160_SEP_contexts-9",
+    "public_bi/table_161_SEP_contexts-14",
+    "public_bi/table_161_SEP_contexts-6",
+    "public_bi/table_162_SEP_contexts-12",
+    "public_bi/table_162_SEP_contexts-27",
+    "public_bi/table_162_SEP_contexts-42",
+    "public_bi/table_164_SEP_contexts-16",
+    "public_bi/table_166_SEP_contexts-19",
+    "public_bi/table_167_SEP_contexts-39",
+    "public_bi/table_169_SEP_contexts-11",
+    "public_bi/table_169_SEP_contexts-17",
+    "public_bi/table_169_SEP_contexts-4",
+    "public_bi/table_16_SEP_contexts-47",
+    "public_bi/table_173_SEP_contexts-33",
+    "public_bi/table_173_SEP_contexts-7",
+    "public_bi/table_174_SEP_contexts-38",
+    "public_bi/table_175_SEP_contexts-29",
+    "public_bi/table_175_SEP_contexts-32",
+    "public_bi/table_176_SEP_contexts-27",
+    "public_bi/table_176_SEP_contexts-9",
+    "public_bi/table_177_SEP_contexts-15",
+    "public_bi/table_177_SEP_contexts-9",
+    "public_bi/table_178_SEP_contexts-35",
+    "public_bi/table_179_SEP_contexts-19",
+    "public_bi/table_179_SEP_contexts-22",
+    "public_bi/table_179_SEP_contexts-29",
+    "public_bi/table_179_SEP_contexts-38",
+    "public_bi/table_17_SEP_contexts-2",
+    "public_bi/table_17_SEP_contexts-25",
+    "public_bi/table_182_SEP_contexts-10",
+    "public_bi/table_182_SEP_contexts-16",
+    "public_bi/table_182_SEP_contexts-2",
+    "public_bi/table_182_SEP_contexts-4",
+    "public_bi/table_183_SEP_contexts-17",
+    "public_bi/table_183_SEP_contexts-35",
+    "public_bi/table_183_SEP_contexts-36",
+    "public_bi/table_183_SEP_contexts-39",
+    "public_bi/table_183_SEP_contexts-7",
+    "public_bi/table_184_SEP_contexts-8",
+    "public_bi/table_185_SEP_contexts-27",
+    "public_bi/table_185_SEP_contexts-43",
+    "public_bi/table_185_SEP_contexts-6",
+    "public_bi/table_185_SEP_contexts-9",
+    "public_bi/table_186_SEP_contexts-25",
+    "public_bi/table_187_SEP_contexts-12",
+    "public_bi/table_187_SEP_contexts-9",
+    "public_bi/table_188_SEP_contexts-0",
+    "public_bi/table_188_SEP_contexts-17",
+    "public_bi/table_188_SEP_contexts-41",
+    "public_bi/table_189_SEP_contexts-8",
+    "public_bi/table_18_SEP_contexts-29",
+    "public_bi/table_18_SEP_contexts-40",
+    "public_bi/table_191_SEP_contexts-4",
+    "public_bi/table_191_SEP_contexts-8",
+    "public_bi/table_193_SEP_contexts-16",
+    "public_bi/table_193_SEP_contexts-44",
+    "public_bi/table_194_SEP_contexts-19",
+    "public_bi/table_196_SEP_contexts-0",
+    "public_bi/table_196_SEP_contexts-10",
+    "public_bi/table_196_SEP_contexts-17",
+    "public_bi/table_196_SEP_contexts-21",
+    "public_bi/table_196_SEP_contexts-38",
+    "public_bi/table_196_SEP_contexts-7",
+    "public_bi/table_197_SEP_contexts-25",
+    "public_bi/table_19_SEP_contexts-14",
+    "public_bi/table_19_SEP_contexts-19",
+    "public_bi/table_19_SEP_contexts-2",
+    "public_bi/table_19_SEP_contexts-28",
+    "public_bi/table_1_SEP_contexts-34",
+    "public_bi/table_1_SEP_contexts-47",
+    "public_bi/table_1_SEP_contexts-6",
+    "public_bi/table_201_SEP_contexts-16",
+    "public_bi/table_201_SEP_contexts-22",
+    "public_bi/table_203_SEP_contexts-23",
+    "public_bi/table_203_SEP_contexts-37",
+    "public_bi/table_203_SEP_contexts-43",
+    "public_bi/table_203_SEP_contexts-8",
+    "public_bi/table_21_SEP_contexts-40",
+    "public_bi/table_22_SEP_contexts-10",
+    "public_bi/table_23_SEP_contexts-14",
+    "public_bi/table_23_SEP_contexts-15",
+    "public_bi/table_24_SEP_contexts-1",
+    "public_bi/table_24_SEP_contexts-16",
+    "public_bi/table_24_SEP_contexts-32",
+    "public_bi/table_24_SEP_contexts-6",
+    "public_bi/table_25_SEP_contexts-11",
+    "public_bi/table_25_SEP_contexts-12",
+    "public_bi/table_27_SEP_contexts-10",
+    "public_bi/table_28_SEP_contexts-1",
+    "public_bi/table_29_SEP_contexts-10",
+    "public_bi/table_29_SEP_contexts-6",
+    "public_bi/table_31_SEP_contexts-9",
+    "public_bi/table_32_SEP_contexts-0",
+    "public_bi/table_32_SEP_contexts-21",
+    "public_bi/table_32_SEP_contexts-48",
+    "public_bi/table_32_SEP_contexts-7",
+    "public_bi/table_32_SEP_contexts-8",
+    "public_bi/table_33_SEP_contexts-0",
+    "public_bi/table_33_SEP_contexts-19",
+    "public_bi/table_33_SEP_contexts-2",
+    "public_bi/table_33_SEP_contexts-29",
+    "public_bi/table_33_SEP_contexts-32",
+    "public_bi/table_33_SEP_contexts-48",
+    "public_bi/table_34_SEP_contexts-11",
+    "public_bi/table_34_SEP_contexts-47",
+    "public_bi/table_36_SEP_contexts-10",
+    "public_bi/table_36_SEP_contexts-15",
+    "public_bi/table_36_SEP_contexts-17",
+    "public_bi/table_36_SEP_contexts-19",
+    "public_bi/table_36_SEP_contexts-32",
+    "public_bi/table_36_SEP_contexts-4",
+    "public_bi/table_36_SEP_contexts-44",
+    "public_bi/table_37_SEP_contexts-14",
+    "public_bi/table_37_SEP_contexts-35",
+    "public_bi/table_37_SEP_contexts-40",
+    "public_bi/table_38_SEP_contexts-19",
+    "public_bi/table_38_SEP_contexts-40",
+    "public_bi/table_40_SEP_contexts-30",
+    "public_bi/table_41_SEP_contexts-26",
+    "public_bi/table_41_SEP_contexts-42",
+    "public_bi/table_41_SEP_contexts-49",
+    "public_bi/table_43_SEP_contexts-9",
+    "public_bi/table_44_SEP_contexts-12",
+    "public_bi/table_45_SEP_contexts-36",
+    "public_bi/table_47_SEP_contexts-1",
+    "public_bi/table_47_SEP_contexts-35",
+    "public_bi/table_48_SEP_contexts-10",
+    "public_bi/table_48_SEP_contexts-33",
+    "public_bi/table_48_SEP_contexts-6",
+    "public_bi/table_49_SEP_contexts-10",
+    "public_bi/table_49_SEP_contexts-25",
+    "public_bi/table_49_SEP_contexts-36",
+    "public_bi/table_49_SEP_contexts-41",
+    "public_bi/table_49_SEP_contexts-43",
+    "public_bi/table_4_SEP_contexts-31",
+    "public_bi/table_4_SEP_contexts-4",
+    "public_bi/table_4_SEP_contexts-7",
+    "public_bi/table_50_SEP_contexts-19",
+    "public_bi/table_50_SEP_contexts-34",
+    "public_bi/table_52_SEP_contexts-38",
+    "public_bi/table_52_SEP_contexts-42",
+    "public_bi/table_53_SEP_contexts-28",
+    "public_bi/table_54_SEP_contexts-22",
+    "public_bi/table_54_SEP_contexts-29",
+    "public_bi/table_55_SEP_contexts-9",
+    "public_bi/table_56_SEP_contexts-1",
+    "public_bi/table_56_SEP_contexts-29",
+    "public_bi/table_56_SEP_contexts-37",
+    "public_bi/table_58_SEP_contexts-47",
+    "public_bi/table_58_SEP_contexts-9",
+    "public_bi/table_60_SEP_contexts-36",
+    "public_bi/table_61_SEP_contexts-37",
+    "public_bi/table_62_SEP_contexts-16",
+    "public_bi/table_62_SEP_contexts-20",
+    "public_bi/table_62_SEP_contexts-25",
+    "public_bi/table_62_SEP_contexts-26",
+    "public_bi/table_62_SEP_contexts-33",
+    "public_bi/table_62_SEP_contexts-37",
+    "public_bi/table_62_SEP_contexts-44",
+    "public_bi/table_63_SEP_contexts-27",
+    "public_bi/table_63_SEP_contexts-42",
+    "public_bi/table_65_SEP_contexts-39",
+    "public_bi/table_66_SEP_contexts-1",
+    "public_bi/table_66_SEP_contexts-14",
+    "public_bi/table_66_SEP_contexts-33",
+    "public_bi/table_66_SEP_contexts-48",
+    "public_bi/table_66_SEP_contexts-7",
+    "public_bi/table_67_SEP_contexts-30",
+    "public_bi/table_71_SEP_contexts-39",
+    "public_bi/table_73_SEP_contexts-15",
+    "public_bi/table_73_SEP_contexts-2",
+    "public_bi/table_74_SEP_contexts-25",
+    "public_bi/table_75_SEP_contexts-32",
+    "public_bi/table_78_SEP_contexts-9",
+    "public_bi/table_79_SEP_contexts-17",
+    "public_bi/table_79_SEP_contexts-8",
+    "public_bi/table_7_SEP_contexts-16",
+    "public_bi/table_7_SEP_contexts-38",
+    "public_bi/table_7_SEP_contexts-40",
+    "public_bi/table_80_SEP_contexts-16",
+    "public_bi/table_80_SEP_contexts-24",
+    "public_bi/table_80_SEP_contexts-48",
+    "public_bi/table_83_SEP_contexts-2",
+    "public_bi/table_83_SEP_contexts-20",
+    "public_bi/table_83_SEP_contexts-23",
+    "public_bi/table_83_SEP_contexts-24",
+    "public_bi/table_86_SEP_contexts-42",
+    "public_bi/table_87_SEP_contexts-22",
+    "public_bi/table_87_SEP_contexts-31",
+    "public_bi/table_87_SEP_contexts-42",
+    "public_bi/table_88_SEP_contexts-28",
+    "public_bi/table_89_SEP_contexts-17",
+    "public_bi/table_89_SEP_contexts-26",
+    "public_bi/table_89_SEP_contexts-35",
+    "public_bi/table_89_SEP_contexts-37",
+    "public_bi/table_90_SEP_contexts-0",
+    "public_bi/table_90_SEP_contexts-14",
+    "public_bi/table_90_SEP_contexts-24",
+    "public_bi/table_90_SEP_contexts-25",
+    "public_bi/table_90_SEP_contexts-35",
+    "public_bi/table_92_SEP_contexts-1",
+    "public_bi/table_92_SEP_contexts-40",
+    "public_bi/table_98_SEP_contexts-1",
+    "public_bi/table_98_SEP_contexts-20"
+   ],
+   "vectors_identical": [
+    5578,
+    8000
+   ],
+   "unfilled_timings": {
+    "blend": {
+     "own": 0,
+     "shared": 0
+    },
+    "pneuma": {
+     "own": 0,
+     "shared": 0
+    }
+   },
+   "own_document_differences": [
+    [
+     "public_bi",
+     "IUBLibrary_1_SEP_table_10.csv",
+     "row",
+     5,
+     4
+    ],
+    [
+     "public_bi",
+     "MLB_32_SEP_table_156.csv",
+     "schema",
+     5,
+     6
+    ],
+    [
+     "public_bi",
+     "MLB_33_SEP_table_50.csv",
+     "schema",
+     6,
+     5
+    ],
+    [
+     "public_bi",
+     "MLB_36_SEP_table_160.csv",
+     "schema",
+     5,
+     6
+    ],
+    [
+     "public_bi",
+     "MLB_43_SEP_table_192.csv",
+     "schema",
+     6,
+     5
+    ],
+    [
+     "public_bi",
+     "MLB_53_SEP_table_181.csv",
+     "schema",
+     6,
+     7
+    ],
+    [
+     "public_bi",
+     "MLB_5_SEP_table_99.csv",
+     "row",
+     4,
+     5
+    ],
+    [
+     "public_bi",
+     "MLB_63_SEP_table_82.csv",
+     "schema",
+     6,
+     5
+    ],
+    [
+     "public_bi",
+     "MLB_65_SEP_table_122.csv",
+     "schema",
+     6,
+     5
+    ],
+    [
+     "public_bi",
+     "MLB_68_SEP_table_13.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "public_bi",
+     "MLB_6_SEP_table_75.csv",
+     "row",
+     4,
+     3
+    ],
+    [
+     "public_bi",
+     "RealEstate2_4_SEP_table_110.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "public_bi",
+     "RealEstate2_5_SEP_table_190.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "public_bi",
+     "RealEstate2_6_SEP_table_12.csv",
+     "schema",
+     3,
+     2
+    ],
+    [
+     "public_bi",
+     "RealEstate2_7_SEP_table_113.csv",
+     "schema",
+     2,
+     3
+    ],
+    [
+     "public_bi",
+     "Rentabilidad_1_SEP_table_57.csv",
+     "schema",
+     16,
+     17
+    ],
+    [
+     "public_bi",
+     "Rentabilidad_6_SEP_table_23.csv",
+     "schema",
+     17,
+     16
+    ],
+    [
+     "public_bi",
+     "Rentabilidad_7_SEP_table_146.csv",
+     "schema",
+     16,
+     17
+    ],
+    [
+     "public_bi",
+     "Rentabilidad_8_SEP_table_193.csv",
+     "schema",
+     16,
+     17
+    ],
+    [
+     "public_bi",
+     "Romance_2_SEP_table_121.csv",
+     "row",
+     2,
+     3
+    ],
+    [
+     "public_bi",
+     "TableroSistemaPenal_1_SEP_table_129.csv",
+     "schema",
+     3,
+     2
+    ],
+    [
+     "public_bi",
+     "TableroSistemaPenal_7_SEP_table_84.csv",
+     "schema",
+     3,
+     2
+    ]
+   ],
+   "own_text_differences": {
+    "contexts": [
+     0,
+     3000
+    ],
+    "row": [
+     934,
+     938
+    ],
+    "schema": [
+     925,
+     1102
+    ]
+   },
+   "met": {
+    "both_ran": true,
+    "shared_documents_equal": true,
+    "bm25_identical": false,
+    "vectors_ran": true,
+    "timings_filled": true
+   }
+  }
+ ],
+ "groups": [
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.86,
+    "pneuma": 0.871
+   },
+   "hit_rate_difference": -0.01100000000000001,
+   "differing": 156,
+   "hit_flips": {
+    "blend": 31,
+    "pneuma": 42
+   },
+   "causes": {
+    "own texts": 150,
+    "vector": 6
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 31
+    },
+    "pneuma": {
+     "own texts": 42
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 92.63375215232372,
+    "pneuma": 29.710521921515465
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.897,
+    "pneuma": 0.905
+   },
+   "hit_rate_difference": -0.008000000000000007,
+   "differing": 127,
+   "hit_flips": {
+    "blend": 24,
+    "pneuma": 32
+   },
+   "causes": {
+    "own texts": 103,
+    "judge": 21,
+    "vector": 3
+   },
+   "flip_causes": {
+    "blend": {
+     "judge": 7,
+     "own texts": 17
+    },
+    "pneuma": {
+     "own texts": 25,
+     "judge": 6,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 391.6837014257908,
+    "pneuma": 343.99809688329697
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.974,
+    "pneuma": 0.977
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 819,
+   "hit_flips": {
+    "blend": 5,
+    "pneuma": 8
+   },
+   "causes": {
+    "own texts": 764,
+    "bm25": 34,
+    "vector": 21
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 5
+    },
+    "pneuma": {
+     "own texts": 8
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 93.91186386346817,
+    "pneuma": 36.47010773420334
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.987,
+    "pneuma": 0.991
+   },
+   "hit_rate_difference": -0.0040000000000000036,
+   "differing": 788,
+   "hit_flips": {
+    "blend": 2,
+    "pneuma": 6
+   },
+   "causes": {
+    "own texts": 720,
+    "bm25": 33,
+    "judge": 14,
+    "vector": 21
+   },
+   "flip_causes": {
+    "blend": {
+     "judge": 1,
+     "own texts": 1
+    },
+    "pneuma": {
+     "own texts": 6
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1673.2345316559076,
+    "pneuma": 1658.7286405265331
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.725,
+    "pneuma": 0.728
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 17,
+   "hit_flips": {
+    "blend": 3,
+    "pneuma": 6
+   },
+   "causes": {
+    "vector": 17
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 3
+    },
+    "pneuma": {
+     "vector": 6
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 84.36897583305836,
+    "pneuma": 29.250524938106537
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.801,
+    "pneuma": 0.801
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 83.12584832310677,
+    "pneuma": 28.806203976273537
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.926,
+    "pneuma": 0.927
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 27,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 1
+   },
+   "causes": {
+    "vector": 27
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 84.05512198805809,
+    "pneuma": 33.78972224891186
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.956,
+    "pneuma": 0.956
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 34,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 34
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 86.0565360635519,
+    "pneuma": 33.581217750906944
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.808,
+    "pneuma": 0.815
+   },
+   "hit_rate_difference": -0.006999999999999895,
+   "differing": 151,
+   "hit_flips": {
+    "blend": 34,
+    "pneuma": 41
+   },
+   "causes": {
+    "own texts": 143,
+    "vector": 8
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 34
+    },
+    "pneuma": {
+     "own texts": 39,
+     "vector": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 79.51588928699493,
+    "pneuma": 30.102724209427834
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.842,
+    "pneuma": 0.844
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 131,
+   "hit_flips": {
+    "blend": 30,
+    "pneuma": 32
+   },
+   "causes": {
+    "own texts": 99,
+    "vector": 4,
+    "judge": 28
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 16,
+     "vector": 1,
+     "judge": 13
+    },
+    "pneuma": {
+     "own texts": 24,
+     "judge": 6,
+     "vector": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 386.8862707167864,
+    "pneuma": 343.2241193950176
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.956,
+    "pneuma": 0.957
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 778,
+   "hit_flips": {
+    "blend": 8,
+    "pneuma": 9
+   },
+   "causes": {
+    "own texts": 714,
+    "vector": 37,
+    "bm25": 27
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 8
+    },
+    "pneuma": {
+     "own texts": 9
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 82.30527862906456,
+    "pneuma": 37.43194043636322
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.971,
+    "pneuma": 0.973
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 750,
+   "hit_flips": {
+    "blend": 3,
+    "pneuma": 5
+   },
+   "causes": {
+    "judge": 17,
+    "own texts": 673,
+    "vector": 34,
+    "bm25": 26
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1,
+     "own texts": 2
+    },
+    "pneuma": {
+     "own texts": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1665.6379476189613,
+    "pneuma": 1655.2117839455605
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.718,
+    "pneuma": 0.719
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 20,
+   "hit_flips": {
+    "blend": 4,
+    "pneuma": 5
+   },
+   "causes": {
+    "vector": 20
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 4
+    },
+    "pneuma": {
+     "vector": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 66.07851758599281,
+    "pneuma": 29.597438871860504
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.726,
+    "pneuma": 0.726
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 66.53846241533756,
+    "pneuma": 28.95776368677616
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.915,
+    "pneuma": 0.918
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 47,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 3
+   },
+   "causes": {
+    "vector": 47
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "vector": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 68.0669005960226,
+    "pneuma": 34.21613946557045
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.933,
+    "pneuma": 0.933
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 28,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 28
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 68.86923126876354,
+    "pneuma": 33.854784443974495
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.678,
+    "pneuma": 0.681
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 46,
+   "hit_flips": {
+    "blend": 2,
+    "pneuma": 5
+   },
+   "causes": {
+    "own texts": 37,
+    "vector": 9
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1,
+     "own texts": 1
+    },
+    "pneuma": {
+     "vector": 2,
+     "own texts": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 70.09770348668098,
+    "pneuma": 30.497625470161438
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.697,
+    "pneuma": 0.694
+   },
+   "hit_rate_difference": 0.0030000000000000027,
+   "differing": 41,
+   "hit_flips": {
+    "blend": 6,
+    "pneuma": 3
+   },
+   "causes": {
+    "vector": 4,
+    "judge": 6,
+    "own texts": 31
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 5,
+     "judge": 1
+    },
+    "pneuma": {
+     "own texts": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 379.0843468159437,
+    "pneuma": 363.55682648718357
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.864,
+    "pneuma": 0.864
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 146,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 1
+   },
+   "causes": {
+    "own texts": 119,
+    "vector": 27
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1
+    },
+    "pneuma": {
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 72.75447808206081,
+    "pneuma": 37.92909532785416
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.893,
+    "pneuma": 0.893
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 162,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "own texts": 91,
+    "judge": 48,
+    "vector": 23
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1705.9463821351528,
+    "pneuma": 1719.9216540902853
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.59,
+    "pneuma": 0.59
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 45,
+   "hit_flips": {
+    "blend": 6,
+    "pneuma": 6
+   },
+   "causes": {
+    "vector": 45
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 6
+    },
+    "pneuma": {
+     "vector": 6
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 55.250510573387146,
+    "pneuma": 29.957717284560204
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.719,
+    "pneuma": 0.719
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 54.04544621706009,
+    "pneuma": 29.246455058455467
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.82,
+    "pneuma": 0.821
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 58,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 2
+   },
+   "causes": {
+    "vector": 58
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1
+    },
+    "pneuma": {
+     "vector": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 55.0786517560482,
+    "pneuma": 34.4435591250658
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.881,
+    "pneuma": 0.881
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 55.66331930458546,
+    "pneuma": 34.0598002076149
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.523,
+    "pneuma": 0.518
+   },
+   "hit_rate_difference": 0.0050000000000000044,
+   "differing": 75,
+   "hit_flips": {
+    "blend": 14,
+    "pneuma": 9
+   },
+   "causes": {
+    "own texts": 58,
+    "vector": 17
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 12,
+     "vector": 2
+    },
+    "pneuma": {
+     "own texts": 9
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 71.64865545928478,
+    "pneuma": 30.76961636543274
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.559,
+    "pneuma": 0.561
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 102,
+   "hit_flips": {
+    "blend": 16,
+    "pneuma": 18
+   },
+   "causes": {
+    "own texts": 47,
+    "judge": 42,
+    "vector": 13
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 9,
+     "judge": 6,
+     "vector": 1
+    },
+    "pneuma": {
+     "own texts": 8,
+     "judge": 9,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 386.0697764903307,
+    "pneuma": 368.3104198426008
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.802,
+    "pneuma": 0.797
+   },
+   "hit_rate_difference": 0.0050000000000000044,
+   "differing": 264,
+   "hit_flips": {
+    "blend": 6,
+    "pneuma": 1
+   },
+   "causes": {
+    "own texts": 212,
+    "vector": 52
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 6
+    },
+    "pneuma": {
+     "own texts": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 74.3775051087141,
+    "pneuma": 38.9802660793066
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.819,
+    "pneuma": 0.819
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 260,
+   "hit_flips": {
+    "blend": 4,
+    "pneuma": 4
+   },
+   "causes": {
+    "judge": 62,
+    "own texts": 158,
+    "vector": 40
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1,
+     "own texts": 2,
+     "judge": 1
+    },
+    "pneuma": {
+     "own texts": 1,
+     "vector": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1718.4583898633718,
+    "pneuma": 1735.8794938772917
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.504,
+    "pneuma": 0.506
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 104,
+   "hit_flips": {
+    "blend": 14,
+    "pneuma": 16
+   },
+   "causes": {
+    "vector": 104
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 14
+    },
+    "pneuma": {
+     "vector": 16
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 56.761130690574646,
+    "pneuma": 30.228696763515472
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.468,
+    "pneuma": 0.468
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 55.28668873012066,
+    "pneuma": 29.544459655880928
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.786,
+    "pneuma": 0.784
+   },
+   "hit_rate_difference": 0.0020000000000000018,
+   "differing": 141,
+   "hit_flips": {
+    "blend": 5,
+    "pneuma": 3
+   },
+   "causes": {
+    "vector": 141
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 5
+    },
+    "pneuma": {
+     "vector": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 56.53822049498558,
+    "pneuma": 35.69976985454559
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "adventure_works",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.771,
+    "pneuma": 0.771
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 56.63787201046944,
+    "pneuma": 35.26872768998146
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.906,
+    "pneuma": 0.916
+   },
+   "hit_rate_difference": -0.010000000000000009,
+   "differing": 57,
+   "hit_flips": {
+    "blend": 19,
+    "pneuma": 29
+   },
+   "causes": {
+    "own texts": 56,
+    "vector": 1
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 19
+    },
+    "pneuma": {
+     "own texts": 28,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 51.33751966059208,
+    "pneuma": 30.770329758524895
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.923,
+    "pneuma": 0.921
+   },
+   "hit_rate_difference": 0.0020000000000000018,
+   "differing": 48,
+   "hit_flips": {
+    "blend": 20,
+    "pneuma": 18
+   },
+   "causes": {
+    "own texts": 27,
+    "judge": 20,
+    "vector": 1
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 11,
+     "judge": 9
+    },
+    "pneuma": {
+     "own texts": 11,
+     "judge": 6,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 340.5310809612274,
+    "pneuma": 343.94452534615993
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.988,
+    "pneuma": 0.992
+   },
+   "hit_rate_difference": -0.0040000000000000036,
+   "differing": 725,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 4
+   },
+   "causes": {
+    "own texts": 704,
+    "vector": 21
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "own texts": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 55.70445954799652,
+    "pneuma": 37.46934421360493
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.993,
+    "pneuma": 0.995
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 732,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 3
+   },
+   "causes": {
+    "own texts": 674,
+    "judge": 37,
+    "vector": 21
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 1
+    },
+    "pneuma": {
+     "own texts": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1656.0205612331629,
+    "pneuma": 1668.9221430569887
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.804,
+    "pneuma": 0.805
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 11,
+   "hit_flips": {
+    "blend": 4,
+    "pneuma": 5
+   },
+   "causes": {
+    "vector": 11
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 4
+    },
+    "pneuma": {
+     "vector": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 45.463306829333305,
+    "pneuma": 30.320536345243454
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.803,
+    "pneuma": 0.803
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.968396097421646,
+    "pneuma": 29.85461615025997
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.957,
+    "pneuma": 0.957
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 36,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 1
+   },
+   "causes": {
+    "vector": 36
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1
+    },
+    "pneuma": {
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 39.99345563352108,
+    "pneuma": 34.6316322684288
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.967,
+    "pneuma": 0.967
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 38.88375125825405,
+    "pneuma": 34.538429230451584
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.833,
+    "pneuma": 0.839
+   },
+   "hit_rate_difference": -0.006000000000000005,
+   "differing": 85,
+   "hit_flips": {
+    "blend": 27,
+    "pneuma": 33
+   },
+   "causes": {
+    "own texts": 79,
+    "vector": 6
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 26,
+     "vector": 1
+    },
+    "pneuma": {
+     "own texts": 31,
+     "vector": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 53.907549008727074,
+    "pneuma": 31.113408505916595
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.855,
+    "pneuma": 0.85
+   },
+   "hit_rate_difference": 0.0050000000000000044,
+   "differing": 82,
+   "hit_flips": {
+    "blend": 27,
+    "pneuma": 22
+   },
+   "causes": {
+    "judge": 28,
+    "own texts": 49,
+    "vector": 5
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 15,
+     "judge": 11,
+     "vector": 1
+    },
+    "pneuma": {
+     "judge": 6,
+     "own texts": 15,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 343.61742809414864,
+    "pneuma": 346.9741642475128
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.962,
+    "pneuma": 0.967
+   },
+   "hit_rate_difference": -0.0050000000000000044,
+   "differing": 699,
+   "hit_flips": {
+    "blend": 4,
+    "pneuma": 9
+   },
+   "causes": {
+    "own texts": 659,
+    "vector": 40
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 3,
+     "vector": 1
+    },
+    "pneuma": {
+     "own texts": 9
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 57.84425511956215,
+    "pneuma": 38.52472081780434
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.965,
+    "pneuma": 0.968
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 698,
+   "hit_flips": {
+    "blend": 7,
+    "pneuma": 10
+   },
+   "causes": {
+    "own texts": 616,
+    "judge": 43,
+    "vector": 39
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 6,
+     "vector": 1
+    },
+    "pneuma": {
+     "own texts": 10
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1654.4202882796526,
+    "pneuma": 1672.9886904358864
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.722,
+    "pneuma": 0.719
+   },
+   "hit_rate_difference": 0.0030000000000000027,
+   "differing": 24,
+   "hit_flips": {
+    "blend": 7,
+    "pneuma": 4
+   },
+   "causes": {
+    "vector": 24
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 7
+    },
+    "pneuma": {
+     "vector": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 47.51535877585411,
+    "pneuma": 30.776269733905792
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.773,
+    "pneuma": 0.773
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 41.908178478479385,
+    "pneuma": 30.217576771974564
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.925,
+    "pneuma": 0.921
+   },
+   "hit_rate_difference": 0.0040000000000000036,
+   "differing": 64,
+   "hit_flips": {
+    "blend": 5,
+    "pneuma": 1
+   },
+   "causes": {
+    "vector": 64
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 5
+    },
+    "pneuma": {
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 40.955035015940666,
+    "pneuma": 35.36234050989151
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.94,
+    "pneuma": 0.94
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 40.259987115859985,
+    "pneuma": 35.08464805781841
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.636,
+    "pneuma": 0.652
+   },
+   "hit_rate_difference": -0.016000000000000014,
+   "differing": 21,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 16
+   },
+   "causes": {
+    "vector": 9,
+    "own texts": 12
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "vector": 9,
+     "own texts": 7
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 57.59892612695694,
+    "pneuma": 31.499596312642097
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.67,
+    "pneuma": 0.672
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 20,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 3
+   },
+   "causes": {
+    "own texts": 12,
+    "judge": 8
+   },
+   "flip_causes": {
+    "blend": {
+     "judge": 1
+    },
+    "pneuma": {
+     "judge": 2,
+     "own texts": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 369.06624771654606,
+    "pneuma": 367.41398088634014
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.842,
+    "pneuma": 0.841
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 139,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 0
+   },
+   "causes": {
+    "own texts": 124,
+    "vector": 15
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 1
+    },
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 60.313498601317406,
+    "pneuma": 38.31298649311066
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.861,
+    "pneuma": 0.862
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 133,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 1
+   },
+   "causes": {
+    "own texts": 93,
+    "vector": 13,
+    "judge": 27
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "own texts": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1730.8510094881058,
+    "pneuma": 1736.2841721624136
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.563,
+    "pneuma": 0.556
+   },
+   "hit_rate_difference": 0.006999999999999895,
+   "differing": 34,
+   "hit_flips": {
+    "blend": 9,
+    "pneuma": 2
+   },
+   "causes": {
+    "vector": 34
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 9
+    },
+    "pneuma": {
+     "vector": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 50.07599852979183,
+    "pneuma": 31.07299841940403
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.687,
+    "pneuma": 0.687
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.28663258254528,
+    "pneuma": 30.438516288995743
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.771,
+    "pneuma": 0.77
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 36,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 0
+   },
+   "causes": {
+    "vector": 36
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1
+    },
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.2224085777998,
+    "pneuma": 35.26291437447071
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.864,
+    "pneuma": 0.864
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.01282374560833,
+    "pneuma": 34.94671545922756
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.465,
+    "pneuma": 0.465
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 75,
+   "hit_flips": {
+    "blend": 9,
+    "pneuma": 9
+   },
+   "causes": {
+    "own texts": 60,
+    "vector": 15
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 7,
+     "vector": 2
+    },
+    "pneuma": {
+     "own texts": 8,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 59.351688250899315,
+    "pneuma": 27.9096532613039
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.497,
+    "pneuma": 0.485
+   },
+   "hit_rate_difference": 0.01200000000000001,
+   "differing": 91,
+   "hit_flips": {
+    "blend": 21,
+    "pneuma": 9
+   },
+   "causes": {
+    "judge": 30,
+    "own texts": 47,
+    "vector": 14
+   },
+   "flip_causes": {
+    "blend": {
+     "judge": 11,
+     "own texts": 8,
+     "vector": 2
+    },
+    "pneuma": {
+     "judge": 5,
+     "own texts": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 373.8878481090069,
+    "pneuma": 370.2846895903349
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.728,
+    "pneuma": 0.729
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 308,
+   "hit_flips": {
+    "blend": 4,
+    "pneuma": 5
+   },
+   "causes": {
+    "own texts": 255,
+    "vector": 53
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 3,
+     "vector": 1
+    },
+    "pneuma": {
+     "own texts": 4,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 62.77281977236271,
+    "pneuma": 36.873314529657364
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.75,
+    "pneuma": 0.754
+   },
+   "hit_rate_difference": -0.0040000000000000036,
+   "differing": 309,
+   "hit_flips": {
+    "blend": 2,
+    "pneuma": 6
+   },
+   "causes": {
+    "judge": 62,
+    "own texts": 200,
+    "vector": 47
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 1,
+     "own texts": 1
+    },
+    "pneuma": {
+     "own texts": 4,
+     "judge": 1,
+     "vector": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1736.352687701583,
+    "pneuma": 1745.8383105695248
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.446,
+    "pneuma": 0.453
+   },
+   "hit_rate_difference": -0.007000000000000006,
+   "differing": 92,
+   "hit_flips": {
+    "blend": 7,
+    "pneuma": 14
+   },
+   "causes": {
+    "vector": 92
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 7
+    },
+    "pneuma": {
+     "vector": 14
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 51.85931362211704,
+    "pneuma": 30.401267111301422
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.453,
+    "pneuma": 0.453
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 44.192127883434296,
+    "pneuma": 30.39717674255371
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.726,
+    "pneuma": 0.729
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 118,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 3
+   },
+   "causes": {
+    "vector": 118
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "vector": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 43.74055750668049,
+    "pneuma": 36.32429242134094
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chembl_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.722,
+    "pneuma": 0.722
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 43.050019070506096,
+    "pneuma": 36.09889931976795
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.557,
+    "pneuma": 0.572
+   },
+   "hit_rate_difference": -0.014999999999999902,
+   "differing": 467,
+   "hit_flips": {
+    "blend": 68,
+    "pneuma": 83
+   },
+   "causes": {
+    "own texts": 377,
+    "vector": 89,
+    "bm25": 1
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 60,
+     "vector": 8
+    },
+    "pneuma": {
+     "own texts": 63,
+     "vector": 20
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 91.21210500597954,
+    "pneuma": 32.03779272735119
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.609,
+    "pneuma": 0.603
+   },
+   "hit_rate_difference": 0.006000000000000005,
+   "differing": 446,
+   "hit_flips": {
+    "blend": 72,
+    "pneuma": 66
+   },
+   "causes": {
+    "own texts": 326,
+    "judge": 45,
+    "vector": 74,
+    "bm25": 1
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 52,
+     "vector": 8,
+     "judge": 12
+    },
+    "pneuma": {
+     "own texts": 43,
+     "vector": 15,
+     "judge": 8
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 411.7388091981411,
+    "pneuma": 375.15521980822086
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.78,
+    "pneuma": 0.785
+   },
+   "hit_rate_difference": -0.0050000000000000044,
+   "differing": 925,
+   "hit_flips": {
+    "blend": 38,
+    "pneuma": 43
+   },
+   "causes": {
+    "own texts": 663,
+    "vector": 235,
+    "bm25": 27
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 23,
+     "vector": 12,
+     "bm25": 3
+    },
+    "pneuma": {
+     "own texts": 31,
+     "vector": 9,
+     "bm25": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 93.82999874651432,
+    "pneuma": 40.63810780644417
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.8,
+    "pneuma": 0.807
+   },
+   "hit_rate_difference": -0.007000000000000006,
+   "differing": 917,
+   "hit_flips": {
+    "blend": 33,
+    "pneuma": 40
+   },
+   "causes": {
+    "own texts": 640,
+    "vector": 229,
+    "bm25": 27,
+    "judge": 21
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 20,
+     "vector": 11,
+     "bm25": 2
+    },
+    "pneuma": {
+     "own texts": 30,
+     "vector": 8,
+     "bm25": 1,
+     "judge": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1743.3581314980984,
+    "pneuma": 1771.2580114603043
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.442,
+    "pneuma": 0.45
+   },
+   "hit_rate_difference": -0.008000000000000007,
+   "differing": 156,
+   "hit_flips": {
+    "blend": 21,
+    "pneuma": 29
+   },
+   "causes": {
+    "vector": 156
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 21
+    },
+    "pneuma": {
+     "vector": 29
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 86.03223972022533,
+    "pneuma": 31.508665531873703
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.557,
+    "pneuma": 0.557
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 1,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 1
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 86.17136441171169,
+    "pneuma": 30.168993398547173
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.635,
+    "pneuma": 0.63
+   },
+   "hit_rate_difference": 0.0050000000000000044,
+   "differing": 258,
+   "hit_flips": {
+    "blend": 19,
+    "pneuma": 14
+   },
+   "causes": {
+    "vector": 258
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 19
+    },
+    "pneuma": {
+     "vector": 14
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 88.45134265720844,
+    "pneuma": 37.638552486896515
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.779,
+    "pneuma": 0.778
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 27,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 27
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 1
+    },
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 87.54001371562481,
+    "pneuma": 36.2861230969429
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.541,
+    "pneuma": 0.529
+   },
+   "hit_rate_difference": 0.01200000000000001,
+   "differing": 467,
+   "hit_flips": {
+    "blend": 79,
+    "pneuma": 67
+   },
+   "causes": {
+    "own texts": 371,
+    "vector": 96
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 63,
+     "vector": 16
+    },
+    "pneuma": {
+     "own texts": 55,
+     "vector": 12
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 93.58176216483116,
+    "pneuma": 32.324355095624924
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.574,
+    "pneuma": 0.566
+   },
+   "hit_rate_difference": 0.008000000000000007,
+   "differing": 439,
+   "hit_flips": {
+    "blend": 71,
+    "pneuma": 63
+   },
+   "causes": {
+    "own texts": 324,
+    "vector": 74,
+    "judge": 41
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 57,
+     "vector": 9,
+     "judge": 5
+    },
+    "pneuma": {
+     "own texts": 42,
+     "vector": 11,
+     "judge": 10
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 412.30242513120174,
+    "pneuma": 373.9141561090946
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.736,
+    "pneuma": 0.742
+   },
+   "hit_rate_difference": -0.006000000000000005,
+   "differing": 909,
+   "hit_flips": {
+    "blend": 44,
+    "pneuma": 50
+   },
+   "causes": {
+    "own texts": 658,
+    "vector": 238,
+    "bm25": 13
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 27,
+     "vector": 15,
+     "bm25": 2
+    },
+    "pneuma": {
+     "own texts": 37,
+     "vector": 12,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 96.28771618008614,
+    "pneuma": 41.1064438521862
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.764,
+    "pneuma": 0.77
+   },
+   "hit_rate_difference": -0.006000000000000005,
+   "differing": 901,
+   "hit_flips": {
+    "blend": 41,
+    "pneuma": 47
+   },
+   "causes": {
+    "own texts": 634,
+    "vector": 231,
+    "bm25": 13,
+    "judge": 23
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 22,
+     "vector": 15,
+     "bm25": 4
+    },
+    "pneuma": {
+     "own texts": 33,
+     "vector": 14
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1739.0719056129456,
+    "pneuma": 1765.3161752969027
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.43,
+    "pneuma": 0.435
+   },
+   "hit_rate_difference": -0.0050000000000000044,
+   "differing": 181,
+   "hit_flips": {
+    "blend": 23,
+    "pneuma": 28
+   },
+   "causes": {
+    "vector": 181
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 23
+    },
+    "pneuma": {
+     "vector": 28
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 90.07403254508972,
+    "pneuma": 31.48697316646576
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.511,
+    "pneuma": 0.511
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 89.22775834798813,
+    "pneuma": 30.36154806613922
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.617,
+    "pneuma": 0.619
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 263,
+   "hit_flips": {
+    "blend": 14,
+    "pneuma": 16
+   },
+   "causes": {
+    "vector": 263
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 14
+    },
+    "pneuma": {
+     "vector": 16
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 90.89516662061214,
+    "pneuma": 37.96843811869621
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.73,
+    "pneuma": 0.729
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 14,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 14
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 1
+    },
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 91.54747053980827,
+    "pneuma": 36.827052012085915
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.593,
+    "pneuma": 0.6
+   },
+   "hit_rate_difference": -0.007000000000000006,
+   "differing": 150,
+   "hit_flips": {
+    "blend": 18,
+    "pneuma": 25
+   },
+   "causes": {
+    "own texts": 78,
+    "vector": 64,
+    "bm25": 8
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 13,
+     "vector": 5
+    },
+    "pneuma": {
+     "vector": 7,
+     "own texts": 17,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 99.55023974180222,
+    "pneuma": 33.41273218393326
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.607,
+    "pneuma": 0.615
+   },
+   "hit_rate_difference": -0.008000000000000007,
+   "differing": 163,
+   "hit_flips": {
+    "blend": 21,
+    "pneuma": 29
+   },
+   "causes": {
+    "own texts": 63,
+    "vector": 53,
+    "judge": 39,
+    "bm25": 8
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 8,
+     "vector": 6,
+     "judge": 6,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 9,
+     "judge": 4,
+     "own texts": 15,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 421.71176709234715,
+    "pneuma": 371.83310091495514
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.802,
+    "pneuma": 0.805
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 335,
+   "hit_flips": {
+    "blend": 7,
+    "pneuma": 10
+   },
+   "causes": {
+    "own texts": 203,
+    "vector": 125,
+    "bm25": 7
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 5,
+     "own texts": 2
+    },
+    "pneuma": {
+     "vector": 1,
+     "own texts": 9
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 102.68989950418472,
+    "pneuma": 44.87418942153454
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.813,
+    "pneuma": 0.813
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 358,
+   "hit_flips": {
+    "blend": 2,
+    "pneuma": 2
+   },
+   "causes": {
+    "vector": 116,
+    "bm25": 7,
+    "judge": 68,
+    "own texts": 167
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 1,
+     "judge": 1
+    },
+    "pneuma": {
+     "vector": 1,
+     "own texts": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1738.5590821504593,
+    "pneuma": 1736.6742007434368
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.553,
+    "pneuma": 0.539
+   },
+   "hit_rate_difference": 0.014000000000000012,
+   "differing": 208,
+   "hit_flips": {
+    "blend": 36,
+    "pneuma": 22
+   },
+   "causes": {
+    "vector": 208
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 36
+    },
+    "pneuma": {
+     "vector": 22
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 97.997035831213,
+    "pneuma": 32.739557325839996
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.602,
+    "pneuma": 0.603
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 9,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 1
+   },
+   "causes": {
+    "bm25": 9
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 97.95743227005005,
+    "pneuma": 31.53638169169426
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.76,
+    "pneuma": 0.757
+   },
+   "hit_rate_difference": 0.0030000000000000027,
+   "differing": 228,
+   "hit_flips": {
+    "blend": 8,
+    "pneuma": 5
+   },
+   "causes": {
+    "vector": 228
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 8
+    },
+    "pneuma": {
+     "vector": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 100.03799572587013,
+    "pneuma": 41.83764196932316
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.815,
+    "pneuma": 0.815
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 14,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 14
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 99.53034855425358,
+    "pneuma": 40.46517051756382
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.456,
+    "pneuma": 0.466
+   },
+   "hit_rate_difference": -0.010000000000000009,
+   "differing": 184,
+   "hit_flips": {
+    "blend": 28,
+    "pneuma": 38
+   },
+   "causes": {
+    "own texts": 95,
+    "vector": 89
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 9,
+     "vector": 19
+    },
+    "pneuma": {
+     "own texts": 12,
+     "vector": 26
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 99.29435141384602,
+    "pneuma": 33.41745585203171
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.506,
+    "pneuma": 0.494
+   },
+   "hit_rate_difference": 0.01200000000000001,
+   "differing": 242,
+   "hit_flips": {
+    "blend": 39,
+    "pneuma": 27
+   },
+   "causes": {
+    "own texts": 80,
+    "vector": 77,
+    "judge": 85
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 9,
+     "vector": 15,
+     "judge": 15
+    },
+    "pneuma": {
+     "own texts": 9,
+     "judge": 4,
+     "vector": 14
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 425.34824274480343,
+    "pneuma": 376.1597778648138
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.734,
+    "pneuma": 0.734
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 521,
+   "hit_flips": {
+    "blend": 11,
+    "pneuma": 11
+   },
+   "causes": {
+    "own texts": 254,
+    "vector": 254,
+    "bm25": 13
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 4,
+     "vector": 7
+    },
+    "pneuma": {
+     "vector": 7,
+     "bm25": 1,
+     "own texts": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 103.09486277401447,
+    "pneuma": 45.11807672679424
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.752,
+    "pneuma": 0.746
+   },
+   "hit_rate_difference": 0.006000000000000005,
+   "differing": 536,
+   "hit_flips": {
+    "blend": 15,
+    "pneuma": 9
+   },
+   "causes": {
+    "own texts": 215,
+    "vector": 230,
+    "judge": 80,
+    "bm25": 11
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 10,
+     "own texts": 3,
+     "judge": 2
+    },
+    "pneuma": {
+     "vector": 5,
+     "bm25": 1,
+     "judge": 2,
+     "own texts": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1751.732399687171,
+    "pneuma": 1756.6088233143091
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.478,
+    "pneuma": 0.468
+   },
+   "hit_rate_difference": 0.009999999999999953,
+   "differing": 340,
+   "hit_flips": {
+    "blend": 57,
+    "pneuma": 47
+   },
+   "causes": {
+    "vector": 340
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 57
+    },
+    "pneuma": {
+     "vector": 47
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 97.52495773136616,
+    "pneuma": 32.68208168447018
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.429,
+    "pneuma": 0.429
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 0,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {},
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 97.90407493710518,
+    "pneuma": 31.36168234050274
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.718,
+    "pneuma": 0.712
+   },
+   "hit_rate_difference": 0.006000000000000005,
+   "differing": 429,
+   "hit_flips": {
+    "blend": 25,
+    "pneuma": 19
+   },
+   "causes": {
+    "vector": 429
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 25
+    },
+    "pneuma": {
+     "vector": 19
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 99.69330951571465,
+    "pneuma": 42.06741228699684
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "chicago_10K",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.684,
+    "pneuma": 0.684
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 17,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 17
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 99.197031930089,
+    "pneuma": 40.286749601364136
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.593,
+    "pneuma": 0.614
+   },
+   "hit_rate_difference": -0.02100000000000002,
+   "differing": 502,
+   "hit_flips": {
+    "blend": 89,
+    "pneuma": 110
+   },
+   "causes": {
+    "own texts": 282,
+    "vector": 216,
+    "bm25": 4
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 54,
+     "vector": 35
+    },
+    "pneuma": {
+     "own texts": 63,
+     "vector": 46,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 385.94095408916473,
+    "pneuma": 45.37292383611202
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.634,
+    "pneuma": 0.637
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 512,
+   "hit_flips": {
+    "blend": 109,
+    "pneuma": 112
+   },
+   "causes": {
+    "own texts": 259,
+    "judge": 51,
+    "vector": 198,
+    "bm25": 4
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 54,
+     "judge": 16,
+     "vector": 39
+    },
+    "pneuma": {
+     "own texts": 57,
+     "vector": 42,
+     "judge": 13
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 674.3461210280657,
+    "pneuma": 318.6875022947788
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.757,
+    "pneuma": 0.759
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 964,
+   "hit_flips": {
+    "blend": 73,
+    "pneuma": 75
+   },
+   "causes": {
+    "own texts": 510,
+    "vector": 422,
+    "bm25": 32
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 35,
+     "own texts": 37,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 40,
+     "own texts": 33,
+     "bm25": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 387.9637122154236,
+    "pneuma": 61.11223250627518
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.779,
+    "pneuma": 0.771
+   },
+   "hit_rate_difference": 0.008000000000000007,
+   "differing": 965,
+   "hit_flips": {
+    "blend": 86,
+    "pneuma": 78
+   },
+   "causes": {
+    "judge": 13,
+    "own texts": 501,
+    "vector": 419,
+    "bm25": 32
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 44,
+     "vector": 38,
+     "bm25": 3,
+     "judge": 1
+    },
+    "pneuma": {
+     "vector": 42,
+     "own texts": 33,
+     "bm25": 2,
+     "judge": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1754.8933494836092,
+    "pneuma": 1478.2296270132065
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.401,
+    "pneuma": 0.449
+   },
+   "hit_rate_difference": -0.04799999999999999,
+   "differing": 322,
+   "hit_flips": {
+    "blend": 31,
+    "pneuma": 79
+   },
+   "causes": {
+    "vector": 322
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 31
+    },
+    "pneuma": {
+     "vector": 79
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 381.40579499304295,
+    "pneuma": 50.045548006892204
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.583,
+    "pneuma": 0.583
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 4,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 4
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 385.73591597378254,
+    "pneuma": 48.499418422579765
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.602,
+    "pneuma": 0.633
+   },
+   "hit_rate_difference": -0.031000000000000028,
+   "differing": 456,
+   "hit_flips": {
+    "blend": 14,
+    "pneuma": 45
+   },
+   "causes": {
+    "vector": 456
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 14
+    },
+    "pneuma": {
+     "vector": 45
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 387.36588694155216,
+    "pneuma": 64.15975093841553
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.738,
+    "pneuma": 0.738
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 32,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 32
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 386.8504036217928,
+    "pneuma": 53.23976092040539
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.559,
+    "pneuma": 0.554
+   },
+   "hit_rate_difference": 0.0050000000000000044,
+   "differing": 531,
+   "hit_flips": {
+    "blend": 111,
+    "pneuma": 106
+   },
+   "causes": {
+    "vector": 247,
+    "own texts": 278,
+    "bm25": 6
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 42,
+     "own texts": 69
+    },
+    "pneuma": {
+     "own texts": 58,
+     "vector": 48
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 393.2713642716408,
+    "pneuma": 46.535370871424675
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.58,
+    "pneuma": 0.564
+   },
+   "hit_rate_difference": 0.016000000000000014,
+   "differing": 537,
+   "hit_flips": {
+    "blend": 127,
+    "pneuma": 111
+   },
+   "causes": {
+    "vector": 226,
+    "judge": 50,
+    "own texts": 255,
+    "bm25": 6
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 40,
+     "own texts": 63,
+     "judge": 24
+    },
+    "pneuma": {
+     "judge": 9,
+     "own texts": 63,
+     "vector": 39
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 693.3911554515362,
+    "pneuma": 324.08551685512066
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.712,
+    "pneuma": 0.713
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 958,
+   "hit_flips": {
+    "blend": 79,
+    "pneuma": 80
+   },
+   "causes": {
+    "own texts": 466,
+    "vector": 441,
+    "bm25": 51
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 36,
+     "vector": 38,
+     "bm25": 5
+    },
+    "pneuma": {
+     "own texts": 39,
+     "vector": 38,
+     "bm25": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 393.0677603930235,
+    "pneuma": 65.40402956306934
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.74,
+    "pneuma": 0.729
+   },
+   "hit_rate_difference": 0.01100000000000001,
+   "differing": 952,
+   "hit_flips": {
+    "blend": 94,
+    "pneuma": 83
+   },
+   "causes": {
+    "own texts": 458,
+    "vector": 436,
+    "judge": 7,
+    "bm25": 51
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 42,
+     "vector": 45,
+     "bm25": 6,
+     "judge": 1
+    },
+    "pneuma": {
+     "vector": 41,
+     "own texts": 38,
+     "bm25": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1829.7517988830805,
+    "pneuma": 1509.2059820890427
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.37,
+    "pneuma": 0.419
+   },
+   "hit_rate_difference": -0.04899999999999999,
+   "differing": 369,
+   "hit_flips": {
+    "blend": 28,
+    "pneuma": 77
+   },
+   "causes": {
+    "vector": 369
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 28
+    },
+    "pneuma": {
+     "vector": 77
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 391.24719984829426,
+    "pneuma": 51.16887763142586
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.523,
+    "pneuma": 0.523
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 6,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 6
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 390.689916908741,
+    "pneuma": 49.31534267961979
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.552,
+    "pneuma": 0.585
+   },
+   "hit_rate_difference": -0.03299999999999992,
+   "differing": 487,
+   "hit_flips": {
+    "blend": 24,
+    "pneuma": 57
+   },
+   "causes": {
+    "vector": 487
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 24
+    },
+    "pneuma": {
+     "vector": 57
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 393.1776825338602,
+    "pneuma": 66.8725073337555
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.679,
+    "pneuma": 0.678
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 53,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 53
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 1
+    },
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 394.8666490614414,
+    "pneuma": 54.38033677637577
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.546,
+    "pneuma": 0.531
+   },
+   "hit_rate_difference": 0.015000000000000013,
+   "differing": 349,
+   "hit_flips": {
+    "blend": 35,
+    "pneuma": 20
+   },
+   "causes": {
+    "bm25": 85,
+    "vector": 142,
+    "own texts": 122
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 17,
+     "own texts": 8,
+     "bm25": 10
+    },
+    "pneuma": {
+     "vector": 14,
+     "own texts": 5,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 388.3079085499048,
+    "pneuma": 52.19975858926773
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.566,
+    "pneuma": 0.557
+   },
+   "hit_rate_difference": 0.008999999999999897,
+   "differing": 369,
+   "hit_flips": {
+    "blend": 38,
+    "pneuma": 29
+   },
+   "causes": {
+    "bm25": 85,
+    "vector": 122,
+    "own texts": 105,
+    "judge": 57
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 13,
+     "own texts": 9,
+     "bm25": 9,
+     "judge": 7
+    },
+    "pneuma": {
+     "vector": 17,
+     "judge": 4,
+     "own texts": 6,
+     "bm25": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 740.9071307629347,
+    "pneuma": 366.67508259415627
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.712,
+    "pneuma": 0.71
+   },
+   "hit_rate_difference": 0.0020000000000000018,
+   "differing": 590,
+   "hit_flips": {
+    "blend": 14,
+    "pneuma": 12
+   },
+   "causes": {
+    "own texts": 137,
+    "bm25": 152,
+    "vector": 301
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 12,
+     "own texts": 1,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 4,
+     "bm25": 4,
+     "own texts": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 392.7126321941614,
+    "pneuma": 89.53255414962769
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.735,
+    "pneuma": 0.74
+   },
+   "hit_rate_difference": -0.0050000000000000044,
+   "differing": 593,
+   "hit_flips": {
+    "blend": 14,
+    "pneuma": 19
+   },
+   "causes": {
+    "own texts": 119,
+    "bm25": 145,
+    "vector": 271,
+    "judge": 58
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 1,
+     "vector": 8,
+     "judge": 4,
+     "bm25": 1
+    },
+    "pneuma": {
+     "own texts": 5,
+     "bm25": 7,
+     "judge": 1,
+     "vector": 6
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 2057.2831202298403,
+    "pneuma": 1743.2189397513866
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.478,
+    "pneuma": 0.517
+   },
+   "hit_rate_difference": -0.039000000000000035,
+   "differing": 463,
+   "hit_flips": {
+    "blend": 26,
+    "pneuma": 65
+   },
+   "causes": {
+    "vector": 463
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 26
+    },
+    "pneuma": {
+     "vector": 65
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 391.36200957000256,
+    "pneuma": 44.93117146193981
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.514,
+    "pneuma": 0.521
+   },
+   "hit_rate_difference": -0.007000000000000006,
+   "differing": 96,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 7
+   },
+   "causes": {
+    "bm25": 96
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "bm25": 7
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 390.80146700143814,
+    "pneuma": 45.484645292162895
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.658,
+    "pneuma": 0.673
+   },
+   "hit_rate_difference": -0.015000000000000013,
+   "differing": 603,
+   "hit_flips": {
+    "blend": 15,
+    "pneuma": 30
+   },
+   "causes": {
+    "vector": 603
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 15
+    },
+    "pneuma": {
+     "vector": 30
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 392.9006326943636,
+    "pneuma": 72.95700907707214
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.719,
+    "pneuma": 0.72
+   },
+   "hit_rate_difference": -0.0010000000000000009,
+   "differing": 165,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 1
+   },
+   "causes": {
+    "bm25": 165
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 392.07145385444164,
+    "pneuma": 59.874966740608215
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.41,
+    "pneuma": 0.398
+   },
+   "hit_rate_difference": 0.011999999999999955,
+   "differing": 313,
+   "hit_flips": {
+    "blend": 45,
+    "pneuma": 33
+   },
+   "causes": {
+    "own texts": 110,
+    "vector": 194,
+    "bm25": 9
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 12,
+     "vector": 32,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 25,
+     "own texts": 8
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 383.38477350771427,
+    "pneuma": 50.35839043557644
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.425,
+    "pneuma": 0.422
+   },
+   "hit_rate_difference": 0.0030000000000000027,
+   "differing": 377,
+   "hit_flips": {
+    "blend": 44,
+    "pneuma": 41
+   },
+   "causes": {
+    "judge": 102,
+    "own texts": 101,
+    "vector": 166,
+    "bm25": 8
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 9,
+     "judge": 7,
+     "vector": 27,
+     "bm25": 1
+    },
+    "pneuma": {
+     "judge": 17,
+     "vector": 17,
+     "own texts": 7
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 735.1444158703089,
+    "pneuma": 369.5997204631567
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.65,
+    "pneuma": 0.635
+   },
+   "hit_rate_difference": 0.015000000000000013,
+   "differing": 673,
+   "hit_flips": {
+    "blend": 32,
+    "pneuma": 17
+   },
+   "causes": {
+    "own texts": 91,
+    "bm25": 56,
+    "vector": 526
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 25,
+     "own texts": 1,
+     "bm25": 6
+    },
+    "pneuma": {
+     "vector": 14,
+     "own texts": 2,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 391.6834108531475,
+    "pneuma": 87.77860179543495
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.637,
+    "pneuma": 0.637
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 699,
+   "hit_flips": {
+    "blend": 31,
+    "pneuma": 31
+   },
+   "causes": {
+    "judge": 80,
+    "own texts": 80,
+    "bm25": 55,
+    "vector": 484
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 25,
+     "own texts": 2,
+     "bm25": 2,
+     "judge": 2
+    },
+    "pneuma": {
+     "bm25": 3,
+     "vector": 25,
+     "judge": 2,
+     "own texts": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 2052.7347158640623,
+    "pneuma": 1764.6769154816866
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.417,
+    "pneuma": 0.434
+   },
+   "hit_rate_difference": -0.017000000000000015,
+   "differing": 668,
+   "hit_flips": {
+    "blend": 73,
+    "pneuma": 90
+   },
+   "causes": {
+    "vector": 668
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 73
+    },
+    "pneuma": {
+     "vector": 90
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 382.9147759824991,
+    "pneuma": 46.002503484487534
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.373,
+    "pneuma": 0.373
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 11,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 11
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 385.3300251066685,
+    "pneuma": 46.146173030138016
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.631,
+    "pneuma": 0.608
+   },
+   "hit_rate_difference": 0.02300000000000002,
+   "differing": 804,
+   "hit_flips": {
+    "blend": 81,
+    "pneuma": 58
+   },
+   "causes": {
+    "vector": 804
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 81
+    },
+    "pneuma": {
+     "vector": 58
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 389.8106310516596,
+    "pneuma": 72.72983714938164
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "fetaqa",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.607,
+    "pneuma": 0.607
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 61,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 61
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 388.18059116601944,
+    "pneuma": 54.642075672745705
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.676,
+    "pneuma": 0.663
+   },
+   "hit_rate_difference": 0.013000000000000012,
+   "differing": 612,
+   "hit_flips": {
+    "blend": 87,
+    "pneuma": 74
+   },
+   "causes": {
+    "own texts": 412,
+    "vector": 138,
+    "bm25": 62
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 60,
+     "bm25": 8,
+     "vector": 19
+    },
+    "pneuma": {
+     "vector": 15,
+     "own texts": 54,
+     "bm25": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 43.70544292032719,
+    "pneuma": 19.57753300666809
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.701,
+    "pneuma": 0.699
+   },
+   "hit_rate_difference": 0.0020000000000000018,
+   "differing": 600,
+   "hit_flips": {
+    "blend": 79,
+    "pneuma": 77
+   },
+   "causes": {
+    "own texts": 374,
+    "vector": 128,
+    "bm25": 61,
+    "judge": 37
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 53,
+     "bm25": 6,
+     "vector": 15,
+     "judge": 5
+    },
+    "pneuma": {
+     "vector": 17,
+     "own texts": 46,
+     "judge": 12,
+     "bm25": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 377.42925249040127,
+    "pneuma": 363.839965313673
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.879,
+    "pneuma": 0.87
+   },
+   "hit_rate_difference": 0.009000000000000008,
+   "differing": 875,
+   "hit_flips": {
+    "blend": 44,
+    "pneuma": 35
+   },
+   "causes": {
+    "own texts": 581,
+    "vector": 213,
+    "bm25": 81
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 28,
+     "vector": 13,
+     "bm25": 3
+    },
+    "pneuma": {
+     "vector": 10,
+     "own texts": 24,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 46.795960515737534,
+    "pneuma": 24.2465753108263
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.894,
+    "pneuma": 0.886
+   },
+   "hit_rate_difference": 0.008000000000000007,
+   "differing": 858,
+   "hit_flips": {
+    "blend": 45,
+    "pneuma": 37
+   },
+   "causes": {
+    "own texts": 551,
+    "vector": 208,
+    "judge": 18,
+    "bm25": 81
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 33,
+     "vector": 10,
+     "bm25": 2
+    },
+    "pneuma": {
+     "vector": 9,
+     "own texts": 25,
+     "bm25": 2,
+     "judge": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1767.092503607273,
+    "pneuma": 1773.2782904058695
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.483,
+    "pneuma": 0.483
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 235,
+   "hit_flips": {
+    "blend": 33,
+    "pneuma": 33
+   },
+   "causes": {
+    "vector": 235
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 33
+    },
+    "pneuma": {
+     "vector": 33
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 39.87604379653931,
+    "pneuma": 18.52712407708168
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.679,
+    "pneuma": 0.679
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 67,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 67
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 39.47493061423302,
+    "pneuma": 17.21959188580513
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.679,
+    "pneuma": 0.673
+   },
+   "hit_rate_difference": 0.006000000000000005,
+   "differing": 284,
+   "hit_flips": {
+    "blend": 17,
+    "pneuma": 11
+   },
+   "causes": {
+    "vector": 284
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 17
+    },
+    "pneuma": {
+     "vector": 11
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 40.69293662905693,
+    "pneuma": 20.08410170674324
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.833,
+    "pneuma": 0.833
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 84,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 84
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 40.56081920862198,
+    "pneuma": 18.99108849465847
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.67,
+    "pneuma": 0.689
+   },
+   "hit_rate_difference": -0.018999999999999906,
+   "differing": 609,
+   "hit_flips": {
+    "blend": 77,
+    "pneuma": 96
+   },
+   "causes": {
+    "own texts": 399,
+    "vector": 144,
+    "bm25": 66
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 9,
+     "vector": 19,
+     "own texts": 49
+    },
+    "pneuma": {
+     "own texts": 68,
+     "vector": 23,
+     "bm25": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 43.15573535859585,
+    "pneuma": 18.094558268785477
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.7,
+    "pneuma": 0.702
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 606,
+   "hit_flips": {
+    "blend": 81,
+    "pneuma": 83
+   },
+   "causes": {
+    "own texts": 368,
+    "vector": 135,
+    "bm25": 66,
+    "judge": 37
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 7,
+     "vector": 19,
+     "own texts": 48,
+     "judge": 7
+    },
+    "pneuma": {
+     "own texts": 57,
+     "vector": 18,
+     "bm25": 3,
+     "judge": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 377.46142596006393,
+    "pneuma": 359.3990933150053
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.878,
+    "pneuma": 0.868
+   },
+   "hit_rate_difference": 0.010000000000000009,
+   "differing": 873,
+   "hit_flips": {
+    "blend": 45,
+    "pneuma": 35
+   },
+   "causes": {
+    "own texts": 591,
+    "vector": 191,
+    "bm25": 91
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 35,
+     "vector": 8,
+     "bm25": 2
+    },
+    "pneuma": {
+     "vector": 13,
+     "own texts": 21,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 46.46982438862324,
+    "pneuma": 22.273825481534004
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.882,
+    "pneuma": 0.872
+   },
+   "hit_rate_difference": 0.010000000000000009,
+   "differing": 861,
+   "hit_flips": {
+    "blend": 44,
+    "pneuma": 34
+   },
+   "causes": {
+    "own texts": 566,
+    "vector": 182,
+    "bm25": 91,
+    "judge": 22
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 36,
+     "vector": 5,
+     "bm25": 3
+    },
+    "pneuma": {
+     "vector": 10,
+     "own texts": 23,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1759.3906614929438,
+    "pneuma": 1761.8773002177477
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.498,
+    "pneuma": 0.491
+   },
+   "hit_rate_difference": 0.007000000000000006,
+   "differing": 242,
+   "hit_flips": {
+    "blend": 37,
+    "pneuma": 30
+   },
+   "causes": {
+    "vector": 242
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 37
+    },
+    "pneuma": {
+     "vector": 30
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 39.450887590646744,
+    "pneuma": 16.50504395365715
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.703,
+    "pneuma": 0.702
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 75,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 75
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 1
+    },
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 38.699569180607796,
+    "pneuma": 15.233580023050308
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.701,
+    "pneuma": 0.7
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 265,
+   "hit_flips": {
+    "blend": 17,
+    "pneuma": 16
+   },
+   "causes": {
+    "vector": 265
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 17
+    },
+    "pneuma": {
+     "vector": 16
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 40.185851976275444,
+    "pneuma": 18.352918326854706
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BC2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.849,
+    "pneuma": 0.849
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 98,
+   "hit_flips": {
+    "blend": 0,
+    "pneuma": 0
+   },
+   "causes": {
+    "bm25": 98
+   },
+   "flip_causes": {
+    "blend": {},
+    "pneuma": {}
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 39.93110731244087,
+    "pneuma": 17.461022362113
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.598,
+    "pneuma": 0.569
+   },
+   "hit_rate_difference": 0.029000000000000026,
+   "differing": 313,
+   "hit_flips": {
+    "blend": 49,
+    "pneuma": 20
+   },
+   "causes": {
+    "bm25": 118,
+    "own texts": 72,
+    "vector": 123
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 5,
+     "vector": 38,
+     "bm25": 6
+    },
+    "pneuma": {
+     "vector": 9,
+     "own texts": 5,
+     "bm25": 6
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 45.679183676838875,
+    "pneuma": 17.88565143942833
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.629,
+    "pneuma": 0.603
+   },
+   "hit_rate_difference": 0.026000000000000023,
+   "differing": 331,
+   "hit_flips": {
+    "blend": 42,
+    "pneuma": 16
+   },
+   "causes": {
+    "bm25": 118,
+    "own texts": 56,
+    "vector": 96,
+    "judge": 61
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 7,
+     "vector": 28,
+     "own texts": 3,
+     "judge": 4
+    },
+    "pneuma": {
+     "vector": 8,
+     "judge": 2,
+     "own texts": 3,
+     "bm25": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 368.56405809521675,
+    "pneuma": 344.3093504756689
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.768,
+    "pneuma": 0.768
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 314,
+   "hit_flips": {
+    "blend": 8,
+    "pneuma": 8
+   },
+   "causes": {
+    "bm25": 141,
+    "own texts": 65,
+    "vector": 108
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 7,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 3,
+     "bm25": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 48.9491131156683,
+    "pneuma": 22.73416519165039
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.789,
+    "pneuma": 0.787
+   },
+   "hit_rate_difference": 0.0020000000000000018,
+   "differing": 325,
+   "hit_flips": {
+    "blend": 10,
+    "pneuma": 8
+   },
+   "causes": {
+    "bm25": 135,
+    "own texts": 41,
+    "judge": 58,
+    "vector": 91
+   },
+   "flip_causes": {
+    "blend": {
+     "judge": 2,
+     "vector": 7,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 2,
+     "judge": 1,
+     "bm25": 5
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1700.3581319004297,
+    "pneuma": 1690.4097367078066
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.563,
+    "pneuma": 0.578
+   },
+   "hit_rate_difference": -0.015000000000000013,
+   "differing": 375,
+   "hit_flips": {
+    "blend": 25,
+    "pneuma": 40
+   },
+   "causes": {
+    "vector": 375
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 25
+    },
+    "pneuma": {
+     "vector": 40
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.49910078942776,
+    "pneuma": 16.45112968981266
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.583,
+    "pneuma": 0.582
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 183,
+   "hit_flips": {
+    "blend": 3,
+    "pneuma": 2
+   },
+   "causes": {
+    "bm25": 183
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 3
+    },
+    "pneuma": {
+     "bm25": 2
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.09552705287933,
+    "pneuma": 15.374891459941864
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.733,
+    "pneuma": 0.732
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 314,
+   "hit_flips": {
+    "blend": 8,
+    "pneuma": 7
+   },
+   "causes": {
+    "vector": 314
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 8
+    },
+    "pneuma": {
+     "vector": 7
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 43.19908656179905,
+    "pneuma": 18.55963096022606
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX1",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.768,
+    "pneuma": 0.767
+   },
+   "hit_rate_difference": 0.0010000000000000009,
+   "differing": 171,
+   "hit_flips": {
+    "blend": 7,
+    "pneuma": 6
+   },
+   "causes": {
+    "bm25": 171
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 7
+    },
+    "pneuma": {
+     "bm25": 6
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.84819960594177,
+    "pneuma": 17.9859958589077
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.549,
+    "pneuma": 0.547
+   },
+   "hit_rate_difference": 0.0020000000000000018,
+   "differing": 288,
+   "hit_flips": {
+    "blend": 30,
+    "pneuma": 28
+   },
+   "causes": {
+    "bm25": 58,
+    "own texts": 130,
+    "vector": 100
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 15,
+     "bm25": 4,
+     "vector": 11
+    },
+    "pneuma": {
+     "own texts": 15,
+     "vector": 9,
+     "bm25": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 44.50509883463383,
+    "pneuma": 18.088744953274727
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "own",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.55,
+    "pneuma": 0.565
+   },
+   "hit_rate_difference": -0.014999999999999902,
+   "differing": 334,
+   "hit_flips": {
+    "blend": 28,
+    "pneuma": 43
+   },
+   "causes": {
+    "bm25": 57,
+    "own texts": 118,
+    "vector": 93,
+    "judge": 66
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 4,
+     "judge": 5,
+     "own texts": 9,
+     "vector": 10
+    },
+    "pneuma": {
+     "own texts": 14,
+     "vector": 6,
+     "judge": 22,
+     "bm25": 1
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 369.82736736536026,
+    "pneuma": 349.0331284701824
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.705,
+    "pneuma": 0.71
+   },
+   "hit_rate_difference": -0.0050000000000000044,
+   "differing": 402,
+   "hit_flips": {
+    "blend": 12,
+    "pneuma": 17
+   },
+   "causes": {
+    "own texts": 165,
+    "vector": 175,
+    "bm25": 62
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 9,
+     "vector": 2,
+     "bm25": 1
+    },
+    "pneuma": {
+     "vector": 13,
+     "bm25": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 47.39616997539997,
+    "pneuma": 22.79183454811573
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "own",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.5,
+   "rerank": "on",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.719,
+    "pneuma": 0.726
+   },
+   "hit_rate_difference": -0.007000000000000006,
+   "differing": 417,
+   "hit_flips": {
+    "blend": 11,
+    "pneuma": 18
+   },
+   "causes": {
+    "judge": 76,
+    "own texts": 135,
+    "vector": 146,
+    "bm25": 60
+   },
+   "flip_causes": {
+    "blend": {
+     "own texts": 6,
+     "vector": 2,
+     "judge": 1,
+     "bm25": 2
+    },
+    "pneuma": {
+     "vector": 12,
+     "judge": 2,
+     "bm25": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 1697.8494208306074,
+    "pneuma": 1701.718082651496
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.535,
+    "pneuma": 0.535
+   },
+   "hit_rate_difference": 0.0,
+   "differing": 356,
+   "hit_flips": {
+    "blend": 33,
+    "pneuma": 33
+   },
+   "causes": {
+    "vector": 356
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 33
+    },
+    "pneuma": {
+     "vector": 33
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 41.511403396725655,
+    "pneuma": 16.349654644727707
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 1,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.499,
+    "pneuma": 0.502
+   },
+   "hit_rate_difference": -0.0030000000000000027,
+   "differing": 89,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 4
+   },
+   "causes": {
+    "bm25": 89
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 1
+    },
+    "pneuma": {
+     "bm25": 4
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 40.52896611392498,
+    "pneuma": 15.330400317907333
+   },
+   "within_tolerance": false
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 0.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.698,
+    "pneuma": 0.688
+   },
+   "hit_rate_difference": 0.010000000000000009,
+   "differing": 351,
+   "hit_flips": {
+    "blend": 24,
+    "pneuma": 14
+   },
+   "causes": {
+    "vector": 351
+   },
+   "flip_causes": {
+    "blend": {
+     "vector": 24
+    },
+    "pneuma": {
+     "vector": 14
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.15916804969311,
+    "pneuma": 18.93918588757515
+   },
+   "within_tolerance": true
+  },
+  {
+   "dataset": "public_bi",
+   "family": "BX2",
+   "texts": "shared",
+   "k": 5,
+   "n": 5,
+   "alpha": 1.0,
+   "rerank": "off",
+   "n_questions": 1000,
+   "hit_rate": {
+    "blend": 0.67,
+    "pneuma": 0.672
+   },
+   "hit_rate_difference": -0.0020000000000000018,
+   "differing": 83,
+   "hit_flips": {
+    "blend": 1,
+    "pneuma": 3
+   },
+   "causes": {
+    "bm25": 83
+   },
+   "flip_causes": {
+    "blend": {
+     "bm25": 1
+    },
+    "pneuma": {
+     "bm25": 3
+    }
+   },
+   "pool_size_differs": 0,
+   "latency_p50_ms": {
+    "blend": 42.25606471300125,
+    "pneuma": 18.20581965148449
+   },
+   "within_tolerance": false
+  }
+ ]
+}

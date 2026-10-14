@@ -1,0 +1,38 @@
+{
+  "chembl_10K/MANIFEST.json": {
+    "size": 702,
+    "sha256": "e92e610ab8f04dacf35874c16318f619672cbdee4d6c5bbe5c31d72a48a8d8ec"
+  },
+  "chembl_10K/artifacts/nlseeker.ini": {
+    "size": 2109,
+    "sha256": "29fc173d5e45a67b01cf8ac92cbef677c192ec1e370d87d4c34790161ddaf8f0"
+  },
+  "chembl_10K/documents.json": {
+    "size": 6861,
+    "sha256": "fc04c0b164135fa01cbf75c7cd4f038a910439b6d9c4c466654bfc5375e27a4f"
+  },
+  "chembl_10K/nl_runs.jsonl": {
+    "size": 36685022,
+    "sha256": "64a4e8321f950f040e1816aa13baf8b35867cc50faa871c2b819f180e2d74bef"
+  },
+  "chembl_10K/per_query.jsonl": {
+    "size": 34131669,
+    "sha256": "28cb0d02bb6e85a682f091f02096f0779b5fa7f647881f97267d4e6fdcb5ecd4"
+  },
+  "chembl_10K/texts.json": {
+    "size": 2132313,
+    "sha256": "405f3429147817349b8940cd6b640e03dda58d16e62e713f9eb4472bc7614cc3"
+  },
+  "config.yaml": {
+    "size": 862,
+    "sha256": "c47dc897065ae8c9b5795843f5cb43ed978de4beaa1f81eaa19d876a3c657839"
+  },
+  "run_meta.json": {
+    "size": 3929,
+    "sha256": "857f26078adfae13c5b06b5fee16dd47ddfa42ee408c986a124558386446853d"
+  },
+  "summary.csv": {
+    "size": 4269,
+    "sha256": "6ee5a501ad657ce50ff851b14033ade85d121bab6270ebdf08a8b20bfd2b9494"
+  }
+}

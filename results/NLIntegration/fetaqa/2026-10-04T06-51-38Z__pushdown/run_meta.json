@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-04T06-51-38Z",
+  "datasets": {
+    "fetaqa": {
+      "status": "complete",
+      "manifest_sha256": "4bfb319d68b674f9c1b5c3ba153e0ec8adcadc53e0d4bada2e450f41d123ffc2"
+    }
+  }
+}

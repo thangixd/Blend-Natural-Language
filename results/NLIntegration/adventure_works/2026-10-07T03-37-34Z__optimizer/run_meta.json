@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-07T03-37-34Z",
+  "datasets": {
+    "adventure_works": {
+      "status": "complete",
+      "manifest_sha256": "12f17eec1153cb0204d8a73083f92a6eb6ff4fa593d00afd9c8cb4983b0cd99a"
+    }
+  }
+}

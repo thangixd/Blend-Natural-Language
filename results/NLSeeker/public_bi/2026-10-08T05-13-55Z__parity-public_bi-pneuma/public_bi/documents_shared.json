@@ -1,0 +1,1017 @@
+{
+ "Arade_1_SEP_table_73.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "Bimbo_1_SEP_table_42.csv": {
+  "row": 2,
+  "schema": 2,
+  "contexts": 12
+ },
+ "CMSprovider_1_SEP_table_81.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 14
+ },
+ "CMSprovider_2_SEP_table_194.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 14
+ },
+ "CommonGovernment_10_SEP_table_183.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_11_SEP_table_154.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_12_SEP_table_98.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_13_SEP_table_36.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_1_SEP_table_87.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_2_SEP_table_135.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_3_SEP_table_173.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_4_SEP_table_89.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_5_SEP_table_62.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_6_SEP_table_4.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_7_SEP_table_37.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_8_SEP_table_151.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "CommonGovernment_9_SEP_table_101.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 17
+ },
+ "Corporations_1_SEP_table_184.csv": {
+  "row": 2,
+  "schema": 3,
+  "contexts": 13
+ },
+ "Eixo_1_SEP_table_139.csv": {
+  "row": 5,
+  "schema": 10,
+  "contexts": 20
+ },
+ "Food_1_SEP_table_143.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "Generico_1_SEP_table_165.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Generico_2_SEP_table_195.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Generico_3_SEP_table_150.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Generico_4_SEP_table_70.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Generico_5_SEP_table_153.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "HashTags_1_SEP_table_149.csv": {
+  "row": 5,
+  "schema": 10,
+  "contexts": 16
+ },
+ "Hatred_1_SEP_table_187.csv": {
+  "row": 3,
+  "schema": 3,
+  "contexts": 12
+ },
+ "IGlocations1_1_SEP_table_123.csv": {
+  "row": 2,
+  "schema": 2,
+  "contexts": 12
+ },
+ "IGlocations2_1_SEP_table_27.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "IGlocations2_2_SEP_table_148.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "IUBLibrary_1_SEP_table_10.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 14
+ },
+ "MLB_10_SEP_table_21.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 12
+ },
+ "MLB_11_SEP_table_30.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 12
+ },
+ "MLB_12_SEP_table_166.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_13_SEP_table_26.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_14_SEP_table_124.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_15_SEP_table_138.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_16_SEP_table_93.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_17_SEP_table_68.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_18_SEP_table_14.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_19_SEP_table_31.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_1_SEP_table_44.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_20_SEP_table_164.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_21_SEP_table_38.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_22_SEP_table_8.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_23_SEP_table_20.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_24_SEP_table_39.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_25_SEP_table_63.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_26_SEP_table_85.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_27_SEP_table_162.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_28_SEP_table_9.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_29_SEP_table_16.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_2_SEP_table_157.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 13
+ },
+ "MLB_30_SEP_table_158.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_31_SEP_table_55.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_32_SEP_table_156.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_33_SEP_table_50.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_34_SEP_table_52.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_35_SEP_table_92.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_36_SEP_table_160.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_37_SEP_table_100.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_38_SEP_table_199.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_39_SEP_table_128.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_3_SEP_table_97.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 13
+ },
+ "MLB_40_SEP_table_180.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "MLB_41_SEP_table_5.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 13
+ },
+ "MLB_42_SEP_table_46.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 13
+ },
+ "MLB_43_SEP_table_192.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 13
+ },
+ "MLB_44_SEP_table_76.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 13
+ },
+ "MLB_45_SEP_table_111.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_46_SEP_table_34.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_47_SEP_table_116.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_48_SEP_table_114.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 15
+ },
+ "MLB_49_SEP_table_94.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 16
+ },
+ "MLB_4_SEP_table_137.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 13
+ },
+ "MLB_50_SEP_table_78.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 16
+ },
+ "MLB_51_SEP_table_64.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 16
+ },
+ "MLB_52_SEP_table_91.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 12
+ },
+ "MLB_53_SEP_table_181.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 16
+ },
+ "MLB_54_SEP_table_125.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 16
+ },
+ "MLB_55_SEP_table_28.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 16
+ },
+ "MLB_56_SEP_table_140.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 16
+ },
+ "MLB_57_SEP_table_51.csv": {
+  "row": 2,
+  "schema": 3,
+  "contexts": 11
+ },
+ "MLB_58_SEP_table_67.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_59_SEP_table_176.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_5_SEP_table_99.csv": {
+  "row": 4,
+  "schema": 3,
+  "contexts": 13
+ },
+ "MLB_60_SEP_table_96.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_61_SEP_table_88.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_62_SEP_table_104.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 14
+ },
+ "MLB_63_SEP_table_82.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_64_SEP_table_41.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_65_SEP_table_122.csv": {
+  "row": 5,
+  "schema": 6,
+  "contexts": 14
+ },
+ "MLB_66_SEP_table_2.csv": {
+  "row": 3,
+  "schema": 3,
+  "contexts": 14
+ },
+ "MLB_67_SEP_table_43.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 13
+ },
+ "MLB_68_SEP_table_13.csv": {
+  "row": 4,
+  "schema": 3,
+  "contexts": 13
+ },
+ "MLB_6_SEP_table_75.csv": {
+  "row": 4,
+  "schema": 3,
+  "contexts": 13
+ },
+ "MLB_7_SEP_table_130.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 12
+ },
+ "MLB_8_SEP_table_202.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 12
+ },
+ "MLB_9_SEP_table_198.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 12
+ },
+ "MedPayment1_1_SEP_table_179.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "MedPayment2_1_SEP_table_185.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Medicare1_1_SEP_table_11.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 16
+ },
+ "Medicare1_2_SEP_table_40.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 16
+ },
+ "Medicare2_1_SEP_table_95.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Medicare2_2_SEP_table_182.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Medicare3_1_SEP_table_169.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Motos_1_SEP_table_59.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Motos_2_SEP_table_163.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "MulheresMil_1_SEP_table_142.csv": {
+  "row": 5,
+  "schema": 10,
+  "contexts": 20
+ },
+ "NYC_1_SEP_table_7.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 16
+ },
+ "NYC_2_SEP_table_136.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 16
+ },
+ "PanCreactomy1_1_SEP_table_155.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "PanCreactomy2_1_SEP_table_71.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "PanCreactomy2_2_SEP_table_108.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 15
+ },
+ "Physicians_1_SEP_table_47.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_1_SEP_table_24.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_2_SEP_table_132.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_3_SEP_table_33.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_4_SEP_table_107.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_5_SEP_table_134.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_6_SEP_table_152.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_7_SEP_table_102.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Provider_8_SEP_table_61.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "RealEstate1_1_SEP_table_147.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 12
+ },
+ "RealEstate1_2_SEP_table_6.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 12
+ },
+ "RealEstate2_1_SEP_table_141.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "RealEstate2_2_SEP_table_174.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "RealEstate2_3_SEP_table_109.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "RealEstate2_4_SEP_table_110.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "RealEstate2_5_SEP_table_190.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "RealEstate2_6_SEP_table_12.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "RealEstate2_7_SEP_table_113.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "Redfin1_1_SEP_table_86.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin1_2_SEP_table_170.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin1_3_SEP_table_3.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin1_4_SEP_table_103.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin2_1_SEP_table_172.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin2_2_SEP_table_120.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin2_3_SEP_table_167.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin3_1_SEP_table_22.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin3_2_SEP_table_25.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 14
+ },
+ "Redfin4_1_SEP_table_69.csv": {
+  "row": 5,
+  "schema": 5,
+  "contexts": 13
+ },
+ "Rentabilidad_1_SEP_table_57.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Rentabilidad_2_SEP_table_35.csv": {
+  "row": 5,
+  "schema": 17,
+  "contexts": 20
+ },
+ "Rentabilidad_3_SEP_table_191.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Rentabilidad_4_SEP_table_17.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Rentabilidad_5_SEP_table_131.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Rentabilidad_6_SEP_table_23.csv": {
+  "row": 5,
+  "schema": 17,
+  "contexts": 19
+ },
+ "Rentabilidad_7_SEP_table_146.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Rentabilidad_8_SEP_table_193.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Rentabilidad_9_SEP_table_53.csv": {
+  "row": 5,
+  "schema": 16,
+  "contexts": 19
+ },
+ "Romance_2_SEP_table_121.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 11
+ },
+ "SalariesFrance_10_SEP_table_117.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_11_SEP_table_196.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_12_SEP_table_79.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_13_SEP_table_168.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_1_SEP_table_49.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_2_SEP_table_106.csv": {
+  "row": 3,
+  "schema": 1,
+  "contexts": 11
+ },
+ "SalariesFrance_3_SEP_table_19.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_4_SEP_table_32.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_5_SEP_table_145.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_6_SEP_table_188.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_7_SEP_table_48.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_8_SEP_table_66.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "SalariesFrance_9_SEP_table_29.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 17
+ },
+ "TableroSistemaPenal_1_SEP_table_129.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "TableroSistemaPenal_2_SEP_table_105.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 13
+ },
+ "TableroSistemaPenal_3_SEP_table_127.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 14
+ },
+ "TableroSistemaPenal_4_SEP_table_178.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 14
+ },
+ "TableroSistemaPenal_5_SEP_table_186.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 14
+ },
+ "TableroSistemaPenal_6_SEP_table_15.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 13
+ },
+ "TableroSistemaPenal_7_SEP_table_84.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "TableroSistemaPenal_8_SEP_table_83.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 16
+ },
+ "Taxpayer_10_SEP_table_126.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_1_SEP_table_18.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_2_SEP_table_177.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_3_SEP_table_133.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_4_SEP_table_203.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_5_SEP_table_80.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_6_SEP_table_90.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_7_SEP_table_175.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_8_SEP_table_118.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Taxpayer_9_SEP_table_161.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 14
+ },
+ "Telco_1_SEP_table_58.csv": {
+  "row": 5,
+  "schema": 17,
+  "contexts": 19
+ },
+ "TrainsUK1_1_SEP_table_1.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 8
+ },
+ "TrainsUK1_2_SEP_table_159.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "TrainsUK1_3_SEP_table_65.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "TrainsUK1_4_SEP_table_115.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 13
+ },
+ "TrainsUK2_1_SEP_table_56.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 13
+ },
+ "TrainsUK2_2_SEP_table_119.csv": {
+  "row": 5,
+  "schema": 4,
+  "contexts": 13
+ },
+ "USCensus_1_SEP_table_77.csv": {
+  "row": 5,
+  "schema": 12,
+  "contexts": 18
+ },
+ "USCensus_2_SEP_table_60.csv": {
+  "row": 5,
+  "schema": 12,
+  "contexts": 18
+ },
+ "USCensus_3_SEP_table_201.csv": {
+  "row": 5,
+  "schema": 12,
+  "contexts": 18
+ },
+ "Uberlandia_1_SEP_table_144.csv": {
+  "row": 5,
+  "schema": 10,
+  "contexts": 20
+ },
+ "Wins_1_SEP_table_45.csv": {
+  "row": 5,
+  "schema": 7,
+  "contexts": 19
+ },
+ "Wins_2_SEP_table_171.csv": {
+  "row": 5,
+  "schema": 14,
+  "contexts": 24
+ },
+ "Wins_3_SEP_table_54.csv": {
+  "row": 5,
+  "schema": 14,
+  "contexts": 24
+ },
+ "Wins_4_SEP_table_112.csv": {
+  "row": 5,
+  "schema": 14,
+  "contexts": 24
+ },
+ "YaleLanguages_1_SEP_table_189.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 13
+ },
+ "YaleLanguages_2_SEP_table_197.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 13
+ },
+ "YaleLanguages_3_SEP_table_74.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 14
+ },
+ "YaleLanguages_4_SEP_table_72.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 13
+ },
+ "YaleLanguages_5_SEP_table_200.csv": {
+  "row": 3,
+  "schema": 4,
+  "contexts": 13
+ }
+}

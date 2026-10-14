@@ -1,0 +1,9 @@
+run,b0,b1,b2,b3,pass,unnecessary_questions_l0_b3,median_seconds_per_case
+"27B xhigh, after 113",136,166,184,186,179,29,476
+27B medium,133,159,182,183,175,67,166
+27B low,131,157,181,183,173,73,129
+9B thinking on (1 GPU),100,123,134,141,131,171,401
+9B thinking off (1 GPU),76,91,107,109,100,183,437
+"9B thinking on, profile off (2 GPUs)",88,106,125,126,117,159,214
+"9B thinking off, profile off (2 GPUs)",71,89,105,105,99,181,274
+"27B medium, profile off",134,165,184,184,177,63,149

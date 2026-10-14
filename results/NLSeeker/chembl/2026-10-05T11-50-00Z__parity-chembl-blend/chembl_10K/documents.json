@@ -1,0 +1,392 @@
+{
+ "action type_SEP_table_21.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "activities_SEP_table_52.csv": {
+  "schema": 4,
+  "row": 3,
+  "contexts": 15
+ },
+ "activity properties_SEP_table_13.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 13
+ },
+ "activity smid_SEP_table_77.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "activity stds lookup_SEP_table_45.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "activity supp map_SEP_table_58.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "activity supp_SEP_table_40.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "assay class map_SEP_table_42.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "assay classification_SEP_table_57.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "assay parameters_SEP_table_37.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 14
+ },
+ "assay type_SEP_table_48.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "assays_SEP_table_65.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 16
+ },
+ "atc classification_SEP_table_3.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "binding sites_SEP_table_8.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "bio component sequences_SEP_table_41.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "bioassay ontology_SEP_table_4.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "biotherapeutic components_SEP_table_10.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "biotherapeutics_SEP_table_30.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "cell dictionary_SEP_table_28.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "chembl id lookup_SEP_table_63.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "chembl release_SEP_table_12.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "component class_SEP_table_73.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "component go_SEP_table_69.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "component sequences_SEP_table_56.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "component synonyms_SEP_table_60.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "compound properties_SEP_table_7.csv": {
+  "schema": 4,
+  "row": 3,
+  "contexts": 13
+ },
+ "compound records_SEP_table_6.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "compound structural alerts_SEP_table_72.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "compound structures_SEP_table_74.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "confidence score lookup_SEP_table_5.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "curation lookup_SEP_table_67.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 7
+ },
+ "data validity lookup_SEP_table_29.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "defined daily dose_SEP_table_38.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "docs_SEP_table_15.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 14
+ },
+ "domains_SEP_table_64.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "drug indication_SEP_table_66.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "drug mechanism_SEP_table_24.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "drug warning_SEP_table_47.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "formulations_SEP_table_61.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "frac classification_SEP_table_1.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "go classification_SEP_table_9.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "hrac classification_SEP_table_62.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "indication refs_SEP_table_17.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "irac classification_SEP_table_49.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "ligand eff_SEP_table_32.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "mechanism refs_SEP_table_59.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "metabolism refs_SEP_table_23.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "metabolism_SEP_table_11.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "molecule atc classification_SEP_table_33.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "molecule dictionary_SEP_table_54.csv": {
+  "schema": 4,
+  "row": 3,
+  "contexts": 14
+ },
+ "molecule frac classification_SEP_table_50.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "molecule hierarchy_SEP_table_36.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "molecule hrac classification_SEP_table_27.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "molecule irac classification_SEP_table_70.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "molecule synonyms_SEP_table_51.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "organism class_SEP_table_34.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "patent use codes_SEP_table_2.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "predicted binding domains_SEP_table_25.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "product patents_SEP_table_39.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 14
+ },
+ "products_SEP_table_26.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "protein class synonyms_SEP_table_31.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "protein classification_SEP_table_22.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "relationship type_SEP_table_53.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "research companies_SEP_table_14.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "research stem_SEP_table_20.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "site components_SEP_table_44.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "source_SEP_table_55.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "structural alert sets_SEP_table_18.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "structural alerts_SEP_table_76.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "target components_SEP_table_46.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "target dictionary_SEP_table_78.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "target relations_SEP_table_19.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "target type_SEP_table_75.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "tissue dictionary_SEP_table_68.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "usan stems_SEP_table_43.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "variant sequences_SEP_table_16.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "version_SEP_table_35.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "warning refs_SEP_table_71.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 10
+ }
+}

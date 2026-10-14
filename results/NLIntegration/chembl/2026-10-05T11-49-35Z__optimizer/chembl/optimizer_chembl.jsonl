@@ -1,0 +1,200 @@
+{"kind": "SC+SC", "table": 49, "first_column": "5", "second_column": "9", "keywords": null, "own": [11], "forward": [1, 11, 25], "reverse": [2, 3, 5, 6, 11]}
+{"kind": "SC+SC", "table": 53, "first_column": "0", "second_column": "1", "keywords": null, "own": [2, 3, 5, 6, 8, 11, 21], "forward": [2, 3, 5, 6, 8, 11, 21], "reverse": [2, 3, 5, 6, 8, 11, 21]}
+{"kind": "SC+SC", "table": 38, "first_column": "3", "second_column": "2", "keywords": null, "own": [38], "forward": [38], "reverse": [38]}
+{"kind": "SC+SC", "table": 74, "first_column": "1", "second_column": "4", "keywords": null, "own": [74], "forward": [74], "reverse": [74]}
+{"kind": "SC+SC", "table": 17, "first_column": "1", "second_column": "0", "keywords": null, "own": [17, 26, 34, 54], "forward": [17, 23, 26, 34, 49, 54, 70], "reverse": [17, 26, 34, 54]}
+{"kind": "SC+SC", "table": 12, "first_column": "9", "second_column": "4", "keywords": null, "own": [12], "forward": [12], "reverse": [12]}
+{"kind": "SC+SC", "table": 68, "first_column": "1", "second_column": "3", "keywords": null, "own": [6], "forward": [6], "reverse": [6, 11, 26, 39, 41, 68]}
+{"kind": "SC+SC", "table": 12, "first_column": "1", "second_column": "5", "keywords": null, "own": [12], "forward": [12], "reverse": [12]}
+{"kind": "SC+SC", "table": 60, "first_column": "0", "second_column": "1", "keywords": null, "own": [], "forward": [1, 9, 44, 54, 55, 60, 70], "reverse": []}
+{"kind": "SC+SC", "table": 55, "first_column": "2", "second_column": "1", "keywords": null, "own": [55, 70], "forward": [55, 70], "reverse": [55, 70]}
+{"kind": "SC+SC", "table": 70, "first_column": "3", "second_column": "6", "keywords": null, "own": [], "forward": [11, 25], "reverse": [1, 2, 9]}
+{"kind": "SC+SC", "table": 66, "first_column": "1", "second_column": "0", "keywords": null, "own": [66], "forward": [66], "reverse": [66]}
+{"kind": "SC+SC", "table": 70, "first_column": "0", "second_column": "6", "keywords": null, "own": [], "forward": [25], "reverse": [1, 2, 4, 9]}
+{"kind": "SC+SC", "table": 51, "first_column": "2", "second_column": "0", "keywords": null, "own": [2, 3, 5, 6, 11, 21], "forward": [2, 3, 5, 6, 11, 21, 51], "reverse": [2, 3, 5, 6, 11, 21, 23, 24]}
+{"kind": "SC+SC", "table": 63, "first_column": "2", "second_column": "1", "keywords": null, "own": [], "forward": [63, 64], "reverse": []}
+{"kind": "SC+SC", "table": 41, "first_column": "1", "second_column": "7", "keywords": null, "own": [41], "forward": [41], "reverse": [41]}
+{"kind": "SC+SC", "table": 72, "first_column": "0", "second_column": "2", "keywords": null, "own": [29, 49, 70, 72], "forward": [29, 49, 70, 72], "reverse": [14, 23, 29, 49, 66, 70, 72]}
+{"kind": "SC+SC", "table": 18, "first_column": "6", "second_column": "5", "keywords": null, "own": [18], "forward": [18], "reverse": [18]}
+{"kind": "SC+SC", "table": 11, "first_column": "10", "second_column": "18", "keywords": null, "own": [11], "forward": [11], "reverse": [11]}
+{"kind": "SC+SC", "table": 65, "first_column": "3", "second_column": "0", "keywords": null, "own": [2, 3, 5, 6, 11, 21, 23], "forward": [2, 3, 5, 6, 11, 21, 23], "reverse": [2, 3, 5, 6, 11, 21, 23]}
+{"kind": "SC+SC", "table": 38, "first_column": "4", "second_column": "2", "keywords": null, "own": [38], "forward": [38], "reverse": [38]}
+{"kind": "SC+SC", "table": 15, "first_column": "1", "second_column": "0", "keywords": null, "own": [1, 15], "forward": [1, 15], "reverse": [1, 15]}
+{"kind": "SC+SC", "table": 77, "first_column": "4", "second_column": "2", "keywords": null, "own": [42, 77], "forward": [42, 77], "reverse": [42, 77]}
+{"kind": "SC+SC", "table": 56, "first_column": "0", "second_column": "1", "keywords": null, "own": [56], "forward": [56], "reverse": [56]}
+{"kind": "SC+SC", "table": 40, "first_column": "4", "second_column": "1", "keywords": null, "own": [40], "forward": [40], "reverse": [40]}
+{"kind": "SC+SC", "table": 37, "first_column": "10", "second_column": "2", "keywords": null, "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "SC+SC", "table": 23, "first_column": "0", "second_column": "4", "keywords": null, "own": [23], "forward": [23], "reverse": [23]}
+{"kind": "SC+SC", "table": 60, "first_column": "0", "second_column": "3", "keywords": null, "own": [60], "forward": [60], "reverse": [60]}
+{"kind": "SC+SC", "table": 16, "first_column": "0", "second_column": "2", "keywords": null, "own": [16], "forward": [16], "reverse": [1, 13, 16, 54, 58, 65]}
+{"kind": "SC+SC", "table": 10, "first_column": "1", "second_column": "0", "keywords": null, "own": [10], "forward": [1, 10, 15], "reverse": [10]}
+{"kind": "SC+SC", "table": 66, "first_column": "0", "second_column": "2", "keywords": null, "own": [66], "forward": [66], "reverse": [24, 37, 45, 54, 63, 64, 66]}
+{"kind": "SC+SC", "table": 75, "first_column": "6", "second_column": "4", "keywords": null, "own": [], "forward": [11, 18, 23, 47, 70, 75], "reverse": []}
+{"kind": "SC+SC", "table": 35, "first_column": "7", "second_column": "3", "keywords": null, "own": [8], "forward": [8, 18, 35, 37, 73], "reverse": [8]}
+{"kind": "SC+SC", "table": 45, "first_column": "0", "second_column": "2", "keywords": null, "own": [11, 45], "forward": [11, 45], "reverse": [11, 24, 45, 46, 54, 77]}
+{"kind": "SC+SC", "table": 14, "first_column": "3", "second_column": "4", "keywords": null, "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "SC+SC", "table": 42, "first_column": "1", "second_column": "4", "keywords": null, "own": [42], "forward": [42], "reverse": [42]}
+{"kind": "SC+SC", "table": 14, "first_column": "5", "second_column": "1", "keywords": null, "own": [14, 23, 70], "forward": [14, 23, 70], "reverse": [14, 23, 49, 70]}
+{"kind": "SC+SC", "table": 47, "first_column": "10", "second_column": "3", "keywords": null, "own": [47], "forward": [47], "reverse": [47]}
+{"kind": "SC+SC", "table": 54, "first_column": "0", "second_column": "4", "keywords": null, "own": [38, 54], "forward": [38, 54], "reverse": [26, 38, 45, 49, 54]}
+{"kind": "SC+SC", "table": 18, "first_column": "9", "second_column": "11", "keywords": null, "own": [18], "forward": [18], "reverse": [18]}
+{"kind": "SC+SC", "table": 5, "first_column": "2", "second_column": "0", "keywords": null, "own": [2, 3, 5, 6, 11, 21], "forward": [2, 3, 5, 6, 11, 21, 26, 33], "reverse": [2, 3, 5, 6, 11, 21, 23]}
+{"kind": "SC+SC", "table": 15, "first_column": "0", "second_column": "1", "keywords": null, "own": [1, 15], "forward": [1, 15], "reverse": [1, 15]}
+{"kind": "SC+SC", "table": 50, "first_column": "0", "second_column": "1", "keywords": null, "own": [2, 3, 5, 6, 11, 21], "forward": [2, 3, 5, 6, 11, 21, 22], "reverse": [2, 3, 5, 6, 11, 21, 23, 24]}
+{"kind": "SC+SC", "table": 14, "first_column": "0", "second_column": "4", "keywords": null, "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "SC+SC", "table": 2, "first_column": "11", "second_column": "10", "keywords": null, "own": [1, 2], "forward": [1, 2], "reverse": [1, 2]}
+{"kind": "SC+SC", "table": 15, "first_column": "1", "second_column": "0", "keywords": null, "own": [1, 15], "forward": [1, 15], "reverse": [1, 15]}
+{"kind": "SC+SC", "table": 7, "first_column": "2", "second_column": "0", "keywords": null, "own": [7], "forward": [7], "reverse": [7, 57]}
+{"kind": "SC+SC", "table": 69, "first_column": "3", "second_column": "2", "keywords": null, "own": [2], "forward": [1, 2, 4, 9], "reverse": [2, 11, 33, 69]}
+{"kind": "SC+SC", "table": 12, "first_column": "4", "second_column": "1", "keywords": null, "own": [12], "forward": [12], "reverse": [12]}
+{"kind": "SC+SC", "table": 28, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [28]}
+{"kind": "SC+SC", "table": 44, "first_column": "3", "second_column": "1", "keywords": null, "own": [1, 25, 44], "forward": [1, 25, 44], "reverse": [1, 25, 44]}
+{"kind": "SC+SC", "table": 7, "first_column": "2", "second_column": "1", "keywords": null, "own": [1, 2, 3, 5, 7], "forward": [1, 2, 3, 5, 6, 7, 11], "reverse": [1, 2, 3, 5, 7, 54, 60]}
+{"kind": "SC+SC", "table": 5, "first_column": "2", "second_column": "0", "keywords": null, "own": [2, 3, 5, 6, 11, 21], "forward": [2, 3, 5, 6, 11, 21, 26, 33], "reverse": [2, 3, 5, 6, 11, 21, 23]}
+{"kind": "SC+SC", "table": 50, "first_column": "0", "second_column": "1", "keywords": null, "own": [2, 3, 5, 6, 11, 21], "forward": [2, 3, 5, 6, 11, 21, 22], "reverse": [2, 3, 5, 6, 11, 21, 23, 24]}
+{"kind": "SC+SC", "table": 45, "first_column": "3", "second_column": "1", "keywords": null, "own": [], "forward": [45, 54], "reverse": []}
+{"kind": "SC+SC", "table": 20, "first_column": "0", "second_column": "1", "keywords": null, "own": [], "forward": [], "reverse": [20]}
+{"kind": "SC+SC", "table": 67, "first_column": "1", "second_column": "0", "keywords": null, "own": [], "forward": [64, 67], "reverse": []}
+{"kind": "SC+SC", "table": 76, "first_column": "1", "second_column": "0", "keywords": null, "own": [20, 76], "forward": [20, 76], "reverse": [20, 76]}
+{"kind": "SC+SC", "table": 1, "first_column": "22", "second_column": "3", "keywords": null, "own": [1], "forward": [1], "reverse": [1]}
+{"kind": "SC+SC", "table": 52, "first_column": "2", "second_column": "1", "keywords": null, "own": [6], "forward": [1, 6, 52, 53, 54, 60], "reverse": [6]}
+{"kind": "SC+SC", "table": 45, "first_column": "3", "second_column": "2", "keywords": null, "own": [45, 54], "forward": [45, 54], "reverse": [45, 54]}
+{"kind": "SC+SC", "table": 19, "first_column": "4", "second_column": "0", "keywords": null, "own": [], "forward": [], "reverse": [19]}
+{"kind": "SC+SC", "table": 58, "first_column": "1", "second_column": "5", "keywords": null, "own": [], "forward": [58, 59], "reverse": []}
+{"kind": "SC+SC", "table": 5, "first_column": "2", "second_column": "1", "keywords": null, "own": [2, 5], "forward": [2, 5], "reverse": [2, 5]}
+{"kind": "SC+SC", "table": 17, "first_column": "0", "second_column": "1", "keywords": null, "own": [17, 26, 34, 54], "forward": [17, 26, 34, 54], "reverse": [17, 23, 26, 34, 49, 54, 70]}
+{"kind": "SC+SC", "table": 45, "first_column": "4", "second_column": "2", "keywords": null, "own": [45], "forward": [45], "reverse": [45]}
+{"kind": "SC+SC", "table": 45, "first_column": "4", "second_column": "1", "keywords": null, "own": [], "forward": [45], "reverse": []}
+{"kind": "SC+SC", "table": 39, "first_column": "4", "second_column": "9", "keywords": null, "own": [39, 41], "forward": [39, 41], "reverse": [39, 41, 43]}
+{"kind": "SC+SC", "table": 10, "first_column": "0", "second_column": "1", "keywords": null, "own": [10], "forward": [10], "reverse": [1, 10, 15]}
+{"kind": "SC+SC", "table": 42, "first_column": "1", "second_column": "4", "keywords": null, "own": [42], "forward": [42], "reverse": [42]}
+{"kind": "SC+SC", "table": 28, "first_column": "3", "second_column": "4", "keywords": null, "own": [28], "forward": [28], "reverse": [28]}
+{"kind": "SC+SC", "table": 72, "first_column": "1", "second_column": "0", "keywords": null, "own": [72], "forward": [72], "reverse": [72]}
+{"kind": "SC+SC", "table": 51, "first_column": "2", "second_column": "1", "keywords": null, "own": [2, 3, 5, 6, 11, 21, 51], "forward": [2, 3, 5, 6, 11, 21, 51], "reverse": [2, 3, 5, 6, 11, 21, 51]}
+{"kind": "SC+SC", "table": 5, "first_column": "0", "second_column": "1", "keywords": null, "own": [2, 5], "forward": [2, 5], "reverse": [2, 5]}
+{"kind": "SC+SC", "table": 8, "first_column": "2", "second_column": "1", "keywords": null, "own": [8], "forward": [8], "reverse": [8]}
+{"kind": "SC+SC", "table": 57, "first_column": "4", "second_column": "3", "keywords": null, "own": [57], "forward": [57], "reverse": [57]}
+{"kind": "SC+SC", "table": 71, "first_column": "0", "second_column": "3", "keywords": null, "own": [71], "forward": [71], "reverse": [17, 36, 71]}
+{"kind": "SC+SC", "table": 63, "first_column": "2", "second_column": "4", "keywords": null, "own": [63, 64], "forward": [63, 64], "reverse": [63, 64]}
+{"kind": "SC+SC", "table": 59, "first_column": "0", "second_column": "3", "keywords": null, "own": [59], "forward": [59], "reverse": [59]}
+{"kind": "SC+SC", "table": 24, "first_column": "0", "second_column": "2", "keywords": null, "own": [24], "forward": [24], "reverse": [24]}
+{"kind": "SC+SC", "table": 16, "first_column": "0", "second_column": "1", "keywords": null, "own": [16], "forward": [16], "reverse": [16, 17, 26, 35, 36, 37, 48]}
+{"kind": "SC+SC", "table": 53, "first_column": "1", "second_column": "0", "keywords": null, "own": [2, 3, 5, 6, 8, 11, 21], "forward": [2, 3, 5, 6, 8, 11, 21], "reverse": [2, 3, 5, 6, 8, 11, 21]}
+{"kind": "SC+SC", "table": 27, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [27], "reverse": []}
+{"kind": "SC+SC", "table": 67, "first_column": "2", "second_column": "0", "keywords": null, "own": [1, 2, 3, 4, 5, 6, 8], "forward": [1, 2, 3, 4, 5, 6, 8], "reverse": [1, 2, 3, 4, 5, 6, 8]}
+{"kind": "SC+SC", "table": 24, "first_column": "0", "second_column": "2", "keywords": null, "own": [24], "forward": [24], "reverse": [24]}
+{"kind": "SC+SC", "table": 25, "first_column": "17", "second_column": "16", "keywords": null, "own": [1], "forward": [1, 25, 44], "reverse": [1, 4]}
+{"kind": "SC+SC", "table": 23, "first_column": "1", "second_column": "7", "keywords": null, "own": [14, 23], "forward": [14, 23], "reverse": [14, 23]}
+{"kind": "SC+SC", "table": 50, "first_column": "2", "second_column": "0", "keywords": null, "own": [], "forward": [1, 36, 44, 50, 53, 54], "reverse": [6]}
+{"kind": "SC+SC", "table": 14, "first_column": "6", "second_column": "2", "keywords": null, "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "SC+SC", "table": 17, "first_column": "2", "second_column": "1", "keywords": null, "own": [17], "forward": [17], "reverse": [17]}
+{"kind": "SC+SC", "table": 14, "first_column": "6", "second_column": "1", "keywords": null, "own": [14, 23, 70], "forward": [14, 23, 70], "reverse": [14, 23, 70]}
+{"kind": "SC+SC", "table": 35, "first_column": "0", "second_column": "7", "keywords": null, "own": [35], "forward": [35], "reverse": [35, 37]}
+{"kind": "SC+SC", "table": 5, "first_column": "0", "second_column": "1", "keywords": null, "own": [2, 5], "forward": [2, 5], "reverse": [2, 5]}
+{"kind": "SC+SC", "table": 71, "first_column": "2", "second_column": "1", "keywords": null, "own": [71], "forward": [71], "reverse": [71]}
+{"kind": "SC+SC", "table": 72, "first_column": "0", "second_column": "1", "keywords": null, "own": [72], "forward": [72], "reverse": [72]}
+{"kind": "SC+SC", "table": 58, "first_column": "6", "second_column": "5", "keywords": null, "own": [], "forward": [58], "reverse": []}
+{"kind": "SC+SC", "table": 68, "first_column": "1", "second_column": "0", "keywords": null, "own": [2, 3, 5, 6, 8], "forward": [1, 2, 3, 4, 5, 6, 8], "reverse": [2, 3, 5, 6, 8, 11, 21]}
+{"kind": "SC+SC", "table": 48, "first_column": "2", "second_column": "1", "keywords": null, "own": [48], "forward": [48], "reverse": [32, 48]}
+{"kind": "SC+SC", "table": 1, "first_column": "12", "second_column": "16", "keywords": null, "own": [1], "forward": [1], "reverse": [1]}
+{"kind": "SC+SC", "table": 42, "first_column": "2", "second_column": "4", "keywords": null, "own": [42, 45, 77], "forward": [42, 45, 77], "reverse": [42, 45, 77]}
+{"kind": "KW+SC", "table": 4, "first_column": "0", "second_column": "2", "keywords": ["117", "116", "31"], "own": [1, 4, 11], "forward": [1, 4, 11], "reverse": [1, 4, 11]}
+{"kind": "KW+SC", "table": 37, "first_column": "4", "second_column": "5", "keywords": ["misuse", "dermatological toxicity", "cardiotoxicity"], "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "KW+SC", "table": 14, "first_column": "3", "second_column": "5", "keywords": ["cdlpqthslgsrrtlmllaqmrrislfsclkdrhdfgfpqeefgnqfqkaetipvlhemiqqifnlfstkdssaawdetlldkfytelyqqlndleacviqgvgvtetplmkedsilavrkyfqritlylkekkyspcawevvraeimrsfslstnlqeslrske", "qsvvtqppsvsaapgqkvtiscsgsnsdignnyvswyqqlpgtapklliydnnkrpsgipdrfsgsksgtsatlaitglqagdeadyycgtwlydravglfgggtkvtvlgqpkaapsvtlfppsseelqankatlvclisdfypgavtvawkadsspvkagvetttpskqsnnkyaassylsltpeqwkshrsyscqvt", "svseiqlmhnlgkhlnsmervewlrkklqdvhnf"], "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "KW+SC", "table": 22, "first_column": "2", "second_column": "0", "keywords": ["go:0043167", "go:0006950", "go:0050877"], "own": [22], "forward": [22], "reverse": [22]}
+{"kind": "KW+SC", "table": 38, "first_column": "3", "second_column": "0", "keywords": ["1344246", "1344171", "1343826"], "own": [38], "forward": [38], "reverse": [38]}
+{"kind": "KW+SC", "table": 60, "first_column": "2", "second_column": "1", "keywords": ["receptors, thyroid hormone", "carboxypeptidase n subunit 2", "inwardly rectifying k channels"], "own": [], "forward": [23, 60], "reverse": []}
+{"kind": "KW+SC", "table": 63, "first_column": "3", "second_column": "0", "keywords": ["india", "israel", "japan"], "own": [], "forward": [37, 63], "reverse": []}
+{"kind": "KW+SC", "table": 19, "first_column": "1", "second_column": "3", "keywords": ["compound", "assay", "compound"], "own": [19], "forward": [19], "reverse": [19]}
+{"kind": "KW+SC", "table": 10, "first_column": "0", "second_column": "1", "keywords": ["a", "p", "u"], "own": [10], "forward": [10], "reverse": [10]}
+{"kind": "KW+SC", "table": 12, "first_column": "6", "second_column": "8", "keywords": ["cardiovascular system", "cardiovascular system", "cardiovascular system"], "own": [12], "forward": [12], "reverse": [12]}
+{"kind": "KW+SC", "table": 62, "first_column": "0", "second_column": "1", "keywords": ["d", "m", "h"], "own": [62], "forward": [62], "reverse": [62]}
+{"kind": "KW+SC", "table": 33, "first_column": "9", "second_column": "13", "keywords": ["chembl1127759", "chembl1128029", "chembl1127234"], "own": [33], "forward": [33], "reverse": [33]}
+{"kind": "KW+SC", "table": 14, "first_column": "0", "second_column": "5", "keywords": ["20625", "21583", "21574"], "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "KW+SC", "table": 25, "first_column": "11", "second_column": "22", "keywords": ["6.18", "-0.25", "3.1"], "own": [1, 9, 25], "forward": [1, 9, 25], "reverse": [1, 9, 25]}
+{"kind": "KW+SC", "table": 5, "first_column": "0", "second_column": "2", "keywords": ["1010", "103", "106"], "own": [2, 3, 5, 6, 11, 21], "forward": [2, 3, 5, 6, 11, 21, 23], "reverse": [2, 3, 5, 6, 11, 21, 26, 33]}
+{"kind": "KW+SC", "table": 48, "first_column": "1", "second_column": "0", "keywords": ["m01ae16", "c07aa23", "c01da54"], "own": [48], "forward": [48], "reverse": [48]}
+{"kind": "KW+SC", "table": 18, "first_column": "7", "second_column": "4", "keywords": ["efo_0006695", "efo_0006470", "efo_0006629"], "own": [18], "forward": [18], "reverse": [18]}
+{"kind": "KW+SC", "table": 66, "first_column": "1", "second_column": "2", "keywords": ["cardiff schistosomiasis dataset 2023", "bindingdb database", "hesi"], "own": [66], "forward": [66], "reverse": [66]}
+{"kind": "KW+SC", "table": 25, "first_column": "3", "second_column": "5", "keywords": ["5", "6", "2"], "own": [1, 2, 3, 4, 5, 6], "forward": [1, 2, 3, 4, 5, 6, 8], "reverse": [1, 2, 3, 4, 5, 6, 25]}
+{"kind": "KW+SC", "table": 40, "first_column": "2", "second_column": "0", "keywords": ["pathogenesis", "xenobiotic metabolic process", "cell adhesion"], "own": [40], "forward": [40], "reverse": [40]}
+{"kind": "KW+SC", "table": 77, "first_column": "1", "second_column": "3", "keywords": ["2430", "539", "442"], "own": [], "forward": [], "reverse": [77]}
+{"kind": "KW+SC", "table": 60, "first_column": "0", "second_column": "3", "keywords": ["35308", "35242", "35245"], "own": [60], "forward": [60], "reverse": [60]}
+{"kind": "KW+SC", "table": 28, "first_column": "1", "second_column": "0", "keywords": ["rdkit          2d 17 18  0  0  0  0  0  0  0  0999 v2000   -0.2522   -1.0563    0.0000 c   0  0  0  0  0  0  0  0  0  0  0  0   -0.2522   -0.2313    0.0000 n   0  0  0  0  0  0  0  0  0  0  0  0   -0.", "rdkit          2d 25 27  0  0  0  0  0  0  0  0999 v2000    5.2792   -2.0500    0.0000 c   0  0  0  0  0  0  0  0  0  0  0  0    5.7917   -2.3500    0.0000 n   0  0  0  0  0  0  0  0  0  0  0  0    5.", "rdkit          2d 36 39  0  0  0  0  0  0  0  0999 v2000    8.8000   -2.3667    0.0000 n   0  0  0  0  0  0  0  0  0  0  0  0    8.2917   -2.6875    0.0000 c   0  0  0  0  0  0  0  0  0  0  0  0    7."], "own": [], "forward": [28], "reverse": []}
+{"kind": "KW+SC", "table": 57, "first_column": "2", "second_column": "1", "keywords": ["535", "44", "1688"], "own": [], "forward": [], "reverse": [57]}
+{"kind": "KW+SC", "table": 47, "first_column": "6", "second_column": "4", "keywords": ["gstp1", "cyp2c9", "cyp2c19"], "own": [], "forward": [47], "reverse": []}
+{"kind": "KW+SC", "table": 73, "first_column": "0", "second_column": "5", "keywords": ["1301", "1485", "1353"], "own": [], "forward": [], "reverse": [73]}
+{"kind": "KW+SC", "table": 9, "first_column": "8", "second_column": "3", "keywords": ["=", "=", "="], "own": [1, 2, 9], "forward": [1, 2, 9], "reverse": [1, 2, 9]}
+{"kind": "KW+SC", "table": 68, "first_column": "3", "second_column": "1", "keywords": ["c1ccccc1c=cc2ccccc2", "[#7;r1]1[#6][#6]([f,cl,br,i])[#6]([$(s(=o)(=o)),$(c(f)(f)(f)),$(c#n),$(n(=o)(=o)),$([n+](=o)[o-]),$(c=o)])[#6][#7]1", "[#7;r1]1[#6]([f,cl,br,i])[#7][#6][#6]([$(s(=o)(=o)),$(c(f)(f)(f)),$(c#n),$(n(=o)(=o)),$([n+](=o)[o-]),$(c=o)])[#6]1"], "own": [], "forward": [68], "reverse": []}
+{"kind": "KW+SC", "table": 29, "first_column": "0", "second_column": "2", "keywords": ["2", "4", "8"], "own": [], "forward": [], "reverse": [23, 29, 40, 49, 70]}
+{"kind": "KW+SC", "table": 42, "first_column": "0", "second_column": "3", "keywords": ["594870", "594874", "594929"], "own": [42], "forward": [42], "reverse": [42]}
+{"kind": "KW+SC", "table": 52, "first_column": "1", "second_column": "2", "keywords": ["135", "154", "228"], "own": [6], "forward": [6], "reverse": [1, 6, 35, 52, 53, 60]}
+{"kind": "KW+SC", "table": 16, "first_column": "0", "second_column": "1", "keywords": ["2330", "2974", "2336"], "own": [16, 26], "forward": [16, 26], "reverse": [16, 26, 36, 37]}
+{"kind": "KW+SC", "table": 4, "first_column": "3", "second_column": "5", "keywords": ["g", "nm", "ug.ml-1"], "own": [1, 4], "forward": [1, 4, 9, 32, 41, 64], "reverse": [1, 4]}
+{"kind": "KW+SC", "table": 10, "first_column": "0", "second_column": "1", "keywords": ["p", "a", "u"], "own": [10], "forward": [10], "reverse": [10]}
+{"kind": "KW+SC", "table": 49, "first_column": "21", "second_column": "1", "keywords": ["-olol", "sulfa-", "-clidine"], "own": [49], "forward": [49], "reverse": [49]}
+{"kind": "KW+SC", "table": 19, "first_column": "0", "second_column": "4", "keywords": ["chembl1000956", "chembl1000959", "chembl1000906"], "own": [], "forward": [19], "reverse": []}
+{"kind": "KW+SC", "table": 41, "first_column": "1", "second_column": "5", "keywords": ["clomazone", "oryzalin", "sulfentrazone"], "own": [41], "forward": [41], "reverse": [41]}
+{"kind": "KW+SC", "table": 24, "first_column": "3", "second_column": "1", "keywords": ["uniprot", "uniprot", "uniprot"], "own": [], "forward": [24, 45], "reverse": []}
+{"kind": "KW+SC", "table": 59, "first_column": "6", "second_column": "7", "keywords": ["1", "0", "0"], "own": [1, 4, 9, 11, 25], "forward": [1, 4, 9, 11, 25], "reverse": [1, 4, 9, 11, 25]}
+{"kind": "KW+SC", "table": 37, "first_column": "10", "second_column": "5", "keywords": ["efo:1001482", "efo:0011048", "efo:1001482"], "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "KW+SC", "table": 15, "first_column": "0", "second_column": "1", "keywords": ["bao_0002120", "bao_0002126", "bao_0002117"], "own": [1, 15], "forward": [1, 15], "reverse": [1, 15]}
+{"kind": "KW+SC", "table": 24, "first_column": "3", "second_column": "1", "keywords": ["uniprot", "gene_symbol", "uniprot"], "own": [], "forward": [24, 45], "reverse": []}
+{"kind": "KW+SC", "table": 5, "first_column": "1", "second_column": "2", "keywords": ["17126855", "17127047", "17127064"], "own": [2, 5], "forward": [2, 5], "reverse": [2, 5]}
+{"kind": "KW+SC", "table": 72, "first_column": "2", "second_column": "0", "keywords": ["protein", "molecular", "molecular"], "own": [29, 49, 72], "forward": [14, 23, 29, 49, 72], "reverse": [29, 49, 72]}
+{"kind": "KW+SC", "table": 64, "first_column": "1", "second_column": "0", "keywords": ["cam", "cbp", "cnp"], "own": [], "forward": [64], "reverse": []}
+{"kind": "KW+SC", "table": 72, "first_column": "1", "second_column": "0", "keywords": ["target is a complete organism", "target is a single protein chain", "target is an oligosaccharide (e.g., heparin, starch)"], "own": [72], "forward": [72], "reverse": [72]}
+{"kind": "KW+SC", "table": 12, "first_column": "6", "second_column": "2", "keywords": ["cardiovascular system", "alimentary tract and metabolism", "cardiovascular system"], "own": [12], "forward": [12], "reverse": [12]}
+{"kind": "KW+SC", "table": 55, "first_column": "3", "second_column": "0", "keywords": ["mollusca", "ascomycota", "teleostei"], "own": [], "forward": [55], "reverse": []}
+{"kind": "KW+SC", "table": 32, "first_column": "0", "second_column": "2", "keywords": ["n07ca52", "p01ab03", "p02cb02"], "own": [12, 32], "forward": [12, 32], "reverse": [12, 32]}
+{"kind": "KW+SC", "table": 44, "first_column": "2", "second_column": "1", "keywords": ["4.23", "5.44", "3.66"], "own": [1, 25, 44], "forward": [1, 25, 44], "reverse": [1, 25, 44]}
+{"kind": "KW+SC", "table": 9, "first_column": "6", "second_column": "10", "keywords": ["ready-to-use transformed and labeled cells - labeled with tb", "spr", "nta"], "own": [9, 24], "forward": [9, 24], "reverse": [9, 24]}
+{"kind": "KW+SC", "table": 15, "first_column": "0", "second_column": "1", "keywords": ["bao_0002117", "bao_0002190", "bao_0000579"], "own": [1, 15], "forward": [1, 15], "reverse": [1, 15]}
+{"kind": "KW+SC", "table": 77, "first_column": "1", "second_column": "4", "keywords": ["536", "414", "385"], "own": [], "forward": [], "reverse": [77]}
+{"kind": "KW+SC", "table": 61, "first_column": "2", "second_column": "5", "keywords": ["tyrosine protein kinase jaka family", "tyrosine protein kinase csk family", "phosphodiesterase 9a"], "own": [61], "forward": [61], "reverse": [61]}
+{"kind": "KW+SC", "table": 26, "first_column": "5", "second_column": "2", "keywords": ["1", "1", "1"], "own": [2, 3, 5], "forward": [1, 2, 3, 5, 6, 9, 11], "reverse": [2, 3, 5, 21, 25, 26, 28, 49, 51, 69]}
+{"kind": "KW+SC", "table": 41, "first_column": "2", "second_column": "4", "keywords": ["c2", "a", "a"], "own": [11, 39, 41, 43], "forward": [11, 39, 41, 43], "reverse": [11, 39, 41, 43]}
+{"kind": "KW+SC", "table": 74, "first_column": "2", "second_column": "1", "keywords": ["-onakin", "-zigdomide", "-prodil"], "own": [74], "forward": [74], "reverse": [74]}
+{"kind": "KW+SC", "table": 28, "first_column": "2", "second_column": "1", "keywords": ["inchi=1s/c23h18f3n3o5/c1-14-19(27-20(33-14)16-7-9-17(10-8-16)23(24,25)26)13-32-18-6-2-4-15(12-18)5-3-11-29-21(30)28-22(31)34-29/h2-10,12h,11,13h2,1h3,(h,28,30,31)/b5-3+", "inchi=1s/c9h6o2/c10-9-6-5-7-3-1-2-4-8(7)11-9/h1-6h", "inchi=1s/c13h16n4o/c1-16-6-8-17(9-7-16)12-13(18)15-11-5-3-2-4-10(11)14-12/h2-5h,6-9h2,1h3,(h,15,18)"], "own": [28], "forward": [28], "reverse": [28]}
+{"kind": "KW+SC", "table": 37, "first_column": "4", "second_column": "5", "keywords": ["hepatotoxicity", "teratogenicity", "dermatological toxicity"], "own": [37, 70], "forward": [37, 70], "reverse": [37, 70]}
+{"kind": "KW+SC", "table": 76, "first_column": "0", "second_column": "1", "keywords": ["chembl_34", "swiss-prot 2024_01", "rdkit 2022.09.4"], "own": [20, 76], "forward": [20, 76], "reverse": [20, 76]}
+{"kind": "KW+SC", "table": 53, "first_column": "1", "second_column": "2", "keywords": ["251", "156", "232"], "own": [], "forward": [2, 3, 5, 6, 8, 11, 13], "reverse": [36, 53, 69]}
+{"kind": "KW+SC", "table": 54, "first_column": "2", "second_column": "4", "keywords": ["3626", "3699", "3746"], "own": [26], "forward": [26], "reverse": [26, 45, 49, 54]}
+{"kind": "KW+SC", "table": 47, "first_column": "8", "second_column": "6", "keywords": ["glucuronide conjugation at the 6 hydroxyl forming an ether.", "non-enzymatic hydrolysis", "oxidation on thiophene ring"], "own": [47], "forward": [47], "reverse": [47]}
+{"kind": "KW+SC", "table": 1, "first_column": "20", "second_column": "5", "keywords": ["1", "1", "1"], "own": [1, 2, 9], "forward": [1, 2, 9], "reverse": [1, 2, 9]}
+{"kind": "KW+SC", "table": 47, "first_column": "2", "second_column": "5", "keywords": ["2471959", "2471925", "2472159"], "own": [47], "forward": [47], "reverse": [47]}
+{"kind": "KW+SC", "table": 35, "first_column": "1", "second_column": "4", "keywords": ["1390839", "1343835", "1343813"], "own": [35], "forward": [35], "reverse": [35]}
+{"kind": "KW+SC", "table": 57, "first_column": "3", "second_column": "1", "keywords": ["single domain", "single domain", "single domain"], "own": [57], "forward": [57], "reverse": [57]}
+{"kind": "KW+SC", "table": 22, "first_column": "0", "second_column": "1", "keywords": ["2548892", "2548932", "2548889"], "own": [], "forward": [22], "reverse": []}
+{"kind": "KW+SC", "table": 45, "first_column": "3", "second_column": "0", "keywords": ["18250364", "d07445", "2307235"], "own": [45], "forward": [45], "reverse": [45]}
+{"kind": "KW+SC", "table": 37, "first_column": "0", "second_column": "6", "keywords": ["2923", "2899", "1"], "own": [], "forward": [], "reverse": [37, 63]}
+{"kind": "KW+SC", "table": 27, "first_column": "1", "second_column": "0", "keywords": ["637", "77", "620"], "own": [], "forward": [], "reverse": [27]}
+{"kind": "KW+SC", "table": 69, "first_column": "1", "second_column": "3", "keywords": ["4654", "4108", "5566"], "own": [2], "forward": [2, 11, 25], "reverse": [2]}
+{"kind": "KW+SC", "table": 29, "first_column": "2", "second_column": "1", "keywords": ["multiple homologous proteins", "unassigned", "non-molecular"], "own": [29], "forward": [29], "reverse": [29]}
+{"kind": "KW+SC", "table": 32, "first_column": "3", "second_column": "4", "keywords": ["depot", "expressed as folinic acid", "as mycophenolate mofetil"], "own": [], "forward": [32], "reverse": []}
+{"kind": "KW+SC", "table": 56, "first_column": "0", "second_column": "1", "keywords": ["u-1933", "u-1091", "u-1975"], "own": [56], "forward": [56], "reverse": [56]}
+{"kind": "KW+SC", "table": 25, "first_column": "5", "second_column": "10", "keywords": ["55.63", "64.43", "64.55"], "own": [25], "forward": [25], "reverse": [25]}
+{"kind": "KW+SC", "table": 39, "first_column": "6", "second_column": "3", "keywords": ["c311", "g13", "d19"], "own": [39], "forward": [39], "reverse": [39]}
+{"kind": "KW+SC", "table": 20, "first_column": "0", "second_column": "1", "keywords": ["26", "10", "17"], "own": [], "forward": [], "reverse": [20]}
+{"kind": "KW+SC", "table": 73, "first_column": "4", "second_column": "5", "keywords": ["chembl3987732", "chembl3988023", "chembl3988000"], "own": [73], "forward": [73], "reverse": [73]}
+{"kind": "KW+SC", "table": 52, "first_column": "2", "second_column": "1", "keywords": ["433937", "1235576", "694141"], "own": [], "forward": [52], "reverse": []}
+{"kind": "KW+SC", "table": 37, "first_column": "6", "second_column": "4", "keywords": ["france; united states", "united states", "united states"], "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "KW+SC", "table": 20, "first_column": "0", "second_column": "2", "keywords": ["31", "32", "6"], "own": [], "forward": [], "reverse": [20]}
+{"kind": "KW+SC", "table": 17, "first_column": "2", "second_column": "1", "keywords": ["peptide1{q.e.[df].v.q.w.l.m.n.t.[am]}|peptide2{[ds].[dk].y.[dl].[dd].s.k.k.[da]}|peptide3{[dh].[ds].[dq].g.[dt].[df].[dt].s.d.y}$peptide3,peptide2,10:r2-1:r1|peptide2,peptide1,9:r2-1:r1|peptide3,pepti", "peptide1{[ac].f.p.f.y.[am]}$$$$", "peptide1{v.y.f.s.h.l.d.i.i.w}$$$$"], "own": [17], "forward": [17], "reverse": [17]}
+{"kind": "KW+SC", "table": 53, "first_column": "0", "second_column": "1", "keywords": ["58", "70", "5"], "own": [2, 3, 5, 6, 8, 11], "forward": [1, 2, 3, 5, 6, 8, 11, 13], "reverse": [2, 3, 5, 6, 8, 11, 21]}
+{"kind": "KW+SC", "table": 40, "first_column": "3", "second_column": "0", "keywords": ["1", "1", "2"], "own": [], "forward": [], "reverse": [22, 35, 40]}
+{"kind": "KW+SC", "table": 63, "first_column": "0", "second_column": "1", "keywords": ["101", "140", "153"], "own": [2, 3, 5, 6, 11], "forward": [2, 3, 5, 6, 8, 11, 13, 18], "reverse": [2, 3, 5, 6, 11, 21, 23, 24]}
+{"kind": "KW+SC", "table": 50, "first_column": "0", "second_column": "2", "keywords": ["105", "73", "108"], "own": [1], "forward": [1, 6], "reverse": [1, 36, 50, 53, 54]}
+{"kind": "KW+SC", "table": 50, "first_column": "0", "second_column": "1", "keywords": ["9", "97", "77"], "own": [2, 3, 5, 6, 11], "forward": [2, 3, 5, 6, 8, 11, 13, 18], "reverse": [2, 3, 5, 6, 11, 21, 23, 24]}
+{"kind": "KW+SC", "table": 0, "first_column": "1", "second_column": "2", "keywords": ["other action type, not clearly postively or negatively affecting the normal functioning of a protein e.g., chelation of substances, hydrolysis of substrate", "effects the normal functioning of a protein in some way e.g., mixed agonist/antagonist or unclear whether action is positive or negative", "positively effects the normal functioning of a protein e.g., receptor agonist, positive allosteric modulator, ion channel activator"], "own": [0], "forward": [0], "reverse": [0]}
+{"kind": "KW+SC", "table": 24, "first_column": "0", "second_column": "1", "keywords": ["1783556", "1783559", "862576"], "own": [], "forward": [24], "reverse": []}
+{"kind": "KW+SC", "table": 49, "first_column": "13", "second_column": "18", "keywords": ["0", "0", "0"], "own": [1, 25], "forward": [1, 2, 25], "reverse": [1, 25, 44, 49]}
+{"kind": "KW+SC", "table": 55, "first_column": "1", "second_column": "3", "keywords": ["7955", "5141", "6973"], "own": [45], "forward": [45], "reverse": [36, 45, 55]}
+{"kind": "KW+SC", "table": 40, "first_column": "1", "second_column": "5", "keywords": ["go:0008150", "go:0008150", "go:0005102"], "own": [40], "forward": [40], "reverse": [40]}
+{"kind": "KW+SC", "table": 49, "first_column": "20", "second_column": "6", "keywords": ["-1", "-1", "-1"], "own": [49], "forward": [49], "reverse": [49]}
+{"kind": "KW+SC", "table": 28, "first_column": "1", "second_column": "3", "keywords": ["rdkit          2d 28 30  0  0  0  0  0  0  0  0999 v2000    0.1792   -3.6167    0.0000 n   0  0  0  0  0  0  0  0  0  0  0  0    0.0542   -4.5167    0.0000 c   0  0  0  0  0  0  0  0  0  0  0  0    1.", "rdkit          2d 21 22  0  0  0  0  0  0  0  0999 v2000    3.9042   -4.3125    0.0000 n   0  0  0  0  0  0  0  0  0  0  0  0    3.3792   -4.0042    0.0000 c   0  0  0  0  0  0  0  0  0  0  0  0    2.", "rdkit          2d 21 24  0  0  0  0  0  0  0  0999 v2000    1.4250   -0.5667    0.0000 c   0  0  0  0  0  0  0  0  0  0  0  0    2.2042   -1.6500    0.0000 n   0  0  0  0  0  0  0  0  0  0  0  0    1."], "own": [28], "forward": [28], "reverse": [28]}
+{"kind": "KW+SC", "table": 6, "first_column": "2", "second_column": "0", "keywords": ["1013636", "1013683", "1013619"], "own": [6], "forward": [6], "reverse": [6]}
+{"kind": "KW+SC", "table": 23, "first_column": "5", "second_column": "0", "keywords": ["1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-4", "metabotropic glutamate receptor 4", "polyunsaturated fatty acid lipoxygenase alox15"], "own": [23, 24], "forward": [23, 24, 70], "reverse": [23, 24]}
+{"kind": "KW+SC", "table": 22, "first_column": "0", "second_column": "1", "keywords": ["2548926", "2548863", "2548950"], "own": [], "forward": [22], "reverse": []}
+{"kind": "KW+SC", "table": 52, "first_column": "1", "second_column": "0", "keywords": ["225", "237", "210"], "own": [2, 3, 5, 6, 8, 11, 21], "forward": [2, 3, 5, 6, 8, 11, 21], "reverse": [2, 3, 5, 6, 8, 11, 21, 22]}
+{"kind": "KW+SC", "table": 70, "first_column": "5", "second_column": "3", "keywords": ["chembl4791", "chembl1855", "chembl3130"], "own": [70], "forward": [70], "reverse": [70]}

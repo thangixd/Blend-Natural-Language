@@ -1,0 +1,214 @@
+{
+ "ties": {
+  "BC1 k=5": {
+   "tie": 34
+  },
+  "BC2 k=5": {
+   "tie": 28
+  }
+ },
+ "vector": {
+  "BC1 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.9673999999999999,
+   "recall_outside_candidates": 0.9531531531531532,
+   "seeker_hit": 0.725,
+   "pneuma_hit": 0.728,
+   "pneuma_hit_without_candidates": 0.728,
+   "empty_without_candidates": 0,
+   "nearest_answer": 725,
+   "missed_answer": 9,
+   "first_is_answer_after_missed_answer": 0.6666666666666666,
+   "nearest_answer_outside_candidates": 285,
+   "missed_answer_outside_candidates": 9,
+   "nearest_other": 275,
+   "missed_other": 13,
+   "first_is_answer_after_missed_other": 0.46153846153846156,
+   "nearest_other_outside_candidates": 253,
+   "missed_other_outside_candidates": 13,
+   "duckdb_hnsw_recall": 0.9652000000000001,
+   "short_keyword_lists": 0
+  },
+  "BC1 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.96936,
+   "recall_outside_candidates": 0.9572201924340598,
+   "seeker_hit": 0.926,
+   "pneuma_hit": 0.927,
+   "pneuma_hit_without_candidates": 0.927,
+   "empty_without_candidates": 0,
+   "nearest_answer": 725,
+   "missed_answer": 0,
+   "first_is_answer_after_missed_answer": null,
+   "nearest_answer_outside_candidates": 171,
+   "missed_answer_outside_candidates": 0,
+   "nearest_other": 275,
+   "missed_other": 1,
+   "first_is_answer_after_missed_other": 1.0,
+   "nearest_other_outside_candidates": 208,
+   "missed_other_outside_candidates": 1,
+   "duckdb_hnsw_recall": 0.95692,
+   "short_keyword_lists": 0
+  },
+  "BC2 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.9534,
+   "recall_outside_candidates": 0.9367833333333333,
+   "seeker_hit": 0.718,
+   "pneuma_hit": 0.719,
+   "pneuma_hit_without_candidates": 0.719,
+   "empty_without_candidates": 0,
+   "nearest_answer": 718,
+   "missed_answer": 19,
+   "first_is_answer_after_missed_answer": 0.7894736842105263,
+   "nearest_answer_outside_candidates": 333,
+   "missed_answer_outside_candidates": 19,
+   "nearest_other": 282,
+   "missed_other": 13,
+   "first_is_answer_after_missed_other": 0.38461538461538464,
+   "nearest_other_outside_candidates": 244,
+   "missed_other_outside_candidates": 13,
+   "duckdb_hnsw_recall": 0.9516,
+   "short_keyword_lists": 0
+  },
+  "BC2 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.96548,
+   "recall_outside_candidates": 0.953881512435718,
+   "seeker_hit": 0.915,
+   "pneuma_hit": 0.918,
+   "pneuma_hit_without_candidates": 0.918,
+   "empty_without_candidates": 0,
+   "nearest_answer": 718,
+   "missed_answer": 2,
+   "first_is_answer_after_missed_answer": 1.0,
+   "nearest_answer_outside_candidates": 217,
+   "missed_answer_outside_candidates": 2,
+   "nearest_other": 282,
+   "missed_other": 2,
+   "first_is_answer_after_missed_other": 0.0,
+   "nearest_other_outside_candidates": 209,
+   "missed_other_outside_candidates": 2,
+   "duckdb_hnsw_recall": 0.95024,
+   "short_keyword_lists": 0
+  },
+  "BX1 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.9342,
+   "recall_outside_candidates": 0.9155488822155489,
+   "seeker_hit": 0.59,
+   "pneuma_hit": 0.59,
+   "pneuma_hit_without_candidates": 0.59,
+   "empty_without_candidates": 0,
+   "nearest_answer": 590,
+   "missed_answer": 27,
+   "first_is_answer_after_missed_answer": 0.7777777777777778,
+   "nearest_answer_outside_candidates": 337,
+   "missed_answer_outside_candidates": 27,
+   "nearest_other": 410,
+   "missed_other": 25,
+   "first_is_answer_after_missed_other": 0.24,
+   "nearest_other_outside_candidates": 312,
+   "missed_other_outside_candidates": 25,
+   "duckdb_hnsw_recall": 0.9254,
+   "short_keyword_lists": 0
+  },
+  "BX1 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.95536,
+   "recall_outside_candidates": 0.9409969163605124,
+   "seeker_hit": 0.82,
+   "pneuma_hit": 0.821,
+   "pneuma_hit_without_candidates": 0.821,
+   "empty_without_candidates": 0,
+   "nearest_answer": 590,
+   "missed_answer": 4,
+   "first_is_answer_after_missed_answer": 0.5,
+   "nearest_answer_outside_candidates": 161,
+   "missed_answer_outside_candidates": 4,
+   "nearest_other": 410,
+   "missed_other": 10,
+   "first_is_answer_after_missed_other": 0.0,
+   "nearest_other_outside_candidates": 183,
+   "missed_other_outside_candidates": 10,
+   "duckdb_hnsw_recall": 0.94668,
+   "short_keyword_lists": 0
+  },
+  "BX2 k=1": {
+   "questions": 1000,
+   "pool_recall": 0.8593999999999999,
+   "recall_outside_candidates": 0.8481481481481481,
+   "seeker_hit": 0.504,
+   "pneuma_hit": 0.506,
+   "pneuma_hit_without_candidates": 0.506,
+   "empty_without_candidates": 0,
+   "nearest_answer": 504,
+   "missed_answer": 43,
+   "first_is_answer_after_missed_answer": 0.6744186046511628,
+   "nearest_answer_outside_candidates": 421,
+   "missed_answer_outside_candidates": 43,
+   "nearest_other": 496,
+   "missed_other": 63,
+   "first_is_answer_after_missed_other": 0.25396825396825395,
+   "nearest_other_outside_candidates": 444,
+   "missed_other_outside_candidates": 63,
+   "duckdb_hnsw_recall": 0.8583999999999999,
+   "short_keyword_lists": 0
+  },
+  "BX2 k=5": {
+   "questions": 1000,
+   "pool_recall": 0.92296,
+   "recall_outside_candidates": 0.9114043511170931,
+   "seeker_hit": 0.786,
+   "pneuma_hit": 0.784,
+   "pneuma_hit_without_candidates": 0.784,
+   "empty_without_candidates": 0,
+   "nearest_answer": 504,
+   "missed_answer": 9,
+   "first_is_answer_after_missed_answer": 0.7777777777777778,
+   "nearest_answer_outside_candidates": 341,
+   "missed_answer_outside_candidates": 9,
+   "nearest_other": 496,
+   "missed_other": 18,
+   "first_is_answer_after_missed_other": 0.4444444444444444,
+   "nearest_other_outside_candidates": 381,
+   "missed_other_outside_candidates": 18,
+   "duckdb_hnsw_recall": 0.91712,
+   "short_keyword_lists": 0
+  }
+ },
+ "judge": {
+  "BC1 k=1": {
+   "different lists": 21,
+   "different documents": 18
+  },
+  "BC1 k=5": {
+   "different lists": 14,
+   "different documents": 13
+  },
+  "BC2 k=1": {
+   "different lists": 28,
+   "different documents": 26
+  },
+  "BC2 k=5": {
+   "different lists": 17,
+   "different documents": 17
+  },
+  "BX1 k=1": {
+   "different lists": 6,
+   "different documents": 5
+  },
+  "BX1 k=5": {
+   "different lists": 48,
+   "different documents": 24
+  },
+  "BX2 k=1": {
+   "different lists": 42,
+   "different documents": 38
+  },
+  "BX2 k=5": {
+   "different lists": 62,
+   "different documents": 56
+  }
+ }
+}

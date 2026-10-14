@@ -1,0 +1,200 @@
+{"kind": "SC+SC", "table": 6311, "first_column": "6", "second_column": "0", "keywords": null, "own": [6311], "forward": [6311], "reverse": [6311]}
+{"kind": "SC+SC", "table": 4242, "first_column": "4", "second_column": "3", "keywords": null, "own": [4242, 4243], "forward": [4242, 4243], "reverse": [4242, 4243]}
+{"kind": "SC+SC", "table": 6634, "first_column": "2", "second_column": "1", "keywords": null, "own": [6634, 9639], "forward": [6634, 9639], "reverse": [1321, 1322, 6634, 9639]}
+{"kind": "SC+SC", "table": 5866, "first_column": "4", "second_column": "1", "keywords": null, "own": [], "forward": [], "reverse": [5866]}
+{"kind": "SC+SC", "table": 8268, "first_column": "1", "second_column": "2", "keywords": null, "own": [8268], "forward": [2349, 8268], "reverse": [2612, 2913, 8268]}
+{"kind": "SC+SC", "table": 2289, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [1534, 1702, 2260, 2289, 2444, 3125, 3140, 4603, 4711, 4712]}
+{"kind": "SC+SC", "table": 4104, "first_column": "4", "second_column": "1", "keywords": null, "own": [4104], "forward": [4104], "reverse": [2607, 4104, 4496, 5396, 6759, 10210]}
+{"kind": "SC+SC", "table": 5081, "first_column": "0", "second_column": "4", "keywords": null, "own": [5081], "forward": [5081], "reverse": [5081]}
+{"kind": "SC+SC", "table": 5409, "first_column": "3", "second_column": "4", "keywords": null, "own": [1269, 5409], "forward": [1269, 2320, 5409], "reverse": [1269, 5409, 5635]}
+{"kind": "SC+SC", "table": 1649, "first_column": "2", "second_column": "1", "keywords": null, "own": [1649], "forward": [1649], "reverse": [1649, 1660]}
+{"kind": "SC+SC", "table": 5180, "first_column": "1", "second_column": "2", "keywords": null, "own": [5180, 7971], "forward": [5180, 7971], "reverse": [5180, 7971]}
+{"kind": "SC+SC", "table": 7815, "first_column": "3", "second_column": "2", "keywords": null, "own": [7815], "forward": [1647, 1761, 7815], "reverse": [2744, 7815]}
+{"kind": "SC+SC", "table": 4267, "first_column": "0", "second_column": "4", "keywords": null, "own": [], "forward": [17, 18, 21], "reverse": [91, 116, 3421, 4267]}
+{"kind": "SC+SC", "table": 230, "first_column": "0", "second_column": "3", "keywords": null, "own": [17, 18, 21, 32, 37, 46, 49], "forward": [17, 18, 21, 32, 37, 46, 49], "reverse": [17, 18, 21, 32, 37, 46, 49, 54, 95, 230]}
+{"kind": "SC+SC", "table": 10244, "first_column": "0", "second_column": "3", "keywords": null, "own": [], "forward": [], "reverse": [1411, 1417, 1418, 1425, 1554, 1675, 1761, 1772, 10244]}
+{"kind": "SC+SC", "table": 5458, "first_column": "1", "second_column": "2", "keywords": null, "own": [1908, 2168, 5458], "forward": [1908, 2168, 2680, 4348, 5172, 5458], "reverse": [1758, 1908, 1972, 2168, 2615, 5458]}
+{"kind": "SC+SC", "table": 1031, "first_column": "1", "second_column": "4", "keywords": null, "own": [1031], "forward": [1031], "reverse": [1031]}
+{"kind": "SC+SC", "table": 3632, "first_column": "1", "second_column": "5", "keywords": null, "own": [1392, 3632], "forward": [1392, 3632], "reverse": [1392, 1535, 3632]}
+{"kind": "SC+SC", "table": 8896, "first_column": "3", "second_column": "0", "keywords": null, "own": [], "forward": [1416, 1653, 1660, 1881, 3367, 3368], "reverse": []}
+{"kind": "SC+SC", "table": 1318, "first_column": "2", "second_column": "3", "keywords": null, "own": [1318], "forward": [1318], "reverse": [1318]}
+{"kind": "SC+SC", "table": 8016, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [6520, 8016]}
+{"kind": "SC+SC", "table": 9031, "first_column": "12", "second_column": "6", "keywords": null, "own": [9031], "forward": [1510, 1517, 1520, 1580, 9031], "reverse": [3924, 4579, 4580, 9031]}
+{"kind": "SC+SC", "table": 2044, "first_column": "8", "second_column": "5", "keywords": null, "own": [2044], "forward": [80, 2044], "reverse": [571, 2044, 7734]}
+{"kind": "SC+SC", "table": 8852, "first_column": "1", "second_column": "2", "keywords": null, "own": [8852], "forward": [169, 1315, 1343, 1369, 1370, 1454, 8852], "reverse": [8852]}
+{"kind": "SC+SC", "table": 7290, "first_column": "1", "second_column": "8", "keywords": null, "own": [], "forward": [2321, 4314, 6755, 7290, 8830], "reverse": [1379, 1565, 1726, 1731, 2151, 2429, 2916, 2928]}
+{"kind": "SC+SC", "table": 6306, "first_column": "2", "second_column": "4", "keywords": null, "own": [6306, 6307], "forward": [6306, 6307], "reverse": [6306, 6307]}
+{"kind": "SC+SC", "table": 3966, "first_column": "2", "second_column": "1", "keywords": null, "own": [3966], "forward": [3966], "reverse": [1653, 1774, 1952, 2320, 3929, 3966, 5277]}
+{"kind": "SC+SC", "table": 3102, "first_column": "2", "second_column": "0", "keywords": null, "own": [1518, 2227, 2645, 3102, 3103], "forward": [1518, 2227, 2284, 2645, 2842, 3102, 3103, 3298, 3299, 3817], "reverse": [1503, 1517, 1518, 1739, 2227, 2630, 2645, 2997, 3102, 3103]}
+{"kind": "SC+SC", "table": 10039, "first_column": "9", "second_column": "3", "keywords": null, "own": [10039], "forward": [723, 1731, 1869, 2429, 4145, 4488, 4704, 10039], "reverse": [581, 660, 661, 761, 794, 805, 10039]}
+{"kind": "SC+SC", "table": 7807, "first_column": "0", "second_column": "5", "keywords": null, "own": [], "forward": [45, 59, 93, 137], "reverse": [0, 5, 7, 10, 11, 13]}
+{"kind": "SC+SC", "table": 2133, "first_column": "1", "second_column": "0", "keywords": null, "own": [2133, 2134, 2135], "forward": [1523, 2133, 2134, 2135, 2544, 3528, 4322, 6827, 6847, 6871], "reverse": [2133, 2134, 2135]}
+{"kind": "SC+SC", "table": 1314, "first_column": "4", "second_column": "3", "keywords": null, "own": [1314], "forward": [1284, 1305, 1309, 1310, 1312, 1314], "reverse": [1314]}
+{"kind": "SC+SC", "table": 8594, "first_column": "4", "second_column": "7", "keywords": null, "own": [8594], "forward": [3248, 3969, 4839, 4986, 8594], "reverse": [0, 5, 7, 10, 11, 13, 8594]}
+{"kind": "SC+SC", "table": 3858, "first_column": "1", "second_column": "4", "keywords": null, "own": [3858], "forward": [1681, 1682, 2088, 2739, 3858, 4057, 4084, 4582, 6825], "reverse": [3858]}
+{"kind": "SC+SC", "table": 6871, "first_column": "2", "second_column": "1", "keywords": null, "own": [6871], "forward": [6871], "reverse": [6871]}
+{"kind": "SC+SC", "table": 8071, "first_column": "5", "second_column": "1", "keywords": null, "own": [8071], "forward": [2358, 5159, 6465, 7330, 7331, 8071], "reverse": [581, 3092, 8071]}
+{"kind": "SC+SC", "table": 5313, "first_column": "4", "second_column": "0", "keywords": null, "own": [5313], "forward": [5313, 5483, 5746, 6856, 7214, 7541], "reverse": [1749, 1750, 5313]}
+{"kind": "SC+SC", "table": 7969, "first_column": "5", "second_column": "3", "keywords": null, "own": [7968, 7969], "forward": [91, 7968, 7969], "reverse": [0, 5, 7968, 7969]}
+{"kind": "SC+SC", "table": 3981, "first_column": "0", "second_column": "4", "keywords": null, "own": [], "forward": [1502, 3047, 3981, 8474], "reverse": [1379, 1426, 1507, 1508, 1510]}
+{"kind": "SC+SC", "table": 1919, "first_column": "1", "second_column": "3", "keywords": null, "own": [1919], "forward": [1919], "reverse": [1919]}
+{"kind": "SC+SC", "table": 2793, "first_column": "2", "second_column": "1", "keywords": null, "own": [2793], "forward": [2793], "reverse": [2793]}
+{"kind": "SC+SC", "table": 1018, "first_column": "0", "second_column": "3", "keywords": null, "own": [], "forward": [], "reverse": [328, 509, 1018, 6377, 6378]}
+{"kind": "SC+SC", "table": 3584, "first_column": "0", "second_column": "4", "keywords": null, "own": [3584], "forward": [1444, 1471, 3584, 10322], "reverse": [3584]}
+{"kind": "SC+SC", "table": 8752, "first_column": "0", "second_column": "3", "keywords": null, "own": [], "forward": [], "reverse": [1320, 1326]}
+{"kind": "SC+SC", "table": 2038, "first_column": "1", "second_column": "2", "keywords": null, "own": [2038], "forward": [2038], "reverse": [2038]}
+{"kind": "SC+SC", "table": 9436, "first_column": "0", "second_column": "3", "keywords": null, "own": [9436], "forward": [731, 6972, 9436], "reverse": [9436]}
+{"kind": "SC+SC", "table": 1499, "first_column": "2", "second_column": "0", "keywords": null, "own": [], "forward": [1499], "reverse": []}
+{"kind": "SC+SC", "table": 596, "first_column": "4", "second_column": "0", "keywords": null, "own": [496, 569, 596], "forward": [496, 569, 596], "reverse": [496, 569, 596]}
+{"kind": "SC+SC", "table": 3188, "first_column": "10", "second_column": "8", "keywords": null, "own": [1510], "forward": [1379, 1508, 1510, 1682, 3188, 5739, 7943], "reverse": [1478, 1502, 1510, 1520]}
+{"kind": "SC+SC", "table": 2029, "first_column": "3", "second_column": "1", "keywords": null, "own": [2028, 2029], "forward": [2028, 2029], "reverse": [2028, 2029]}
+{"kind": "SC+SC", "table": 1000, "first_column": "0", "second_column": "3", "keywords": null, "own": [1000], "forward": [1000], "reverse": [1000]}
+{"kind": "SC+SC", "table": 10167, "first_column": "0", "second_column": "1", "keywords": null, "own": [10167], "forward": [10167], "reverse": [10167]}
+{"kind": "SC+SC", "table": 1146, "first_column": "1", "second_column": "0", "keywords": null, "own": [581, 660, 661, 734, 1146], "forward": [581, 660, 661, 734, 794, 1146], "reverse": [409, 581, 660, 661, 734, 1075, 1142, 1146]}
+{"kind": "SC+SC", "table": 4932, "first_column": "2", "second_column": "1", "keywords": null, "own": [4932], "forward": [4932], "reverse": [1971, 2554, 3019, 3020, 3021, 4932, 8115, 9338]}
+{"kind": "SC+SC", "table": 2954, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [2954]}
+{"kind": "SC+SC", "table": 7653, "first_column": "0", "second_column": "4", "keywords": null, "own": [], "forward": [], "reverse": [7653]}
+{"kind": "SC+SC", "table": 1653, "first_column": "3", "second_column": "1", "keywords": null, "own": [1653], "forward": [1653], "reverse": [1555, 1556, 1557, 1653]}
+{"kind": "SC+SC", "table": 4262, "first_column": "5", "second_column": "7", "keywords": null, "own": [4262], "forward": [581, 932, 1564, 1580, 3389, 4262], "reverse": [1869, 1870, 1871, 3151, 4262, 4590, 4938]}
+{"kind": "SC+SC", "table": 9335, "first_column": "1", "second_column": "2", "keywords": null, "own": [9335], "forward": [9335], "reverse": [9335]}
+{"kind": "SC+SC", "table": 3332, "first_column": "0", "second_column": "2", "keywords": null, "own": [3332], "forward": [3332], "reverse": [3332, 5072, 5294, 5978, 10223]}
+{"kind": "SC+SC", "table": 2592, "first_column": "2", "second_column": "5", "keywords": null, "own": [2592], "forward": [2592], "reverse": [2592]}
+{"kind": "SC+SC", "table": 8674, "first_column": "2", "second_column": "0", "keywords": null, "own": [8674], "forward": [8674], "reverse": [8674]}
+{"kind": "SC+SC", "table": 9777, "first_column": "8", "second_column": "4", "keywords": null, "own": [8049], "forward": [8049, 9777], "reverse": [2455, 4132, 4605, 8049]}
+{"kind": "SC+SC", "table": 2864, "first_column": "0", "second_column": "1", "keywords": null, "own": [2864], "forward": [2864], "reverse": [2864]}
+{"kind": "SC+SC", "table": 6715, "first_column": "2", "second_column": "1", "keywords": null, "own": [], "forward": [6715], "reverse": []}
+{"kind": "SC+SC", "table": 5851, "first_column": "1", "second_column": "2", "keywords": null, "own": [5851], "forward": [5851], "reverse": [5851]}
+{"kind": "SC+SC", "table": 2513, "first_column": "4", "second_column": "0", "keywords": null, "own": [0, 5, 7, 10, 11, 2513], "forward": [0, 5, 7, 10, 11, 13, 2513], "reverse": [0, 5, 7, 10, 11, 68, 2513]}
+{"kind": "SC+SC", "table": 7503, "first_column": "2", "second_column": "0", "keywords": null, "own": [], "forward": [2182, 2822, 3037, 4846, 4847, 4848, 7502, 7503, 7504], "reverse": []}
+{"kind": "SC+SC", "table": 5503, "first_column": "0", "second_column": "2", "keywords": null, "own": [5503], "forward": [5503], "reverse": [5503]}
+{"kind": "SC+SC", "table": 4601, "first_column": "1", "second_column": "6", "keywords": null, "own": [4601], "forward": [4601], "reverse": [4601]}
+{"kind": "SC+SC", "table": 7894, "first_column": "2", "second_column": "4", "keywords": null, "own": [], "forward": [7893, 7894], "reverse": []}
+{"kind": "SC+SC", "table": 5885, "first_column": "4", "second_column": "1", "keywords": null, "own": [5884, 5885], "forward": [5884, 5885], "reverse": [5884, 5885]}
+{"kind": "SC+SC", "table": 5083, "first_column": "3", "second_column": "5", "keywords": null, "own": [1992, 2116, 5083], "forward": [1992, 2116, 5083], "reverse": [1992, 2116, 5083]}
+{"kind": "SC+SC", "table": 1322, "first_column": "0", "second_column": "2", "keywords": null, "own": [1321, 1322], "forward": [1321, 1322, 4335, 6634, 9639], "reverse": [1321, 1322, 2046, 2049, 2115, 2183, 3014, 3166, 3313]}
+{"kind": "SC+SC", "table": 3150, "first_column": "8", "second_column": "2", "keywords": null, "own": [1525, 1724], "forward": [1493, 1520, 1521, 1525, 1563, 1687, 1688, 1724], "reverse": [1525, 1724, 1733, 3150, 3151]}
+{"kind": "SC+SC", "table": 2622, "first_column": "1", "second_column": "0", "keywords": null, "own": [2621, 2622], "forward": [0, 5, 7, 10, 11, 2621, 2622, 4247], "reverse": [2089, 2090, 2621, 2622, 2773]}
+{"kind": "SC+SC", "table": 7342, "first_column": "3", "second_column": "4", "keywords": null, "own": [7342], "forward": [7342], "reverse": [7342]}
+{"kind": "SC+SC", "table": 6789, "first_column": "0", "second_column": "3", "keywords": null, "own": [6789], "forward": [2358, 4884, 4941, 6128, 6789], "reverse": [6743, 6789, 8845]}
+{"kind": "SC+SC", "table": 9297, "first_column": "3", "second_column": "0", "keywords": null, "own": [], "forward": [8448, 8449, 9297], "reverse": [1904, 2401, 5955, 5956, 6128]}
+{"kind": "SC+SC", "table": 2714, "first_column": "3", "second_column": "0", "keywords": null, "own": [], "forward": [1977, 2283, 2714, 3317, 3396, 3408, 3409], "reverse": [1471, 1662]}
+{"kind": "SC+SC", "table": 4247, "first_column": "1", "second_column": "3", "keywords": null, "own": [2621, 2622, 4247], "forward": [2621, 2622, 4247], "reverse": [1902, 2062, 2089, 2090, 2515, 2621, 2622, 4247]}
+{"kind": "SC+SC", "table": 8643, "first_column": "3", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [1827, 2562, 3230, 3231, 7251, 8643]}
+{"kind": "SC+SC", "table": 9895, "first_column": "0", "second_column": "3", "keywords": null, "own": [9895], "forward": [9895], "reverse": [1367, 1486, 1576, 1805, 5292, 5649, 9895]}
+{"kind": "SC+SC", "table": 8103, "first_column": "2", "second_column": "4", "keywords": null, "own": [8103, 8819], "forward": [8103, 8819], "reverse": [8103, 8819]}
+{"kind": "SC+SC", "table": 7649, "first_column": "0", "second_column": "5", "keywords": null, "own": [7649], "forward": [7649], "reverse": [7649]}
+{"kind": "SC+SC", "table": 3080, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [1472, 1497, 1837, 1991, 2194], "reverse": [3080, 3081]}
+{"kind": "SC+SC", "table": 2138, "first_column": "0", "second_column": "3", "keywords": null, "own": [2138], "forward": [2138], "reverse": [2138]}
+{"kind": "SC+SC", "table": 6840, "first_column": "2", "second_column": "0", "keywords": null, "own": [6840], "forward": [1892, 1893, 2408, 2594, 6840], "reverse": [6840]}
+{"kind": "SC+SC", "table": 3498, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [1407, 3498, 3948, 3995, 4737, 4932, 5476, 7660, 8528]}
+{"kind": "SC+SC", "table": 38, "first_column": "8", "second_column": "1", "keywords": null, "own": [36, 38, 39], "forward": [36, 38, 39], "reverse": [36, 38, 39, 371, 372, 374, 469]}
+{"kind": "SC+SC", "table": 3120, "first_column": "0", "second_column": "1", "keywords": null, "own": [3120], "forward": [2413, 2414, 2415, 3120], "reverse": [3120]}
+{"kind": "SC+SC", "table": 4954, "first_column": "12", "second_column": "8", "keywords": null, "own": [4093, 4954, 7177, 7935], "forward": [13, 3093, 4093, 4954, 7177, 7935], "reverse": [4093, 4954, 6070, 7177, 7935]}
+{"kind": "SC+SC", "table": 2985, "first_column": "0", "second_column": "3", "keywords": null, "own": [2985, 2986, 2987, 2988, 10222], "forward": [2985, 2986, 2987, 2988, 10222], "reverse": [1817, 1977, 2980, 2985, 2986, 2987, 2988, 3017, 8288, 10222]}
+{"kind": "SC+SC", "table": 6499, "first_column": "5", "second_column": "0", "keywords": null, "own": [], "forward": [], "reverse": [6498, 6499]}
+{"kind": "SC+SC", "table": 357, "first_column": "2", "second_column": "3", "keywords": null, "own": [357, 365, 503, 532], "forward": [290, 341, 357, 365, 380, 503, 532], "reverse": [182, 186, 357, 365, 503, 532, 567]}
+{"kind": "SC+SC", "table": 1896, "first_column": "2", "second_column": "0", "keywords": null, "own": [], "forward": [], "reverse": [1714, 1832, 1896, 2713, 4921, 4922, 5306]}
+{"kind": "SC+SC", "table": 8533, "first_column": "2", "second_column": "0", "keywords": null, "own": [8533], "forward": [1881, 8533, 10300], "reverse": [1787, 1904, 2223, 3061, 3086, 8533]}
+{"kind": "SC+SC", "table": 2530, "first_column": "2", "second_column": "0", "keywords": null, "own": [1768, 1911, 2530], "forward": [1768, 1911, 2530], "reverse": [1768, 1911, 2530]}
+{"kind": "SC+SC", "table": 693, "first_column": "0", "second_column": "1", "keywords": null, "own": [238, 245, 488, 693], "forward": [168, 238, 245, 488, 629, 693, 983, 1082, 1117], "reverse": [24, 27, 29, 34, 47, 238, 245, 488, 693]}
+{"kind": "SC+SC", "table": 4254, "first_column": "2", "second_column": "1", "keywords": null, "own": [4254], "forward": [4254], "reverse": [4254, 5204, 5205]}
+{"kind": "KW+SC", "table": 9297, "first_column": "0", "second_column": "3", "keywords": ["2005", "2018", "2017"], "own": [], "forward": [1352, 1361, 1475, 1506, 1534, 1540], "reverse": [9297]}
+{"kind": "KW+SC", "table": 6102, "first_column": "2", "second_column": "1", "keywords": ["nagakusa", "miyagi ohira (formerly, miyagi)", "honsha"], "own": [6102], "forward": [6102], "reverse": [6102]}
+{"kind": "KW+SC", "table": 2268, "first_column": "1", "second_column": "2", "keywords": ["1995", "2000", "1995"], "own": [], "forward": [1360, 1454], "reverse": [2268, 2531, 2825, 3168, 7651]}
+{"kind": "KW+SC", "table": 1535, "first_column": "2", "second_column": "4", "keywords": ["central state bearcats (independent) (1934\u20131936)", "national championship conference title conference division title or championship game berth", "2\u20136"], "own": [1392, 1535, 2213], "forward": [1392, 1535, 2213], "reverse": [1392, 1535, 2213]}
+{"kind": "KW+SC", "table": 2684, "first_column": "1", "second_column": "4", "keywords": ["barrie charles spring", "gaven john donne", "henry clay ide"], "own": [2684], "forward": [2684], "reverse": [2684]}
+{"kind": "KW+SC", "table": 8986, "first_column": "1", "second_column": "3", "keywords": ["frightmare", "zee and co.", "house of mortal sin"], "own": [8986], "forward": [8986], "reverse": [8986]}
+{"kind": "KW+SC", "table": 790, "first_column": "1", "second_column": "0", "keywords": ["bj hodge 92 jh kallis (sa) 2/6 batting time: 215 minutes (3 hr 35 min)", "r dravid (ind) 66 sm harwood 4/37 batting time: 201 minutes (3 hr 21 min)", "269/9 (50 overs)"], "own": [790], "forward": [790], "reverse": [790]}
+{"kind": "KW+SC", "table": 6605, "first_column": "2", "second_column": "5", "keywords": ["barcelona, spain", "representing england", "(#) indicates overall position in qualifying heats (h) quarterfinals (qf) or semifinals (sf)"], "own": [1387, 6605], "forward": [1387, 6605], "reverse": [1387, 6605]}
+{"kind": "KW+SC", "table": 9188, "first_column": "3", "second_column": "5", "keywords": ["russia", "ukraine", "france"], "own": [9188], "forward": [670, 771, 9154, 9188], "reverse": [9157, 9187, 9188]}
+{"kind": "KW+SC", "table": 2036, "first_column": "3", "second_column": "0", "keywords": ["june 1945", "august 1945", "august 1945"], "own": [2036], "forward": [2036], "reverse": [2036]}
+{"kind": "KW+SC", "table": 619, "first_column": "2", "second_column": "1", "keywords": ["colombia", "united arab emirates", "-"], "own": [619], "forward": [619, 932, 1594, 1876, 1948, 2114, 5912], "reverse": [491, 492, 619, 746, 5500, 8365]}
+{"kind": "KW+SC", "table": 10268, "first_column": "4", "second_column": "3", "keywords": ["nominated", "nominated", "nominated"], "own": [], "forward": [], "reverse": [10268]}
+{"kind": "KW+SC", "table": 3244, "first_column": "1", "second_column": "0", "keywords": ["six times a day (the trains came down)", "single", "bury the bottle with me"], "own": [3244], "forward": [1331, 1341, 1359, 1362, 1496, 1673, 2010, 3244], "reverse": [3244]}
+{"kind": "KW+SC", "table": 6452, "first_column": "4", "second_column": "2", "keywords": ["-", "-", "december 8, 1827"], "own": [6452], "forward": [6452], "reverse": [5946, 5947, 6436, 6452, 6463, 8392]}
+{"kind": "KW+SC", "table": 6931, "first_column": "0", "second_column": "2", "keywords": ["2011", "2011", "year"], "own": [], "forward": [1269, 1729, 1744, 1759, 1760, 2154], "reverse": [169, 3322, 6931, 8291, 8843]}
+{"kind": "KW+SC", "table": 7065, "first_column": "1", "second_column": "2", "keywords": ["225 kw (306 ps; 302 hp)", "235 kw (320 ps; 315 hp)", "231 kw (314 ps; 310 hp)"], "own": [7065], "forward": [7065], "reverse": [7065]}
+{"kind": "KW+SC", "table": 8614, "first_column": "3", "second_column": "1", "keywords": ["ifa isfansyah", "hendro djarot", "prisia nasution"], "own": [], "forward": [8614], "reverse": []}
+{"kind": "KW+SC", "table": 4202, "first_column": "1", "second_column": "0", "keywords": ["royale adventure", "happy shares company", "talk road"], "own": [4202], "forward": [4202], "reverse": [4202]}
+{"kind": "KW+SC", "table": 1714, "first_column": "1", "second_column": "3", "keywords": ["aviva london grand prix", "world championships", "european championships"], "own": [1714], "forward": [1519, 1522, 1551, 1693, 1694, 1714], "reverse": [1714, 2304, 3159, 3160, 3161, 4524]}
+{"kind": "KW+SC", "table": 1716, "first_column": "4", "second_column": "3", "keywords": ["2\u20132", "1\u20130", "0\u20136"], "own": [1716], "forward": [1716], "reverse": [1716, 3045, 7134]}
+{"kind": "KW+SC", "table": 6934, "first_column": "3", "second_column": "2", "keywords": ["-", "-", "-"], "own": [], "forward": [], "reverse": [1546, 1824, 1825, 2410, 2563, 3221, 3484, 6934]}
+{"kind": "KW+SC", "table": 3309, "first_column": "1", "second_column": "0", "keywords": ["american ninja", "listen", "future zone"], "own": [3309], "forward": [2770, 3309, 3606], "reverse": [3309]}
+{"kind": "KW+SC", "table": 5272, "first_column": "0", "second_column": "1", "keywords": ["mi-26t", "ka-32a11bc", "mi-8t, mi-8mtv, mi-171"], "own": [], "forward": [5272], "reverse": []}
+{"kind": "KW+SC", "table": 9551, "first_column": "2", "second_column": "3", "keywords": ["1996", "2010", "2006"], "own": [], "forward": [], "reverse": [9551]}
+{"kind": "KW+SC", "table": 645, "first_column": "0", "second_column": "1", "keywords": ["t8", "1", "t8"], "own": [555], "forward": [555, 609], "reverse": [466, 515, 527, 555, 645, 659, 733, 762]}
+{"kind": "KW+SC", "table": 250, "first_column": "6", "second_column": "3", "keywords": ["delio rodr\u00edguez (esp)", "delio rodr\u00edguez (esp)", "delio rodr\u00edguez (esp)"], "own": [250], "forward": [250], "reverse": [250]}
+{"kind": "KW+SC", "table": 2438, "first_column": "3", "second_column": "2", "keywords": ["3", "0", "3"], "own": [47], "forward": [47], "reverse": [24, 29, 47, 581, 2438, 3315, 3612, 6807]}
+{"kind": "KW+SC", "table": 9402, "first_column": "1", "second_column": "7", "keywords": ["total", "1977\u201378", "season"], "own": [1493], "forward": [1493, 1580, 2175, 2176, 2292, 2352], "reverse": [1493, 1564, 1687, 1688, 1722, 1724, 1726, 1731, 1739, 1864]}
+{"kind": "KW+SC", "table": 6985, "first_column": "1", "second_column": "3", "keywords": ["the pacific", "trip for biscuits", "neighbours"], "own": [6985], "forward": [1358, 1805, 2540, 6985], "reverse": [6985]}
+{"kind": "KW+SC", "table": 7900, "first_column": "3", "second_column": "2", "keywords": ["3 episodes", "-", "-"], "own": [2005], "forward": [2005], "reverse": [2005, 2206, 2333, 3019, 3020, 3021, 3297, 7900]}
+{"kind": "KW+SC", "table": 3, "first_column": "1", "second_column": "2", "keywords": ["chapais, quebec", "sydney, nova scotia", "matagami, quebec"], "own": [3], "forward": [3], "reverse": [3]}
+{"kind": "KW+SC", "table": 8085, "first_column": "1", "second_column": "2", "keywords": ["2018", "2019", "2018"], "own": [], "forward": [], "reverse": [8085]}
+{"kind": "KW+SC", "table": 6286, "first_column": "0", "second_column": "1", "keywords": ["bod\u00f8", "gildesk\u00e5l", "gildesk\u00e5l"], "own": [6284, 6285, 6286, 6287, 6288], "forward": [6284, 6285, 6286, 6287, 6288], "reverse": [6284, 6285, 6286, 6287, 6288]}
+{"kind": "KW+SC", "table": 4703, "first_column": "2", "second_column": "0", "keywords": ["us country", "51", "52"], "own": [4703], "forward": [4703], "reverse": [1331, 1359, 2366, 3074, 3099, 4703, 7277, 8626]}
+{"kind": "KW+SC", "table": 2308, "first_column": "1", "second_column": "0", "keywords": ["heatstroke", "whiplash", "colette"], "own": [2308], "forward": [2308, 3467, 3468, 3469, 4383, 7047, 7196, 7294, 7837, 7904], "reverse": [2308]}
+{"kind": "KW+SC", "table": 6736, "first_column": "0", "second_column": "3", "keywords": ["2012", "2013", "2009"], "own": [], "forward": [1416], "reverse": [1653, 6736, 6758, 7265, 9111, 9112]}
+{"kind": "KW+SC", "table": 1662, "first_column": "3", "second_column": "1", "keywords": ["representing the paraguay", "9th", "5th"], "own": [1662], "forward": [1428, 1549, 1550, 1662], "reverse": [1662, 1689, 6986, 6987]}
+{"kind": "KW+SC", "table": 10115, "first_column": "2", "second_column": "5", "keywords": ["ohio", "nebraska", "illinois"], "own": [36, 10114, 10115, 10116], "forward": [36, 38, 10114, 10115, 10116], "reverse": [36, 10114, 10115, 10116]}
+{"kind": "KW+SC", "table": 3194, "first_column": "6", "second_column": "7", "keywords": ["0", "1", "0"], "own": [], "forward": [31, 43, 53, 62, 74, 75, 91, 92, 109], "reverse": [581, 3194, 3251, 5818, 5819, 5844, 6312, 6424, 6430]}
+{"kind": "KW+SC", "table": 7654, "first_column": "2", "second_column": "3", "keywords": ["sweden", "norway", "united kingdom"], "own": [], "forward": [], "reverse": [1565, 7654]}
+{"kind": "KW+SC", "table": 4855, "first_column": "0", "second_column": "1", "keywords": ["2016", "2007", "2004"], "own": [], "forward": [], "reverse": [1427, 1882, 1898, 1899, 3504, 3531, 4855, 7835, 8115, 9339]}
+{"kind": "KW+SC", "table": 3098, "first_column": "0", "second_column": "1", "keywords": ["1974", "2017", "2007"], "own": [3098], "forward": [3098], "reverse": [3098, 3278, 5023, 5342, 7385]}
+{"kind": "KW+SC", "table": 7462, "first_column": "5", "second_column": "1", "keywords": ["sco", "\u2014 denotes a recording that did not chart or was not released in that territory.", "4"], "own": [1569, 1729, 2406, 7462, 7463], "forward": [1569, 1729, 2406, 2662, 7462, 7463, 10202], "reverse": [1454, 1569, 1729, 1759, 1760, 2125, 2268, 2406, 7462, 7463]}
+{"kind": "KW+SC", "table": 4184, "first_column": "0", "second_column": "1", "keywords": ["janison short sharp film festival", "firstglance film festival philadelphia", "monaco international film festival"], "own": [], "forward": [4184], "reverse": []}
+{"kind": "KW+SC", "table": 8231, "first_column": "4", "second_column": "3", "keywords": ["won", "won", "nominated"], "own": [], "forward": [], "reverse": [8231]}
+{"kind": "KW+SC", "table": 2386, "first_column": "3", "second_column": "4", "keywords": ["1987\u201388", "153334, 153354, 153356, 153364\u2013366, 153371, 153375", "153301, 153304, 153307, 153315\u2013317, 153324, 153328, 153330\u2013332, 153351\u2013352, 153358\u2013360, 153363, 153373, 153378, 153380"], "own": [2386], "forward": [1484, 1731, 2086, 2386], "reverse": [2386]}
+{"kind": "KW+SC", "table": 1030, "first_column": "0", "second_column": "3", "keywords": ["premier league", "premier league", "premier league"], "own": [1030], "forward": [1030, 1134, 1379, 1426, 1510, 1525, 1901, 2147], "reverse": [1030, 4938, 4939, 9059]}
+{"kind": "KW+SC", "table": 503, "first_column": "6", "second_column": "3", "keywords": ["giuseppe saronni (ita)", "roger de vlaeminck (bel)", "francesco moser (ita)"], "own": [503, 567], "forward": [422, 503, 532, 567], "reverse": [503, 567]}
+{"kind": "KW+SC", "table": 8136, "first_column": "2", "second_column": "5", "keywords": ["divya", "charlie", "chaitra"], "own": [8135, 8136], "forward": [1971, 2205, 2635, 2647, 2816, 2830, 8135, 8136], "reverse": [4651, 8135, 8136]}
+{"kind": "KW+SC", "table": 5886, "first_column": "0", "second_column": "2", "keywords": ["south korea", "south korea", "south korea"], "own": [], "forward": [], "reverse": [5886]}
+{"kind": "KW+SC", "table": 3776, "first_column": "2", "second_column": "0", "keywords": ["360 hp (268 kw) at 5,500 rpm", "292 hp (218 kw) at 5,700 rpm", "365 hp (272 kw) at 5,000 rpm"], "own": [3776, 3777], "forward": [3776, 3777], "reverse": [3776, 3777]}
+{"kind": "KW+SC", "table": 52, "first_column": "1", "second_column": "0", "keywords": ["total votes", "republican", "democratic"], "own": [7, 23, 52, 55, 56, 57, 66, 72], "forward": [7, 23, 52, 55, 56, 57, 66, 72, 90, 102], "reverse": [7, 10, 23, 30, 52, 55, 56, 57, 66, 72]}
+{"kind": "KW+SC", "table": 6047, "first_column": "5", "second_column": "0", "keywords": ["brazil rio de janeiro, brazil", "united states bowling green, united states", "russia moscow, russia"], "own": [5842, 6047, 6048], "forward": [5842, 5879, 6047, 6048], "reverse": [5842, 6047, 6048]}
+{"kind": "KW+SC", "table": 3063, "first_column": "3", "second_column": "0", "keywords": ["special effects team", "visual effects team", "dark angel"], "own": [], "forward": [3063, 7378, 7379], "reverse": []}
+{"kind": "KW+SC", "table": 2132, "first_column": "0", "second_column": "1", "keywords": ["2010", "2009", "2010"], "own": [], "forward": [], "reverse": [2132, 2765, 8420]}
+{"kind": "KW+SC", "table": 4794, "first_column": "2", "second_column": "4", "keywords": ["51\u201376", "wake forest demon deacons (atlantic coast conference) (2010\u20132014)", "9\u201322"], "own": [4794], "forward": [4794], "reverse": [4794]}
+{"kind": "KW+SC", "table": 1680, "first_column": "4", "second_column": "5", "keywords": ["\u2014", "sco", "36"], "own": [1680], "forward": [1680, 3168, 8768], "reverse": [169, 1269, 1331, 1341, 1342, 1343, 1359, 1360, 1680]}
+{"kind": "KW+SC", "table": 2407, "first_column": "10", "second_column": "7", "keywords": ["\u2014", "2", "\u2014"], "own": [], "forward": [511, 561, 603, 683, 749, 761], "reverse": [581, 794, 805, 2407, 3130, 4757, 4783, 5135, 5818]}
+{"kind": "KW+SC", "table": 3978, "first_column": "1", "second_column": "0", "keywords": ["pride", "the outcast", "captain fantastic"], "own": [3978], "forward": [2740, 3623, 3624, 3978, 5744, 7405, 7406], "reverse": [3978]}
+{"kind": "KW+SC", "table": 757, "first_column": "2", "second_column": "0", "keywords": ["-", "-", "-"], "own": [], "forward": [5, 11, 13], "reverse": [47, 757]}
+{"kind": "KW+SC", "table": 2163, "first_column": "3", "second_column": "2", "keywords": ["28th (q)", "2nd", "26th (q)"], "own": [2163], "forward": [2163, 4212, 5451, 6824, 9974], "reverse": [1700, 2163, 3127, 3643, 4716, 5236, 5683, 7586]}
+{"kind": "KW+SC", "table": 9684, "first_column": "3", "second_column": "2", "keywords": ["3rd", "4th", "7th"], "own": [], "forward": [1374, 1377, 1387, 1442], "reverse": [3657, 3658, 3659, 6824, 8236, 8237, 8238, 9684, 10205, 10206]}
+{"kind": "KW+SC", "table": 4064, "first_column": "1", "second_column": "2", "keywords": ["\u00a325", "\u00a3125"], "own": [4064], "forward": [4064], "reverse": [4064]}
+{"kind": "KW+SC", "table": 6694, "first_column": "0", "second_column": "3", "keywords": ["2001", "2006", "1998"], "own": [], "forward": [1442, 1514], "reverse": [3607, 6694, 9912, 10145]}
+{"kind": "KW+SC", "table": 3342, "first_column": "2", "second_column": "5", "keywords": ["32-24", "32-26", "37-20"], "own": [3342], "forward": [3342], "reverse": [3342]}
+{"kind": "KW+SC", "table": 1779, "first_column": "2", "second_column": "0", "keywords": ["best supporting actress", "outstanding guest actress in a drama series", "best supporting female"], "own": [1779], "forward": [711, 1320, 1628, 1663, 1751, 1779, 5255, 5256], "reverse": [1779]}
+{"kind": "KW+SC", "table": 6533, "first_column": "1", "second_column": "3", "keywords": ["hendrix", "scotia place 1", "cn tower"], "own": [6533], "forward": [6533], "reverse": [6533]}
+{"kind": "KW+SC", "table": 7429, "first_column": "2", "second_column": "3", "keywords": ["mitchell", "adrian", "geoffrey"], "own": [7429], "forward": [7429], "reverse": [7429]}
+{"kind": "KW+SC", "table": 1417, "first_column": "3", "second_column": "1", "keywords": ["mohit suri", "vipul shah", "gauri shinde"], "own": [1417, 1418], "forward": [1417, 1418], "reverse": [1417, 1418]}
+{"kind": "KW+SC", "table": 7357, "first_column": "9", "second_column": "7", "keywords": ["ref.", "-", "-"], "own": [], "forward": [6129], "reverse": [44, 58, 133, 187, 275, 7357]}
+{"kind": "KW+SC", "table": 1875, "first_column": "2", "second_column": "3", "keywords": ["david rodriguez", "jaim\u00e9 castro", "pedro"], "own": [1875], "forward": [1875, 4589, 6809, 7914, 10005], "reverse": [1875]}
+{"kind": "KW+SC", "table": 7723, "first_column": "0", "second_column": "5", "keywords": ["2010", "2008", "2010"], "own": [], "forward": [1359], "reverse": [3183, 4475, 7723]}
+{"kind": "KW+SC", "table": 6640, "first_column": "2", "second_column": "3", "keywords": ["billboard most played juke box (country & western) records", "billboard most played c&w by jockeys", "billboard pop singles"], "own": [6639, 6640], "forward": [6639, 6640], "reverse": [6639, 6640]}
+{"kind": "KW+SC", "table": 664, "first_column": "0", "second_column": "2", "keywords": ["national reconstruction alliance", "chama cha demokrasia na maendeleo", "civic united front"], "own": [664, 727], "forward": [664, 727], "reverse": [664, 727]}
+{"kind": "KW+SC", "table": 6491, "first_column": "3", "second_column": "0", "keywords": ["162,800", "139,300", "123,000"], "own": [], "forward": [6491], "reverse": []}
+{"kind": "KW+SC", "table": 3211, "first_column": "4", "second_column": "0", "keywords": ["4th place", "did not qualify", "did not qualify"], "own": [3211], "forward": [3211, 7461, 7606, 7645, 7799], "reverse": [3211]}
+{"kind": "KW+SC", "table": 5007, "first_column": "4", "second_column": "2", "keywords": ["liberty records", "capitol records", "liberty records"], "own": [5007], "forward": [5007, 9451], "reverse": [5007]}
+{"kind": "KW+SC", "table": 4080, "first_column": "1", "second_column": "0", "keywords": ["seoul", "seoul", "taipei"], "own": [4080], "forward": [4080], "reverse": [4080]}
+{"kind": "KW+SC", "table": 8516, "first_column": "1", "second_column": "4", "keywords": ["white city", "ptarmigan", "j.w.f.t."], "own": [8516], "forward": [8516], "reverse": [8516]}
+{"kind": "KW+SC", "table": 8905, "first_column": "3", "second_column": "2", "keywords": ["4\u20132", "-", "4\u20134"], "own": [8905], "forward": [2128, 8905], "reverse": [2277, 3247, 4251, 8905]}
+{"kind": "KW+SC", "table": 9309, "first_column": "5", "second_column": "1", "keywords": ["rank", "did not advance", "did not advance"], "own": [2065], "forward": [2065], "reverse": [2065, 6728, 6782, 7299, 7300, 7499, 8544, 8890, 9279, 9309]}
+{"kind": "KW+SC", "table": 6249, "first_column": "3", "second_column": "4", "keywords": ["best music video", "best local english song", "best album recording"], "own": [], "forward": [1423, 1424, 1575, 1829, 1888, 2001, 2272, 2273, 2529, 6249], "reverse": []}
+{"kind": "KW+SC", "table": 4898, "first_column": "2", "second_column": "3", "keywords": ["the old mariner", "dr. otto / ernest p. worrell / rudd hardtact / laughin jack / guy dandy / auntie nelda", "ernest p. worrell / hey you, the hindu / auntie nelda / african woman dancer"], "own": [4898], "forward": [4898], "reverse": [4898]}
+{"kind": "KW+SC", "table": 3571, "first_column": "3", "second_column": "1", "keywords": ["telugu", "tamil", "tamil"], "own": [], "forward": [], "reverse": [2616, 2617, 3571, 8121]}
+{"kind": "KW+SC", "table": 986, "first_column": "3", "second_column": "2", "keywords": ["mitsubishi lancer evo ix", "ford fiesta rs wrc", "pwrc"], "own": [985, 986], "forward": [985, 986], "reverse": [985, 986]}
+{"kind": "KW+SC", "table": 10176, "first_column": "1", "second_column": "0", "keywords": ["el segundo aire", "gonzalo", "enemigos \u00edntimos"], "own": [], "forward": [10176], "reverse": []}
+{"kind": "KW+SC", "table": 165, "first_column": "4", "second_column": "0", "keywords": ["\u20136", "0", "\u20133"], "own": [165], "forward": [24, 74, 91, 122, 126, 165, 166, 197], "reverse": [29, 31, 40, 43, 47, 62, 75, 165, 519]}
+{"kind": "KW+SC", "table": 6473, "first_column": "0", "second_column": "2", "keywords": ["1993", "2000", "1933"], "own": [6472, 6473], "forward": [6472, 6473], "reverse": [6472, 6473]}
+{"kind": "KW+SC", "table": 4429, "first_column": "5", "second_column": "2", "keywords": ["2:09:24", "1:01:06", "2:11:37"], "own": [4429], "forward": [4429], "reverse": [4429]}
+{"kind": "KW+SC", "table": 3132, "first_column": "0", "second_column": "3", "keywords": ["2017", "2017", "2017"], "own": [], "forward": [], "reverse": [3132]}
+{"kind": "KW+SC", "table": 6293, "first_column": "1", "second_column": "2", "keywords": ["sauda", "\u00e5rdal", "j\u00f8rpeland"], "own": [6292, 6293], "forward": [6292, 6293], "reverse": [6292, 6293]}
+{"kind": "KW+SC", "table": 7131, "first_column": "1", "second_column": "3", "keywords": ["door to door", "hearts of spring", "24"], "own": [7131], "forward": [7131], "reverse": [2869, 7131]}
+{"kind": "KW+SC", "table": 8587, "first_column": "2", "second_column": "1", "keywords": ["gsm: 900, 1800, 1900 td-scdma: 1800, 2010 wcdma: 900, 2100 (international roaming only)", "gsm: quad-band umts: 900, 2100 mhz", "gsm: quad-band umts: 1900, 2100"], "own": [8587], "forward": [8587], "reverse": [8587]}
+{"kind": "KW+SC", "table": 5720, "first_column": "3", "second_column": "4", "keywords": ["dallas", "dallas", "-"], "own": [], "forward": [5720], "reverse": [711, 1320, 1386, 1419]}
+{"kind": "KW+SC", "table": 3214, "first_column": "3", "second_column": "0", "keywords": ["cupid deluxe", "ratatat remixes vol. 2", "nehru jackets"], "own": [3214], "forward": [3214], "reverse": [3214]}
+{"kind": "KW+SC", "table": 545, "first_column": "0", "second_column": "2", "keywords": ["feyenoord", "72 houtman"], "own": [545], "forward": [545], "reverse": [545]}
+{"kind": "KW+SC", "table": 933, "first_column": "1", "second_column": "4", "keywords": ["shooto: border: season 1: outbreak", "shooto: kitazawa shooto 2009 vol. 1", "shooto: gig central 18"], "own": [933, 934], "forward": [933, 934], "reverse": [933, 934]}
+{"kind": "KW+SC", "table": 8390, "first_column": "2", "second_column": "5", "keywords": ["beppu-\u014dita, japan", "santiago, chile", "moscow, soviet union"], "own": [1381, 8388, 8389, 8390], "forward": [1381, 2894, 8388, 8389, 8390], "reverse": [1381, 8388, 8389, 8390]}
+{"kind": "KW+SC", "table": 8456, "first_column": "3", "second_column": "2", "keywords": ["david yates", "david yates", "mike disa"], "own": [8456], "forward": [8456], "reverse": [8456]}
+{"kind": "KW+SC", "table": 7793, "first_column": "1", "second_column": "2", "keywords": ["studio c", "koreana jones", "find the fake"], "own": [7793], "forward": [7793], "reverse": [7793]}

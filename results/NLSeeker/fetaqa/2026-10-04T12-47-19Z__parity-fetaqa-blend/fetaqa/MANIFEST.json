@@ -1,0 +1,22 @@
+{
+  "fetaqa/artifacts/nlseeker.ini": {
+    "size": 2110,
+    "sha256": "b9e47c61db1bfcb908f230341fe438a578dd7f11916b82e57c14c91d94d7c35c"
+  },
+  "fetaqa/documents.json": {
+    "size": 1167331,
+    "sha256": "3ba78578635b95d3cfd8d99338125602045bb37aaa0761a66adffeb76e9aa0a4"
+  },
+  "fetaqa/nl_runs.jsonl": {
+    "size": 38387168,
+    "sha256": "766aeaef89859dd5e2c78fd5215b2a254e392d175c0165ea33266e057ec4fec5"
+  },
+  "fetaqa/per_query.jsonl": {
+    "size": 710830860,
+    "sha256": "f7a3f1b755db227f72f8fa88bef245fbac9b1c5cc726082a4e851a70aed6b1e8"
+  },
+  "fetaqa/texts.json": {
+    "size": 241610788,
+    "sha256": "1ca9065bafca1207ae4d428976865380ec245cf4ce4e99b7dfe80f7c58e144ee"
+  }
+}

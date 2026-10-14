@@ -1,0 +1,30 @@
+{
+  "config.yaml": {
+    "size": 33,
+    "sha256": "2ae60bd28fd0ee4a30777d219c06f1d0c1633f861f00cb067f1da5a843edd827"
+  },
+  "public_bi/MANIFEST.json": {
+    "size": 600,
+    "sha256": "03a92f50e37a86ebf249cd9957265f5a3d15e1761662b0080bc1bc62ccc01a25"
+  },
+  "public_bi/nl_runs_regime_public_bi.jsonl": {
+    "size": 2994024,
+    "sha256": "393da0db0d334504d34c20befcef5d95911cc08095d83eecc19f9eafd03a380a"
+  },
+  "public_bi/provenance_regime_public_bi.json": {
+    "size": 8579,
+    "sha256": "cf90aaaa9fac7a49def106e4f2cca28cac08ca96c1fc2fab495b72a9cd7da9d9"
+  },
+  "public_bi/regime_public_bi.jsonl": {
+    "size": 173640,
+    "sha256": "f7aaa774bbcf7b2f64923b582bc257015fc05cfaa51a27154a27cc07334613d8"
+  },
+  "public_bi/regime_public_bi.png": {
+    "size": 38105,
+    "sha256": "89447b8436f10ab357df15275e547a84567e5c3af5cb62a809db9ddc7317613b"
+  },
+  "run_meta.json": {
+    "size": 209,
+    "sha256": "3459e47e389a349c2588a549d20d868492868a380e3c80e1db5f5ba65bf9ca06"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "fetaqa/optimizer_fetaqa.jsonl": {
+    "size": 39367,
+    "sha256": "86cf49b4c22d6635b4fdec7ed2a1aae5294afca4c82477f0eef924d46fb4725c"
+  },
+  "fetaqa/provenance_optimizer_fetaqa.json": {
+    "size": 8419,
+    "sha256": "ea2fecd0c06bac62fae4935f2f5da8024143941673ad5f63dfbbe69b9498beca"
+  }
+}

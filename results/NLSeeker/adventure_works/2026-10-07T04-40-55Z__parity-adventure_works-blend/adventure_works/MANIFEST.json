@@ -1,0 +1,22 @@
+{
+  "adventure_works/artifacts/nlseeker.ini": {
+    "size": 2146,
+    "sha256": "b9a12e8fe6c482eb86136da58301cb626e8e13127b49be08e37b46877433fe31"
+  },
+  "adventure_works/documents.json": {
+    "size": 7704,
+    "sha256": "c6bbf85d5400d43b727ffe067158487b088cb24b6203728a26cf406733862705"
+  },
+  "adventure_works/nl_runs.jsonl": {
+    "size": 36955343,
+    "sha256": "b2ff3c6271f1a71f30e8007d82292995751266b96aa9ce4d8128be23b7c1abf0"
+  },
+  "adventure_works/per_query.jsonl": {
+    "size": 35626909,
+    "sha256": "60ae2fa2a31cc5beffb08e81c2119b83762fb031382cc4ba3cb11f1d4036171e"
+  },
+  "adventure_works/texts.json": {
+    "size": 3459188,
+    "sha256": "ae7ac9c4bf872d4b7e60b7f2d93343db5dbac9f196cefc065c61b96aa94f7c88"
+  }
+}

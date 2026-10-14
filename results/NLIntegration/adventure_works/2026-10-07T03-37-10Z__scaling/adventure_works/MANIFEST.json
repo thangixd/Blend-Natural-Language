@@ -1,0 +1,14 @@
+{
+  "adventure_works/nl_runs_scaling_adventure_works.jsonl": {
+    "size": 209714,
+    "sha256": "94357871b02fd1ec65cd74e92704570fd42fc5d1e736f3f6f4d2f3c1ec0a1287"
+  },
+  "adventure_works/provenance_scaling_adventure_works.json": {
+    "size": 8894,
+    "sha256": "1bf728d503b4280ea24f987faf33614efb08b0745b843bd404f3b6a370b6d3de"
+  },
+  "adventure_works/scaling_adventure_works.jsonl": {
+    "size": 120,
+    "sha256": "74a0a539a0d237828be9b85c72d16da32ceed5aaaa6f3d9ec77c37a8234e668a"
+  }
+}

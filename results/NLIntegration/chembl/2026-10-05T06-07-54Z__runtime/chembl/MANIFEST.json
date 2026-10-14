@@ -1,0 +1,14 @@
+{
+  "chembl/nl_runs_runtime_chembl.jsonl": {
+    "size": 8795978,
+    "sha256": "8a61a493edf30fd1e483dad020a200b566119f69fbdf317b7ecaf338d96abed1"
+  },
+  "chembl/provenance_runtime_chembl.json": {
+    "size": 8464,
+    "sha256": "fbbaad75c8f1fb68edccebb6885592af4331bc8cb711244804005e04c35ef860"
+  },
+  "chembl/runtime_chembl.jsonl": {
+    "size": 9545219,
+    "sha256": "9af82b998b29f9c62b5e2629d4cc420422fa8f8da10017240787950c01a0ad0b"
+  }
+}

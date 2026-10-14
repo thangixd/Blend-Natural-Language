@@ -1,0 +1,199 @@
+{
+  "experiment": "runtime",
+  "started_utc": "2026-10-06T20:47:50.184365+00:00",
+  "command": "/app/benchmarks/nl_integration/runtime.py --lake adventure_works",
+  "args": {
+    "seed": "0",
+    "fake_endpoints": "False",
+    "inputs": "200",
+    "questions": "100",
+    "repeats": "3",
+    "memory_limit_gb": "50.0",
+    "time_limit_min": "10.0",
+    "k": "[5, 10, 20]",
+    "n": "[3, 5, 10]",
+    "prefix_cache": "False",
+    "lake": "adventure_works",
+    "results": "/app/data/Evaluation/NLIntegration",
+    "resume": "None",
+    "min_free_gb": "5.0",
+    "out": "/app/data/Evaluation/NLIntegration/2026-10-06T20-47-49Z__runtime.partial/adventure_works"
+  },
+  "git_commit": null,
+  "git_status_measured_code": null,
+  "lake_ini": "config/adventure_works.ini",
+  "db_path": "[(21303, 'adventure_works', '/app/data/indexes/adventure_works.db')]",
+  "nl": {
+    "index_name": "adventure_works",
+    "schema": "nl_adventure_works",
+    "llm_base_url": "http://127.0.0.1:8001/v1",
+    "llm_model": "Qwen2.5-7B-Instruct",
+    "llm_temperature": 0.0,
+    "llm_max_new_tokens": 512,
+    "llm_context_length": 32768,
+    "llm_concurrency": 1,
+    "llm_retry_attempts": 5,
+    "llm_tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+    "embedding_base_url": "http://127.0.0.1:8002/v1",
+    "embedding_model": "bge-base-en-v1.5",
+    "embedding_max_tokens": 512,
+    "embedding_batch_size": 256,
+    "embedding_tokenizer": "BAAI/bge-base-en-v1.5",
+    "alpha": 0.5,
+    "n": 5
+  },
+  "index_code": "45f8dee9aec6",
+  "index_manifest": {
+    "data/indexes/adventure_works.db": {
+      "size": 657993728,
+      "sha256": "d6ac503e6a33555b1e702fe0f0bd5b72f5f7f0e6ece1afe8658c2ae85d0ea87f"
+    },
+    "data/indexes/adventure_works/blend.ini": {
+      "size": 2146,
+      "sha256": "5ed2037800540ade7c7161c5facd6042af908f987294265b506d2bc36c41dfa7"
+    },
+    "data/indexes/adventure_works/build_blend.json": {
+      "size": 2875,
+      "sha256": "adc1aae8a75c938a6cea16e1d33fc89a1f998cdae8958c315b71a435d6d47fb7"
+    },
+    "data/indexes/adventure_works/build_pneuma.json": {
+      "size": 3604,
+      "sha256": "8cbe6f398dac060c14c5677b517b9391fedf9a1ae35f5fbb3bb35d6d4a2c622c"
+    },
+    "data/indexes/adventure_works/metadata.csv": {
+      "size": 2176800,
+      "sha256": "55e634c61088fa7f5419fe6fbe34cbe56208e9e7d99b5d3fc4af534db38ff855"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 3610184,
+      "sha256": "6ef2008d79dbac707ed5074e9da3a697b062d60f02585965044f3f6969aa5128"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 10712,
+      "sha256": "0c8a23a28f7e349ad6be625483e6b437dfa9de7778c67874491d1347e94aa426"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 580364,
+      "sha256": "c7abaa673c6d19f809d10ba30b7c065c99be357bba22edda0a98a6efbc93fb96"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 580364,
+      "sha256": "569f6421e378d56ff58c9adf94ace6e0cb9101fc92825eefd4e87a3122a2eb1b"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 67988,
+      "sha256": "51ab95b94f4ecbc92f54dbd42f72eefdc38b6d80eb3a9edb7c3c285bcd0b1ada"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/params.index.json": {
+      "size": 199,
+      "sha256": "8c5ae33dee1e74f0298d395dc67766751cbcd79cfc647c9a84000b42962ce4bd"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/fulltext/parity/vocab.index.json": {
+      "size": 275361,
+      "sha256": "914e830ead44f2f9e7ae59761f16b9893b3141c33c417e7a4755b8a601510c8c"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/vector/chroma.sqlite3": {
+      "size": 31744000,
+      "sha256": "e697f8d0df1ece7bce6cfc672195003c646a25d37c2cc71562be975b576df1f4"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/vector/f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/data_level0.bin": {
+      "size": 3468000,
+      "sha256": "a25643777d03a3fc91cb87347fa68c9de0d08af9487ea7655a78e518f009a8ae"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/vector/f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/header.bin": {
+      "size": 100,
+      "sha256": "ff7351e2253fb9d4f48eccf27a46d4f2b3403128b1fca5396592566b869d1245"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/vector/f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/index_metadata.pickle": {
+      "size": 127790,
+      "sha256": "5f1b599f489c1078ed85b844e347b91851b7eac1d738435c8880fe61b1776ffc"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/vector/f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/length.bin": {
+      "size": 4000,
+      "sha256": "d09984cbfc38d76ffdd0698bea5087c280c441d6eb0766b34be6fc170e65e6a7"
+    },
+    "data/indexes/adventure_works/pneuma/indexes/vector/f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/link_lists.bin": {
+      "size": 8704,
+      "sha256": "f87461efc5d0fbd653bef06b19379156362797eaa546e4cf63a30c60e474f559"
+    },
+    "data/indexes/adventure_works/pneuma/metadata.csv": {
+      "size": 2263637,
+      "sha256": "bb091f97493eb665d6301936ec4159335e03f0bc6b6c0c0fcece16b360e2f37f"
+    },
+    "data/indexes/adventure_works/pneuma/storage.db": {
+      "size": 65286144,
+      "sha256": "1c207df15b341206177845a8aa84d159c0c837d75fc9e36a949def83fa595e5a"
+    },
+    "data/indexes/adventure_works/pneuma.ini": {
+      "size": 2146,
+      "sha256": "f6bd5816efe413a5cb70cf7d3810559238619199f678d88206760e011259dba7"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 3629301,
+      "sha256": "79e33f3bf1333d6112203bc64b13920850a2f02293a4f36ea42392adb7c2365d"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 10729,
+      "sha256": "e4a1ccdb6f7c0d8f533d10d984f05a212010f71b6b87d1f2a248bfecf5b93939"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 581568,
+      "sha256": "81adb6e143e085b9763ff19cf3b012a61f46e3353b738488c88c6b175de77e10"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 581568,
+      "sha256": "425395da36db0845b6149ca09e8ba5b542046a5ac9f530a6e70513944e68cf69"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 66864,
+      "sha256": "99e5971f1c942626fd69acd2a90d77d32dbdf726c0de7253734fd4843dfc5009"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/params.index.json": {
+      "size": 199,
+      "sha256": "f72a416e6be39dcb0aa6190ecdd4101e4b812319e2add020784b915a36ba236a"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/fulltext/parity/vocab.index.json": {
+      "size": 261229,
+      "sha256": "b5fbd6c9144f370a4ec25be39357a3f4b813a4a7a91cbc769d2e5c7fe5a69ddb"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/vector/cc4b5833-077e-46bd-93e5-a753b1526516/data_level0.bin": {
+      "size": 3468000,
+      "sha256": "581b5265dbb5f4e50d4f1468ad1dde8caf32c1809d60bb016c5fc4fd97719ffa"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/vector/cc4b5833-077e-46bd-93e5-a753b1526516/header.bin": {
+      "size": 100,
+      "sha256": "f24b9742635a6190221c53216e4791cf3b90f228c2afef3f2ed4cab173e938d1"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/vector/cc4b5833-077e-46bd-93e5-a753b1526516/index_metadata.pickle": {
+      "size": 127784,
+      "sha256": "3a76dae4351080b22538bf0bd59f848f0703704af23c86b7ac34b5684671986a"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/vector/cc4b5833-077e-46bd-93e5-a753b1526516/length.bin": {
+      "size": 4000,
+      "sha256": "96582d971d4ecfa35bfc34df4d325aa575f06c03d692460c475496c50cddc586"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/vector/cc4b5833-077e-46bd-93e5-a753b1526516/link_lists.bin": {
+      "size": 8704,
+      "sha256": "0b60b133120740eaec51f949c2712d93832da4604bba3c52cb68c7bb5f94cf44"
+    },
+    "data/indexes/adventure_works/pneuma_shared/indexes/vector/chroma.sqlite3": {
+      "size": 31875072,
+      "sha256": "fc45ab3db4a196a25ab653d5cdfb107a6ecec8075d43df99eef4cbbccf6aef68"
+    },
+    "data/indexes/adventure_works/pneuma_shared/storage.db": {
+      "size": 63975424,
+      "sha256": "67428ca1d8500dfa67ca7e7b90961c3cf2edae7c5676e353909f5f5d027042dc"
+    },
+    "data/indexes/adventure_works/texts_blend.json": {
+      "size": 3459188,
+      "sha256": "ae7ac9c4bf872d4b7e60b7f2d93343db5dbac9f196cefc065c61b96aa94f7c88"
+    },
+    "data/indexes/adventure_works/texts_pneuma.json": {
+      "size": 3439917,
+      "sha256": "b36d11d986cc450fc6f58c8575f218717325227f7fa96726a6e9b621fdd98396"
+    }
+  },
+  "python": "3.12.12",
+  "duckdb": "1.5.5",
+  "machine": "Linux-6.1.0-34-amd64-x86_64-with-glibc2.41"
+}

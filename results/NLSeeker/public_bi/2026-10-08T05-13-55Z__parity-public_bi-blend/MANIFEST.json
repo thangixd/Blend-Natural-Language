@@ -1,0 +1,38 @@
+{
+  "config.yaml": {
+    "size": 864,
+    "sha256": "986aeb56a62f53b2ae24aa4c9d8d7fffa1a988c90fcc4b15e2a55304a069464e"
+  },
+  "public_bi/MANIFEST.json": {
+    "size": 698,
+    "sha256": "4ab51d1a058cb80a0be8fcdd1e5037fcd1f7b9f707adb839e6dc53eb0e5d5a5c"
+  },
+  "public_bi/artifacts/nlseeker.ini": {
+    "size": 2122,
+    "sha256": "30dfe09d82c14541259b79d21cec1b8fa630ace6d05432dece2ef0f62b48562c"
+  },
+  "public_bi/documents.json": {
+    "size": 16849,
+    "sha256": "bab56dec9a12dd7f74bce726212d4c833eae706527e42fbc10b496c0b5d533e1"
+  },
+  "public_bi/nl_runs.jsonl": {
+    "size": 38234760,
+    "sha256": "0cf5b2c3fb7fa53b6a88772e949c4291ce108cc59ae6544abdb4f83f4f922be8"
+  },
+  "public_bi/per_query.jsonl": {
+    "size": 48866668,
+    "sha256": "669be8649a8cb7f42ba9790498f893b5aa03a6005a03a6bd75939217287e7324"
+  },
+  "public_bi/texts.json": {
+    "size": 9787857,
+    "sha256": "b1efeb65f38439dde4641d5208e35c1cf1dd1d796373f0190cd9546e0d054f7e"
+  },
+  "run_meta.json": {
+    "size": 3921,
+    "sha256": "4b49db1b0996d93e730d14e88f20d1a08c0273023751216dd162194a4577c7d1"
+  },
+  "summary.csv": {
+    "size": 4205,
+    "sha256": "25e743d83fccf1b33de3abf9412aeab0cf0d53dbde536ba87b940a7b80d4dbc1"
+  }
+}

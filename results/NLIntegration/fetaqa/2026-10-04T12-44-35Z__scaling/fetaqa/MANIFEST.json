@@ -1,0 +1,14 @@
+{
+  "fetaqa/nl_runs_scaling_fetaqa.jsonl": {
+    "size": 227808,
+    "sha256": "d3eaca8b7ad018a531e4a26f09ee5ae13036e44b0d88edd20e520ceb4548aedb"
+  },
+  "fetaqa/provenance_scaling_fetaqa.json": {
+    "size": 8540,
+    "sha256": "df2ff370d2f6096ad5b278c3751798ec532c2561902e9b9b5f2aabc2bcf6196f"
+  },
+  "fetaqa/scaling_fetaqa.jsonl": {
+    "size": 126,
+    "sha256": "6f88cfc176c07570bbc4a816c48f66c7fad0f10a8e6e23d152830aeb2e7ea632"
+  }
+}

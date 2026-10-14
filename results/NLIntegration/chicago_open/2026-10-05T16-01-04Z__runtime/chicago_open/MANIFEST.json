@@ -1,0 +1,14 @@
+{
+  "chicago_open/nl_runs_runtime_chicago_open.jsonl": {
+    "size": 9758203,
+    "sha256": "24a8ab8978575c2b5dbe04319c9405d97c05c2720391111baac0b963fb790ef2"
+  },
+  "chicago_open/provenance_runtime_chicago_open.json": {
+    "size": 8949,
+    "sha256": "6d6a9cac0782c3bae6e6ec2c13379b8d6e91f04462357026df67ad644ee17c82"
+  },
+  "chicago_open/runtime_chicago_open.jsonl": {
+    "size": 10593150,
+    "sha256": "b3de5eedafec6864ce8f74555efc4c7b0bdcf465f58a197b1c87bcc0a86140af"
+  }
+}

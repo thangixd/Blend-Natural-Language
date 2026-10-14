@@ -1,0 +1,10 @@
+{
+  "chembl/optimizer_chembl.jsonl": {
+    "size": 35906,
+    "sha256": "8e4c92c5bd8a006b5169c88128c622a4f29298ff759ccac926b8676a99a60346"
+  },
+  "chembl/provenance_optimizer_chembl.json": {
+    "size": 8364,
+    "sha256": "b28fb97cb61b5922e6ced6af9fe869cd7212e9cb7e21288a399b451a5a902f6e"
+  }
+}

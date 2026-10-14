@@ -1,0 +1,4011 @@
+{
+ "12th Ward Aldermanic Selection Survey - 2022_SEP_table_547.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "2015_Ward_Offices_SEP_table_99.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 13
+ },
+ "20180621 Daily FOIA Report_SEP_table_519.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "311 Service Requests - Abandoned Vehicles - Historical_SEP_table_492.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 16
+ },
+ "311 Service Requests - Alley Lights Out - Historical_SEP_table_410.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "311 Service Requests - Garbage Carts - Historical_SEP_table_330.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "311 Service Requests - Graffiti Removal - Historical_SEP_table_53.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "311 Service Requests - Pot Holes Reported - Historical_SEP_table_762.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 16
+ },
+ "311 Service Requests - Rodent Baiting - Historical_SEP_table_119.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "311 Service Requests - Sanitation Code Complaints - Historical_SEP_table_213.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "311 Service Requests - Street Lights - All Out - Historical_SEP_table_797.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "311 Service Requests - Street Lights - One Out - Historical_SEP_table_540.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "311 Service Requests - Tree Debris - Historical_SEP_table_535.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "311 Service Requests - Tree Trims - Historical_SEP_table_459.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "311 Service Requests - Vacant and Abandoned Buildings Reported - Historical_SEP_table_570.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 16
+ },
+ "311 Service Requests_SEP_table_456.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 16
+ },
+ "33rd Ward Alderman Applicants - 2013_SEP_table_704.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "43rd Ward Resident Survey - 2022_SEP_table_124.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "4th Ward Alderman Applicants - 2016_SEP_table_112.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "7th Ward Alderman Applicants - 2013_SEP_table_779.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "811 Chicago Utility Hit Tickets_SEP_table_57.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 16
+ },
+ "Additional Dwelling Unit Areas_SEP_table_305.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "Additional Dwelling Unit Preapproval Applications_SEP_table_6.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 15
+ },
+ "Affordable Rental Housing Developments_SEP_table_129.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Alternative Fuel Locations_SEP_table_493.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 14
+ },
+ "Annual Taxpayer Location Address List 2014_SEP_table_296.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "Array of Things Locations_SEP_table_409.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Arrests_SEP_table_721.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 15
+ },
+ "Average Daily Traffic Counts_SEP_table_72.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "BIA Cases - By Involved Officer_SEP_table_215.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 16
+ },
+ "Back To School Immunization Locations_SEP_table_80.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Beach E. coli Predictions_SEP_table_489.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Beach Lab Data_SEP_table_470.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 15
+ },
+ "Beach Swim Advisories_SEP_table_579.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Beach Water Quality - Automated Sensors_SEP_table_681.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "Beach Water and Weather Sensor Locations_SEP_table_84.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Beach Weather Stations - Automated Sensors_SEP_table_479.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Bike Racks - Historical_SEP_table_687.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Bike Racks_SEP_table_503.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Bike Routes (Deprecated December 2022)_SEP_table_186.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Bike Routes (Deprecated February 2020)_SEP_table_578.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Bike Routes (Deprecated January 2021)_SEP_table_761.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Bike Routes (Deprecated November 2021)_SEP_table_192.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 11
+ },
+ "Bikeroutes3_SEP_table_468.csv": {
+  "schema": 1,
+  "row": 4,
+  "contexts": 11
+ },
+ "Boundaries - Enterprise Zones (Deprecated October 2021)_SEP_table_172.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Boundaries - Planning Regions_SEP_table_386.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Boundaries - Special Service Areas (Deprecated May 2019) - Tabular View_SEP_table_689.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Boundaries - Special Service Areas (deprecated January 2020)_SEP_table_544.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Boundaries - Special Service Areas (deprecated January 2022)_SEP_table_466.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Boundaries - Special Service Areas (deprecated January 2023)_SEP_table_220.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "Boundaries - Special Service Areas (deprecated January 2024)_SEP_table_247.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Boundaries - Tax Increment Financing Districts (Deprecated April 2023)_SEP_table_110.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "Boundaries - Tax Increment Financing Districts (Deprecated December 2023)_SEP_table_714.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Boundaries - Tax Increment Financing Districts (Deprecated January 2021)_SEP_table_485.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "Boundaries - Tax Increment Financing Districts (Deprecated October 2022)_SEP_table_96.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Boundaries - Ward Precincts (2023-)_SEP_table_750.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Boundaries - Wards (2023-)_SEP_table_152.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Budget - 2011 Budget Ordinance - Appropriations_SEP_table_212.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2011 Budget Ordinance - Positions and Salaries_SEP_table_415.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 12
+ },
+ "Budget - 2012 Budget Ordinance - Appropriations_SEP_table_703.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2012 Budget Ordinance - Positions and Salaries_SEP_table_600.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2012 Budget Recommendations - Appropriations_SEP_table_580.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "Budget - 2012 Budget Recommendations - Positions and Salaries_SEP_table_418.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 12
+ },
+ "Budget - 2013 Budget Ordinance - Appropriations_SEP_table_427.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2013 Budget Ordinance - Positions and Salaries_SEP_table_51.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 12
+ },
+ "Budget - 2013 Budget Recommendations - Appropriations_SEP_table_743.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2013 Budget Recommendations - Positions and Salaries_SEP_table_652.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 14
+ },
+ "Budget - 2014 Budget Ordinance - Appropriations_SEP_table_773.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2014 Budget Ordinance - Positions and Salaries_SEP_table_227.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2014 Budget Recommendations - Appropriations_SEP_table_545.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2014 Budget Recommendations - Positions and Salaries_SEP_table_13.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2015 Budget Ordinance - Appropriations_SEP_table_353.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2015 Budget Ordinance - Positions and Salaries_SEP_table_472.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2015 Budget Recommendations - Appropriations_SEP_table_781.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2015 Budget Recommendations - Positions and Salaries_SEP_table_740.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2016 Budget Ordinance - Appropriations_SEP_table_126.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2016 Budget Ordinance - Positions and Salaries_SEP_table_528.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2016 Budget Recommendations - Appropriations_SEP_table_613.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2016 Budget Recommendations - Positions and Salaries_SEP_table_431.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2017 Budget Ordinance - Appropriations_SEP_table_631.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2017 Budget Ordinance - Positions and Salaries_SEP_table_707.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2017 Budget Recommendations - Appropriations_SEP_table_71.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2017 Budget Recommendations - Positions and Salaries_SEP_table_245.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2018 Budget Ordinance - Appropriations_SEP_table_505.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2018 Budget Ordinance - Positions and Salaries_SEP_table_752.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2018 Budget Recommendations - Appropriations_SEP_table_396.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2018 Budget Recommendations - Positions and Salaries_SEP_table_744.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 14
+ },
+ "Budget - 2019 Budget Ordinance - Appropriations_SEP_table_149.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2019 Budget Ordinance - Positions and Salaries_SEP_table_543.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2019 Budget Recommendations - Appropriations_SEP_table_252.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2019 Budget Recommendations - Positions and Salaries_SEP_table_673.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2020 Budget Ordinance - Appropriations_SEP_table_731.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2020 Budget Ordinance - Positions and Salaries_SEP_table_645.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 14
+ },
+ "Budget - 2020 Budget Recommendations - Appropriations_SEP_table_358.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2020 Budget Recommendations - Positions and Salaries_SEP_table_177.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2021 Budget Ordinance - Appropriations_SEP_table_525.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2021 Budget Ordinance - Positions and Salaries_SEP_table_189.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2021 Budget Recommendations - Appropriations_SEP_table_440.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2021 Budget Recommendations - Positions and Salaries_SEP_table_782.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2022 Budget Ordinance - Appropriations_SEP_table_708.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget - 2022 Budget Ordinance - Positions and Salaries_SEP_table_191.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2022 Budget Recommendations - Appropriations_SEP_table_618.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2022 Budget Recommendations - Positions and Salaries_SEP_table_445.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 12
+ },
+ "Budget - 2023 Budget Ordinance - Appropriations_SEP_table_32.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2023 Budget Ordinance - Positions and Salaries_SEP_table_754.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2023 Budget Recommendations - Appropriations_SEP_table_568.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2023 Budget Recommendations - Positions and Salaries_SEP_table_45.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2024 Budget Ordinance - Appropriations_SEP_table_785.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2024 Budget Ordinance - Positions and Salaries_SEP_table_401.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2024 Budget Ordinance - Revenue_SEP_table_1.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2024 Budget Recommendations - Appropriations_SEP_table_243.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Budget - 2024 Budget Recommendations - Positions and Salaries_SEP_table_308.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 13
+ },
+ "Budget - 2024 Budget Recommendations - Revenue_SEP_table_553.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Budget Survey 2020_SEP_table_447.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 16
+ },
+ "Budget Survey 2021_SEP_table_759.csv": {
+  "schema": 7,
+  "row": 5,
+  "contexts": 19
+ },
+ "Building Code Scofflaw List_SEP_table_352.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Building Permits_SEP_table_211.csv": {
+  "schema": 11,
+  "row": 5,
+  "contexts": 21
+ },
+ "Building Violations_SEP_table_153.csv": {
+  "schema": 3,
+  "row": 4,
+  "contexts": 16
+ },
+ "Bureau of Sanitation - Unscheduled Absences by Day of Week for Refuse Collectors_SEP_table_442.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Bureau of Sanitation - Unscheduled Absences by Day of Week for Refuse Truck Drivers_SEP_table_25.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Business Licenses_SEP_table_602.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 15
+ },
+ "Business Owners_SEP_table_696.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "CDOT Bike Routes_2014_1216_SEP_table_4.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "CDOT_Bikeways_2016_0311_SEP_table_222.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CDPH Asbestos and Demolition Notification_SEP_table_552.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 17
+ },
+ "CDPH Environmental Complaints_SEP_table_513.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 16
+ },
+ "CDPH Environmental Enforcement_SEP_table_450.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 16
+ },
+ "CDPH Environmental Hold on City-Issued Permits and LUST NFR_SEP_table_248.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "CDPH Environmental Inspections_SEP_table_221.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 15
+ },
+ "CDPH Environmental Permits_SEP_table_274.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 16
+ },
+ "CDPH Environmental Records Lookup Table_SEP_table_216.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 15
+ },
+ "CDPH Mental Health Resources (Deprecated November 2023)_SEP_table_5.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 15
+ },
+ "CDPH Mental Health Resources_SEP_table_512.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "CDPH Storage Tanks_SEP_table_351.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 15
+ },
+ "COPA Cases - By Complainant or Subject_SEP_table_537.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 16
+ },
+ "COPA Cases - By Involved Officer_SEP_table_514.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 15
+ },
+ "COPA Cases - Summary_SEP_table_395.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 17
+ },
+ "COVID-19 - Businesses Requiring Proof of Vaccination - Historical_SEP_table_617.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "COVID-19 - Vaccinations by Region, Age, and Race-Ethnicity - Historical_SEP_table_664.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 15
+ },
+ "COVID-19 Cases, Tests, and Deaths by ZIP Code - Historical_SEP_table_635.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 16
+ },
+ "COVID-19 Daily Cases, Deaths, and Hospitalizations - Historical_SEP_table_224.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 18
+ },
+ "COVID-19 Daily Rolling Average Case, Death, and Hospitalization Rates - Historical_SEP_table_548.csv": {
+  "schema": 11,
+  "row": 5,
+  "contexts": 17
+ },
+ "COVID-19 Daily Testing - By Person - Historical_SEP_table_147.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 18
+ },
+ "COVID-19 Daily Testing - By Test - Historical_SEP_table_277.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 19
+ },
+ "COVID-19 Daily Vaccinations - Administered in Chicago - Historical_SEP_table_371.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 10
+ },
+ "COVID-19 Daily Vaccinations - Chicago Residents - Historical_SEP_table_605.csv": {
+  "schema": 14,
+  "row": 5,
+  "contexts": 15
+ },
+ "COVID-19 Hospital Capacity Metrics - Historical_SEP_table_103.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 13
+ },
+ "COVID-19 Outcomes by Vaccination Status - Historical_SEP_table_258.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 13
+ },
+ "COVID-19 Testing Sites - Historical_SEP_table_722.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "COVID-19 Vaccination Coverage, Citywide_SEP_table_50.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "COVID-19 Vaccination Coverage, Region (HCEZ)_SEP_table_256.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 17
+ },
+ "COVID-19 Vaccination Coverage, ZIP Code_SEP_table_656.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 15
+ },
+ "COVID-19 Vaccination Locations_SEP_table_136.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "COVID-19 Vaccinations by Age and Race-Ethnicity - Historical_SEP_table_122.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 14
+ },
+ "COVID-19 Vaccinations by ZIP Code - Historical_SEP_table_584.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 16
+ },
+ "COVID-19 Vaccine Delivery - Historical_SEP_table_585.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "COVID-19 Wastewater Detection_SEP_table_448.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "COVID-Like Illness (CLI) and COVID-19 Diagnosis Emergency Department Visits_SEP_table_141.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "CPS Schools 2013-2014 Academic Year_SEP_table_592.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 15
+ },
+ "CPS_Charter_School_Preference_Boundaries_SY1415_SEP_table_799.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CPS_Elementary_Attendance_1617_SEP_table_349.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CPS_Elementary_Attendance_SY1718_SEP_table_718.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "CPS_Elementary_School_Attendance_Boundaries_SY1415_SEP_table_289.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 13
+ },
+ "CPS_Elementary_School_Attendance_Boundaries_SY1516_SEP_table_313.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CPS_High_School_Attendance_1617_SEP_table_11.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CPS_High_School_Attendance_Boundaries_SY1415_SEP_table_101.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "CPS_LSC_VotingDistricts_SY1819_SEP_table_142.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "CPS_Middle_School_Attendance_1617_SEP_table_389.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CPS_Middle_School_Attendance_Boundaries_SY1516_SEP_table_736.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "CPS_SafePassageRoutes_SY1516_SEP_table_790.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "CPS_School_Locations_1617_SEP_table_49.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "CPS_School_Locations_SY1415_SEP_table_655.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "CTA - List of CTA Datasets_SEP_table_302.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "CTA - List of Fare Media Sales Outlets (deprecated August 2014)_SEP_table_89.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "CTA - Performance - Bus Runs Held Due to Absenteeism (2011, Jan-Aug)_SEP_table_327.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "CTA - Performance - Unscheduled Days Off_SEP_table_262.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "CTA - Ridership - 'L' Station Entries - Daily Totals_SEP_table_538.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "CTA - Ridership - 'L' Station Entries - Monthly Day-Type Averages & Totals_SEP_table_411.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "CTA - Ridership - Annual Boarding Totals_SEP_table_65.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "CTA - Ridership - Avg. Weekday Bus Stop Boardings in October 2012_SEP_table_3.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "CTA - Ridership - Bus Routes - Daily Totals by Route_SEP_table_47.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "CTA - Ridership - Bus Routes - Monthly Day-Type Averages & Totals_SEP_table_337.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "CTA - Ridership - Daily Boarding Totals_SEP_table_425.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "CTA - System Information - Bus Stop Locations in Digital Sign Project_SEP_table_770.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "CTA - System Information - List of 'L' Stops_SEP_table_316.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "CTA_STATUTORY_SEP_table_559.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "CTA_Ventra_SEP_table_184.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "CTA_Ventra_SEP_table_705.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Census Blocks_SEP_table_140.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 14
+ },
+ "Census Data - Languages spoken in Chicago, 2008 \u2013 2012_SEP_table_335.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 10
+ },
+ "Census Data - Selected socioeconomic indicators in Chicago, 2008 \u2013 2012_SEP_table_187.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "CensusBlockTIGER2010_SEP_table_490.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "Central_Business_District_SEP_table_800.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Charter_Overlay_Boundaries_1819_SEP_table_691.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "Charter_Preference_Boundaries_SY1718_SEP_table_639.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Chicago COVID-19 Community Vulnerability Index (CCVI)_SEP_table_52.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Chicago Department of Public Health Clinic Locations_SEP_table_379.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 11
+ },
+ "Chicago Early Learning Programs_SEP_table_420.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 13
+ },
+ "Chicago Energy Benchmarking - Covered Buildings_SEP_table_253.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Chicago Energy Benchmarking_SEP_table_106.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 17
+ },
+ "Chicago Microlending Institute (CMI) Microloans - Summary by Ethnicity and Gender_SEP_table_690.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Chicago Microlending Institute (CMI) Microloans_SEP_table_517.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Chicago Park District - Event Permits_SEP_table_385.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "Chicago Park District: Movies in the Parks 2014_SEP_table_550.csv": {
+  "schema": 1,
+  "row": 3,
+  "contexts": 12
+ },
+ "Chicago Park District: Movies in the Parks 2015_SEP_table_382.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Chicago Park District: Movies in the Parks 2016_SEP_table_644.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Chicago Park District: Movies in the Parks 2017_SEP_table_291.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Chicago Park District: Movies in the Parks 2018_SEP_table_624.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Chicago Park District: Movies in the Parks 2019_SEP_table_588.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) Codes_SEP_table_155.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Chicago Population Counts_SEP_table_654.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 13
+ },
+ "Chicago Public Library Events_SEP_table_75.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Chicago Public Schools - Charter School Preference Boundaries SY1920_SEP_table_285.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Charter School Preference Boundaries SY2021_SEP_table_356.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Chicago Public Schools - Charter School Preference Boundaries SY2223 - SY2324_SEP_table_228.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Elementary Geographic Networks_SEP_table_263.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Chicago Public Schools - Elementary School Attendance Boundaries SY1920_SEP_table_387.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Chicago Public Schools - Elementary School Attendance Boundaries SY2021_SEP_table_682.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Elementary School Attendance Boundaries SY2122_SEP_table_694.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Elementary School Attendance Boundaries SY2223_SEP_table_561.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Elementary School Attendance Boundaries SY2324_SEP_table_235.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Elementary School Progress Report (2013-2014)_SEP_table_622.csv": {
+  "schema": 11,
+  "row": 5,
+  "contexts": 20
+ },
+ "Chicago Public Schools - High School Attendance Boundaries SY1920_SEP_table_558.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - High School Attendance Boundaries SY2021_SEP_table_34.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - High School Attendance Boundaries SY2122_SEP_table_139.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - High School Attendance Boundaries SY2223_SEP_table_461.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - High School Attendance Boundaries SY2324_SEP_table_176.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - High School Geographic Networks (Deprecated August 2021)_SEP_table_268.csv": {
+  "schema": 1,
+  "row": 4,
+  "contexts": 9
+ },
+ "Chicago Public Schools - High School Geographic Networks_SEP_table_165.csv": {
+  "schema": 1,
+  "row": 4,
+  "contexts": 12
+ },
+ "Chicago Public Schools - High School Progress Report (2013-2014)_SEP_table_555.csv": {
+  "schema": 14,
+  "row": 5,
+  "contexts": 17
+ },
+ "Chicago Public Schools - Local School Council Voting Districts 2020-2022_SEP_table_182.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Chicago Public Schools - Middle School Attendance Boundaries SY1920_SEP_table_674.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Middle School Attendance Boundaries SY2021_SEP_table_569.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Chicago Public Schools - Middle School Attendance Boundaries SY2122_SEP_table_64.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Middle School Attendance Boundaries SY2223_SEP_table_436.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Middle School Attendance Boundaries SY2324_SEP_table_678.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Progress Report Cards (2011-2012)_SEP_table_338.csv": {
+  "schema": 10,
+  "row": 5,
+  "contexts": 21
+ },
+ "Chicago Public Schools - Safe Passage Routes SY2122_SEP_table_556.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Chicago Public Schools - Safe Passage Routes SY2324_SEP_table_634.csv": {
+  "schema": 1,
+  "row": 4,
+  "contexts": 10
+ },
+ "Chicago Public Schools - School Admissions Information SY1617_SEP_table_607.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Chicago Public Schools - School Admissions Information SY1718_SEP_table_171.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 13
+ },
+ "Chicago Public Schools - School Admissions Information SY1819_SEP_table_114.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 13
+ },
+ "Chicago Public Schools - School Admissions Information SY2021_SEP_table_28.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "Chicago Public Schools - School Admissions Information SY2122_SEP_table_728.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "Chicago Public Schools - School Admissions Information SY2223_SEP_table_484.csv": {
+  "schema": 2,
+  "contexts": 9
+ },
+ "Chicago Public Schools - School Admissions Information SY2324_SEP_table_524.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 13
+ },
+ "Chicago Public Schools - School Locations SY1920_SEP_table_465.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Chicago Public Schools - School Locations SY2021_SEP_table_621.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Chicago Public Schools - School Locations SY2122_SEP_table_405.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Chicago Public Schools - School Locations SY2223_SEP_table_522.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Chicago Public Schools - School Locations SY2324_SEP_table_508.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Chicago Public Schools - School Profile Information SY1617_SEP_table_166.csv": {
+  "schema": 9,
+  "row": 5,
+  "contexts": 18
+ },
+ "Chicago Public Schools - School Profile Information SY1718_SEP_table_745.csv": {
+  "schema": 9,
+  "row": 5,
+  "contexts": 17
+ },
+ "Chicago Public Schools - School Profile Information SY1819_SEP_table_10.csv": {
+  "schema": 10,
+  "row": 5,
+  "contexts": 18
+ },
+ "Chicago Public Schools - School Profile Information SY2021_SEP_table_87.csv": {
+  "schema": 10,
+  "row": 5,
+  "contexts": 17
+ },
+ "Chicago Public Schools - School Profile Information SY2122_SEP_table_246.csv": {
+  "schema": 10,
+  "row": 5,
+  "contexts": 17
+ },
+ "Chicago Public Schools - School Profile Information SY2223_SEP_table_144.csv": {
+  "schema": 10,
+  "row": 5,
+  "contexts": 18
+ },
+ "Chicago Public Schools - School Profile Information SY2324_SEP_table_487.csv": {
+  "schema": 10,
+  "row": 5,
+  "contexts": 20
+ },
+ "Chicago Public Schools - School Progress Reports SY1516_SEP_table_408.csv": {
+  "schema": 20,
+  "row": 5,
+  "contexts": 22
+ },
+ "Chicago Public Schools - School Progress Reports SY1617_SEP_table_562.csv": {
+  "schema": 21,
+  "row": 5,
+  "contexts": 19
+ },
+ "Chicago Public Schools - School Progress Reports SY1718_SEP_table_594.csv": {
+  "schema": 22,
+  "row": 5,
+  "contexts": 18
+ },
+ "Chicago Public Schools - School Progress Reports SY1819_SEP_table_239.csv": {
+  "schema": 25,
+  "row": 5,
+  "contexts": 16
+ },
+ "Chicago Public Schools - School Progress Reports SY2122_SEP_table_766.csv": {
+  "schema": 25,
+  "row": 5,
+  "contexts": 18
+ },
+ "Chicago Public Schools - School Progress Reports SY2223_SEP_table_563.csv": {
+  "schema": 25,
+  "row": 5,
+  "contexts": 18
+ },
+ "Chicago Public Schools - School Progress Reports SY2324_SEP_table_481.csv": {
+  "schema": 25,
+  "row": 5,
+  "contexts": 17
+ },
+ "Chicago Public Schools \u2013 Elementary School Progress Report Card (2012-2013)_SEP_table_768.csv": {
+  "schema": 9,
+  "row": 5,
+  "contexts": 19
+ },
+ "Chicago Public Schools \u2013 High School Progress Report Card (2012-2013)_SEP_table_66.csv": {
+  "schema": 7,
+  "row": 5,
+  "contexts": 15
+ },
+ "Chicago Street Names_SEP_table_789.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Chicago Traffic Tracker - Congestion Estimates by Regions_SEP_table_318.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Chicago Traffic Tracker - Congestion Estimates by Segments_SEP_table_323.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2013-2018_SEP_table_148.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current_SEP_table_643.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 15
+ },
+ "Chicago Traffic Tracker - Historical Congestion Estimates by Segment - 2011-2018_SEP_table_283.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Christmas Tree Recycling Locations (2016 - current)_SEP_table_195.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 9
+ },
+ "Christmas Tree Recycling Locations 2013_SEP_table_193.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Christmas Tree Recycling Locations 2014_SEP_table_62.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "City-Owned Land Inventory_SEP_table_536.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 16
+ },
+ "City_Boundary_SEP_table_399.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Community Service Centers_SEP_table_31.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Condom Distribution Sites - Historical_SEP_table_783.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Connect Chicago Locations - Historical_SEP_table_217.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 16
+ },
+ "Contractor Business Diversity Program Submissions_SEP_table_164.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Contracts_SEP_table_69.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 15
+ },
+ "Cooling Centers_SEP_table_788.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Crimes - 2001 to Present_SEP_table_293.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 15
+ },
+ "Crimes - One year prior to present_SEP_table_121.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 15
+ },
+ "Current Employee Names, Salaries, and Position Titles_SEP_table_801.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 15
+ },
+ "DSS_STREETSWEEPING_SCHEDULE_SEP_table_675.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Debarred Firms and Individuals_SEP_table_230.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Dig Ticket Notifications_SEP_table_452.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 17
+ },
+ "Divvy Bicycle Stations - Historical_SEP_table_88.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "Divvy Bicycle Stations_SEP_table_564.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Divvy Trips_SEP_table_476.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 16
+ },
+ "Dockless Bicycle Pilot Zones - Summer 2018 - New Format_SEP_table_475.csv": {
+  "schema": 1,
+  "row": 4,
+  "contexts": 7
+ },
+ "E-Scooter Trips - 2019 Pilot_SEP_table_9.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "E-Scooter Trips - 2020_SEP_table_414.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "E-Scooter Trips - Census Tract Summary - 2020_SEP_table_251.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "E-Scooter Trips - Census Tract Summary_SEP_table_200.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "E-Scooter Trips_SEP_table_676.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "E-scooter Pilot Zone - 2020_SEP_table_39.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "E-scooter Priority Area - 2020_SEP_table_626.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 7
+ },
+ "EZ Pay Kiosks_SEP_table_146.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Electric Scooter Pilot Zone - 2019_SEP_table_322.csv": {
+  "schema": 1,
+  "row": 3,
+  "contexts": 7
+ },
+ "Elementary_Attendance_0607_SEP_table_638.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elementary_Attendance_0708_SEP_table_710.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elementary_Attendance_0809_SEP_table_739.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elementary_Attendance_0910_SEP_table_370.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Elementary_Attendance_1011_SEP_table_15.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elementary_Attendance_1112_SEP_table_267.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Elementary_Attendance_1213_SEP_table_417.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elementary_Attendance_1314_SEP_table_383.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elementary_Attendance_1819_SEP_table_769.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Elevation Benchmarks_SEP_table_85.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Census_SEP_table_717.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Emergency Temporary Shelters - Grievances Filed_SEP_table_426.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Emergency Temporary Shelters - Grievances Resolved_SEP_table_698.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Emergency Temporary Shelters - Intake From Landing Zone_SEP_table_529.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Emergency Temporary Shelters - Limited Stay Exits - By Age Range_SEP_table_777.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Limited Stay Exits - By Country of Origin_SEP_table_611.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Limited Stay Exits - By Gender Identity_SEP_table_295.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Limited Stay Exits - By Original  Exit Date_SEP_table_742.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Limited Stay Exits - By Shelter and Date_SEP_table_403.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Limited Stay Exits - By Shelter_SEP_table_658.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Emergency Temporary Shelters - Limited Stay Extensions_SEP_table_27.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Employee Indebtedness to the City of Chicago_SEP_table_26.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Employee Overtime and Supplemental Earnings 2012_SEP_table_194.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Employee Overtime and Supplemental Earnings 2013_SEP_table_374.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2014_SEP_table_530.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Employee Overtime and Supplemental Earnings 2015_SEP_table_107.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Employee Overtime and Supplemental Earnings 2016_SEP_table_160.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2017_SEP_table_304.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2018_SEP_table_546.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2019_SEP_table_255.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2020_SEP_table_350.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2021_SEP_table_237.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Employee Overtime and Supplemental Earnings 2022_SEP_table_162.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Employee Payroll Data (FMPS Payroll Costing)_SEP_table_250.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 16
+ },
+ "Employee Reimbursements Through Payroll System_SEP_table_587.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Employee Reimbursements_SEP_table_421.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Energy Usage 2010_SEP_table_219.csv": {
+  "schema": 8,
+  "row": 5,
+  "contexts": 16
+ },
+ "Enterprise_Zones_SEP_table_300.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Enterprise_Zones_SEP_table_802.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "Ethics Pledge_SEP_table_424.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "FOIA Request Log - 311_SEP_table_179.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "FOIA Request Log - Administrative Hearings_SEP_table_355.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Animal Care and Control_SEP_table_83.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "FOIA Request Log - Assets, Information & Services_SEP_table_685.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Aviation_SEP_table_173.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Budget & Management_SEP_table_398.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Buildings_SEP_table_451.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Business Affairs & Consumer Protection_SEP_table_753.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Chicago Police Board_SEP_table_507.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "FOIA Request Log - Chicago Public Library_SEP_table_261.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "FOIA Request Log - Chicago Treasurer's Office_SEP_table_102.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - City Clerk_SEP_table_582.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "FOIA Request Log - Community Development - Historical_SEP_table_429.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "FOIA Request Log - Compliance_SEP_table_723.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Cultural Affairs & Special Events_SEP_table_77.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "FOIA Request Log - Cultural Affairs - Historical_SEP_table_317.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Environment - Historical_SEP_table_462.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Ethics_SEP_table_662.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "FOIA Request Log - Family and Support Services_SEP_table_197.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 10
+ },
+ "FOIA Request Log - Finance_SEP_table_604.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Fire_SEP_table_44.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Fleet & Facility Management_SEP_table_376.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Fleet Management - Historical_SEP_table_199.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Graphics and Reproduction Center - Historical_SEP_table_325.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "FOIA Request Log - Health_SEP_table_348.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Housing_SEP_table_432.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "FOIA Request Log - Human Relations_SEP_table_454.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "FOIA Request Log - Human Resources_SEP_table_290.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Independent Police Review Authority_SEP_table_131.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Innovation and Technology_SEP_table_280.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Law_SEP_table_7.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "FOIA Request Log - License Appeal Commission_SEP_table_756.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "FOIA Request Log - Mayor's Office for People with Disabilities_SEP_table_510.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "FOIA Request Log - OEMC_SEP_table_359.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Office of the Mayor_SEP_table_438.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "FOIA Request Log - Planning and Development_SEP_table_521.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Police_SEP_table_30.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "FOIA Request Log - Procurement Services_SEP_table_574.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "FOIA Request Log - Public Building Commission_SEP_table_648.csv": {
+  "schema": 1,
+  "row": 3,
+  "contexts": 12
+ },
+ "FOIA Request Log - Revenue_SEP_table_597.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "FOIA Request Log - Special Events - Historical_SEP_table_684.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Streets & Sanitation_SEP_table_42.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "FOIA Request Log - Streets And Sanitation UPDATE THIS VERSION(1)_SEP_table_477.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 14
+ },
+ "FOIA Request Log - Transportation_SEP_table_332.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "FOIA Request Log - Water_SEP_table_693.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "FOIA Request Log - Zoning and Land Use Planning - Historical_SEP_table_729.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Family and Support Services Delegate Agencies_SEP_table_259.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Farmers Markets - 2012_SEP_table_715.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Farmers Markets - 2013_SEP_table_741.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Farmers Markets - 2015_SEP_table_357.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Financial Incentive Projects - (TIF-Funded) Economic Development_SEP_table_326.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 14
+ },
+ "Financial Incentive Projects - Neighborhood Opportunity Fund (NOF) Large_SEP_table_307.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 14
+ },
+ "Financial Incentive Projects - Neighborhood Opportunity Fund (NOF) Small_SEP_table_458.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "Financial Incentive Projects - Property Assessed Clean Energy (PACE)_SEP_table_511.csv": {
+  "schema": 3,
+  "row": 1,
+  "contexts": 12
+ },
+ "Financial Incentive Projects - Property Tax Abatement_SEP_table_301.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "Financial Incentive Projects - Small Business Improvement Fund (SBIF)_SEP_table_679.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Financial Incentive Projects - TIF Works_SEP_table_619.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Fire Stations_SEP_table_218.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Flu Shot Clinic Locations - 2012_SEP_table_627.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Flu Shot Clinic Locations - 2013_SEP_table_532.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Flu Shot Locations - 2014 - Present_SEP_table_798.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 13
+ },
+ "Food Inspections_SEP_table_591.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 17
+ },
+ "Foreclosed Rental Property_SEP_table_306.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "Green Roofs_SEP_table_419.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Grocery Store Status_SEP_table_208.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Grocery Stores - 2011_SEP_table_413.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Grocery Stores - 2013_SEP_table_169.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Halloweek On the Block Events_SEP_table_161.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Health Alert Network Alerts_SEP_table_269.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Healthy Chicago Equity Zones_SEP_table_373.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "High_School_Attendance_0607_SEP_table_683.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "High_School_Attendance_0708_SEP_table_43.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "High_School_Attendance_0809_SEP_table_630.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "High_School_Attendance_0910_SEP_table_404.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "High_School_Attendance_1011_SEP_table_716.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "High_School_Attendance_1112_SEP_table_541.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "High_School_Attendance_1213_SEP_table_661.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "High_School_Attendance_1314_SEP_table_699.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "High_School_Attendance_1819_SEP_table_755.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "High_School_Attendance_SY1718_SEP_table_299.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "House Share Prohibited Buildings List_SEP_table_21.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "House Share Registrations_SEP_table_776.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "House Share Restricted Residential Zone Precincts_SEP_table_238.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Hydro_SEP_table_557.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Individual Landmarks (Deprecated January 2024)_SEP_table_138.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Individual Landmarks_SEP_table_375.csv": {
+  "schema": 1,
+  "row": 3,
+  "contexts": 12
+ },
+ "Industrial_Corridors_SEP_table_287.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Influenza ICU Cases by Week and Demographic Medical Category_SEP_table_516.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 15
+ },
+ "Influenza Risk Level by ZIP Code_SEP_table_767.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Influenza Surveillance Weekly_SEP_table_339.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 14
+ },
+ "Influenza, COVID-19, RSV, and Other Respiratory Virus Laboratory Surveillance_SEP_table_751.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "InnovationZones_SEP_table_669.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "LSC_Voting_Districts_SY1617_SEP_table_12.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Landmark Districts_SEP_table_576.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Lending Equity - Commercial and Consumer Lending_SEP_table_365.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "Lending Equity - Depository Locations_SEP_table_231.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lending Equity - Residential Lending_SEP_table_170.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 20
+ },
+ "Lending Equity - Savings and Checking Accounts_SEP_table_183.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Libraries -  2015 Circulation by Location_SEP_table_720.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries -  2016 Circulation by Location_SEP_table_174.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2011 Children's Summer Reading Program_SEP_table_667.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Libraries - 2011 Circulation by Location_SEP_table_135.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2011 Computer Sessions by Location_SEP_table_433.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2011 Holds Filled by Location_SEP_table_764.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2011 Holds Placed by Location_SEP_table_205.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "Libraries - 2011 Visitors by Location_SEP_table_157.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "Libraries - 2012 Circulation by Location_SEP_table_388.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2012 Computer Sessions by Location_SEP_table_778.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2012 Holds Filled by Location_SEP_table_33.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2012 Holds Placed by Location_SEP_table_757.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2012 Visitors by Location_SEP_table_441.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2013 Circulation by Location_SEP_table_695.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2013 Computer Sessions by Location_SEP_table_496.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2013 Holds Filled by Location_SEP_table_233.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2013 Holds Placed by Location_SEP_table_132.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2013 Visitors by Location_SEP_table_390.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2014 Circulation by Location_SEP_table_671.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2014 Computer Sessions by Location_SEP_table_229.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2014 Holds Filled by Location_SEP_table_275.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2014 Holds Placed by Location_SEP_table_270.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "Libraries - 2014 Visitors by Location_SEP_table_709.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2014 Wi Fi Usage_SEP_table_127.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2015 Computer Sessions by Location_SEP_table_650.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2015 Holds Filled by Location_SEP_table_41.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2015 Holds Placed by Location_SEP_table_784.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2015 Visitors by Location_SEP_table_464.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2015 Wi Fi Usage_SEP_table_97.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2016 Computer Sessions by Location_SEP_table_603.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2016 Holds Filled by Location_SEP_table_498.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2016 Holds Placed by Location_SEP_table_666.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2016 Visitors by Location_SEP_table_24.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2016 Wi Fi Usage_SEP_table_787.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2017 Circulation by Location_SEP_table_104.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2017 Computer Sessions by Location_SEP_table_397.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2017 Holds Filled by Location_SEP_table_314.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2017 Holds Placed by Location_SEP_table_286.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2017 Visitors by Location_SEP_table_771.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2017 Wi Fi Usage_SEP_table_203.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2018 Circulation by Location_SEP_table_642.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2018 Computer Sessions by Location_SEP_table_59.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2018 Holds Filled by Location_SEP_table_700.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2018 Holds Placed  by Location_SEP_table_196.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2018 Visitors by Location_SEP_table_712.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2018 Wi Fi Usage_SEP_table_288.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2019 Circulation by Location_SEP_table_495.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2019 Computer Sessions by Location_SEP_table_520.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2019 Holds Filled by Location_SEP_table_381.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2019 Holds Placed by Location_SEP_table_439.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2019 Visitors by Location_SEP_table_151.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - 2019 Wi Fi Usage_SEP_table_333.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2020 Circulation by Location_SEP_table_430.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2020 Computer Sessions by Location_SEP_table_480.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2020 Holds Filled by Location_SEP_table_653.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2020 Holds Placed by Location_SEP_table_502.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2020 Visitors by Location_SEP_table_378.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2020 Wi Fi Usage_SEP_table_554.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2021 Circulation by Location_SEP_table_95.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2021 Computer Sessions by Location_SEP_table_533.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2021 Holds Filled by Location_SEP_table_407.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2021 Holds Placed by Location_SEP_table_793.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2021 Visitors by Location_SEP_table_23.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2021 Wi Fi Usage_SEP_table_130.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2022 Circulation by Location_SEP_table_58.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2022 Computer Sessions by Location_SEP_table_795.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2022 Holds Filled by Location_SEP_table_760.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2022 Holds Placed by Location_SEP_table_628.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Libraries - 2022 Visitors by Location_SEP_table_73.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2022 Wi Fi Usage_SEP_table_640.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2023 Circulation by Location_SEP_table_746.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2023 Computer Sessions by Location_SEP_table_175.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2023 Holds Filled by Location_SEP_table_735.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2023 Holds Placed by Location_SEP_table_178.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2023 Visitors by Location_SEP_table_446.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2023 Wi Fi Usage_SEP_table_331.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - 2024 Circulation by Location_SEP_table_90.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2024 Computer Sessions by Location_SEP_table_68.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2024 Holds Filled by Location_SEP_table_342.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2024 Holds Placed by Location_SEP_table_791.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Libraries - 2024 Visitors by Location_SEP_table_329.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Libraries - 2024 Wi Fi Usage_SEP_table_772.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - Locations,  Contact Information, and Usual Hours of Operation_SEP_table_209.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 10
+ },
+ "Libraries - Popular Fiction Titles at the Chicago Public Library_SEP_table_500.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - Popular Nonfiction Titles at the Chicago Public Library_SEP_table_467.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Libraries - Summer Reads for Adults_SEP_table_180.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Libraries - WiFi Usage (2011-2014)_SEP_table_474.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Life Safety Evaluations (Deprecated 2015)_SEP_table_20.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "List of Contractors Doing Business with the City Of Chicago_SEP_table_48.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Lobbyist Data - Clients_SEP_table_571.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Lobbyist Data - Compensation_SEP_table_116.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "Lobbyist Data - Contributions_SEP_table_542.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "Lobbyist Data - Employers_SEP_table_577.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Lobbyist Data - Expenditures - Hosting_SEP_table_210.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Lobbyist Data - Expenditures - Large_SEP_table_123.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Lobbyist Data - Expenditures - Small_SEP_table_79.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Lobbyist Data - Gifts_SEP_table_56.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Lobbyist Data - Historical - Lobbyist Agency Report - 2010_SEP_table_724.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Lobbyist Data - Historical - Lobbyist Categorized Expenditures Report - 2010_SEP_table_198.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Historical - Lobbyist Compensation Report - 2010_SEP_table_686.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Historical - Lobbyist Gift Report - 2010_SEP_table_315.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Historical - Lobbyist Major Expenditures Report - 2010_SEP_table_111.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Historical - Lobbyist Registry - 2010_SEP_table_575.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Historical - Lobbyist Registry - 2011_SEP_table_473.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "Lobbyist Data - Historical - Lobbyist Termination Report - 2010_SEP_table_423.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Lobbyist Data - Historical - Lobbyist Termination Report_SEP_table_625.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Lobbying Activity_SEP_table_76.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 14
+ },
+ "Lobbyist Data - Lobbyist Agency Report (Deprecated October 2015)_SEP_table_22.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 12
+ },
+ "Lobbyist Data - Lobbyist Categorized Expenditures Report (Deprecated October 2015)_SEP_table_236.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "Lobbyist Data - Lobbyist Compensation Report (Deprecated October 2015)_SEP_table_599.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Lobbyist Gift Report (Deprecated October 2015)_SEP_table_281.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Lobbyist Data - Lobbyist Major Expenditures Report (Deprecated October 2015)_SEP_table_565.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Lobbyist Data - Lobbyist Registry - 2012 to present (Deprecated October 2015)_SEP_table_483.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 16
+ },
+ "Lobbyist Data - Lobbyist, Employer, Client Combinations_SEP_table_651.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 13
+ },
+ "Lobbyist Data - Lobbyists_SEP_table_249.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "MMRP_AREAS_OCT2013_SEP_table_598.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Meningitis Vaccine Locations_SEP_table_35.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Micro-Market Recovery Program - Addresses_SEP_table_531.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 16
+ },
+ "Micro-Market Recovery Program - Cases_SEP_table_663.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 17
+ },
+ "Micro-Market Recovery Program - Permits_SEP_table_534.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 14
+ },
+ "Micro-Market Recovery Program - Violations and Inspections_SEP_table_225.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 17
+ },
+ "Middle_School_Attendance_0607_SEP_table_163.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Middle_School_Attendance_0708_SEP_table_347.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_0809_SEP_table_16.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_0910_SEP_table_264.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_1011_SEP_table_207.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_1112_SEP_table_336.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_1213_SEP_table_702.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Middle_School_Attendance_1314_SEP_table_616.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_1415_SEP_table_713.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "Middle_School_Attendance_1819_SEP_table_354.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Middle_School_Attendance_SY1718_SEP_table_167.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "Minority and Women Business Payments_SEP_table_188.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 9
+ },
+ "Mural Registry_SEP_table_596.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "My CHI. My Future. Programs_SEP_table_727.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 15
+ },
+ "Nearby Cook County Grocery Store Chains_SEP_table_581.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Nearby Independent Cook County Grocery Stores_SEP_table_240.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Neighborhood Health Clinics - Historical_SEP_table_234.csv": {
+  "schema": 1,
+  "row": 3,
+  "contexts": 11
+ },
+ "Ordinance Violations_SEP_table_118.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 17
+ },
+ "PRECINCTS_2012_SEP_table_380.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Parking Permit Zones_SEP_table_321.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 13
+ },
+ "Parks - Buildings (deprecated November 2016)_SEP_table_334.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Parks - Facilities & Features (deprecated November 2016)_SEP_table_38.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Parks - Locations (deprecated November 2016)_SEP_table_765.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 14
+ },
+ "Parks - Public Art_SEP_table_241.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Payments_SEP_table_40.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Performance Metrics - 311 Call Center_SEP_table_692.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 13
+ },
+ "Performance Metrics - Buildings - Time To Issue Green Permits_SEP_table_749.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Buildings - Time to Issue Developer Services Permits_SEP_table_748.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Buildings - Time to Issue Easy Permits_SEP_table_478.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Buildings - Time to Issue Standard Plan Review Program Permits_SEP_table_672.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Business Affairs & Consumer Protection - Business Licenses_SEP_table_391.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Business Affairs & Consumer Protection - Limited Business Licenses_SEP_table_181.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Performance Metrics - Business Affairs & Consumer Protection - Retail Food Licenses_SEP_table_320.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Performance Metrics - Chicago Park District - Comptroller Accounts Payable Aging_SEP_table_657.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Chicago Park District - Facilities Work Order Management_SEP_table_328.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Chicago Park District - Natural Resources Recycling_SEP_table_61.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Chicago Park District - Natural Resources Trees and Shrubs_SEP_table_54.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Chicago Park District - Park Security Checks_SEP_table_392.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "Performance Metrics - City Colleges of Chicago - Course Success Rates_SEP_table_292.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 9
+ },
+ "Performance Metrics - City Colleges of Chicago - Graduation Rates_SEP_table_633.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "Performance Metrics - Ethics - Lobbyists Completing Ethics Training_SEP_table_226.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Ethics - Lobbyists Registrations and Activity Reports Received, Reviewed and Made Available for Public Inspection_SEP_table_272.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Performance Metrics - Ethics - Mandatory Annual Ethics Training_SEP_table_460.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "Performance Metrics - Ethics - Statements Of Financial Interests Filed_SEP_table_2.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Family & Support Services - Childen Services Program Monthly Utilization_SEP_table_660.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Family & Support Services - Domestic Violence Service Help Line Monthly Utilization_SEP_table_665.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Family & Support Services - Homeless Shelter System Monthly Utilization_SEP_table_19.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Family & Support Services - Senior Services Nutrition Monthly Utilization_SEP_table_345.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Family & Support Services - Workforce Services Monthly Utilization_SEP_table_501.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Family & Support Services - Youth Services Program Monthly Utilization_SEP_table_29.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Housing & Economic Development - Affordable Multi Family Homes_SEP_table_455.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Housing & Economic Development - Landmark Permitting Review_SEP_table_276.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Housing & Economic Development - Single Family Homes_SEP_table_725.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Housing & Economic Development - Small Business Improvement Fund (SBIF)_SEP_table_346.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Housing & Economic Development - Zoning Permit Scheduling And Review_SEP_table_680.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Innovation & Technology - 311 Website Availability_SEP_table_128.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Innovation & Technology - City Website Availability_SEP_table_677.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Innovation & Technology - Map Chicago Website Availability_SEP_table_758.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Performance Metrics - Innovation & Technology - Site Availability_SEP_table_449.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Innovation & Technology - Zoning Map Website Availability_SEP_table_284.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Procurement Services - City Auctions_SEP_table_412.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Procurement Services - Task Order Request (TOR)_SEP_table_81.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Performance Metrics - Public Health - Immunization Program - Monthly Vaccine Distribution_SEP_table_319.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Public Health - Lead Inspections Performed_SEP_table_402.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Public Health - Percent Served at STI Specialty Clinics_SEP_table_37.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Public Health - School-Based Oral Health Programming_SEP_table_499.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Streets & Sanitation - Garbage Cart Requests_SEP_table_158.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Streets & Sanitation - Graffiti Removal_SEP_table_482.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Streets & Sanitation - Rodent Baiting_SEP_table_491.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Streets & Sanitation - Sanitation Code Complaints_SEP_table_697.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Streets & Sanitation - Tree Debris_SEP_table_688.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Transportation - Pavement Cave-ins_SEP_table_486.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Transportation - Pothole Repair_SEP_table_601.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Performance Metrics - Transportation - Stop Sign Out_SEP_table_572.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Transportation - Street Lights All Out_SEP_table_393.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Performance Metrics - Transportation - Traffic Lights Out_SEP_table_298.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Performance Metrics - Transportation_SEP_table_92.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Pharmacy Status_SEP_table_257.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 10
+ },
+ "Police ANOV Misdemeanor Report - ANOVs_SEP_table_457.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Police Sentiment Scores_SEP_table_202.csv": {
+  "schema": 8,
+  "row": 5,
+  "contexts": 18
+ },
+ "Police Stations_SEP_table_74.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "PoliceDistrictDec2012_SEP_table_435.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "Population by 2010 Census Block_SEP_table_279.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Potholes Patched_SEP_table_629.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Precincts2010_SEP_table_796.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Produce Carts_SEP_table_614.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Public Building Commission - Event Permits_SEP_table_260.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Public Chauffeurs_SEP_table_361.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "Public Health Department Events_SEP_table_150.csv": {
+  "schema": 1,
+  "row": 3,
+  "contexts": 12
+ },
+ "Public Health Services - Licensed Substance Abuse Treatment Providers in Chicago, 2011_SEP_table_560.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Public Health Services- Chicago Primary Care Community Health Centers_SEP_table_610.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Public Health Statistics - Asthma hospitalizations in Chicago, by year, 2000-2011 - Historical_SEP_table_242.csv": {
+  "schema": 12,
+  "row": 5,
+  "contexts": 11
+ },
+ "Public Health Statistics - Births and birth rates in Chicago, by year, 1999\u20132009 - Historical_SEP_table_190.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 10
+ },
+ "Public Health Statistics - Births to mothers aged 15-19 years old in Chicago, by year, 1999-2009 - Historical_SEP_table_606.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 12
+ },
+ "Public Health Statistics - Chlamydia cases among females aged 15-44 in Chicago, by year, 2000-2014 - Historical_SEP_table_730.csv": {
+  "schema": 8,
+  "row": 5,
+  "contexts": 14
+ },
+ "Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014 - Historical_SEP_table_733.csv": {
+  "schema": 8,
+  "row": 5,
+  "contexts": 13
+ },
+ "Public Health Statistics - Diabetes hospitalizations in Chicago, 2000-2011 - Historical_SEP_table_244.csv": {
+  "schema": 13,
+  "row": 5,
+  "contexts": 12
+ },
+ "Public Health Statistics - General fertility rates in Chicago, by year, 1999-2009 - Historical_SEP_table_362.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 11
+ },
+ "Public Health Statistics - Gonorrhea cases for females aged 15-44 in Chicago, by year, 2000-2014 - Historical_SEP_table_747.csv": {
+  "schema": 8,
+  "row": 5,
+  "contexts": 14
+ },
+ "Public Health Statistics - Infant mortality in Chicago, 2005\u20132009 - Historical_SEP_table_443.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 10
+ },
+ "Public Health Statistics - Life Expectancy By Community Area - Historical_SEP_table_732.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Public Health Statistics - Life Expectancy By Race Ethnicity - Historical_SEP_table_527.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 11
+ },
+ "Public Health Statistics - Low birth weight in Chicago, by year, 1999 \u2013 2009 - Historical_SEP_table_668.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 11
+ },
+ "Public Health Statistics - Prenatal care in Chicago, by year, 1999 \u2013 2009 - Historical_SEP_table_55.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 12
+ },
+ "Public Health Statistics - Preterm births in Chicago, by year, 1999 \u2013 2009 - Historical_SEP_table_539.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 12
+ },
+ "Public Health Statistics - Screening for elevated blood lead levels in children aged 0-6 years by year, Chicago, 1999-2013 - Historical_SEP_table_711.csv": {
+  "schema": 17,
+  "row": 5,
+  "contexts": 14
+ },
+ "Public Health Statistics - Selected public health indicators by Chicago community area - Historical_SEP_table_120.csv": {
+  "schema": 4,
+  "row": 3,
+  "contexts": 13
+ },
+ "Public Health Statistics - Selected underlying causes of death in Chicago, 2006\u20132010 - Historical_SEP_table_497.csv": {
+  "schema": 3,
+  "row": 2,
+  "contexts": 12
+ },
+ "Public Health Statistics - Tuberculosis cases and average annual incidence rate, Chicago, 2007-2011 - Historical_SEP_table_763.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 10
+ },
+ "Public Passenger Vehicle Chauffeur Survey - 2021_SEP_table_509.csv": {
+  "schema": 14,
+  "row": 5,
+  "contexts": 18
+ },
+ "Public Passenger Vehicle Inspection Schedule_SEP_table_14.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 14
+ },
+ "Public Passenger Vehicle Licenses_SEP_table_70.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "Public Right-of-Way Use Permits - Historical_SEP_table_620.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "Public Technology Resources_SEP_table_100.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Public health statistics - Gonorrhea cases for males aged 15-44 in Chicago, by year, 2000-2014 - Historical_SEP_table_340.csv": {
+  "schema": 8,
+  "row": 5,
+  "contexts": 13
+ },
+ "RecyclingDropoffSites_SEP_table_518.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "RecyclingServiceAreas_SEP_table_583.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "Red Light Camera Locations_SEP_table_593.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Red Light Camera Violations_SEP_table_775.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 13
+ },
+ "Registered Taxpayers_SEP_table_341.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Relocated Vehicles_SEP_table_309.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Restricted Flavored Tobacco Flavor Terms_SEP_table_278.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 9
+ },
+ "Restricted Flavored Tobacco Products_SEP_table_78.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Roadway Construction Moratoriums_SEP_table_63.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "SSA_SEP_table_394.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "SSA_SEP_table_416.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Safe Chicago Emergency Device Locations_SEP_table_113.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "School_Locations_1819_SEP_table_737.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "School_Locations_SY1718_SEP_table_266.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Schools (deprecated 2012)_SEP_table_670.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Senior Centers_SEP_table_590.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Sex Offenders_SEP_table_647.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Sidewalk Cafe Permits_SEP_table_372.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 13
+ },
+ "Smart Green Infrastructure Monitoring Sensors - Historical_SEP_table_636.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "Snow Alerts_SEP_table_494.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 8
+ },
+ "Snow Route Parking Restrictions_SEP_table_366.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "Socioeconomically Disadvantaged Areas_SEP_table_311.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "Special Vaccine Locations_SEP_table_701.csv": {
+  "schema": 3,
+  "row": 4,
+  "contexts": 12
+ },
+ "Speed Camera Locations_SEP_table_303.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Speed Camera Violations_SEP_table_428.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Strategic Subject List - Historical_SEP_table_125.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 21
+ },
+ "Street Sweeping Schedule - 2012_SEP_table_523.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Schedule - 2013_SEP_table_738.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2014_SEP_table_360.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Schedule - 2015 - April-May_SEP_table_232.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2015 - May-November_SEP_table_623.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2016_SEP_table_265.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Schedule - 2017_SEP_table_134.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Schedule - 2018_SEP_table_310.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2019_SEP_table_434.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Schedule - 2020_SEP_table_649.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2021_SEP_table_369.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Schedule - 2022_SEP_table_567.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2023_SEP_table_637.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Street Sweeping Schedule - 2024_SEP_table_137.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Street Sweeping Zones - 2020_SEP_table_612.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ },
+ "Street Sweeping Zones - 2021_SEP_table_422.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Street Sweeping Zones - 2022_SEP_table_377.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Street Sweeping Zones - 2023_SEP_table_615.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Street Sweeping Zones - 2024_SEP_table_444.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 12
+ },
+ "StreetSweeping022819_SEP_table_344.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Streetsweeping_2015A_SEP_table_206.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "TIF Balance Sheets - 2009_SEP_table_453.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "TIF Balances by Fiscal Year - 2001-2014_SEP_table_254.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "TIF District Programming - 2017-2021_SEP_table_595.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "TIF District Programming - 2018-2022_SEP_table_133.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "TIF District Programming - 2019-2023_SEP_table_589.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "TIF District Programming - 2020-2024_SEP_table_93.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "TIF District Programming - 2021-2025_SEP_table_780.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "TIF District Programming - 2022-2026_SEP_table_734.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "TIF Funding Sources and Uses by TIF, Fiscal Year, and Type - 1998-2014_SEP_table_706.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "TIF Status and Eligibility_SEP_table_156.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "TIFS_EXISTING_MAR2018_SEP_table_786.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "TIF_Districts2_SEP_table_105.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "TIFs_SEP_table_185.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "Tax Increment Financing (TIF) Annual Report - Analysis of Special Tax Allocation Fund_SEP_table_463.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 14
+ },
+ "Tax Increment Financing (TIF) Annual Report - Itemized List of Expenditures from the Special Tax Allocation Fund_SEP_table_115.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 12
+ },
+ "Tax Increment Financing (TIF) Annual Report - Job and Increment Creation_SEP_table_469.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Tax Increment Financing (TIF) Annual Report - List of Vendors paid in excess of $10,000_SEP_table_159.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Tax Increment Financing (TIF) Annual Report - New Redevelopment Agreements_SEP_table_17.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Tax Increment Financing (TIF) Annual Report - Projects_SEP_table_726.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 11
+ },
+ "Tax Increment Financing (TIF) Annual Report - Properties Acquired Sold by City_SEP_table_204.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Tax Increment Financing (TIF) Funded RDA and IGA Projects_SEP_table_608.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Tax Increment Financing (TIF) Investment Committee Decisions_SEP_table_117.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 13
+ },
+ "Taxi Medallion Transfers_SEP_table_406.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 12
+ },
+ "Taxi Trips (2013-2023)_SEP_table_586.csv": {
+  "schema": 2,
+  "row": 4,
+  "contexts": 15
+ },
+ "Taxi Trips (2024-)_SEP_table_659.csv": {
+  "schema": 3,
+  "row": 4,
+  "contexts": 15
+ },
+ "Towed Vehicles_SEP_table_273.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Town Hall Answers_SEP_table_488.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 10
+ },
+ "Traffic Crashes - Crashes_SEP_table_400.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 15
+ },
+ "Traffic Crashes - People_SEP_table_18.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 19
+ },
+ "Traffic Crashes - Vehicles_SEP_table_515.csv": {
+  "schema": 7,
+  "row": 5,
+  "contexts": 18
+ },
+ "Traffic Crashes - Vision Zero Chicago Traffic Fatalities_SEP_table_201.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Transportation Department Permits_SEP_table_98.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 18
+ },
+ "Transportation Network Providers - Drivers_SEP_table_46.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 13
+ },
+ "Transportation Network Providers - Trips (2018 - 2022)_SEP_table_109.csv": {
+  "schema": 3,
+  "row": 3,
+  "contexts": 17
+ },
+ "Transportation Network Providers - Trips (2023-)_SEP_table_60.csv": {
+  "schema": 3,
+  "row": 5,
+  "contexts": 15
+ },
+ "Transportation Network Providers - Vehicles_SEP_table_82.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 14
+ },
+ "Transportation_SEP_table_573.csv": {
+  "schema": 7,
+  "row": 5,
+  "contexts": 17
+ },
+ "Units2006_07_SEP_table_312.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Units2007_08_SEP_table_384.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Units2008_09_SEP_table_91.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Units2009_10_SEP_table_297.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 12
+ },
+ "Units2010_11_SEP_table_792.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Units2011_12_SEP_table_108.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Units2012_13_SEP_table_566.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Units2013_14_SEP_table_223.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Urban Farms_SEP_table_343.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 10
+ },
+ "Vacant and Abandoned Buildings - Violations_SEP_table_8.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 16
+ },
+ "Vendor Payments - New Arrivals_SEP_table_549.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 12
+ },
+ "Veteran Owned Businesses_SEP_table_609.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "Violence Reduction - Shotspotter Alerts_SEP_table_282.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 14
+ },
+ "Violence Reduction - Victim Demographics - Aggregated_SEP_table_368.csv": {
+  "schema": 2,
+  "row": 1,
+  "contexts": 14
+ },
+ "Violence Reduction - Victims of Homicides and Non-Fatal Shootings_SEP_table_646.csv": {
+  "schema": 4,
+  "row": 5,
+  "contexts": 16
+ },
+ "Ward Offices (Deprecated May 2015)_SEP_table_471.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Ward Offices_SEP_table_367.csv": {
+  "schema": 2,
+  "row": 3,
+  "contexts": 12
+ },
+ "Warming Centers_SEP_table_86.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "Water Exemptions_SEP_table_143.csv": {
+  "schema": 1,
+  "row": 1,
+  "contexts": 11
+ },
+ "West Nile Virus (WNV) Mosquito Test Results_SEP_table_632.csv": {
+  "schema": 2,
+  "row": 2,
+  "contexts": 14
+ },
+ "Winter Overnight Parking Restrictions_SEP_table_36.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "Workforce Centers_SEP_table_364.csv": {
+  "schema": 1,
+  "row": 2,
+  "contexts": 11
+ },
+ "Zoning_SEP_table_774.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 14
+ },
+ "buildings_SEP_table_145.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 18
+ },
+ "buildings_SEP_table_67.csv": {
+  "schema": 5,
+  "row": 5,
+  "contexts": 17
+ },
+ "cps_safe_passage_2014_SEP_table_526.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "layer_0_SEP_table_641.csv": {
+  "schema": 1,
+  "row": 4,
+  "contexts": 8
+ },
+ "layer_1_SEP_table_94.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "safepassage2017_18_FINAL_SEP_table_504.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 11
+ },
+ "safepassage_buffer_SEP_table_168.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "safepassage_route_SEP_table_324.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "streetsweeping2013_SEP_table_294.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 12
+ },
+ "streetsweeping2014v2_SEP_table_271.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 13
+ },
+ "sweepingsections_SEP_table_214.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "sweepingsections_SEP_table_363.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "sweepingsections_SEP_table_551.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 10
+ },
+ "tifs_SEP_table_437.csv": {
+  "schema": 2,
+  "row": 5,
+  "contexts": 11
+ },
+ "transportation_SEP_table_719.csv": {
+  "schema": 6,
+  "row": 5,
+  "contexts": 17
+ },
+ "transportation_SEP_table_794.csv": {
+  "schema": 7,
+  "row": 5,
+  "contexts": 17
+ },
+ "zoning_2016_01_SEP_table_154.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 12
+ },
+ "zoning_pedstreet_SEP_table_506.csv": {
+  "schema": 1,
+  "row": 5,
+  "contexts": 9
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "chembl_10K/artifacts/nlseeker.ini": {
+    "size": 2109,
+    "sha256": "98e9ba2be6406fa48257987fa6f44ee2409bf96ed19a894901784026e3873a40"
+  },
+  "chembl_10K/documents.json": {
+    "size": 6861,
+    "sha256": "e18920246b2c9a5faeb9657cc5b7cd93cdc852b9946b8a7fe5e635ec73e4b1d7"
+  },
+  "chembl_10K/documents_shared.json": {
+    "size": 6861,
+    "sha256": "ef21535ef4313ec0a5daacf873899d75adad2f5f4d6e42ffad294f2463be7f4e"
+  },
+  "chembl_10K/per_query.jsonl": {
+    "size": 74856566,
+    "sha256": "1a917d6ebeb7a271f2ab3fce504ce9ccfe0637e2d91fdc6bbdc88f558e5e7d0b"
+  },
+  "chembl_10K/texts.json": {
+    "size": 2135783,
+    "sha256": "7efc58220d570eb6de8dc2be3e1d90e7110e1e14bfd17b2c2faaeb5d7240033f"
+  }
+}

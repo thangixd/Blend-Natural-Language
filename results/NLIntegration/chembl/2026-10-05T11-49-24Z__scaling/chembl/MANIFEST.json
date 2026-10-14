@@ -1,0 +1,14 @@
+{
+  "chembl/nl_runs_scaling_chembl.jsonl": {
+    "size": 201573,
+    "sha256": "ea9e812c35117ed900a58770e48b650b2d44a3d414b7e189e5173c9162231dde"
+  },
+  "chembl/provenance_scaling_chembl.json": {
+    "size": 8485,
+    "sha256": "f2f13c70381af433ef7dd29adfc725f1fff30f6efc63a58e9c00aab73e362572"
+  },
+  "chembl/scaling_chembl.jsonl": {
+    "size": 122,
+    "sha256": "c1b8079f1503a7a59846c3571df7103a1832e6f787eb888a3bbead6f71706930"
+  }
+}

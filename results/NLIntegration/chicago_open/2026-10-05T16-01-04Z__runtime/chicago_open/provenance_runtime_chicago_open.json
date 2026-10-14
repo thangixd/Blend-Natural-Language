@@ -1,0 +1,199 @@
+{
+  "experiment": "runtime",
+  "started_utc": "2026-10-06T09:04:06.928676+00:00",
+  "command": "/app/benchmarks/nl_integration/runtime.py --resume data/Evaluation/NLIntegration/2026-10-05T16-01-04Z__runtime.partial",
+  "args": {
+    "seed": "0",
+    "fake_endpoints": "False",
+    "inputs": "200",
+    "questions": "100",
+    "repeats": "3",
+    "memory_limit_gb": "50.0",
+    "time_limit_min": "10.0",
+    "k": "[5, 10, 20]",
+    "n": "[3, 5, 10]",
+    "prefix_cache": "False",
+    "lake": "chicago_open",
+    "results": "/app/data/Evaluation/NLIntegration",
+    "resume": "data/Evaluation/NLIntegration/2026-10-05T16-01-04Z__runtime.partial",
+    "min_free_gb": "5.0",
+    "out": "data/Evaluation/NLIntegration/2026-10-05T16-01-04Z__runtime.partial/chicago_open"
+  },
+  "git_commit": null,
+  "git_status_measured_code": null,
+  "lake_ini": "config/chicago_open.ini",
+  "db_path": "[(25587, 'chicago_open', '/app/data/indexes/chicago_open.db')]",
+  "nl": {
+    "index_name": "chicago_open",
+    "schema": "nl_chicago_open",
+    "llm_base_url": "http://127.0.0.1:8001/v1",
+    "llm_model": "Qwen2.5-7B-Instruct",
+    "llm_temperature": 0.0,
+    "llm_max_new_tokens": 512,
+    "llm_context_length": 32768,
+    "llm_concurrency": 1,
+    "llm_retry_attempts": 5,
+    "llm_tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+    "embedding_base_url": "http://127.0.0.1:8002/v1",
+    "embedding_model": "bge-base-en-v1.5",
+    "embedding_max_tokens": 512,
+    "embedding_batch_size": 256,
+    "embedding_tokenizer": "BAAI/bge-base-en-v1.5",
+    "alpha": 0.5,
+    "n": 5
+  },
+  "index_code": "3be72f371216",
+  "index_manifest": {
+    "data/indexes/chicago_open.db": {
+      "size": 4517015552,
+      "sha256": "dd734e4e63c6cabd81d43ca219bb98ddd939d6fb45d5454bfd2e11bb22411c14"
+    },
+    "data/indexes/chicago_open/blend.ini": {
+      "size": 2160,
+      "sha256": "fe9495d93d58e2323940218e116d974917e7286fa13d15732b8f0fac29c8febc"
+    },
+    "data/indexes/chicago_open/build_blend.json": {
+      "size": 2945,
+      "sha256": "475f896ac08a8967b87a42da79c7cba468a8612d7dbb1381198287f598d9c99e"
+    },
+    "data/indexes/chicago_open/build_pneuma.json": {
+      "size": 3726,
+      "sha256": "a73de94e61e3742736d399fc16f5ea1c004f38790dddc5b90dc7feb80af37fb6"
+    },
+    "data/indexes/chicago_open/metadata.csv": {
+      "size": 21095558,
+      "sha256": "119224e7e274111fdf9c812a466ffcaec2dc47952e2daa732bab49075457a74f"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 44004213,
+      "sha256": "98c075b4f36a089d3e3c037a441fd54176d47540db050ef19e44044b839cdb52"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 129027,
+      "sha256": "c984dc0f5973911b21946d0800e557257883c9749e64993d7e3dd1326f8100f9"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 8383616,
+      "sha256": "5581f520ed60619ece7aeb90cf7689f2d01f2145c6451bd6a4060fb77ec68888"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 8383616,
+      "sha256": "a869607dd83717e46efa57507f8f78791849073d0b9471510dc886227b1297b5"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 2780028,
+      "sha256": "f177e6f9c3d3c9fc593f8f08df54850dff097eef4d071357c85649e20fa1df15"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/params.index.json": {
+      "size": 200,
+      "sha256": "1000570a6797eb2f3a4793de6e6577c1b53e6467557001cbcdf132d77d29a83d"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/fulltext/parity/vocab.index.json": {
+      "size": 17808345,
+      "sha256": "04970c0dee4fc1cab513378281e717d6fe979a67aa5a043d705b3449869661c0"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/vector/49a36690-90ff-448a-b689-579d8e8f1ebc/data_level0.bin": {
+      "size": 45084000,
+      "sha256": "4be27a9a20e39f9864c1d076e82cbf0ff45178d3e5e4ef4f2a74265b8746b81e"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/vector/49a36690-90ff-448a-b689-579d8e8f1ebc/header.bin": {
+      "size": 100,
+      "sha256": "fdfc84202dc98e7c1a2a8dc6bba13716488e5bff988279dbefc5fe9e82111082"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/vector/49a36690-90ff-448a-b689-579d8e8f1ebc/index_metadata.pickle": {
+      "size": 2025988,
+      "sha256": "aa7c4e41780902d31ad869ef50e2aa3d300bbe50449cc37134ef4f33c06ac46e"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/vector/49a36690-90ff-448a-b689-579d8e8f1ebc/length.bin": {
+      "size": 52000,
+      "sha256": "b58ab765e103183877f7a25d3ed257c7b780588884d51c21b2227aeaa717f33f"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/vector/49a36690-90ff-448a-b689-579d8e8f1ebc/link_lists.bin": {
+      "size": 114524,
+      "sha256": "e1d0769781a2e7f12d9e38fc096bac25d394b30255b6f9096e9d34e42510aab4"
+    },
+    "data/indexes/chicago_open/pneuma/indexes/vector/chroma.sqlite3": {
+      "size": 371580928,
+      "sha256": "ebec6cf947ff2663090c93ab426821d5a792d10518c0f0aae523602fc472dddf"
+    },
+    "data/indexes/chicago_open/pneuma/metadata.csv": {
+      "size": 22173481,
+      "sha256": "4ebeb0a932d0dd7536d1b000925a569794c0667caf49f89e91fbc4064cee9fa9"
+    },
+    "data/indexes/chicago_open/pneuma/storage.db": {
+      "size": 887369728,
+      "sha256": "0d755f507b94aaca95566b4b096bf0db9fa083dbb0830f5a539df41efed550e6"
+    },
+    "data/indexes/chicago_open/pneuma.ini": {
+      "size": 2160,
+      "sha256": "ab9e079f41841fb3256074736b7afd1537ad9006c197ff69d93b72775e658c4d"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/corpus.jsonl": {
+      "size": 44569340,
+      "sha256": "90d04136b90bcc435ea1543daf260b40d1568afaa6776b819962c2a2f3abfe38"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/corpus.mmindex.json": {
+      "size": 128947,
+      "sha256": "26bf9157bae8209dbbb114e92413500ccc858d41c14657670f1cb4c110d7c42f"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/data.csc.index.npy": {
+      "size": 8500736,
+      "sha256": "d7d2da7c478b2de0f55695df5c2506e0e2721fe0747fcaa28d8140b538b30822"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/indices.csc.index.npy": {
+      "size": 8500736,
+      "sha256": "dda1e61bf27e681ad5e037c0d1c6e906ad67ceb877594424541b1a3ff7877b5b"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/indptr.csc.index.npy": {
+      "size": 2848456,
+      "sha256": "14947747ce50a8ffcb7bd65c22b8e34a0a643191470116a8e9471a91f5b29f82"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/params.index.json": {
+      "size": 200,
+      "sha256": "c26684462dfa0542dc1516cfbffe20bc384bbf736454c295cfea386efb2a7f34"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/fulltext/parity/vocab.index.json": {
+      "size": 18253954,
+      "sha256": "5e4e5ff96127ebfc3d1ecd005e1248c30df5e9bb8248fa137828bbcd4780f13c"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/vector/b96d0ffb-67ce-453b-a72d-72631c5fc2cd/data_level0.bin": {
+      "size": 45084000,
+      "sha256": "45ff908c6121dd3da77f13d1c879de488e514e643ec9666227ee2a3a865637d7"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/vector/b96d0ffb-67ce-453b-a72d-72631c5fc2cd/header.bin": {
+      "size": 100,
+      "sha256": "cbab784e70393bbbfa18b5a855816e36321ee6f95ee1b35db1e456aaf0da32c2"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/vector/b96d0ffb-67ce-453b-a72d-72631c5fc2cd/index_metadata.pickle": {
+      "size": 2025980,
+      "sha256": "48732c6fca7787859c7a2ff213934584d6766a80f3a54231637044d474264df1"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/vector/b96d0ffb-67ce-453b-a72d-72631c5fc2cd/length.bin": {
+      "size": 52000,
+      "sha256": "493e4e8759f679425f23939ba7d2081951c7ad7ef153375116e1f444c0f058dd"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/vector/b96d0ffb-67ce-453b-a72d-72631c5fc2cd/link_lists.bin": {
+      "size": 114524,
+      "sha256": "cbd4a3657413d63bb225c56e526883d32a9892863560b75f8b896af4ea7598ad"
+    },
+    "data/indexes/chicago_open/pneuma_shared/indexes/vector/chroma.sqlite3": {
+      "size": 374702080,
+      "sha256": "251af5a6983e3a6f507108f753a002e2e5625ea4e003820164d6440ea75aa7c8"
+    },
+    "data/indexes/chicago_open/pneuma_shared/storage.db": {
+      "size": 869281792,
+      "sha256": "5e06555c79cffa0a6dc9424d84b59f4483f021364e6fc453fe1d95c1fb424dc9"
+    },
+    "data/indexes/chicago_open/texts_blend.json": {
+      "size": 42404739,
+      "sha256": "5c0191a69b97b13c1e036aa9dcf72723b9cc0c07d651ac0bcd8798a02ac6c68f"
+    },
+    "data/indexes/chicago_open/texts_pneuma.json": {
+      "size": 41837621,
+      "sha256": "16d0b3cc166dd6f89e6ec5424e28c834e849afb8390d317b78e00ef806ef6c26"
+    }
+  },
+  "python": "3.12.12",
+  "duckdb": "1.5.5",
+  "machine": "Linux-6.1.0-34-amd64-x86_64-with-glibc2.41"
+}

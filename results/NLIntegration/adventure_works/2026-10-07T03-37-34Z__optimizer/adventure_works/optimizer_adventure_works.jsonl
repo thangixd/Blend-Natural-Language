@@ -1,0 +1,200 @@
+{"kind": "SC+SC", "table": 49, "first_column": "6", "second_column": "0", "keywords": null, "own": [], "forward": [2, 15, 19, 49, 81], "reverse": []}
+{"kind": "SC+SC", "table": 33, "first_column": "4", "second_column": "3", "keywords": null, "own": [11], "forward": [11], "reverse": [11, 33, 45, 47, 62]}
+{"kind": "SC+SC", "table": 51, "first_column": "6", "second_column": "2", "keywords": null, "own": [0, 6], "forward": [0, 6, 14, 22, 28, 37], "reverse": [0, 6]}
+{"kind": "SC+SC", "table": 61, "first_column": "2", "second_column": "4", "keywords": null, "own": [], "forward": [], "reverse": [61]}
+{"kind": "SC+SC", "table": 27, "first_column": "2", "second_column": "0", "keywords": null, "own": [], "forward": [27], "reverse": []}
+{"kind": "SC+SC", "table": 36, "first_column": "1", "second_column": "0", "keywords": null, "own": [], "forward": [36, 42, 78, 79], "reverse": []}
+{"kind": "SC+SC", "table": 79, "first_column": "3", "second_column": "7", "keywords": null, "own": [1, 2, 3, 5, 9, 11, 13, 16], "forward": [1, 2, 3, 5, 9, 11, 13, 16], "reverse": [1, 2, 3, 5, 9, 11, 13, 16]}
+{"kind": "SC+SC", "table": 77, "first_column": "1", "second_column": "2", "keywords": null, "own": [36, 42, 77, 79], "forward": [36, 42, 77, 79], "reverse": [36, 42, 77, 79]}
+{"kind": "SC+SC", "table": 12, "first_column": "2", "second_column": "0", "keywords": null, "own": [7, 12], "forward": [7, 12], "reverse": [7, 12]}
+{"kind": "SC+SC", "table": 87, "first_column": "3", "second_column": "5", "keywords": null, "own": [26, 69, 70, 71, 72, 84, 87], "forward": [26, 69, 70, 71, 72, 75, 84, 87], "reverse": [26, 69, 70, 71, 72, 84, 87]}
+{"kind": "SC+SC", "table": 71, "first_column": "11", "second_column": "3", "keywords": null, "own": [71, 72], "forward": [1, 71, 72], "reverse": [71, 72]}
+{"kind": "SC+SC", "table": 55, "first_column": "2", "second_column": "1", "keywords": null, "own": [55], "forward": [55], "reverse": [55]}
+{"kind": "SC+SC", "table": 70, "first_column": "7", "second_column": "9", "keywords": null, "own": [69, 70], "forward": [69, 70], "reverse": [69, 70]}
+{"kind": "SC+SC", "table": 66, "first_column": "2", "second_column": "0", "keywords": null, "own": [5, 9, 11], "forward": [1, 2, 3, 5, 9, 11, 13], "reverse": [5, 9, 11, 16, 24, 45, 62]}
+{"kind": "SC+SC", "table": 70, "first_column": "0", "second_column": "1", "keywords": null, "own": [], "forward": [], "reverse": [26, 69, 70, 71, 72, 75, 81, 84]}
+{"kind": "SC+SC", "table": 51, "first_column": "5", "second_column": "6", "keywords": null, "own": [], "forward": [51], "reverse": []}
+{"kind": "SC+SC", "table": 63, "first_column": "5", "second_column": "3", "keywords": null, "own": [19, 32, 62, 63], "forward": [19, 26, 32, 62, 63], "reverse": [19, 32, 62, 63]}
+{"kind": "SC+SC", "table": 41, "first_column": "1", "second_column": "2", "keywords": null, "own": [3, 5, 9, 11, 16], "forward": [3, 5, 9, 11, 16, 24, 35, 41], "reverse": [2, 3, 5, 9, 11, 16]}
+{"kind": "SC+SC", "table": 72, "first_column": "15", "second_column": "9", "keywords": null, "own": [62, 63, 67], "forward": [1, 5, 45, 62, 63, 67, 72], "reverse": [2, 26, 62, 63, 67]}
+{"kind": "SC+SC", "table": 18, "first_column": "4", "second_column": "3", "keywords": null, "own": [1, 3], "forward": [1, 3, 9, 16, 17], "reverse": [1, 3]}
+{"kind": "SC+SC", "table": 11, "first_column": "0", "second_column": "2", "keywords": null, "own": [11], "forward": [11], "reverse": [11]}
+{"kind": "SC+SC", "table": 65, "first_column": "7", "second_column": "0", "keywords": null, "own": [3, 4, 9, 16], "forward": [3, 4, 9, 16, 44], "reverse": [3, 4, 9, 11, 16, 24, 43]}
+{"kind": "SC+SC", "table": 38, "first_column": "2", "second_column": "3", "keywords": null, "own": [15, 38], "forward": [15, 38], "reverse": [15, 38]}
+{"kind": "SC+SC", "table": 15, "first_column": "4", "second_column": "13", "keywords": null, "own": [15], "forward": [15, 42, 47], "reverse": [15]}
+{"kind": "SC+SC", "table": 69, "first_column": "2", "second_column": "8", "keywords": null, "own": [69, 70], "forward": [69, 70], "reverse": [69, 70]}
+{"kind": "SC+SC", "table": 70, "first_column": "9", "second_column": "4", "keywords": null, "own": [69, 70], "forward": [69, 70], "reverse": [69, 70]}
+{"kind": "SC+SC", "table": 56, "first_column": "0", "second_column": "4", "keywords": null, "own": [], "forward": [], "reverse": [56]}
+{"kind": "SC+SC", "table": 49, "first_column": "5", "second_column": "3", "keywords": null, "own": [49], "forward": [49, 81], "reverse": [49]}
+{"kind": "SC+SC", "table": 37, "first_column": "1", "second_column": "5", "keywords": null, "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "SC+SC", "table": 23, "first_column": "0", "second_column": "2", "keywords": null, "own": [23], "forward": [23], "reverse": [23]}
+{"kind": "SC+SC", "table": 60, "first_column": "1", "second_column": "0", "keywords": null, "own": [1, 2, 3, 5, 9, 11, 13], "forward": [1, 2, 3, 5, 9, 11, 13, 60, 82], "reverse": [1, 2, 3, 5, 9, 11, 13, 16]}
+{"kind": "SC+SC", "table": 86, "first_column": "2", "second_column": "8", "keywords": null, "own": [83, 86], "forward": [83, 86], "reverse": [83, 86]}
+{"kind": "SC+SC", "table": 4, "first_column": "0", "second_column": "3", "keywords": null, "own": [4], "forward": [4], "reverse": [4]}
+{"kind": "SC+SC", "table": 67, "first_column": "4", "second_column": "8", "keywords": null, "own": [2], "forward": [2, 15, 19, 22, 26, 32], "reverse": [2]}
+{"kind": "SC+SC", "table": 30, "first_column": "1", "second_column": "2", "keywords": null, "own": [30], "forward": [30], "reverse": [30]}
+{"kind": "SC+SC", "table": 75, "first_column": "7", "second_column": "3", "keywords": null, "own": [75], "forward": [75], "reverse": [75]}
+{"kind": "SC+SC", "table": 35, "first_column": "3", "second_column": "1", "keywords": null, "own": [9, 11, 16, 24], "forward": [1, 3, 9, 11, 16, 23, 24, 25], "reverse": [9, 11, 16, 24, 30, 35]}
+{"kind": "SC+SC", "table": 84, "first_column": "8", "second_column": "3", "keywords": null, "own": [72, 84], "forward": [72, 84], "reverse": [72, 84]}
+{"kind": "SC+SC", "table": 10, "first_column": "1", "second_column": "0", "keywords": null, "own": [10, 26], "forward": [10, 26], "reverse": [10, 26]}
+{"kind": "SC+SC", "table": 62, "first_column": "5", "second_column": "3", "keywords": null, "own": [19, 32, 62, 63], "forward": [19, 26, 32, 42, 62, 63], "reverse": [19, 32, 62, 63, 76]}
+{"kind": "SC+SC", "table": 31, "first_column": "0", "second_column": "1", "keywords": null, "own": [31], "forward": [31], "reverse": [31]}
+{"kind": "SC+SC", "table": 14, "first_column": "1", "second_column": "3", "keywords": null, "own": [14], "forward": [14, 50], "reverse": [14]}
+{"kind": "SC+SC", "table": 21, "first_column": "2", "second_column": "1", "keywords": null, "own": [], "forward": [21], "reverse": []}
+{"kind": "SC+SC", "table": 7, "first_column": "0", "second_column": "2", "keywords": null, "own": [7, 8, 10], "forward": [7, 8, 10, 53, 60, 64], "reverse": [7, 8, 10]}
+{"kind": "SC+SC", "table": 28, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [28]}
+{"kind": "SC+SC", "table": 87, "first_column": "1", "second_column": "0", "keywords": null, "own": [], "forward": [65, 86, 87], "reverse": []}
+{"kind": "SC+SC", "table": 15, "first_column": "6", "second_column": "11", "keywords": null, "own": [15], "forward": [15], "reverse": [15]}
+{"kind": "SC+SC", "table": 77, "first_column": "4", "second_column": "0", "keywords": null, "own": [], "forward": [30, 77], "reverse": []}
+{"kind": "SC+SC", "table": 50, "first_column": "0", "second_column": "1", "keywords": null, "own": [], "forward": [], "reverse": [26, 50, 72, 87]}
+{"kind": "SC+SC", "table": 14, "first_column": "0", "second_column": "2", "keywords": null, "own": [14], "forward": [14], "reverse": [14, 69, 70, 74]}
+{"kind": "SC+SC", "table": 2, "first_column": "3", "second_column": "2", "keywords": null, "own": [1, 2, 9, 16], "forward": [1, 2, 9, 16, 23, 25, 26], "reverse": [1, 2, 9, 16]}
+{"kind": "SC+SC", "table": 15, "first_column": "3", "second_column": "11", "keywords": null, "own": [15], "forward": [15], "reverse": [15]}
+{"kind": "SC+SC", "table": 7, "first_column": "2", "second_column": "0", "keywords": null, "own": [7, 8, 10], "forward": [7, 8, 10], "reverse": [7, 8, 10, 53, 60, 64]}
+{"kind": "SC+SC", "table": 69, "first_column": "5", "second_column": "8", "keywords": null, "own": [69, 70], "forward": [69, 70], "reverse": [69, 70]}
+{"kind": "SC+SC", "table": 12, "first_column": "1", "second_column": "0", "keywords": null, "own": [12], "forward": [12], "reverse": [12]}
+{"kind": "SC+SC", "table": 28, "first_column": "0", "second_column": "2", "keywords": null, "own": [], "forward": [], "reverse": [28]}
+{"kind": "SC+SC", "table": 38, "first_column": "2", "second_column": "1", "keywords": null, "own": [], "forward": [15, 19, 38, 42], "reverse": []}
+{"kind": "SC+SC", "table": 23, "first_column": "0", "second_column": "3", "keywords": null, "own": [23], "forward": [23], "reverse": [23]}
+{"kind": "SC+SC", "table": 5, "first_column": "2", "second_column": "0", "keywords": null, "own": [5], "forward": [5], "reverse": [5]}
+{"kind": "SC+SC", "table": 50, "first_column": "1", "second_column": "3", "keywords": null, "own": [], "forward": [50], "reverse": []}
+{"kind": "SC+SC", "table": 45, "first_column": "6", "second_column": "8", "keywords": null, "own": [1, 2, 33, 42, 45, 47, 62, 63, 76], "forward": [1, 2, 33, 42, 45, 47, 62, 63, 76], "reverse": [1, 2, 33, 42, 45, 47, 62, 63, 76]}
+{"kind": "SC+SC", "table": 21, "first_column": "1", "second_column": "0", "keywords": null, "own": [1, 3, 5, 9, 11, 13], "forward": [1, 3, 5, 9, 11, 13, 16, 17], "reverse": [1, 2, 3, 5, 9, 11, 13]}
+{"kind": "SC+SC", "table": 86, "first_column": "2", "second_column": "8", "keywords": null, "own": [83, 86], "forward": [83, 86], "reverse": [83, 86]}
+{"kind": "SC+SC", "table": 43, "first_column": "7", "second_column": "3", "keywords": null, "own": [1, 2, 3, 5, 9, 11, 13, 16, 24], "forward": [1, 2, 3, 5, 9, 11, 13, 16, 24], "reverse": [1, 2, 3, 5, 9, 11, 13, 16, 24]}
+{"kind": "SC+SC", "table": 15, "first_column": "5", "second_column": "3", "keywords": null, "own": [15], "forward": [15], "reverse": [15]}
+{"kind": "SC+SC", "table": 85, "first_column": "10", "second_column": "0", "keywords": null, "own": [], "forward": [85], "reverse": []}
+{"kind": "SC+SC", "table": 60, "first_column": "6", "second_column": "4", "keywords": null, "own": [60], "forward": [60], "reverse": [60]}
+{"kind": "SC+SC", "table": 65, "first_column": "4", "second_column": "5", "keywords": null, "own": [15, 19, 42, 47, 60, 65, 76, 82], "forward": [15, 19, 42, 47, 60, 65, 76, 82], "reverse": [15, 19, 42, 47, 60, 65, 76, 82]}
+{"kind": "SC+SC", "table": 45, "first_column": "5", "second_column": "3", "keywords": null, "own": [0, 1, 2, 3, 5, 6], "forward": [0, 1, 2, 3, 5, 6], "reverse": [0, 1, 2, 3, 5, 6]}
+{"kind": "SC+SC", "table": 19, "first_column": "0", "second_column": "15", "keywords": null, "own": [1, 3, 9, 16], "forward": [1, 3, 9, 16], "reverse": [1, 3, 9, 16, 18, 19, 23, 24]}
+{"kind": "SC+SC", "table": 10, "first_column": "1", "second_column": "0", "keywords": null, "own": [10, 26], "forward": [10, 26], "reverse": [10, 26]}
+{"kind": "SC+SC", "table": 69, "first_column": "3", "second_column": "10", "keywords": null, "own": [69], "forward": [69], "reverse": [69]}
+{"kind": "SC+SC", "table": 30, "first_column": "3", "second_column": "1", "keywords": null, "own": [], "forward": [], "reverse": [30]}
+{"kind": "SC+SC", "table": 78, "first_column": "17", "second_column": "6", "keywords": null, "own": [], "forward": [], "reverse": [78]}
+{"kind": "SC+SC", "table": 45, "first_column": "8", "second_column": "9", "keywords": null, "own": [45], "forward": [45], "reverse": [45]}
+{"kind": "SC+SC", "table": 16, "first_column": "2", "second_column": "3", "keywords": null, "own": [16], "forward": [16], "reverse": [16]}
+{"kind": "SC+SC", "table": 53, "first_column": "1", "second_column": "0", "keywords": null, "own": [], "forward": [53, 60, 71, 72, 81, 82], "reverse": []}
+{"kind": "SC+SC", "table": 76, "first_column": "11", "second_column": "8", "keywords": null, "own": [19, 76], "forward": [15, 19, 42, 47, 60, 76], "reverse": [19, 76]}
+{"kind": "SC+SC", "table": 42, "first_column": "13", "second_column": "15", "keywords": null, "own": [42], "forward": [42], "reverse": [19, 26, 32, 42, 76]}
+{"kind": "SC+SC", "table": 28, "first_column": "3", "second_column": "1", "keywords": null, "own": [28], "forward": [28], "reverse": [28]}
+{"kind": "SC+SC", "table": 86, "first_column": "6", "second_column": "0", "keywords": null, "own": [], "forward": [86], "reverse": []}
+{"kind": "SC+SC", "table": 51, "first_column": "6", "second_column": "5", "keywords": null, "own": [], "forward": [], "reverse": [51]}
+{"kind": "SC+SC", "table": 72, "first_column": "5", "second_column": "1", "keywords": null, "own": [26, 69, 70, 71, 72, 84, 87], "forward": [26, 69, 70, 71, 72, 84, 87], "reverse": [26, 69, 70, 71, 72, 84, 87]}
+{"kind": "SC+SC", "table": 21, "first_column": "3", "second_column": "0", "keywords": null, "own": [], "forward": [21, 75], "reverse": []}
+{"kind": "SC+SC", "table": 33, "first_column": "1", "second_column": "3", "keywords": null, "own": [11], "forward": [11], "reverse": [11, 33, 42, 45, 47, 62]}
+{"kind": "SC+SC", "table": 67, "first_column": "7", "second_column": "8", "keywords": null, "own": [1, 3, 9, 11], "forward": [1, 3, 9, 11, 16, 23, 24, 25], "reverse": [1, 3, 9, 11]}
+{"kind": "SC+SC", "table": 77, "first_column": "0", "second_column": "4", "keywords": null, "own": [], "forward": [], "reverse": [30, 77]}
+{"kind": "SC+SC", "table": 63, "first_column": "5", "second_column": "4", "keywords": null, "own": [26], "forward": [26, 63], "reverse": [26]}
+{"kind": "SC+SC", "table": 59, "first_column": "0", "second_column": "5", "keywords": null, "own": [1, 3, 9, 11], "forward": [1, 3, 9, 11], "reverse": [1, 3, 9, 11, 16, 23, 24, 25]}
+{"kind": "SC+SC", "table": 24, "first_column": "2", "second_column": "0", "keywords": null, "own": [9, 16, 23, 24, 25], "forward": [3, 9, 16, 23, 24, 25, 26, 45], "reverse": [9, 11, 16, 23, 24, 25]}
+{"kind": "SC+SC", "table": 16, "first_column": "0", "second_column": "3", "keywords": null, "own": [16], "forward": [16], "reverse": [16]}
+{"kind": "SC+SC", "table": 86, "first_column": "6", "second_column": "5", "keywords": null, "own": [1, 8, 26, 71, 72, 81, 83, 86], "forward": [1, 8, 26, 60, 71, 72, 81, 83, 86], "reverse": [1, 8, 26, 71, 72, 81, 83, 86]}
+{"kind": "SC+SC", "table": 0, "first_column": "1", "second_column": "0", "keywords": null, "own": [0], "forward": [0, 27, 72, 75], "reverse": [0]}
+{"kind": "SC+SC", "table": 0, "first_column": "0", "second_column": "3", "keywords": null, "own": [0, 6], "forward": [0, 6], "reverse": [0, 6, 14, 22, 28, 37]}
+{"kind": "SC+SC", "table": 15, "first_column": "5", "second_column": "6", "keywords": null, "own": [15], "forward": [15], "reverse": [15]}
+{"kind": "SC+SC", "table": 25, "first_column": "2", "second_column": "1", "keywords": null, "own": [], "forward": [], "reverse": [25, 71, 72, 81, 84, 87]}
+{"kind": "SC+SC", "table": 23, "first_column": "0", "second_column": "3", "keywords": null, "own": [23], "forward": [23], "reverse": [23]}
+{"kind": "SC+SC", "table": 50, "first_column": "0", "second_column": "3", "keywords": null, "own": [6], "forward": [6], "reverse": [0, 6, 14, 22, 28, 37]}
+{"kind": "SC+SC", "table": 35, "first_column": "3", "second_column": "0", "keywords": null, "own": [1, 3, 9, 11, 16], "forward": [1, 3, 9, 11, 16, 23, 24, 25], "reverse": [1, 3, 9, 11, 16]}
+{"kind": "SC+SC", "table": 32, "first_column": "1", "second_column": "5", "keywords": null, "own": [], "forward": [], "reverse": [32]}
+{"kind": "KW+SC", "table": 66, "first_column": "8", "second_column": "9", "keywords": ["4.1", "4", "3.5"], "own": [1, 2, 3, 5, 9, 11, 66], "forward": [1, 2, 3, 5, 9, 11, 66], "reverse": [1, 2, 3, 5, 9, 11, 13, 66]}
+{"kind": "KW+SC", "table": 35, "first_column": "0", "second_column": "3", "keywords": ["18", "21", "30"], "own": [1, 3, 9, 11, 16], "forward": [1, 3, 9, 11, 16], "reverse": [1, 3, 9, 11, 16, 23, 24, 25]}
+{"kind": "KW+SC", "table": 33, "first_column": "4", "second_column": "2", "keywords": ["2012-05-29 00:00:00", "2013-05-29 00:00:00", "2012-05-29 00:00:00"], "own": [1, 3, 9, 11, 16, 17, 23, 24, 25], "forward": [1, 3, 9, 11, 16, 17, 23, 24, 25], "reverse": [1, 3, 9, 11, 16, 17, 23, 24, 25]}
+{"kind": "KW+SC", "table": 77, "first_column": "3", "second_column": "4", "keywords": ["th", "th", "en"], "own": [77], "forward": [77], "reverse": [77]}
+{"kind": "KW+SC", "table": 68, "first_column": "13", "second_column": "14", "keywords": ["this is secondary email address.", "do not send e-mails for urgent issues. use telephone instead.", "do not send e-mail for urgent issues. use telephone instead."], "own": [68], "forward": [68], "reverse": [68]}
+{"kind": "KW+SC", "table": 1, "first_column": "2", "second_column": "8", "keywords": ["kreditorenbuchhaltung", "unit h", "# 101"], "own": [1], "forward": [1], "reverse": [1]}
+{"kind": "KW+SC", "table": 47, "first_column": "6", "second_column": "10", "keywords": ["true", "true", "true"], "own": [47], "forward": [47, 76], "reverse": [47]}
+{"kind": "KW+SC", "table": 4, "first_column": "0", "second_column": "2", "keywords": ["524", "522", "614"], "own": [1, 2, 3, 4, 5, 9, 11], "forward": [1, 2, 3, 4, 5, 9, 11, 13], "reverse": [1, 2, 3, 4, 5, 9, 11]}
+{"kind": "KW+SC", "table": 37, "first_column": "2", "second_column": "3", "keywords": ["silver_pedal_small.gif", "julianax_r_02_gold_small.gif", "superlight_black_f_small.gif"], "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "KW+SC", "table": 14, "first_column": "3", "second_column": "2", "keywords": ["2008-04-30 00:00:00", "2008-04-30 00:00:00", "2008-04-30 00:00:00"], "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "KW+SC", "table": 39, "first_column": "2", "second_column": "6", "keywords": ["john smith", "david", "jill"], "own": [39], "forward": [39], "reverse": [39]}
+{"kind": "KW+SC", "table": 42, "first_column": "17", "second_column": "20", "keywords": ["u", "u", "u"], "own": [], "forward": [42], "reverse": []}
+{"kind": "KW+SC", "table": 61, "first_column": "3", "second_column": "2", "keywords": ["<storesurvey xmlns=http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/storesurvey><annualsales>300000</annualsales><annualrevenue>30000</annualrevenue><bankname>international security</ban", "<storesurvey xmlns=http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/storesurvey><annualsales>1500000</annualsales><annualrevenue>150000</annualrevenue><bankname>guardian bank</bankname><", "<storesurvey xmlns=http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/storesurvey><annualsales>800000</annualsales><annualrevenue>80000</annualrevenue><bankname>international security</ban"], "own": [], "forward": [61], "reverse": []}
+{"kind": "KW+SC", "table": 14, "first_column": "3", "second_column": "1", "keywords": ["2008-04-30 00:00:00", "2008-04-30 00:00:00", "2008-04-30 00:00:00"], "own": [14], "forward": [14], "reverse": [14, 50]}
+{"kind": "KW+SC", "table": 87, "first_column": "10", "second_column": "9", "keywords": ["frank8@adventure-works.com", "marie0@adventure-works.com", "paulo1@adventure-works.com"], "own": [87], "forward": [87], "reverse": [87]}
+{"kind": "KW+SC", "table": 81, "first_column": "10", "second_column": "14", "keywords": ["0", "1", "0"], "own": [], "forward": [26], "reverse": [1, 60, 71, 72, 81, 82]}
+{"kind": "KW+SC", "table": 1, "first_column": "1", "second_column": "6", "keywords": ["903 west i st", "1788 camino verde", "25600 e st andrews pl"], "own": [1], "forward": [1], "reverse": [1]}
+{"kind": "KW+SC", "table": 57, "first_column": "3", "second_column": "4", "keywords": ["874", "862", "881"], "own": [], "forward": [], "reverse": [57]}
+{"kind": "KW+SC", "table": 10, "first_column": "1", "second_column": "0", "keywords": ["french", "chinese", "arabic"], "own": [10, 26], "forward": [10, 26], "reverse": [10, 26]}
+{"kind": "KW+SC", "table": 55, "first_column": "1", "second_column": "2", "keywords": ["day", "night", "evening"], "own": [55], "forward": [55], "reverse": [55]}
+{"kind": "KW+SC", "table": 67, "first_column": "7", "second_column": "3", "keywords": ["2011-07-08 00:00:00", "2012-02-07 00:00:00", "2012-02-07 00:00:00"], "own": [1, 3, 9, 11, 16, 23, 24], "forward": [1, 3, 9, 11, 16, 23, 24, 25, 26], "reverse": [1, 3, 9, 11, 16, 23, 24]}
+{"kind": "KW+SC", "table": 32, "first_column": "1", "second_column": "5", "keywords": ["60", "60", "50"], "own": [], "forward": [], "reverse": [32]}
+{"kind": "KW+SC", "table": 18, "first_column": "0", "second_column": "1", "keywords": ["147", "138", "13"], "own": [1, 2, 9, 16, 17, 18], "forward": [1, 2, 3, 9, 11, 16, 17, 18], "reverse": [1, 2, 9, 16, 17, 18, 23, 25, 26]}
+{"kind": "KW+SC", "table": 69, "first_column": "10", "second_column": "1", "keywords": ["2011-07-30", "2011-08-31", "2009-07-14"], "own": [69], "forward": [69], "reverse": [69]}
+{"kind": "KW+SC", "table": 72, "first_column": "4", "second_column": "5", "keywords": ["martin", "raje", "wang"], "own": [26, 69, 70, 71, 72, 84], "forward": [26, 69, 70, 71, 72, 84], "reverse": [26, 69, 70, 71, 72, 84]}
+{"kind": "KW+SC", "table": 41, "first_column": "6", "second_column": "9", "keywords": ["1", "1", "1"], "own": [], "forward": [], "reverse": [41]}
+{"kind": "KW+SC", "table": 69, "first_column": "8", "second_column": "2", "keywords": ["manufacturing", "manufacturing", "manufacturing"], "own": [69, 70], "forward": [69, 70], "reverse": [69, 70]}
+{"kind": "KW+SC", "table": 40, "first_column": "2", "second_column": "0", "keywords": ["chains", "bib-shorts", "tights"], "own": [], "forward": [40], "reverse": []}
+{"kind": "KW+SC", "table": 77, "first_column": "1", "second_column": "3", "keywords": ["ll road frame - red, 62", "ll road pedal", "hl fork"], "own": [77], "forward": [77], "reverse": [77]}
+{"kind": "KW+SC", "table": 60, "first_column": "1", "second_column": "6", "keywords": ["22", "73", "17"], "own": [], "forward": [], "reverse": [60]}
+{"kind": "KW+SC", "table": 8, "first_column": "0", "second_column": "2", "keywords": ["ir", "md", "ae"], "own": [7, 8], "forward": [7, 8, 60], "reverse": [7, 8]}
+{"kind": "KW+SC", "table": 57, "first_column": "2", "second_column": "1", "keywords": ["3", "4", "7"], "own": [1, 3, 5, 13, 16], "forward": [1, 3, 5, 9, 13, 16], "reverse": [1, 3, 5, 13, 16, 23, 24, 25]}
+{"kind": "KW+SC", "table": 64, "first_column": "1", "second_column": "0", "keywords": ["centimeter", "decimeter", "cubic meters"], "own": [64], "forward": [64], "reverse": [64]}
+{"kind": "KW+SC", "table": 76, "first_column": "1", "second_column": "8", "keywords": ["-3.96", "67.82", "37.7"], "own": [76], "forward": [76], "reverse": [76]}
+{"kind": "KW+SC", "table": 37, "first_column": "4", "second_column": "5", "keywords": ["clipless_pedals_large.gif", "frame_red_large.gif", "superlight_yellow_large.gif"], "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "KW+SC", "table": 77, "first_column": "4", "second_column": "1", "keywords": ["suitable for any type of riding, on or off-road. fits any budget. smooth-shifting with a comfortable ride.", "\u0e40\u0e1f\u0e23\u0e21\u0e2d\u0e25\u0e39\u0e21\u0e34\u0e40\u0e19\u0e35\u0e22\u0e21\u0e04\u0e38\u0e13\u0e20\u0e32\u0e1e\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14\u0e41\u0e25\u0e30\u0e19\u0e49\u0e33\u0e2b\u0e19\u0e31\u0e01\u0e40\u0e1a\u0e32\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e08\u0e32\u0e01\u0e2d\u0e31\u0e25\u0e25\u0e2d\u0e22\u0e14\u0e4c\u0e0a\u0e19\u0e34\u0e14\u0e43\u0e2b\u0e21\u0e48 \u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e2b\u0e25\u0e2d\u0e21\u0e41\u0e25\u0e30\u0e43\u0e2b\u0e49\u0e04\u0e27\u0e32\u0e21\u0e23\u0e49\u0e2d\u0e19\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e41\u0e01\u0e23\u0e48\u0e07  \u0e14\u0e49\u0e27\u0e22\u0e19\u0e27\u0e31\u0e15\u0e01\u0e23\u0e23\u0e21\u0e01\u0e32\u0e23\u0e2d\u0e2d\u0e01\u0e41\u0e1a\u0e1a \u0e17\u0e33\u0e43\u0e2b\u0e49\u0e21\u0e35\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e1a\u0e32\u0e22\u0e41\u0e25\u0e30\u0e1b\u0e23\u0e30\u0e2a\u0e34\u0e17\u0e18\u0e34\u0e20\u0e32\u0e1e\u0e2a\u0e39\u0e07\u0e43\u0e19\u0e40\u0e27\u0e25\u0e32\u0e40\u0e14\u0e35\u0e22\u0e27\u0e01\u0e31\u0e19", "chromoly steel."], "own": [77], "forward": [77], "reverse": [77]}
+{"kind": "KW+SC", "table": 23, "first_column": "2", "second_column": "4", "keywords": ["gpycl+0=", "t1p94/s=", "5wppcfo="], "own": [23], "forward": [23], "reverse": [23]}
+{"kind": "KW+SC", "table": 33, "first_column": "2", "second_column": "3", "keywords": ["2013-05-29 00:00:00", "2012-05-29 00:00:00", "2013-05-29 00:00:00"], "own": [11], "forward": [11], "reverse": [11, 33, 42, 45, 47, 62]}
+{"kind": "KW+SC", "table": 82, "first_column": "1", "second_column": "6", "keywords": ["ri", "qld", "tn"], "own": [8, 60, 82], "forward": [8, 60, 82], "reverse": [8, 60, 82]}
+{"kind": "KW+SC", "table": 7, "first_column": "0", "second_column": "1", "keywords": ["ie", "ch", "jp"], "own": [7], "forward": [7], "reverse": [7]}
+{"kind": "KW+SC", "table": 77, "first_column": "0", "second_column": "1", "keywords": ["909", "915", "745"], "own": [], "forward": [], "reverse": [42, 77]}
+{"kind": "KW+SC", "table": 78, "first_column": "21", "second_column": "2", "keywords": ["unisex", "unisex", "unisex"], "own": [78], "forward": [78], "reverse": [78]}
+{"kind": "KW+SC", "table": 60, "first_column": "2", "second_column": "0", "keywords": ["fr", "fr", "us"], "own": [], "forward": [35, 53, 60, 73, 74, 75, 82], "reverse": []}
+{"kind": "KW+SC", "table": 16, "first_column": "2", "second_column": "0", "keywords": ["bruce39@adventure-works.com", "michael23@adventure-works.com", "amber22@adventure-works.com"], "own": [16], "forward": [16, 72], "reverse": [16]}
+{"kind": "KW+SC", "table": 44, "first_column": "11", "second_column": "3", "keywords": ["762.9456", "31817.5358", "39111.4474"], "own": [], "forward": [44], "reverse": []}
+{"kind": "KW+SC", "table": 7, "first_column": "2", "second_column": "1", "keywords": ["2014-02-08 10:17:21.510000", "2014-02-08 10:17:21.510000", "2014-02-08 10:17:21.510000"], "own": [7], "forward": [7], "reverse": [7]}
+{"kind": "KW+SC", "table": 83, "first_column": "1", "second_column": "4", "keywords": ["bike goods", "tubeless tire company", "downtown hotel"], "own": [83], "forward": [83], "reverse": [83]}
+{"kind": "KW+SC", "table": 87, "first_column": "1", "second_column": "6", "keywords": ["integrated sport products", "competition bike training systems", "electronic bike repair & supplies"], "own": [87], "forward": [87], "reverse": [87]}
+{"kind": "KW+SC", "table": 56, "first_column": "2", "second_column": "1", "keywords": ["21.95", "29.95", "8.99"], "own": [56], "forward": [56], "reverse": [56]}
+{"kind": "KW+SC", "table": 9, "first_column": "0", "second_column": "5", "keywords": ["10053", "10026", "101"], "own": [3, 9, 16, 23, 24, 25, 26], "forward": [3, 9, 11, 16, 23, 24, 25, 26], "reverse": [1, 3, 9, 16, 23, 24, 25, 26, 45]}
+{"kind": "KW+SC", "table": 66, "first_column": "8", "second_column": "7", "keywords": ["3", "3", "3"], "own": [1, 3, 9, 11], "forward": [1, 3, 9, 11], "reverse": [1, 3, 9, 11, 16, 23, 24, 25, 26]}
+{"kind": "KW+SC", "table": 11, "first_column": "6", "second_column": "5", "keywords": ["2013-10-30 00:00:00", "2013-10-27 00:00:00", "2013-10-29 00:00:00"], "own": [1, 3, 9, 11], "forward": [1, 3, 9, 11, 16, 23, 24], "reverse": [1, 3, 9, 11]}
+{"kind": "KW+SC", "table": 67, "first_column": "6", "second_column": "8", "keywords": ["2012-02-07 00:00:00", "2012-02-15 00:00:00", "2012-02-05 00:00:00"], "own": [1, 3, 9, 11], "forward": [1, 3, 9, 11, 16, 23, 24, 25], "reverse": [1, 3, 9, 11]}
+{"kind": "KW+SC", "table": 54, "first_column": "2", "second_column": "1", "keywords": ["2008-04-30 00:00:00", "2008-04-30 00:00:00", "2008-04-30 00:00:00"], "own": [], "forward": [], "reverse": [54]}
+{"kind": "KW+SC", "table": 53, "first_column": "1", "second_column": "9", "keywords": ["france", "central", "northwest"], "own": [8], "forward": [8, 53, 60], "reverse": [8]}
+{"kind": "KW+SC", "table": 57, "first_column": "3", "second_column": "5", "keywords": ["862", "881", "874"], "own": [], "forward": [], "reverse": [57]}
+{"kind": "KW+SC", "table": 32, "first_column": "0", "second_column": "2", "keywords": ["969", "972", "986"], "own": [1], "forward": [1], "reverse": [1, 26, 32, 84]}
+{"kind": "KW+SC", "table": 3, "first_column": "2", "second_column": "4", "keywords": ["2", "2", "2"], "own": [1, 3, 9], "forward": [1, 3, 4, 9, 11], "reverse": [1, 3, 9, 16, 23, 24, 25, 26, 45, 46]}
+{"kind": "KW+SC", "table": 46, "first_column": "0", "second_column": "2", "keywords": ["44660", "43697", "56891"], "own": [], "forward": [45, 46, 47, 62, 66], "reverse": []}
+{"kind": "KW+SC", "table": 86, "first_column": "1", "second_column": "0", "keywords": ["first rate bicycles", "signature cycles", "northern bike travel"], "own": [], "forward": [65, 86, 87], "reverse": []}
+{"kind": "KW+SC", "table": 3, "first_column": "4", "second_column": "1", "keywords": ["2013-03-16 00:00:00", "2012-06-07 00:00:00", "2014-04-09 00:00:00"], "own": [1, 3, 16, 45], "forward": [1, 3, 16, 23, 24, 25, 26, 45], "reverse": [1, 3, 16, 45, 62, 67]}
+{"kind": "KW+SC", "table": 14, "first_column": "3", "second_column": "1", "keywords": ["2008-04-30 00:00:00", "2008-04-30 00:00:00", "2008-04-30 00:00:00"], "own": [14], "forward": [14], "reverse": [14, 50]}
+{"kind": "KW+SC", "table": 26, "first_column": "2", "second_column": "9", "keywords": ["false", "false", "false"], "own": [26], "forward": [26], "reverse": [26]}
+{"kind": "KW+SC", "table": 81, "first_column": "18", "second_column": "13", "keywords": ["north america", "north america", "north america"], "own": [81], "forward": [81], "reverse": [81]}
+{"kind": "KW+SC", "table": 68, "first_column": "2", "second_column": "13", "keywords": ["j.", "b.", "r."], "own": [68], "forward": [68], "reverse": [68]}
+{"kind": "KW+SC", "table": 28, "first_column": "2", "second_column": "3", "keywords": ["c657828d-d808-4aba-91a3-af2ce02300e9", "cfbda25c-df71-47a7-b81b-64ee161aa37c", "10a7c342-ca82-48d4-8a38-46a2eb089b74"], "own": [28], "forward": [28], "reverse": [28]}
+{"kind": "KW+SC", "table": 37, "first_column": "2", "second_column": "3", "keywords": ["awc_tee_male_small.gif", "hotrodbike_red_small.gif", "julianax_r_02_gold_small.gif"], "own": [37], "forward": [37], "reverse": [37]}
+{"kind": "KW+SC", "table": 76, "first_column": "0", "second_column": "3", "keywords": ["10810", "10883", "10816"], "own": [], "forward": [], "reverse": [76]}
+{"kind": "KW+SC", "table": 53, "first_column": "4", "second_column": "8", "keywords": ["4772398.3078", "3072175.118", "5012905.3656"], "own": [53], "forward": [53], "reverse": [53]}
+{"kind": "KW+SC", "table": 38, "first_column": "2", "second_column": "0", "keywords": ["true", "true", "true"], "own": [38], "forward": [15, 38, 42, 47, 76], "reverse": [38]}
+{"kind": "KW+SC", "table": 7, "first_column": "1", "second_column": "2", "keywords": ["ars", "iep", "plz"], "own": [7, 12], "forward": [7, 12], "reverse": [7, 12]}
+{"kind": "KW+SC", "table": 41, "first_column": "6", "second_column": "2", "keywords": ["1", "1", "1"], "own": [1, 2, 3, 5, 6, 9, 11, 13], "forward": [1, 2, 3, 5, 6, 9, 11, 13], "reverse": [1, 2, 3, 5, 6, 9, 11, 13, 16]}
+{"kind": "KW+SC", "table": 11, "first_column": "1", "second_column": "0", "keywords": ["2013-10-25 00:00:00", "2013-10-23 00:00:00", "2013-10-28 00:00:00"], "own": [9, 11, 16, 24, 45], "forward": [3, 9, 11, 16, 23, 24, 25, 26, 45], "reverse": [9, 11, 16, 24, 45, 67]}
+{"kind": "KW+SC", "table": 77, "first_column": "1", "second_column": "3", "keywords": ["ll touring seat/saddle", "hl mountain handlebars", "ll touring frame - blue, 54"], "own": [77], "forward": [77], "reverse": [77]}
+{"kind": "KW+SC", "table": 53, "first_column": "6", "second_column": "2", "keywords": ["0", "0", "0"], "own": [], "forward": [], "reverse": [53]}
+{"kind": "KW+SC", "table": 66, "first_column": "10", "second_column": "3", "keywords": ["92.25", "92.25", "36.75"], "own": [], "forward": [66], "reverse": []}
+{"kind": "KW+SC", "table": 11, "first_column": "3", "second_column": "1", "keywords": ["brl", "ars", "jpy"], "own": [11], "forward": [11], "reverse": [11]}
+{"kind": "KW+SC", "table": 57, "first_column": "4", "second_column": "3", "keywords": ["2013-11-09 17:54:07.603000", "2013-11-09 17:54:07.603000", "2013-11-09 17:54:07.603000"], "own": [], "forward": [57], "reverse": []}
+{"kind": "KW+SC", "table": 14, "first_column": "2", "second_column": "3", "keywords": ["quality assurance", "inventory management", "research and development"], "own": [14], "forward": [14], "reverse": [14]}
+{"kind": "KW+SC", "table": 60, "first_column": "1", "second_column": "5", "keywords": ["70", "il", "39"], "own": [1, 2, 3, 5, 9, 11, 13], "forward": [1, 2, 3, 5, 9, 11, 13], "reverse": [1, 2, 3, 5, 9, 11, 13]}
+{"kind": "KW+SC", "table": 69, "first_column": "5", "second_column": "3", "keywords": ["jr.", "iii"], "own": [26, 69, 70, 71, 72, 84], "forward": [26, 69, 70, 71, 72, 84, 87], "reverse": [26, 69, 70, 71, 72, 84]}
+{"kind": "KW+SC", "table": 34, "first_column": "2", "second_column": "0", "keywords": ["2014-01-09 14:41:02.167000", "2014-01-09 14:41:02.183000", "2014-01-09 14:41:02.183000"], "own": [], "forward": [34], "reverse": []}
+{"kind": "KW+SC", "table": 67, "first_column": "9", "second_column": "6", "keywords": ["2012-02-07 00:00:00", "2012-02-15 00:00:00", "2012-02-07 00:00:00"], "own": [1, 3, 9, 11, 16, 23, 24, 25, 26], "forward": [1, 3, 9, 11, 16, 23, 24, 25, 26], "reverse": [1, 3, 9, 11, 16, 23, 24, 25, 26]}
+{"kind": "KW+SC", "table": 32, "first_column": "2", "second_column": "6", "keywords": ["c", "c", "r"], "own": [32], "forward": [1, 26, 32], "reverse": [32]}
+{"kind": "KW+SC", "table": 76, "first_column": "1", "second_column": "0", "keywords": ["-19.5", "-21.49", "1551.99"], "own": [], "forward": [76], "reverse": []}
+{"kind": "KW+SC", "table": 68, "first_column": "3", "second_column": "11", "keywords": ["adams", "acevedo", "abercrombie"], "own": [68], "forward": [68], "reverse": [68]}
+{"kind": "KW+SC", "table": 8, "first_column": "1", "second_column": "2", "keywords": ["morocco", "norway", "saint kitts and nevis"], "own": [8], "forward": [8], "reverse": [8]}
+{"kind": "KW+SC", "table": 73, "first_column": "5", "second_column": "7", "keywords": ["\u673a\u68b0\u5de5\u7a0b", "business", "industrial engineering"], "own": [73], "forward": [73], "reverse": [73]}
+{"kind": "KW+SC", "table": 52, "first_column": "5", "second_column": "4", "keywords": ["2011-05-24 00:00:00", "2012-05-23 00:00:00", "2012-09-23 00:00:00"], "own": [52], "forward": [52], "reverse": [52]}
+{"kind": "KW+SC", "table": 56, "first_column": "2", "second_column": "4", "keywords": ["9.95", "8.99", "3.95"], "own": [56], "forward": [56], "reverse": [56]}
+{"kind": "KW+SC", "table": 15, "first_column": "2", "second_column": "9", "keywords": ["lubrication maintenance", "maintenance", "installing replacement pedals"], "own": [], "forward": [15], "reverse": []}
+{"kind": "KW+SC", "table": 53, "first_column": "3", "second_column": "7", "keywords": ["europe", "pacific", "north america"], "own": [], "forward": [53, 81], "reverse": []}
+{"kind": "KW+SC", "table": 63, "first_column": "0", "second_column": "7", "keywords": ["110003", "200011", "200081"], "own": [45, 63], "forward": [45, 63], "reverse": [45, 63]}
+{"kind": "KW+SC", "table": 63, "first_column": "0", "second_column": "3", "keywords": ["100100", "200036", "110005"], "own": [63], "forward": [45, 63], "reverse": [63]}
+{"kind": "KW+SC", "table": 50, "first_column": "0", "second_column": "2", "keywords": ["2", "10", "7"], "own": [14], "forward": [14], "reverse": [14, 50, 69, 70]}
+{"kind": "KW+SC", "table": 0, "first_column": "2", "second_column": "0", "keywords": ["b84f78b1-4efe-4a0e-8cb7-70e9f112f886", "b29da3f8-19a3-47da-9daa-15c84f4a83a5", "a67f238a-5ba2-444b-966c-0467ed9c427f"], "own": [0], "forward": [0], "reverse": [0]}
+{"kind": "KW+SC", "table": 34, "first_column": "2", "second_column": "1", "keywords": ["2014-01-09 14:41:02.183000", "2014-01-09 14:41:02.167000", "2014-01-09 14:41:02.200000"], "own": [], "forward": [34], "reverse": []}
+{"kind": "KW+SC", "table": 73, "first_column": "12", "second_column": "11", "keywords": ["orlando", "\u0e2a\u0e32\u0e21\u0e1e\u0e23\u0e32\u0e19", "\u0e23\u0e31\u0e07\u0e2a\u0e34\u0e15"], "own": [73, 74, 75], "forward": [73, 74, 75], "reverse": [73, 74, 75]}
+{"kind": "KW+SC", "table": 42, "first_column": "2", "second_column": "13", "keywords": ["ln-8320", "lw-3800", "pa-529s"], "own": [42], "forward": [42], "reverse": [42]}
+{"kind": "KW+SC", "table": 87, "first_column": "4", "second_column": "10", "keywords": ["sean", "lorraine", "william"], "own": [87], "forward": [87], "reverse": [87]}

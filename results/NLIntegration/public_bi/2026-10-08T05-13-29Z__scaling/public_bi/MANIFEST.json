@@ -1,0 +1,14 @@
+{
+  "public_bi/nl_runs_scaling_public_bi.jsonl": {
+    "size": 225704,
+    "sha256": "06d32bd304b0ec48cdd88e4b138b3d67bc8ae586839293009d8d31328694420c"
+  },
+  "public_bi/provenance_scaling_public_bi.json": {
+    "size": 8640,
+    "sha256": "07f318797d05f974f520bba57b41a1e36fdecf6d09c51c13434b4681baf065aa"
+  },
+  "public_bi/scaling_public_bi.jsonl": {
+    "size": 122,
+    "sha256": "27620a7bdc164050ac491bf62f170e76f568697b0526cd9836c696953e2fce9b"
+  }
+}

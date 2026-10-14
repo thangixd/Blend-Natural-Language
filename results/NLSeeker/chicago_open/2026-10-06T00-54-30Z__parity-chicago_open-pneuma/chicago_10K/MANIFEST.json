@@ -1,0 +1,22 @@
+{
+  "chicago_10K/artifacts/nlseeker.ini": {
+    "size": 2133,
+    "sha256": "d14d88f32a9ef6f30679fb21e1ca00a64a73034130474c69fd6252a76275be0d"
+  },
+  "chicago_10K/documents.json": {
+    "size": 93690,
+    "sha256": "05911adaf02529778eab7491623988a5af7dd7504fd29217130f1219722c222a"
+  },
+  "chicago_10K/documents_shared.json": {
+    "size": 93690,
+    "sha256": "d7701d12955fead611697dca5cfee0dd647b23d0ebaecdcf5e9f3fb6e00d3cd3"
+  },
+  "chicago_10K/per_query.jsonl": {
+    "size": 141207659,
+    "sha256": "37f09ebdccf3c16d03d930e5df291c462046089dcbfbc37242c09fc4bdc6d11d"
+  },
+  "chicago_10K/texts.json": {
+    "size": 41837621,
+    "sha256": "16d0b3cc166dd6f89e6ec5424e28c834e849afb8390d317b78e00ef806ef6c26"
+  }
+}

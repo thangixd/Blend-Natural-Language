@@ -1,0 +1,22 @@
+{
+  "config.yaml": {
+    "size": 33,
+    "sha256": "2ae60bd28fd0ee4a30777d219c06f1d0c1633f861f00cb067f1da5a843edd827"
+  },
+  "public_bi/MANIFEST.json": {
+    "size": 301,
+    "sha256": "b9be0e03b27202e502edee109f227f0d2a04eb9a1d01da6b6f8c56d080fe7cc1"
+  },
+  "public_bi/provenance_storage_public_bi.json": {
+    "size": 8478,
+    "sha256": "893def365be99e4a8e86f5bae37516d544a13972c58ec3b28dc1856f27323555"
+  },
+  "public_bi/storage_public_bi.jsonl": {
+    "size": 817,
+    "sha256": "b5f8d3262048e1e45b9fef15cca9abead4b5903b75f4e5ec3e2f74d737b95400"
+  },
+  "run_meta.json": {
+    "size": 209,
+    "sha256": "c4a9abc4d41a00e0350514c2bb570d4be4d2e4797add37f25853d32d8e253167"
+  }
+}

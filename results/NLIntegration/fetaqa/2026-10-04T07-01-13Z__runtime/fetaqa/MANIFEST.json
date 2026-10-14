@@ -1,0 +1,14 @@
+{
+  "fetaqa/nl_runs_runtime_fetaqa.jsonl": {
+    "size": 10145077,
+    "sha256": "dd31cccbfbf6d58efd8a82c15479b4fba01d6a333685fac912ab21e06869d7d6"
+  },
+  "fetaqa/provenance_runtime_fetaqa.json": {
+    "size": 8519,
+    "sha256": "fdf5a4b347f0256fd8be199fb05fa14f11153750e7eb34075afb3a2f17442a02"
+  },
+  "fetaqa/runtime_fetaqa.jsonl": {
+    "size": 11059016,
+    "sha256": "dbb3e20698bd2179d755bb6bf5d796c01da91d1b70b6158ddb88fc9c4f8c4ef8"
+  }
+}

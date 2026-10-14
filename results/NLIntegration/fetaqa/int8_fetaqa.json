@@ -1,0 +1,14 @@
+[
+ {
+  "type": "float32",
+  "blocks": 2284,
+  "block_size": 262144,
+  "mib": 571.0
+ },
+ {
+  "type": "int8",
+  "blocks": 271,
+  "block_size": 262144,
+  "mib": 67.75
+ }
+]

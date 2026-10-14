@@ -1,0 +1,10 @@
+{
+  "chicago_open/profile_chicago_open.jsonl": {
+    "size": 269,
+    "sha256": "88c7125316c5e05bcdfa9031f8d56c8924456d8e5a4f11dcd138f2dfd8cd7bca"
+  },
+  "chicago_open/provenance_profile_chicago_open.json": {
+    "size": 8632,
+    "sha256": "724beb456e31123abc90a0fca983f6ba81dffc3af972b3bb940fe568a7ae7f95"
+  }
+}

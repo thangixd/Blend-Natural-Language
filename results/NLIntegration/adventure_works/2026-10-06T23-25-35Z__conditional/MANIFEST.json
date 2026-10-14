@@ -1,0 +1,26 @@
+{
+  "adventure_works/MANIFEST.json": {
+    "size": 506,
+    "sha256": "080a029ddc0b914cafb87fe509e9ff88480688d068f65425c902f0fe7a004301"
+  },
+  "adventure_works/conditional_adventure_works.jsonl": {
+    "size": 67672,
+    "sha256": "fe10a88f4aeeeb79063005530930f57b24d5fe57ad13ea0be02ff64ac7bd7327"
+  },
+  "adventure_works/nl_runs_conditional_adventure_works.jsonl": {
+    "size": 415799,
+    "sha256": "01cf9d743683ef419a0fc4962573b78242cc0e888b517761cb0e3d0a149ecbe5"
+  },
+  "adventure_works/provenance_conditional_adventure_works.json": {
+    "size": 8839,
+    "sha256": "c1d28c591f284c3090db965847b56188de16f9b9117d211fae0e41f0309b57df"
+  },
+  "config.yaml": {
+    "size": 39,
+    "sha256": "2ecef674fa8e573444be24deac976fc749a66ef77349d627804ce28d425a7d80"
+  },
+  "run_meta.json": {
+    "size": 215,
+    "sha256": "7ac98fb5a55437cec192cc7e72a17a32c32af6ceb0dec01663d0f7a8a9f20429"
+  }
+}

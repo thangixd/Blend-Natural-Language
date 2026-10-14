@@ -1,0 +1,442 @@
+{
+ "AddressType_SEP_table_49.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "Address_SEP_table_45.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 12
+ },
+ "BillOfMaterials_SEP_table_64.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "BusinessEntityAddress_SEP_table_69.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "BusinessEntityContact_SEP_table_27.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "BusinessEntity_SEP_table_84.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ContactType_SEP_table_44.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "CountryRegionCurrency_SEP_table_12.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "CountryRegion_SEP_table_1.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "CreditCard_SEP_table_22.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "Culture_SEP_table_87.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "CurrencyRate_SEP_table_7.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "Currency_SEP_table_11.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "Customer_SEP_table_29.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "Department_SEP_table_47.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "Document_SEP_table_81.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 11
+ },
+ "EmailAddress_SEP_table_74.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "EmployeeDepartmentHistory_SEP_table_79.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "EmployeePayHistory_SEP_table_62.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "Employee_SEP_table_21.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 14
+ },
+ "Illustration_SEP_table_20.csv": {
+  "row": 5,
+  "schema": 1,
+  "contexts": 8
+ },
+ "JobCandidate_SEP_table_41.csv": {
+  "row": 5,
+  "schema": 1,
+  "contexts": 11
+ },
+ "Location_SEP_table_86.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "Password_SEP_table_13.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 11
+ },
+ "PersonCreditCard_SEP_table_31.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "PersonPhone_SEP_table_66.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "Person_SEP_table_61.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "PhoneNumberType_SEP_table_38.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 8
+ },
+ "ProductCategory_SEP_table_39.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 8
+ },
+ "ProductCostHistory_SEP_table_78.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ProductDescription_SEP_table_36.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ProductDocument_SEP_table_23.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "ProductInventory_SEP_table_76.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "ProductListPriceHistory_SEP_table_82.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "ProductModelIllustration_SEP_table_37.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 8
+ },
+ "ProductModelProductDescriptionCulture_SEP_table_14.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ProductModel_SEP_table_68.csv": {
+  "row": 3,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ProductPhoto_SEP_table_77.csv": {
+  "row": 5,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ProductProductPhoto_SEP_table_67.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "ProductReview_SEP_table_55.csv": {
+  "row": 3,
+  "schema": 1,
+  "contexts": 12
+ },
+ "ProductSubcategory_SEP_table_65.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "ProductVendor_SEP_table_46.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 11
+ },
+ "Product_SEP_table_34.csv": {
+  "row": 3,
+  "schema": 3,
+  "contexts": 14
+ },
+ "PurchaseOrderDetail_SEP_table_53.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 12
+ },
+ "PurchaseOrderHeader_SEP_table_88.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 12
+ },
+ "SalesOrderDetail_SEP_table_48.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 14
+ },
+ "SalesOrderHeaderSalesReason_SEP_table_17.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "SalesOrderHeader_SEP_table_6.csv": {
+  "row": 5,
+  "schema": 3,
+  "contexts": 17
+ },
+ "SalesPersonQuotaHistory_SEP_table_18.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "SalesPerson_SEP_table_52.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 11
+ },
+ "SalesReason_SEP_table_8.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "SalesTaxRate_SEP_table_73.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "SalesTerritoryHistory_SEP_table_2.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "SalesTerritory_SEP_table_70.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 12
+ },
+ "ScrapReason_SEP_table_33.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "Shift_SEP_table_30.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "ShipMethod_SEP_table_28.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 10
+ },
+ "ShoppingCartItem_SEP_table_83.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "SpecialOfferProduct_SEP_table_63.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "SpecialOffer_SEP_table_51.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 11
+ },
+ "StateProvince_SEP_table_19.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "Store_SEP_table_15.csv": {
+  "row": 3,
+  "schema": 1,
+  "contexts": 11
+ },
+ "TransactionHistoryArchive_SEP_table_25.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "TransactionHistory_SEP_table_9.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 13
+ },
+ "UnitMeasure_SEP_table_60.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 8
+ },
+ "Vendor_SEP_table_56.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "WorkOrderRouting_SEP_table_32.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 13
+ },
+ "WorkOrder_SEP_table_54.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 15
+ },
+ "vAdditionalContactInfo_SEP_table_3.csv": {
+  "row": 2,
+  "schema": 2,
+  "contexts": 12
+ },
+ "vEmployeeDepartmentHistory_SEP_table_5.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "vEmployeeDepartment_SEP_table_71.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "vEmployee_SEP_table_42.csv": {
+  "row": 2,
+  "schema": 2,
+  "contexts": 14
+ },
+ "vIndividualCustomer_SEP_table_72.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 14
+ },
+ "vJobCandidateEducation_SEP_table_10.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 12
+ },
+ "vJobCandidateEmployment_SEP_table_50.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 13
+ },
+ "vJobCandidate_SEP_table_16.csv": {
+  "row": 3,
+  "schema": 2,
+  "contexts": 12
+ },
+ "vPersonDemographics_SEP_table_40.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 15
+ },
+ "vProductAndDescription_SEP_table_35.csv": {
+  "row": 2,
+  "schema": 1,
+  "contexts": 9
+ },
+ "vProductModelCatalogDescription_SEP_table_75.csv": {
+  "row": 5,
+  "schema": 2,
+  "contexts": 13
+ },
+ "vProductModelInstructions_SEP_table_43.csv": {
+  "row": 3,
+  "schema": 1,
+  "contexts": 10
+ },
+ "vSalesPersonSalesByFiscalYears_SEP_table_57.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 11
+ },
+ "vSalesPerson_SEP_table_4.csv": {
+  "row": 2,
+  "schema": 2,
+  "contexts": 13
+ },
+ "vStateProvinceCountryRegion_SEP_table_85.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 9
+ },
+ "vStoreWithAddresses_SEP_table_58.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "vStoreWithContacts_SEP_table_26.csv": {
+  "row": 1,
+  "schema": 2,
+  "contexts": 10
+ },
+ "vStoreWithDemographics_SEP_table_24.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 13
+ },
+ "vVendorWithAddresses_SEP_table_80.csv": {
+  "row": 1,
+  "schema": 1,
+  "contexts": 12
+ },
+ "vVendorWithContacts_SEP_table_59.csv": {
+  "row": 1,
+  "schema": 2,
+  "contexts": 12
+ }
+}

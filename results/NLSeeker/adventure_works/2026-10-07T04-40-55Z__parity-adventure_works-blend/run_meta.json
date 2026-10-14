@@ -1,0 +1,173 @@
+{
+  "created_utc": "2026-10-07T04-40-55Z",
+  "datasets": {
+    "adventure_works": {
+      "lake": {
+        "name": "adventure_works",
+        "index_code": "45f8dee9aec6",
+        "built_utc": "2026-10-03T19:03:52.805517+00:00"
+      },
+      "tar_sha256": "8740691d76d7af2d448520ba302985cc5dbe892a09f5e3e4e79ed8e43367c16e",
+      "zip_sha256": "c73d0c7a4a0bfcdfec8314239a2240c38dfd3affe2484441a8ea46c8df31b6f2",
+      "questions_sha256": "66c64d1ad1b0341b7f0c5869e9da4ae48575906b8745312b387bca07aa02401b",
+      "build": {
+        "stages": {
+          "register": {
+            "seconds": 8.451773608103395,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "narrate": {
+            "seconds": 56.618970081210136,
+            "embedding": 0.0,
+            "judge": 54.58947739191353,
+            "embedding_calls": 0,
+            "judge_calls": 708
+          },
+          "index": {
+            "seconds": 11.511716863140464,
+            "embedding": 8.794066648930311,
+            "judge": 0.0,
+            "embedding_calls": 1,
+            "judge_calls": 0
+          }
+        },
+        "storage": {
+          "bytes": {
+            "documents and tokens": 9175040,
+            "vectors and their index": 3670016,
+            "bookkeeping": 3670016,
+            "table copies": 55312384,
+            "other": 6041600
+          },
+          "inverted index": 580124672,
+          "total": 657993728,
+          "art_bytes": {
+            "adventure_works_nl_documents_to_tableid": 262144,
+            "adventure_works_nl_tokens_to_token": 4194304,
+            "adventure_works_to_tableid": 93585408,
+            "adventure_works_to_tokenized": 169082880
+          }
+        },
+        "inverted_index_s": 453.83921264484525,
+        "window": [
+          1791053700.1034598,
+          1791054232.8054955
+        ],
+        "concurrent": true,
+        "narration_concurrency": 8,
+        "overlap": 1.0
+      },
+      "status": "complete",
+      "provenance": {
+        "row_sampling": "DuckDB USING SAMPLE reservoir(5 ROWS) REPEATABLE (0)",
+        "hnsw_probe": {
+          "documents": 1230,
+          "build_s": 0.45247115008533,
+          "index_bytes": 20989488,
+          "table_bytes": 4251648
+        }
+      },
+      "questions_window": [
+        1791348057.241279,
+        1791362499.5467844
+      ],
+      "duration_s": 14444.5,
+      "load_s": 2.2,
+      "run_s": 14442.3,
+      "manifest_sha256": "e3962f500db73219c1ab63a866f145c128e4b83e28aaa05b4803edb5d9515595"
+    }
+  },
+  "tolerance_sha256": "86388d1f8c254d7db8ad940df6260e5f3137c8ea93c87c63bced9892ba9b0868",
+  "backend": "blend",
+  "endpoints": {
+    "llm": {
+      "url": "http://127.0.0.1:8001/v1",
+      "gpu": "3",
+      "models": [
+        "Qwen2.5-7B-Instruct"
+      ]
+    },
+    "embedding": {
+      "url": "http://127.0.0.1:8002/v1",
+      "gpu": "5",
+      "models": [
+        "bge-base-en-v1.5"
+      ]
+    }
+  },
+  "condition": {
+    "parallel": true,
+    "cpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "layout": {
+    "blend": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "llm_gpu": "3",
+      "embedding_gpu": "5"
+    },
+    "pneuma": {
+      "cpus": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "llm_gpu": "1",
+      "embedding_gpu": "2"
+    }
+  },
+  "versions": {
+    "python": "3.12.12",
+    "duckdb": "1.5.5"
+  },
+  "config_sha256": "7d5d72a60a9a5a22b048d389cfb28b4e981ab2ec5f0e7fe5777686e024170671"
+}

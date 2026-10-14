@@ -1,0 +1,26 @@
+{
+  "chicago_open/MANIFEST.json": {
+    "size": 482,
+    "sha256": "9645346d473d28e7cb45163662e21339d09d61e82dc33aa9501a342ea2cb3147"
+  },
+  "chicago_open/nl_runs_pushdown_chicago_open.jsonl": {
+    "size": 34084430,
+    "sha256": "f4320cd4ede062adffcdba3ea4061f7f2d6a4eeefec4876f23bd7af08c540e81"
+  },
+  "chicago_open/provenance_pushdown_chicago_open.json": {
+    "size": 8746,
+    "sha256": "eb53f64dcf6b65d0d3928affa69c45c6e5abd7e505813452e128e58aef8de8cd"
+  },
+  "chicago_open/pushdown_chicago_open.jsonl": {
+    "size": 136243,
+    "sha256": "b220b5c43872792a34e30d6d2451a387c6a0ff19798d12b2b67ad4ff0d841971"
+  },
+  "config.yaml": {
+    "size": 36,
+    "sha256": "34f2ed20d357a1586688f73c3b15a996f2fcaea2073a84e1cb3bcb257327c328"
+  },
+  "run_meta.json": {
+    "size": 212,
+    "sha256": "c2051a738cb55f8793d82bc6a24caee5a8e609bf93ecdb104a159cad5313861c"
+  }
+}

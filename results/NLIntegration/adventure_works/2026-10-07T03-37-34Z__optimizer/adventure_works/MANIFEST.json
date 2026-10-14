@@ -1,0 +1,10 @@
+{
+  "adventure_works/optimizer_adventure_works.jsonl": {
+    "size": 36838,
+    "sha256": "f74fff8c8a978329681d6fdcf1296f02f6125ef0c92bb1ecbd5426e61ef42803"
+  },
+  "adventure_works/provenance_optimizer_adventure_works.json": {
+    "size": 8773,
+    "sha256": "fbf9aeb264c9475d1eb31d68a1c99894dd592e45c7bdb9630009482a6aea1e38"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "config.yaml": {
+    "size": 30,
+    "sha256": "f9baa1235c598187415a02270d4f20623f422735d6236bf788b7293d27725f1f"
+  },
+  "fetaqa/MANIFEST.json": {
+    "size": 576,
+    "sha256": "1f7de3fbc010f8ba3282c8628f0343712be03d843d0f841e9193aef11ca413a0"
+  },
+  "fetaqa/nl_runs_regime_fetaqa.jsonl": {
+    "size": 2810241,
+    "sha256": "2c2eb46144c478662e8c14a0c4516d116b11154ceea1468064c5b717c845982f"
+  },
+  "fetaqa/provenance_regime_fetaqa.json": {
+    "size": 8479,
+    "sha256": "72928cd4ecf20312b46c3ddeedce8a0bc2d90147ec81291b194a47b4c357fcf7"
+  },
+  "fetaqa/regime_fetaqa.jsonl": {
+    "size": 850803,
+    "sha256": "e9bd2efec7850ce9d08c108733679a77378153471fdd017eb06a012bfc53edac"
+  },
+  "fetaqa/regime_fetaqa.png": {
+    "size": 41095,
+    "sha256": "e53f5e7499d6bdae4b86891f5940bde891d2538ede5181b7f98b0d01759283cc"
+  },
+  "run_meta.json": {
+    "size": 206,
+    "sha256": "b5ac00666be08e6c27a1c73e0f044be7098b8cf431d9cf99a86150881ec88043"
+  }
+}

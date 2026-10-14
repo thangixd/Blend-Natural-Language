@@ -1,0 +1,180 @@
+{
+  "created_utc": "2026-10-05T01-26-06Z",
+  "datasets": {
+    "fetaqa_10330": {
+      "lake": {
+        "name": "fetaqa_10330",
+        "index_code": "d9ea3c0d1c7e",
+        "built_utc": "2026-10-04T06:19:09.787050+00:00"
+      },
+      "tar_sha256": "019b089e48138c897a8bacdce8eaa64f321a8777b293647b0f6d979330f084c8",
+      "zip_sha256": "219361cf8ebf0104d68fa15265fdc0d9ccb1053ac33230b85283e6668f8c9c2c",
+      "questions_sha256": "cf4104ea4b09800c513715eb903f0566f34290b4ce8436868642b4e43813dbc2",
+      "tables": 10330,
+      "tables_sha256": "7a85c37fd903ffe300ef2a715d5cb97a4f9f2d4a2121924172b969b9c3bf2e40",
+      "shared_texts": {
+        "source": "data/indexes/fetaqa/texts_blend.json",
+        "sha256": "1ca9065bafca1207ae4d428976865380ec245cf4ce4e99b7dfe80f7c58e144ee"
+      },
+      "build": {
+        "stages": {
+          "register": {
+            "seconds": 77.72223179414868,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "import": {
+            "seconds": 148.63336433283985,
+            "embedding": 0.0,
+            "judge": 0.0,
+            "embedding_calls": 0,
+            "judge_calls": 0
+          },
+          "index": {
+            "seconds": 1032.4210103861988,
+            "embedding": 679.5680057443678,
+            "judge": 0.0,
+            "embedding_calls": 61,
+            "judge_calls": 0
+          }
+        },
+        "storage": {
+          "bytes": {
+            "documents and tokens": 364904448,
+            "vectors and their index": 604504064,
+            "bookkeeping": 121110528,
+            "table copies": 2707947520,
+            "other": 667693056
+          },
+          "inverted index": 68157440,
+          "total": 4534317056,
+          "art_bytes": {
+            "fetaqa_10330_nl_documents_to_tableid": 5767168,
+            "fetaqa_10330_nl_tokens_to_token": 183500800,
+            "fetaqa_10330_to_tableid": 13631488,
+            "fetaqa_10330_to_tokenized": 27525120
+          }
+        },
+        "inverted_index_s": 29.091755295172334,
+        "window": [
+          1791093439.9757054,
+          1791094749.786942
+        ],
+        "concurrent": true,
+        "narration_concurrency": null,
+        "embedding_concurrency": 8,
+        "overlap": 0.9949007135742236
+      },
+      "status": "complete",
+      "provenance": {
+        "row_sampling": "DuckDB USING SAMPLE reservoir(5 ROWS) REPEATABLE (0)",
+        "hnsw_probe": {
+          "documents": 121770,
+          "build_s": 31.160477235913277,
+          "index_bytes": 592379024,
+          "table_bytes": 390651904
+        }
+      },
+      "questions_window": [
+        1791163615.4642866,
+        1791166315.6500816
+      ],
+      "duration_s": 2748.8,
+      "load_s": 48.6,
+      "run_s": 2700.2,
+      "manifest_sha256": "8d54db4ae2dd49ac96a8d3e9025d0ccab07a9d4eb3ae40c33ee8733abebe8538"
+    }
+  },
+  "tolerance_sha256": "86388d1f8c254d7db8ad940df6260e5f3137c8ea93c87c63bced9892ba9b0868",
+  "backend": "blend",
+  "endpoints": {
+    "llm": {
+      "url": "http://127.0.0.1:8001/v1",
+      "gpu": "3",
+      "models": [
+        "Qwen2.5-7B-Instruct"
+      ]
+    },
+    "embedding": {
+      "url": "http://127.0.0.1:8002/v1",
+      "gpu": "5",
+      "models": [
+        "bge-base-en-v1.5"
+      ]
+    }
+  },
+  "condition": {
+    "parallel": true,
+    "cpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "layout": {
+    "blend": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "llm_gpu": "3",
+      "embedding_gpu": "5"
+    },
+    "pneuma": {
+      "cpus": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "llm_gpu": "1",
+      "embedding_gpu": "2"
+    }
+  },
+  "versions": {
+    "python": "3.12.12",
+    "duckdb": "1.5.5"
+  },
+  "config_sha256": "26eb27911b5bd989667d0e1c6cc5e87cea722f4565c50a64b53e260ca4c12ad5"
+}
