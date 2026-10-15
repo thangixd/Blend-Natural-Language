@@ -1,0 +1,65 @@
+{
+ "run": "9B thinking, profile off",
+ "lake": "adventure_works",
+ "folder": "data/Evaluation/Agent/aw-9b2-on-noprof",
+ "commit": "226a8006",
+ "server": "Qwen3.5-9B on lyra, vLLM v0.29.0-cu129, tensor parallel 2 on GPUs 5 and 6 (2x A100 40GB), :8011",
+ "sessions_at_once": "10, then 7",
+ "cases_with_result": 78,
+ "failed_rows": 0,
+ "cases_without_output": [
+  "adventure_works.awt-t10-L1.main.0"
+ ],
+ "semantic_profile_at_load": {
+  "off": 213
+ },
+ "models": {
+  "Qwen3.5-9B": 864
+ },
+ "role_settings": [
+  {
+   "reasoning_effort": null,
+   "role": "chat",
+   "temperature": 0.7,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 210
+  },
+  {
+   "reasoning_effort": null,
+   "role": "decomposer",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 11000,
+   "steps": 177
+  },
+  {
+   "reasoning_effort": null,
+   "role": "filler",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 8000,
+   "steps": 208
+  },
+  {
+   "reasoning_effort": null,
+   "role": "router",
+   "temperature": 0.7,
+   "thinking": true,
+   "thinking_budget": 2000,
+   "steps": 147
+  },
+  {
+   "reasoning_effort": null,
+   "role": "template_filler",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 8000,
+   "steps": 122
+  }
+ ],
+ "samples": 2172,
+ "samples_with_error": 51,
+ "first_record": "2026-10-12T10:13:59.677543",
+ "last_record": "2026-10-12T12:54:29.390850"
+}
