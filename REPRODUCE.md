@@ -97,8 +97,7 @@ the Qwen3.8-27B endpoint and NLSeeker's embedding endpoint.
 | 27B, effort medium, no profile | 3 | `make eval-agent RUN=27b-medium-noprof-r<n> EFFORT=medium PROFILE=off` |
 | 27B, effort xhigh, no profile | 3 | `make eval-agent RUN=27b-xhigh-noprof-r<n> PROFILE=off` |
 | 9B, thinking, profile on and off | 3 each | `make eval-agent-profile RUN=9b-thinking MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
-| 9B, no thinking | 1 | `make eval-agent RUN=9b-nothink THINKING=off MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
-| 9B, no thinking, no profile | 1 | `make eval-agent RUN=9b-nothink-noprof THINKING=off PROFILE=off MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
+| 9B, no thinking, profile on and off | 3 each | `make eval-agent-profile RUN=9b-nothink THINKING=off MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
 
 Run the 27B rows with `<n>` = 1, 2 and 3. Every repeat needs its own `RUN`, because a run skips the cases it
 already has.
@@ -113,8 +112,8 @@ docker compose exec -T blend python -m evaluation.agent.analysis \
   --out data/Evaluation/Agent/<RUN>/analysis
 ```
 
-For the 9B profile runs, `<RUN>` is one arm and repeat, for example `9b-thinking/on-r1`. Their sign test is already
-in `data/Evaluation/Agent/9b-thinking/`.
+For the 9B profile runs, `<RUN>` is one arm and repeat, for example `9b-thinking/on-r1`. Their sign tests are already
+in `data/Evaluation/Agent/9b-thinking/` and `data/Evaluation/Agent/9b-nothink/`.
 
 Keep `--out` inside `data/Evaluation/`. That is where all results go, and it is the only output folder you can see
 outside the container.
@@ -124,7 +123,7 @@ outside the container.
 `results/` holds our runs, grouped by lake:
 
 - `Agent/<lake>/`: one folder per agent run. `Agent/runs.csv` lists each run's condition and repeat,
-  `Agent/results.csv` summarizes one run per condition, and `Agent/9b-profile-ablation/` and
+  `Agent/results.csv` summarizes one run per condition, and `Agent/9b-profile-ablation/{think,nothink}/` and
   `Agent/27b-profile-ablation/{xhigh,medium}/` have the sign tests of the semantic profile.
 - `NLIntegration/<lake>/`: the NLSeeker experiments, the int8 storage, and `analysis_<lake>.json` with the paired
   tests. FeTaQA's runs are older and miss the answer tables; they are in `NLIntegration/fetaqa/answers_fetaqa.json`.

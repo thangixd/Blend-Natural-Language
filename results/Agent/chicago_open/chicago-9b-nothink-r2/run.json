@@ -1,0 +1,65 @@
+{
+ "run": "9B no thinking, r2",
+ "lake": "chicago",
+ "folder": "data/Evaluation/Agent/9b-nothink/on-r1",
+ "commit": "16a7f458",
+ "server": "Qwen3.5-9B on lyra, vLLM v0.29.0-cu129, tensor parallel 2 (2x A100 40GB), :8011",
+ "sessions_at_once": 10,
+ "cases_with_result": 64,
+ "failed_rows": 0,
+ "cases_without_output": [
+  "chicago.chi-t3-L0.main.0"
+ ],
+ "semantic_profile_at_load": {
+  "on": 190
+ },
+ "models": {
+  "Qwen3.5-9B": 764
+ },
+ "role_settings": [
+  {
+   "reasoning_effort": null,
+   "role": "chat",
+   "temperature": 0.7,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 190
+  },
+  {
+   "reasoning_effort": null,
+   "role": "decomposer",
+   "temperature": 1.0,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 155
+  },
+  {
+   "reasoning_effort": null,
+   "role": "filler",
+   "temperature": 1.0,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 167
+  },
+  {
+   "reasoning_effort": null,
+   "role": "router",
+   "temperature": 0.7,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 123
+  },
+  {
+   "reasoning_effort": null,
+   "role": "template_filler",
+   "temperature": 1.0,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 129
+  }
+ ],
+ "samples": 1912,
+ "samples_with_error": 125,
+ "first_record": "2026-10-15T22:12:43.225459",
+ "last_record": "2026-10-15T23:29:07.251116"
+}
