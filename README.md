@@ -97,7 +97,8 @@ SC 4, Correlation 6, MC 10, NL 11), `cost_basis=measured` uses the lake's median
 (`uv run python -m scripts.derive_costs` rebuilds them from `results/NLIntegration/<lake>/`).
 The learned tie-breaker is on (`DBHandler.USE_ML_OPTIMIZER = True`); the models are loaded
 at seeker construction, and a trained set ships with the repo. Training is offline - at query time the
-models only predict. Stale models can only misorder same-type ties, never change results:
+models only predict. They only order Intersection inputs of equal cost, but the input that runs last ranks
+the result, so a stale model can change which tables come back, not only the runtime. Retrain them with:
 
 ```bash
 uv run python -m scripts.train_ml_optimizer --config config/config.ini
