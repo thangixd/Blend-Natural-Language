@@ -1,0 +1,12 @@
+{
+  "Keyword": 21.2,
+  "SingleColumnOverlap": 16.9,
+  "Correlation": 28.2,
+  "MultiColumnOverlap": 75.9,
+  "NaturalLanguage_judge": 3249,
+  "NaturalLanguage_nojudge": 86.8,
+  "source": [
+    "results/NLIntegration/adventure_works/2026-10-06T20-47-49Z__runtime/adventure_works/runtime_adventure_works.jsonl",
+    "results/NLIntegration/adventure_works/2026-10-06T20-47-49Z__runtime/adventure_works/nl_runs_runtime_adventure_works.jsonl"
+  ]
+}

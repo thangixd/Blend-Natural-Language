@@ -66,8 +66,8 @@ class Correlation(Seeker):
 
         return sql
 
-    def cost(self) -> int:
-        return 6
+    def cost(self) -> float:
+        return self.DB.seeker_cost('Correlation', 6)
 
     def _feature_columns(self) -> list:
         return [list(self.input_source)]

@@ -1,5 +1,6 @@
 import random
 import configparser
+import json
 from pathlib import Path
 import pandas as pd
 
@@ -9,7 +10,7 @@ from numbers import Number
 
 
 class DBHandler(object):
-    USE_ML_OPTIMIZER = False
+    USE_ML_OPTIMIZER = True
 
     def __init__(self) -> None:
         self.connection = None
@@ -17,6 +18,7 @@ class DBHandler(object):
         self.index_table = None
         self.dbms = None
         self.config_path = None
+        self.seeker_costs = None
 
         config_path = Path(__file__).parent.parent / 'config' / 'config.ini'
         if not config_path.exists():
@@ -63,6 +65,19 @@ class DBHandler(object):
 
         self.cursor = self.connection.cursor()
         self.index_table = config['Database']['index_table']
+
+        # "priority" keeps BLEND's fixed seeker ranks; "measured" uses this lake's median
+        # seeker runtimes in ms, written by scripts/derive_costs.py.
+        basis = config.get('Optimizer', 'cost_basis', fallback='priority')
+        if basis not in ('priority', 'measured'):
+            raise ValueError(f"[Optimizer] cost_basis must be 'priority' or 'measured', not {basis!r}")
+        self.seeker_costs = None
+        if basis == 'measured':
+            costs_path = Path(__file__).parent.parent / 'config' / 'costs' / f'{self.index_table}.json'
+            self.seeker_costs = json.loads(costs_path.read_text())
+
+    def seeker_cost(self, seeker: str, priority: int) -> float:
+        return priority if self.seeker_costs is None else self.seeker_costs[seeker]
             
 
     def close(self) -> None:

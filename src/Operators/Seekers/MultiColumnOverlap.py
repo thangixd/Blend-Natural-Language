@@ -63,8 +63,8 @@ class MultiColumnOverlap(Seeker):
         return db.ranked_table_ids_to_sql(results, self.k)
 
     
-    def cost(self) -> int:
-        return 10
+    def cost(self) -> float:
+        return self.DB.seeker_cost('MultiColumnOverlap', 10)
 
     def _feature_columns(self) -> list:
         return [list(col) for col in self.input.values.T]

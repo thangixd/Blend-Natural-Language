@@ -30,8 +30,8 @@ class NaturalLanguage(Seeker):
         # Retrieval rank is the point of this seeker, so the ids must keep their order.
         return db.ranked_table_ids_to_sql(table_ids, self.k)
 
-    def cost(self) -> int:
-        return 11
+    def cost(self) -> float:
+        return self.DB.seeker_cost('NaturalLanguage_judge' if self.rerank else 'NaturalLanguage_nojudge', 11)
 
     def _features(self, db: DBHandler) -> list:
         n = self.n

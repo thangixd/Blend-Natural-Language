@@ -24,8 +24,8 @@ class SingleColumnOverlap(Seeker):
 
         return sql
 
-    def cost(self) -> int:
-        return 4
+    def cost(self) -> float:
+        return self.DB.seeker_cost('SingleColumnOverlap', 4)
 
     def _feature_columns(self) -> list:
         return [list(self.input)]

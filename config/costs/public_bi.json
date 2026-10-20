@@ -1,0 +1,12 @@
+{
+  "Keyword": 6.3,
+  "SingleColumnOverlap": 5.0,
+  "Correlation": 1147.6,
+  "MultiColumnOverlap": 65.0,
+  "NaturalLanguage_judge": 3503,
+  "NaturalLanguage_nojudge": 43.4,
+  "source": [
+    "results/NLIntegration/public_bi/2026-10-07T11-06-45Z__runtime/public_bi/runtime_public_bi.jsonl",
+    "results/NLIntegration/public_bi/2026-10-07T11-06-45Z__runtime/public_bi/nl_runs_runtime_public_bi.jsonl"
+  ]
+}

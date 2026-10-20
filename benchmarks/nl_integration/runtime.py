@@ -13,15 +13,14 @@ from benchmarks.nl_integration.metrics import distinct, measured_basis, rule_ord
 from scripts.train_ml_optimizer import TableSampler, build_correlation, build_keyword, build_mc, build_sc
 from src.DBHandler import DBHandler
 from src.Operators.OperatorBase import Operator
-from src.Operators.Seekers import Correlation, Keyword, MultiColumnOverlap, NaturalLanguage, SingleColumnOverlap
+from src.Operators.Seekers import NaturalLanguage
 
 from typing import List, Union
 
 PLAN_K = 10
 INNER_K = 100
 NL_SEEKER = 'NL judge on'
-RULE_COST = {'KW': Keyword.cost(None), 'SC': SingleColumnOverlap.cost(None), 'C': Correlation.cost(None),
-             'MC': MultiColumnOverlap.cost(None), NL_SEEKER: NaturalLanguage.cost(None)}
+RULE_COST = {'KW': 3, 'SC': 4, 'C': 6, 'MC': 10, NL_SEEKER: 11}
 TOKEN_SEEKERS = sorted(['KW', 'SC', 'C', 'MC'], key=RULE_COST.get)
 
 

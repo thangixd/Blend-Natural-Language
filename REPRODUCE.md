@@ -141,3 +141,9 @@ uv run python -m benchmarks.nl_integration.analysis --lake fetaqa --results resu
 uv run python -m evaluation.agent.profile_ablation <out> --cases evaluation/agent/cases/*_tiers.yaml \
   --exclude awt-t10-L1 --arm on 1 <the three folders of repeat 1> ... --arm off 3 <the three folders of repeat 3>
 ```
+
+The optimizer's seeker costs come from these runs too. With `cost_basis=measured` in the `[Optimizer]` section of
+`config/<lake>.ini`, a seeker's cost is its median runtime in ms from `config/costs/<lake>.json`, with NLSeeker counted
+once with and once without the judge; without the section, or with `cost_basis=priority`, the fixed priorities stay
+(Keyword 3, SC 4, Correlation 6, MC 10, NL 11). `uv run python -m scripts.derive_costs` rebuilds the cost files from
+the `runtime` runs in `results/NLIntegration/<lake>/`.

@@ -24,8 +24,8 @@ class Keyword(Seeker):
 
         return sql
 
-    def cost(self) -> int:
-        return 3
+    def cost(self) -> float:
+        return self.DB.seeker_cost('Keyword', 3)
 
     def _feature_columns(self) -> list:
         return [list(self.input)]

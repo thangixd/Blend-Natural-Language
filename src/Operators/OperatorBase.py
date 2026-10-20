@@ -16,7 +16,7 @@ class Operator(ABC):
         return [r[0] for r in result[:self.k]]
         
     @abstractmethod
-    def cost(self) -> int:
+    def cost(self) -> float:
         raise NotImplementedError
 
     @abstractmethod

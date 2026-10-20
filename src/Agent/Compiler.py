@@ -127,6 +127,7 @@ def rankings(root: Union[Part, Combiner], table: QueryTable, db: DBHandler) -> D
     for node in walk(root):
         if isinstance(node, Part):
             operators[node.id] = seeker(node, 1, table)[0]
+            operators[node.id].DB = db
         else:
             operators[node.id] = COMBINERS[node.kind]()
             operators[node.id].set_inputs([operators[child.id] for child in _ordered(node)])
