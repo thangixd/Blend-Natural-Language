@@ -89,9 +89,13 @@ uv run python -m scripts.create_index_duckdb \
 ```
 
 ## Training the cost optimizer
-The plan optimizer orders seekers by rule-based costs first and breaks ties with a learned
-runtime model per seeker type (XGBoost, `src/Operators/Seekers/<Class>_model.json`). The learned
-tie-breaker is off by default (`DBHandler.USE_ML_OPTIMIZER = False`); with it on, the models are loaded
+The plan optimizer orders seekers by cost first and breaks ties with a learned
+runtime model per seeker type (XGBoost, `src/Operators/Seekers/<Class>_model.json`). The `[Optimizer]`
+section of a lake config sets the costs: `cost_basis=priority` (the default) uses fixed ranks (Keyword 3,
+SC 4, Correlation 6, MC 10, NL 11), `cost_basis=measured` uses the lake's median seeker runtimes in
+`config/costs/<lake>.json`, with NL counted once with and once without the judge
+(`uv run python -m scripts.derive_costs` rebuilds them from `results/NLIntegration/<lake>/`).
+The learned tie-breaker is on (`DBHandler.USE_ML_OPTIMIZER = True`); the models are loaded
 at seeker construction, and a trained set ships with the repo. Training is offline - at query time the
 models only predict. Stale models can only misorder same-type ties, never change results:
 
