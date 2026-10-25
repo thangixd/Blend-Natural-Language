@@ -1,0 +1,63 @@
+{
+ "run": "low, profile off",
+ "lake": "chicago",
+ "folder": "data/Evaluation/Agent/27b-low-noprof-r1",
+ "commit": "16a7f458",
+ "server": "Qwen3.8-27B on lyra, vLLM v0.29.0-cu129, tensor parallel 2 (2x A100 40GB), :8012",
+ "sessions_at_once": 10,
+ "cases_with_result": 65,
+ "failed_rows": 0,
+ "cases_without_output": [],
+ "semantic_profile_at_load": {
+  "off": 145
+ },
+ "models": {
+  "Qwen3.8-27B": 666
+ },
+ "role_settings": [
+  {
+   "reasoning_effort": "low",
+   "role": "decomposer",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 11000,
+   "steps": 133
+  },
+  {
+   "reasoning_effort": "low",
+   "role": "filler",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 8000,
+   "steps": 178
+  },
+  {
+   "reasoning_effort": "low",
+   "role": "router",
+   "temperature": 0.7,
+   "thinking": true,
+   "thinking_budget": 2000,
+   "steps": 117
+  },
+  {
+   "reasoning_effort": "low",
+   "role": "template_filler",
+   "temperature": 1.0,
+   "thinking": true,
+   "thinking_budget": 8000,
+   "steps": 93
+  },
+  {
+   "reasoning_effort": null,
+   "role": "chat",
+   "temperature": 0.7,
+   "thinking": false,
+   "thinking_budget": null,
+   "steps": 145
+  }
+ ],
+ "samples": 1708,
+ "samples_with_error": 10,
+ "first_record": "2026-10-25T02:31:16.065884",
+ "last_record": "2026-10-25T02:59:14.318811"
+}

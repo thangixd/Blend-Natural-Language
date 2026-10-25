@@ -95,6 +95,7 @@ the Qwen3.8-27B endpoint and NLSeeker's embedding endpoint.
 | 27B, effort medium | 3 | `make eval-agent RUN=27b-medium-r<n> EFFORT=medium` |
 | 27B, effort low | 3 | `make eval-agent RUN=27b-low-r<n> EFFORT=low` |
 | 27B, effort medium, no profile | 3 | `make eval-agent RUN=27b-medium-noprof-r<n> EFFORT=medium PROFILE=off` |
+| 27B, effort low, no profile | 3 | `make eval-agent RUN=27b-low-noprof-r<n> EFFORT=low PROFILE=off` |
 | 27B, effort xhigh, no profile | 3 | `make eval-agent RUN=27b-xhigh-noprof-r<n> PROFILE=off` |
 | 9B, thinking, profile on and off | 3 each | `make eval-agent-profile RUN=9b-thinking MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
 | 9B, no thinking, profile on and off | 3 each | `make eval-agent-profile RUN=9b-nothink THINKING=off MODEL=Qwen3.5-9B URL=<endpoint> TOKENIZER=Qwen/Qwen3.5-9B` |
@@ -124,7 +125,7 @@ outside the container.
 
 - `Agent/<lake>/`: one folder per agent run. `Agent/runs.csv` lists each run's condition and repeat,
   `Agent/results.csv` summarizes one run per condition, and `Agent/9b-profile-ablation/{think,nothink}/` and
-  `Agent/27b-profile-ablation/{xhigh,medium}/` have the sign tests of the semantic profile.
+  `Agent/27b-profile-ablation/{xhigh,medium,low}/` have the sign tests of the semantic profile.
 - `NLIntegration/<lake>/`: the NLSeeker experiments, the int8 storage, and `analysis_<lake>.json` with the paired
   tests. FeTaQA's runs are older and miss the answer tables; they are in `NLIntegration/fetaqa/answers_fetaqa.json`.
 - `NLSeeker/<lake>/`: the parity runs of both systems and the diagnosis, and on FeTaQA the throughput runs.
