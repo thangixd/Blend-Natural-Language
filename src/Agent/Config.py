@@ -7,7 +7,7 @@ from typing import Callable, Dict, Optional, Tuple, Union
 ROLES = ('router', 'decomposer', 'filler', 'edit', 'chat', 'verifier', 'profiler')
 THRESHOLDS = ('any_disagreement', 'strict')
 EFFORTS = ('low', 'medium', 'high', 'xhigh')
-PLANNERS = ('staged', 'single_call')
+PLANNERS = ('staged', 'single_call', 'text')
 DEFAULTS = {'clarification_rounds': '0', 'trigger_threshold': 'any_disagreement', 'fill_sides': 'false',
             'verify': 'false', 'semantic_profile': 'true', 'example_length': '50', 'profile_words': '4',
             'planner': 'staged', 'single_call_samples': '1'}

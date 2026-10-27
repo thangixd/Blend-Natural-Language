@@ -567,7 +567,7 @@ class DialogueManager:
 
     def _plan(self, turn: int, request: List[Tuple[int, UserText]], facts: Sequence[Union[str, Line]] = (),
               failed_check: Optional[str] = None) -> Response:
-        if self.config.planner == 'single_call':
+        if self.config.planner != 'staged':
             return self._single_call(turn, request, facts)
         failed = failed_check
         for _ in range(self.config.repair_rounds + 1):
@@ -593,14 +593,21 @@ class DialogueManager:
         return self._decomposed(turn, request, outputs)
 
     def _single_call(self, turn: int, request: List[Tuple[int, UserText]], facts: Sequence[Line] = ()) -> Response:
-        failed = None
+        text, plan_type, failed = self.config.planner == 'text', Planner.single_call_type(self.table), None
         for _ in range(self.config.repair_rounds + 1):
-            samples, plans = self._step('decomposer', turn, Planner.single_call,
+            samples, plans = self._step('decomposer', turn, Planner.text_call if text else Planner.single_call,
                                         Prompts.decomposer_view(request, self.table, facts,
                                                                 examples=Prompts.single_call_examples(),
                                                                 failed_check=failed),
-                                        Planner.single_call_type(self.table), Planner.single_call_key,
+                                        None if text else plan_type, str if text else Planner.single_call_key,
                                         n=self.config.single_call_samples, step='single_call')
+            if text and plans:
+                try:
+                    plans = [[Planner.from_text(plans[0][0], plan_type)]]
+                except ValidationError as e:
+                    failed = str(e)
+                    self.record.write(event='unparsed', turn=turn, error=failed)
+                    continue
             if plans:
                 break
             failed = samples[0].error
@@ -1626,7 +1633,7 @@ class DialogueManager:
     def _verify(self, turn: int, plan: SearchPlan, previous: Optional[str] = None,
                 locked: Optional[Dict[str, Any]] = None) -> Verdict:
         locked = self.locked if locked is None else locked
-        if not self.config.verify or self.config.planner == 'single_call':
+        if not self.config.verify or self.config.planner != 'staged':
             self.record.write(event='not_checked', turn=turn, version=plan.version,
                               reason=SINGLE_CALL_UNCHECKED if self.config.verify else VERIFY_OFF)
             return Verdict()

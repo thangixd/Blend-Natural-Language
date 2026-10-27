@@ -2,7 +2,7 @@ import re
 from collections import Counter
 from typing import Annotated, Any, List, Literal, Optional, Tuple, Union
 
-from pydantic import AfterValidator, BaseModel, Field, PositiveInt, create_model, model_validator
+from pydantic import AfterValidator, BaseModel, Field, PositiveInt, TypeAdapter, create_model, model_validator
 from pydantic_ai import Agent, NativeOutput
 
 from src.Agent.Plans import (COLUMN_SLOTS, GOALS, ColumnSlot, Combiner, CorrelationFill, Frozen, KeywordFill,
@@ -356,6 +356,11 @@ Columns come only from the query table. The seekers:
 
 single_call = Agent(name='single_call', instructions=SINGLE_CALL_INSTRUCTIONS, retries=0)
 
+TEXT_ANSWER = """Answer with one JSON object and nothing else: {"rationale": "<how you read the request, in a
+sentence>", "tree": ..., "fills": [...], "k": ...}, its tree, fills and k written as in the examples' answers."""
+
+text_call = Agent(name='single_call', instructions=SINGLE_CALL_INSTRUCTIONS + '\n' + TEXT_ANSWER, retries=0)
+
 
 class Value(Frozen):
     """A slot's value as the single-call baseline gives it: no status and no alternatives."""
@@ -392,6 +397,11 @@ def single_call_type(table: QueryTable) -> NativeOutput:
     part_fill = create_model('PartFill', part=(PartId, ...), fill=(Union[fills], Field(discriminator='seeker')))
     return NativeOutput(create_model('SingleCallPlan', __base__=SingleCallPlan,
                                      fills=(List[part_fill], Field(min_length=1))))
+
+
+def from_text(text: str, plan_type: NativeOutput) -> SingleCallPlan:
+    """The text baseline's plan: its JSON checked after the fact against the typed plan, a mismatch a failed check."""
+    return TypeAdapter(plan_type.outputs).validate_json(text[text.find('{'):text.rfind('}') + 1])
 
 
 def single_call_key(plan: SingleCallPlan) -> Hashable:

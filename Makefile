@@ -323,9 +323,10 @@ MODEL ?= Qwen3.8-27B
 URL ?= http://localhost:8012/v1
 TOKENIZER ?= Qwen/Qwen3.8-27B
 AGENT_FLAGS = --parallel $(AGENT_PARALLEL) $(if $(CASE),--case $(CASE)) $(if $(EFFORT),--effort $(EFFORT)) \
-  $(if $(filter off,$(THINKING)),--no-thinking) --model '$(MODEL)' --url '$(URL)' --tokenizer '$(TOKENIZER)'
+  $(if $(filter off,$(THINKING)),--no-thinking) --model '$(MODEL)' --url '$(URL)' --tokenizer '$(TOKENIZER)' \
+  $(if $(PLANNER),--planner $(PLANNER)) $(if $(SPECIFIED),--specified)
 .PHONY: eval-agent eval-agent-profile
-eval-agent:  ## Server: agent cases in the container. RUN=<folder under data/Evaluation/Agent> [CASES="<case files>", default the three tier files] [CASE="<ids>"] [AGENT_PARALLEL=10] [EFFORT=low|medium|xhigh] [THINKING=off] [PROFILE=off] [MODEL=<name> URL=<endpoint> TOKENIZER=<hf id>, default Qwen3.8-27B on :8012, also the NL seeker's judge]
+eval-agent:  ## Server: agent cases in the container. RUN=<folder under data/Evaluation/Agent> [CASES="<case files>", default the three tier files] [CASE="<ids>"] [AGENT_PARALLEL=10] [EFFORT=low|medium|xhigh] [THINKING=off] [PROFILE=off] [PLANNER=text|single_call] [SPECIFIED=1, level 0 and inferable only] [MODEL=<name> URL=<endpoint> TOKENIZER=<hf id>, default Qwen3.8-27B on :8012, also the NL seeker's judge]
 	$(call check-run,$(RUN))
 	$(HARNESS) --cases $(CASES) --out 'data/Evaluation/Agent/$(RUN)' $(AGENT_FLAGS) $(if $(filter off,$(PROFILE)),--no-profile)
 

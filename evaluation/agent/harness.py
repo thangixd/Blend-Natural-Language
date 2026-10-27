@@ -22,7 +22,7 @@ from evaluation.nlseeker import datasets
 from evaluation.nlseeker.prepare import CACHE_DIR, DATASETS_DIR, prepare_dataset
 from src.Agent import Compiler, Planner, Profiler
 from src.Agent.Compiler import k_rule
-from src.Agent.Config import ROLES, AgentConfig
+from src.Agent.Config import PLANNERS, ROLES, AgentConfig
 from src.Agent.Dialogue import Click, DialogueManager, LoadTable, Message, NoPreference, Other
 from src.Agent.Plans import GOALS, Combiner, Part, SearchPlan, Slot, walk
 from src.Agent.Profile import QueryTable
@@ -560,6 +560,8 @@ def main() -> None:
     parser.add_argument('--url', help='Endpoint of --model.')
     parser.add_argument('--tokenizer', help="The NL judge's tokenizer for --model.")
     parser.add_argument('--no-profile', action='store_true', help='Semantic profile off.')
+    parser.add_argument('--planner', choices=PLANNERS, help='staged (the system), single_call or text (the baselines).')
+    parser.add_argument('--specified', action='store_true', help='Only the fully specified cases: level 0 and inferable.')
     parser.add_argument('--unit', help=argparse.SUPPRESS)
     parser.add_argument('--repeat', type=int, default=0, help=argparse.SUPPRESS)
     args = parser.parse_args()
@@ -583,7 +585,8 @@ def main() -> None:
     commands = {}
     for path, entries in files:
         for entry in entries:
-            chosen = [case for case in entry.cases if not args.case or case.id in args.case]
+            chosen = [case for case in entry.cases if (not args.case or case.id in args.case)
+                      and (not args.specified or case.level in (0, 'inferable'))]
             if chosen:
                 gold_tables(entry, args.out)
             for case in chosen:
@@ -633,6 +636,8 @@ def write_settings(lake: str, args: argparse.Namespace) -> None:
                 agent[f'{role}_thinking'] = 'false'
         if args.effort and agent.getboolean(f'{role}_thinking'):
             agent[f'{role}_reasoning_effort'] = args.effort
+    if args.planner:
+        agent['planner'] = args.planner
     if args.model:
         nl['llm_model'], nl['llm_base_url'] = args.model, args.url
         nl['llm_tokenizer'] = args.tokenizer or nl['llm_tokenizer']
