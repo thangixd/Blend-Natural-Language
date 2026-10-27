@@ -1,0 +1,14 @@
+{
+  "chembl/conditional_chembl.jsonl": {
+    "size": 69024,
+    "sha256": "7b98d1c75f093b95bdd100107bbcc26bff37ad2ba9df4f0f87e4d888d52c72a1"
+  },
+  "chembl/nl_runs_conditional_chembl.jsonl": {
+    "size": 403642,
+    "sha256": "8547dc1fdefc52e8dc1678b3f972343bebcc7ca99f14c8025deb42fce373b9bb"
+  },
+  "chembl/provenance_conditional_chembl.json": {
+    "size": 8722,
+    "sha256": "a3c8a5e697a86ef0780a7a57173a22547211e6a5d9c064b63da27153eb403b17"
+  }
+}

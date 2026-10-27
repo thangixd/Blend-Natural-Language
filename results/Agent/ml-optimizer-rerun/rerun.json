@@ -1,0 +1,89 @@
+{
+ "use_ml_optimizer": true,
+ "rows": 2700,
+ "rows_with_plan": 2678,
+ "tied_rows": 129,
+ "tied_executions": 35,
+ "tied_rows_changed": 38,
+ "tied_gold": [
+  [
+   "adventure_works",
+   "awt-f6"
+  ],
+  [
+   "adventure_works",
+   "awt-t10"
+  ],
+  [
+   "chembl",
+   "cht-f6"
+  ],
+  [
+   "chembl",
+   "cht-t10"
+  ],
+  [
+   "chicago",
+   "chi-f6"
+  ],
+  [
+   "chicago",
+   "chi-t10"
+  ]
+ ],
+ "tied_gold_changed": [
+  [
+   "chicago",
+   "chi-f6",
+   1
+  ],
+  [
+   "chicago",
+   "chi-f6",
+   2
+  ],
+  [
+   "chicago",
+   "chi-f6",
+   3
+  ],
+  [
+   "chicago",
+   "chi-t10",
+   1
+  ],
+  [
+   "chicago",
+   "chi-t10",
+   2
+  ],
+  [
+   "chicago",
+   "chi-t10",
+   3
+  ]
+ ],
+ "controls": [
+  "chembl cht-s9-L1 r3 b0",
+  "chicago chi-f6-L1 r1 b0",
+  "adventure_works awt-s8-L2 r1 b3",
+  "chembl cht-t5-L0 r1 b0",
+  "chicago chi-f1-L0 r3 b1",
+  "chicago chi-s7-L0 r2 b1",
+  "chembl cht-t9-L0 r3 b0",
+  "chembl cht-s2-L1 r2 b3",
+  "chicago chi-s1-L1 r2 b0",
+  "chembl cht-f7-L3 r3 b0",
+  "chembl cht-f6-L2 r1 b3",
+  "chicago chi-t7-L0 r2 b2",
+  "adventure_works awt-f2-L1 r3 b3",
+  "chembl cht-f4-L0 r2 b3",
+  "adventure_works awt-f3-L0 r3 b1",
+  "adventure_works awt-s3-L0 r2 b2",
+  "chembl cht-t1-L1 r1 b2",
+  "chicago chi-s3-L0 r3 b2",
+  "adventure_works awt-f5-L0 r3 b2",
+  "chembl cht-s5-L1 r2 b0"
+ ],
+ "controls_differ": []
+}
