@@ -1,0 +1,365 @@
+{
+ "lake": "public_bi",
+ "pneuma": {
+  "folder": "data/indexes/public_bi/pneuma/indexes/vector",
+  "segment": "af2ca996-6808-4efa-8707-7072667285c0",
+  "files": [
+   {
+    "path": "af2ca996-6808-4efa-8707-7072667285c0/data_level0.bin",
+    "bytes": 17340000
+   },
+   {
+    "path": "af2ca996-6808-4efa-8707-7072667285c0/header.bin",
+    "bytes": 100
+   },
+   {
+    "path": "af2ca996-6808-4efa-8707-7072667285c0/index_metadata.pickle",
+    "bytes": 603237
+   },
+   {
+    "path": "af2ca996-6808-4efa-8707-7072667285c0/length.bin",
+    "bytes": 20000
+   },
+   {
+    "path": "af2ca996-6808-4efa-8707-7072667285c0/link_lists.bin",
+    "bytes": 45872
+   },
+   {
+    "path": "chroma.sqlite3",
+    "bytes": 103886848
+   }
+  ],
+  "hnsw": {
+   "version": 1,
+   "offset_level0": 0,
+   "max_elements": 10714,
+   "cur_element_count": 5000,
+   "size_data_per_element": 3468,
+   "label_offset": 3460,
+   "offset_data": 388,
+   "maxlevel": 3,
+   "enterpoint_node": 2266,
+   "max_m": 48,
+   "max_m0": 96,
+   "m": 48,
+   "mult": 0.25831776680732876,
+   "ef_construction": 100
+  },
+  "dimension": 768,
+  "collection_config": "{\"hnsw_configuration\": {\"space\": \"l2\", \"ef_construction\": 100, \"ef_search\": 10, \"num_threads\": 64, \"M\": 16, \"resize_factor\": 1.2, \"batch_size\": 100, \"sync_threshold\": 1000, \"_type\": \"HNSWConfigurationInternal\"}, \"_type\": \"CollectionConfigurationInternal\"}",
+  "segment_metadata": [
+   [
+    "hnsw:M",
+    "48"
+   ],
+   [
+    "hnsw:random_seed",
+    "42"
+   ],
+   [
+    "hnsw:space",
+    "cosine"
+   ]
+  ],
+  "sqlite": {
+   "page_size": 4096,
+   "page_count": 25363,
+   "freelist_count": 6867,
+   "objects": [
+    {
+     "name": "collection_metadata",
+     "table": "collection_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "collections",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "databases",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_fulltext_search_config",
+     "table": "embedding_fulltext_search_config",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_fulltext_search_content",
+     "table": "embedding_fulltext_search_content",
+     "bytes": 14225408,
+     "pages": 3473
+    },
+    {
+     "name": "embedding_fulltext_search_data",
+     "table": "embedding_fulltext_search_data",
+     "bytes": 23642112,
+     "pages": 5772
+    },
+    {
+     "name": "embedding_fulltext_search_docsize",
+     "table": "embedding_fulltext_search_docsize",
+     "bytes": 57344,
+     "pages": 14
+    },
+    {
+     "name": "embedding_fulltext_search_idx",
+     "table": "embedding_fulltext_search_idx",
+     "bytes": 65536,
+     "pages": 16
+    },
+    {
+     "name": "embedding_metadata",
+     "table": "embedding_metadata",
+     "bytes": 14417920,
+     "pages": 3520
+    },
+    {
+     "name": "embedding_metadata_float_value",
+     "table": "embedding_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_metadata_int_value",
+     "table": "embedding_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_metadata_string_value",
+     "table": "embedding_metadata",
+     "bytes": 21073920,
+     "pages": 5145
+    },
+    {
+     "name": "embeddings",
+     "table": "embeddings",
+     "bytes": 909312,
+     "pages": 222
+    },
+    {
+     "name": "embeddings_queue",
+     "table": "embeddings_queue",
+     "bytes": 188416,
+     "pages": 46
+    },
+    {
+     "name": "embeddings_queue_config",
+     "table": "embeddings_queue_config",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "maintenance_log",
+     "table": "maintenance_log",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "max_seq_id",
+     "table": "max_seq_id",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "migrations",
+     "table": "migrations",
+     "bytes": 12288,
+     "pages": 3
+    },
+    {
+     "name": "segment_metadata",
+     "table": "segment_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "segments",
+     "table": "segments",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collection_metadata_1",
+     "table": "collection_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collections_1",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collections_2",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_databases_1",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_databases_2",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_embedding_metadata_1",
+     "table": "embedding_metadata",
+     "bytes": 151552,
+     "pages": 37
+    },
+    {
+     "name": "sqlite_autoindex_embeddings_1",
+     "table": "embeddings",
+     "bytes": 909312,
+     "pages": 222
+    },
+    {
+     "name": "sqlite_autoindex_maintenance_log_1",
+     "table": "maintenance_log",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_max_seq_id_1",
+     "table": "max_seq_id",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_migrations_1",
+     "table": "migrations",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_segment_metadata_1",
+     "table": "segment_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_segments_1",
+     "table": "segments",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_tenants_1",
+     "table": "tenants",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_schema",
+     "table": "sqlite_schema",
+     "bytes": 12288,
+     "pages": 3
+    },
+    {
+     "name": "tenants",
+     "table": "tenants",
+     "bytes": 4096,
+     "pages": 1
+    }
+   ]
+  },
+  "queue": {
+   "rows": 30,
+   "min_seq": 5000,
+   "max_seq": 5029,
+   "vector_bytes": 92160,
+   "metadata_bytes": 72074,
+   "encodings": "FLOAT32",
+   "other_bytes": 5780,
+   "after_vector_segment": 29
+  },
+  "max_seq_id": {
+   "VECTOR": 5000,
+   "METADATA": 5029
+  },
+  "embeddings": 5029,
+  "documents": 5029
+ },
+ "nlseeker": {
+  "database": "data/indexes/public_bi.db",
+  "documents_table": "public_bi_nl_documents",
+  "documents": 5029,
+  "dimension": 768,
+  "type": "FLOAT[768]",
+  "block_size": 262144,
+  "segments": [
+   {
+    "column_path": "[4, 0]",
+    "segment_type": "VALIDITY",
+    "compression": "Constant",
+    "segments": 1,
+    "values": 5029
+   },
+   {
+    "column_path": "[4, 1, 0]",
+    "segment_type": "VALIDITY",
+    "compression": "Constant",
+    "segments": 2,
+    "values": 3862272
+   },
+   {
+    "column_path": "[4, 1]",
+    "segment_type": "FLOAT",
+    "compression": "ALPRD",
+    "segments": 51,
+    "values": 3862272
+   }
+  ],
+  "embedding_blocks": 51,
+  "blocks_shared_with_other_columns": 0,
+  "indexes_on_documents": [
+   "public_bi_nl_documents_to_tableid"
+  ],
+  "file_bytes": 158871552
+ },
+ "pneuma_fulltext_files": [
+  {
+   "path": "pneuma/indexes/fulltext/parity/corpus.jsonl",
+   "bytes": 10454478
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/corpus.mmindex.json",
+   "bytes": 44942
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/data.csc.index.npy",
+   "bytes": 2007772
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/indices.csc.index.npy",
+   "bytes": 2007772
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/indptr.csc.index.npy",
+   "bytes": 43328
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/params.index.json",
+   "bytes": 199
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/vocab.index.json",
+   "bytes": 187212
+  }
+ ]
+}

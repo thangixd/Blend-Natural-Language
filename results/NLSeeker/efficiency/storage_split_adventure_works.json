@@ -1,0 +1,365 @@
+{
+ "lake": "adventure_works",
+ "pneuma": {
+  "folder": "data/indexes/adventure_works/pneuma/indexes/vector",
+  "segment": "f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2",
+  "files": [
+   {
+    "path": "chroma.sqlite3",
+    "bytes": 31744000
+   },
+   {
+    "path": "f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/data_level0.bin",
+    "bytes": 3468000
+   },
+   {
+    "path": "f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/header.bin",
+    "bytes": 100
+   },
+   {
+    "path": "f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/index_metadata.pickle",
+    "bytes": 127790
+   },
+   {
+    "path": "f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/length.bin",
+    "bytes": 4000
+   },
+   {
+    "path": "f24f2eb7-29bb-48bb-85ab-b3d6d6c841e2/link_lists.bin",
+    "bytes": 8704
+   }
+  ],
+  "hnsw": {
+   "version": 1,
+   "offset_level0": 0,
+   "max_elements": 2317,
+   "cur_element_count": 1000,
+   "size_data_per_element": 3468,
+   "label_offset": 3460,
+   "offset_data": 388,
+   "maxlevel": 1,
+   "enterpoint_node": 15,
+   "max_m": 48,
+   "max_m0": 96,
+   "m": 48,
+   "mult": 0.25831776680732876,
+   "ef_construction": 100
+  },
+  "dimension": 768,
+  "collection_config": "{\"hnsw_configuration\": {\"space\": \"l2\", \"ef_construction\": 100, \"ef_search\": 10, \"num_threads\": 64, \"M\": 16, \"resize_factor\": 1.2, \"batch_size\": 100, \"sync_threshold\": 1000, \"_type\": \"HNSWConfigurationInternal\"}, \"_type\": \"CollectionConfigurationInternal\"}",
+  "segment_metadata": [
+   [
+    "hnsw:M",
+    "48"
+   ],
+   [
+    "hnsw:random_seed",
+    "42"
+   ],
+   [
+    "hnsw:space",
+    "cosine"
+   ]
+  ],
+  "sqlite": {
+   "page_size": 4096,
+   "page_count": 7750,
+   "freelist_count": 1698,
+   "objects": [
+    {
+     "name": "collection_metadata",
+     "table": "collection_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "collections",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "databases",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_fulltext_search_config",
+     "table": "embedding_fulltext_search_config",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_fulltext_search_content",
+     "table": "embedding_fulltext_search_content",
+     "bytes": 4485120,
+     "pages": 1095
+    },
+    {
+     "name": "embedding_fulltext_search_data",
+     "table": "embedding_fulltext_search_data",
+     "bytes": 7610368,
+     "pages": 1858
+    },
+    {
+     "name": "embedding_fulltext_search_docsize",
+     "table": "embedding_fulltext_search_docsize",
+     "bytes": 16384,
+     "pages": 4
+    },
+    {
+     "name": "embedding_fulltext_search_idx",
+     "table": "embedding_fulltext_search_idx",
+     "bytes": 32768,
+     "pages": 8
+    },
+    {
+     "name": "embedding_metadata",
+     "table": "embedding_metadata",
+     "bytes": 4530176,
+     "pages": 1106
+    },
+    {
+     "name": "embedding_metadata_float_value",
+     "table": "embedding_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_metadata_int_value",
+     "table": "embedding_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_metadata_string_value",
+     "table": "embedding_metadata",
+     "bytes": 6029312,
+     "pages": 1472
+    },
+    {
+     "name": "embeddings",
+     "table": "embeddings",
+     "bytes": 237568,
+     "pages": 58
+    },
+    {
+     "name": "embeddings_queue",
+     "table": "embeddings_queue",
+     "bytes": 1449984,
+     "pages": 354
+    },
+    {
+     "name": "embeddings_queue_config",
+     "table": "embeddings_queue_config",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "maintenance_log",
+     "table": "maintenance_log",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "max_seq_id",
+     "table": "max_seq_id",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "migrations",
+     "table": "migrations",
+     "bytes": 12288,
+     "pages": 3
+    },
+    {
+     "name": "segment_metadata",
+     "table": "segment_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "segments",
+     "table": "segments",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collection_metadata_1",
+     "table": "collection_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collections_1",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collections_2",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_databases_1",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_databases_2",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_embedding_metadata_1",
+     "table": "embedding_metadata",
+     "bytes": 40960,
+     "pages": 10
+    },
+    {
+     "name": "sqlite_autoindex_embeddings_1",
+     "table": "embeddings",
+     "bytes": 237568,
+     "pages": 58
+    },
+    {
+     "name": "sqlite_autoindex_maintenance_log_1",
+     "table": "maintenance_log",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_max_seq_id_1",
+     "table": "max_seq_id",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_migrations_1",
+     "table": "migrations",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_segment_metadata_1",
+     "table": "segment_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_segments_1",
+     "table": "segments",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_tenants_1",
+     "table": "tenants",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_schema",
+     "table": "sqlite_schema",
+     "bytes": 12288,
+     "pages": 3
+    },
+    {
+     "name": "tenants",
+     "table": "tenants",
+     "bytes": 4096,
+     "pages": 1
+    }
+   ]
+  },
+  "queue": {
+   "rows": 232,
+   "min_seq": 1000,
+   "max_seq": 1231,
+   "vector_bytes": 712704,
+   "metadata_bytes": 590512,
+   "encodings": "FLOAT32",
+   "other_bytes": 45845,
+   "after_vector_segment": 231
+  },
+  "max_seq_id": {
+   "METADATA": 1231,
+   "VECTOR": 1000
+  },
+  "embeddings": 1231,
+  "documents": 1231
+ },
+ "nlseeker": {
+  "database": "data/indexes/adventure_works.db",
+  "documents_table": "adventure_works_nl_documents",
+  "documents": 1230,
+  "dimension": 768,
+  "type": "FLOAT[768]",
+  "block_size": 262144,
+  "segments": [
+   {
+    "column_path": "[4, 0]",
+    "segment_type": "VALIDITY",
+    "compression": "Constant",
+    "segments": 1,
+    "values": 1230
+   },
+   {
+    "column_path": "[4, 1, 0]",
+    "segment_type": "VALIDITY",
+    "compression": "Constant",
+    "segments": 1,
+    "values": 944640
+   },
+   {
+    "column_path": "[4, 1]",
+    "segment_type": "FLOAT",
+    "compression": "ALPRD",
+    "segments": 13,
+    "values": 944640
+   }
+  ],
+  "embedding_blocks": 13,
+  "blocks_shared_with_other_columns": 1,
+  "indexes_on_documents": [
+   "adventure_works_nl_documents_to_tableid"
+  ],
+  "file_bytes": 657993728
+ },
+ "pneuma_fulltext_files": [
+  {
+   "path": "pneuma/indexes/fulltext/parity/corpus.jsonl",
+   "bytes": 3610184
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/corpus.mmindex.json",
+   "bytes": 10712
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/data.csc.index.npy",
+   "bytes": 580364
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/indices.csc.index.npy",
+   "bytes": 580364
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/indptr.csc.index.npy",
+   "bytes": 67988
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/params.index.json",
+   "bytes": 199
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/vocab.index.json",
+   "bytes": 275361
+  }
+ ]
+}

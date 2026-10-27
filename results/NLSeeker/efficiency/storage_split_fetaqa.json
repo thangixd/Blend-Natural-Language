@@ -1,0 +1,365 @@
+{
+ "lake": "fetaqa",
+ "pneuma": {
+  "folder": "data/indexes/fetaqa/pneuma/indexes/vector",
+  "segment": "2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683",
+  "files": [
+   {
+    "path": "2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/data_level0.bin",
+    "bytes": 419628000
+   },
+   {
+    "path": "2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/header.bin",
+    "bytes": 100
+   },
+   {
+    "path": "2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/index_metadata.pickle",
+    "bytes": 17931331
+   },
+   {
+    "path": "2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/length.bin",
+    "bytes": 484000
+   },
+   {
+    "path": "2dbca97a-8dc8-45f4-b66d-ff8a8f2fa683/link_lists.bin",
+    "bytes": 996540
+   },
+   {
+    "path": "chroma.sqlite3",
+    "bytes": 2012622848
+   }
+  ],
+  "hnsw": {
+   "version": 1,
+   "offset_level0": 0,
+   "max_elements": 156120,
+   "cur_element_count": 121000,
+   "size_data_per_element": 3468,
+   "label_offset": 3460,
+   "offset_data": 388,
+   "maxlevel": 3,
+   "enterpoint_node": 2266,
+   "max_m": 48,
+   "max_m0": 96,
+   "m": 48,
+   "mult": 0.25831776680732876,
+   "ef_construction": 100
+  },
+  "dimension": 768,
+  "collection_config": "{\"hnsw_configuration\": {\"space\": \"l2\", \"ef_construction\": 100, \"ef_search\": 10, \"num_threads\": 64, \"M\": 16, \"resize_factor\": 1.2, \"batch_size\": 100, \"sync_threshold\": 1000, \"_type\": \"HNSWConfigurationInternal\"}, \"_type\": \"CollectionConfigurationInternal\"}",
+  "segment_metadata": [
+   [
+    "hnsw:M",
+    "48"
+   ],
+   [
+    "hnsw:random_seed",
+    "42"
+   ],
+   [
+    "hnsw:space",
+    "cosine"
+   ]
+  ],
+  "sqlite": {
+   "page_size": 4096,
+   "page_count": 491363,
+   "freelist_count": 34310,
+   "objects": [
+    {
+     "name": "collection_metadata",
+     "table": "collection_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "collections",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "databases",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_fulltext_search_config",
+     "table": "embedding_fulltext_search_config",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_fulltext_search_content",
+     "table": "embedding_fulltext_search_content",
+     "bytes": 362401792,
+     "pages": 88477
+    },
+    {
+     "name": "embedding_fulltext_search_data",
+     "table": "embedding_fulltext_search_data",
+     "bytes": 582713344,
+     "pages": 142264
+    },
+    {
+     "name": "embedding_fulltext_search_docsize",
+     "table": "embedding_fulltext_search_docsize",
+     "bytes": 1335296,
+     "pages": 326
+    },
+    {
+     "name": "embedding_fulltext_search_idx",
+     "table": "embedding_fulltext_search_idx",
+     "bytes": 307200,
+     "pages": 75
+    },
+    {
+     "name": "embedding_metadata",
+     "table": "embedding_metadata",
+     "bytes": 366776320,
+     "pages": 89545
+    },
+    {
+     "name": "embedding_metadata_float_value",
+     "table": "embedding_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_metadata_int_value",
+     "table": "embedding_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "embedding_metadata_string_value",
+     "table": "embedding_metadata",
+     "bytes": 499388416,
+     "pages": 121921
+    },
+    {
+     "name": "embeddings",
+     "table": "embeddings",
+     "bytes": 25124864,
+     "pages": 6134
+    },
+    {
+     "name": "embeddings_queue",
+     "table": "embeddings_queue",
+     "bytes": 4632576,
+     "pages": 1131
+    },
+    {
+     "name": "embeddings_queue_config",
+     "table": "embeddings_queue_config",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "maintenance_log",
+     "table": "maintenance_log",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "max_seq_id",
+     "table": "max_seq_id",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "migrations",
+     "table": "migrations",
+     "bytes": 12288,
+     "pages": 3
+    },
+    {
+     "name": "segment_metadata",
+     "table": "segment_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "segments",
+     "table": "segments",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collection_metadata_1",
+     "table": "collection_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collections_1",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_collections_2",
+     "table": "collections",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_databases_1",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_databases_2",
+     "table": "databases",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_embedding_metadata_1",
+     "table": "embedding_metadata",
+     "bytes": 3829760,
+     "pages": 935
+    },
+    {
+     "name": "sqlite_autoindex_embeddings_1",
+     "table": "embeddings",
+     "bytes": 25456640,
+     "pages": 6215
+    },
+    {
+     "name": "sqlite_autoindex_maintenance_log_1",
+     "table": "maintenance_log",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_max_seq_id_1",
+     "table": "max_seq_id",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_migrations_1",
+     "table": "migrations",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_segment_metadata_1",
+     "table": "segment_metadata",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_segments_1",
+     "table": "segments",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_autoindex_tenants_1",
+     "table": "tenants",
+     "bytes": 4096,
+     "pages": 1
+    },
+    {
+     "name": "sqlite_schema",
+     "table": "sqlite_schema",
+     "bytes": 12288,
+     "pages": 3
+    },
+    {
+     "name": "tenants",
+     "table": "tenants",
+     "bytes": 4096,
+     "pages": 1
+    }
+   ]
+  },
+  "queue": {
+   "rows": 804,
+   "min_seq": 121000,
+   "max_seq": 121803,
+   "vector_bytes": 2469888,
+   "metadata_bytes": 1607331,
+   "encodings": "FLOAT32",
+   "other_bytes": 171889,
+   "after_vector_segment": 803
+  },
+  "max_seq_id": {
+   "VECTOR": 121000,
+   "METADATA": 121803
+  },
+  "embeddings": 121803,
+  "documents": 121803
+ },
+ "nlseeker": {
+  "database": "data/indexes/fetaqa.db",
+  "documents_table": "fetaqa_nl_documents",
+  "documents": 121770,
+  "dimension": 768,
+  "type": "FLOAT[768]",
+  "block_size": 262144,
+  "segments": [
+   {
+    "column_path": "[4, 0]",
+    "segment_type": "VALIDITY",
+    "compression": "Constant",
+    "segments": 1,
+    "values": 121770
+   },
+   {
+    "column_path": "[4, 1, 0]",
+    "segment_type": "VALIDITY",
+    "compression": "Constant",
+    "segments": 45,
+    "values": 93519360
+   },
+   {
+    "column_path": "[4, 1]",
+    "segment_type": "FLOAT",
+    "compression": "ALPRD",
+    "segments": 2284,
+    "values": 93519360
+   }
+  ],
+  "embedding_blocks": 2284,
+  "blocks_shared_with_other_columns": 1,
+  "indexes_on_documents": [
+   "fetaqa_nl_documents_to_tableid"
+  ],
+  "file_bytes": 4531171328
+ },
+ "pneuma_fulltext_files": [
+  {
+   "path": "pneuma/indexes/fulltext/parity/corpus.jsonl",
+   "bytes": 260138091
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/corpus.mmindex.json",
+   "bytes": 1287792
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/data.csc.index.npy",
+   "bytes": 48041800
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/indices.csc.index.npy",
+   "bytes": 48041800
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/indptr.csc.index.npy",
+   "bytes": 206916
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/params.index.json",
+   "bytes": 201
+  },
+  {
+   "path": "pneuma/indexes/fulltext/parity/vocab.index.json",
+   "bytes": 905013
+  }
+ ]
+}
