@@ -63,6 +63,34 @@ def test_sc_runs_before_nl_with_judge_on_every_lake():
         assert _execution_order(nl, sc) == [sc, nl], lake
 
 
+def test_nl_with_smaller_pool_runs_first_under_judge():
+    for lake in LAKES:
+        Operator.DB.load_config(ROOT / 'config' / f'{lake}.ini')
+        large, small = NaturalLanguage('drug names', k=20), NaturalLanguage('drug names', k=5)
+        assert _execution_order(large, small) == [small, large], lake
+        large, small = NaturalLanguage('drug names', k=20, rerank=False), NaturalLanguage('drug names', k=5, rerank=False)
+        assert _execution_order(large, small) == [large, small], lake
+
+
+def test_nl_formula_rises_with_k_times_n():
+    for lake in LAKES:
+        Operator.DB.load_config(ROOT / 'config' / f'{lake}.ini')
+        costs = [NaturalLanguage('q', k=k, n=n).ml_cost(Operator.DB) for k, n in [(1, 1), (5, 3), (5, 5), (10, 5), (20, 10)]]
+        assert 0 < costs[0] < costs[1] < costs[2] < costs[3] < costs[4], (lake, costs)
+        assert NaturalLanguage('q', k=20, n=10, rerank=False).ml_cost(Operator.DB) == \
+            Operator.DB.seeker_costs['NaturalLanguage_t_retrieval']
+
+
+def test_nl_under_priorities_orders_by_pool_size():
+    with tempfile.TemporaryDirectory() as folder:
+        path = Path(folder) / 'chembl.ini'
+        path.write_text((ROOT / 'config' / 'chembl.ini').read_text().replace('cost_basis=measured', 'cost_basis=priority'))
+        Operator.DB.load_config(path)
+        large, small = NaturalLanguage('drug names', k=20), NaturalLanguage('drug names', k=5)
+        nojudge = NaturalLanguage('drug names', k=20, rerank=False)
+        assert _execution_order(large, small, nojudge) == [nojudge, small, large]
+
+
 if __name__ == '__main__':
     for name, test in list(globals().items()):
         if name.startswith('test_'):

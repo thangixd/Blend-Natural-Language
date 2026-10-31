@@ -1,5 +1,4 @@
 import argparse
-import json
 import random
 import time
 from pathlib import Path
@@ -11,23 +10,16 @@ from src.DBHandler import DBHandler
 
 from typing import Callable, List, Tuple
 
+# NaturalLanguage has no model: its ml_cost is a formula with parameters from scripts/derive_costs.py.
 TOKEN_SEEKERS = ['Keyword', 'SingleColumnOverlap', 'MultiColumnOverlap', 'Correlation']
-ALL_SEEKERS = TOKEN_SEEKERS + ['NaturalLanguage']
-
-QUESTION_PROMPT = (
-    'Below is a description of one table from a data lake.\n\n{payload}\n\n'
-    'Write one short natural-language question that a user could ask a data '
-    'discovery system to find this table. Answer with only the question.'
-)
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', type=Path, required=True,
-                        help='ini file with [Database] (and [NLSeeker] for NaturalLanguage)')
+                        help='ini file with [Database]')
     parser.add_argument('--samples', type=int, default=1000)
-    parser.add_argument('--nl-samples', type=int, default=100)
-    parser.add_argument('--seekers', nargs='+', default=ALL_SEEKERS, choices=ALL_SEEKERS)
+    parser.add_argument('--seekers', nargs='+', default=TOKEN_SEEKERS, choices=TOKEN_SEEKERS)
     parser.add_argument('--out', type=Path, default=Path('src/Operators/Seekers'))
     parser.add_argument('--seed', type=int, default=0)
     return parser.parse_args()
@@ -131,48 +123,6 @@ def collect_token_seeker(name: str, db: DBHandler, rng: random.Random, samples: 
     return measure(db, build, samples)
 
 
-def generate_questions(config, count: int, rng: random.Random, db: DBHandler) -> List[str]:
-    from src.NLSeeker.Clients import LLMClient
-
-    tables = {row[0] for row in db.execute_and_fetchall('SELECT table_name FROM information_schema.tables')}
-    if config.documents_table not in tables:
-        raise RuntimeError(f'NL index not found ({config.documents_table} missing) - build it first '
-                           '(scripts/create_index_nl_blend_duckdb.py)')
-
-    rows = db.execute_and_fetchall(
-        f'SELECT table_id, summary FROM {config.schema}.table_summaries')
-    if len(rows) == 0:
-        raise RuntimeError(f'{config.schema}.table_summaries is empty - summarize the lake first')
-
-    llm = LLMClient(config)
-    try:
-        llm.complete([[{'role': 'user', 'content': 'ping'}]], max_new_tokens=4)
-    except Exception as e:
-        raise RuntimeError(f'LLM endpoint {config.llm_base_url} unreachable') from e
-
-    payloads = [json.loads(row[1])['payload'] for row in rng.choices(rows, k=count)]
-    conversations = [[{'role': 'user', 'content': QUESTION_PROMPT.format(payload=p)}] for p in payloads]
-    return llm.complete(conversations, desc='generating questions')
-
-
-def collect_natural_language(db: DBHandler, rng: random.Random, samples: int):
-    from src.NLSeeker.Config import NLSeekerConfig
-    from src.Operators.Seekers.NaturalLanguage import NaturalLanguage
-
-    config = NLSeekerConfig.load(db.config_path)
-    questions = generate_questions(config, samples, rng, db)
-
-    NaturalLanguage(questions[0], k=5).run()
-
-    def build():
-        return NaturalLanguage(questions.pop(),
-                               k=rng.choice([5, 10, 20]),
-                               n=rng.choice([3, 5, 10]),
-                               rerank=rng.random() < 0.5)
-
-    return measure(db, build, samples - 1)
-
-
 def main() -> None:
     args = parse_args()
 
@@ -183,10 +133,7 @@ def main() -> None:
     rng = random.Random(args.seed)
 
     for name in args.seekers:
-        if name == 'NaturalLanguage':
-            X, y = collect_natural_language(db, rng, args.nl_samples)
-        else:
-            X, y = collect_token_seeker(name, db, rng, args.samples)
+        X, y = collect_token_seeker(name, db, rng, args.samples)
         if len(y) < 10:
             raise RuntimeError(f'{name}: only {len(y)} usable samples - not enough to train')
         print(f'{name}: {len(y)} samples, fitting...')

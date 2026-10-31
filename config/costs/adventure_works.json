@@ -5,6 +5,8 @@
   "MultiColumnOverlap": 75.9,
   "NaturalLanguage_judge": 3249,
   "NaturalLanguage_nojudge": 86.8,
+  "NaturalLanguage_t_retrieval": 0.0843,
+  "NaturalLanguage_t_doc": 0.0637,
   "source": [
     "results/NLIntegration/adventure_works/2026-10-06T20-47-49Z__runtime/adventure_works/runtime_adventure_works.jsonl",
     "results/NLIntegration/adventure_works/2026-10-06T20-47-49Z__runtime/adventure_works/nl_runs_runtime_adventure_works.jsonl"

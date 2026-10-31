@@ -5,6 +5,8 @@
   "MultiColumnOverlap": 228.6,
   "NaturalLanguage_judge": 3393,
   "NaturalLanguage_nojudge": 95.4,
+  "NaturalLanguage_t_retrieval": 0.0945,
+  "NaturalLanguage_t_doc": 0.0662,
   "source": [
     "results/NLIntegration/chicago_open/2026-10-05T16-01-04Z__runtime/chicago_open/runtime_chicago_open.jsonl",
     "results/NLIntegration/chicago_open/2026-10-05T16-01-04Z__runtime/chicago_open/nl_runs_runtime_chicago_open.jsonl"

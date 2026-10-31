@@ -90,7 +90,8 @@ uv run python -m scripts.create_index_duckdb \
 
 ## Training the cost optimizer
 The plan optimizer orders seekers by cost first and breaks ties with a learned
-runtime model per seeker type (XGBoost, `src/Operators/Seekers/<Class>_model.json`). The `[Optimizer]`
+runtime model per token seeker type (XGBoost, `src/Operators/Seekers/<Class>_model.json`) and, for NL, with
+`t_retrieval + judge * k * n * t_doc` from `config/costs/<lake>.json`. The `[Optimizer]`
 section of a lake config sets the costs: `cost_basis=priority` (the default) uses fixed ranks (Keyword 3,
 SC 4, Correlation 6, MC 10, NL 11), `cost_basis=measured` uses the lake's median seeker runtimes in
 `config/costs/<lake>.json`, with NL counted once with and once without the judge
@@ -104,9 +105,7 @@ the result, so a stale model can change which tables come back, not only the run
 uv run python -m scripts.train_ml_optimizer --config config/config.ini
 ```
 
-The NaturalLanguage model needs the endpoints and the built NL index;
-`--seekers Keyword SingleColumnOverlap MultiColumnOverlap Correlation` skips it. Token
-frequencies used by the features are queried from the index on demand - no extra artifact.
+Token frequencies used by the features are queried from the index on demand - no extra artifact.
 
 ## Writing plans
 Operators compose into a DAG that compiles down to SQL against the index. Query values must be

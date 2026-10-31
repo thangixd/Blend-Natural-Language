@@ -1,0 +1,8 @@
+lake,case,condition,intersection,rows
+chembl,cht-f7-L1,chembl-9b-nothink-noprof,"SC(k=100) ∩ intersection(SC(k=100), NL(k=50, 'EXOGENOUS GENE')) ∩ KW(k=100)",4
+chembl,cht-f7-L1,chembl-9b-think-noprof,"NL(k=50, 'my drugs') ∩ NL(k=50, 'my drugs occur anywhere in them')",4
+chembl,cht-f7-L2,chembl-9b-nothink,"MC(k=100) ∩ intersection(MC(k=100), NL(k=50, 'my drugs occur anywhere in them'))",3
+chembl,cht-f7-L2,chembl-9b-think,"NL(k=50, 'drugs occur anywhere in them') ∩ NL(k=50, 'tables containing drug information')",1
+chembl,cht-s3-L1,chembl-9b-think,"NL(k=50, 'Tables that give each of my targets') ∩ SC(k=100) ∩ NL(k=50, 'in one row')",4
+chicago_open,chi-f10-L1,chicago-9b-think-noprof,"SC(k=100) ∩ SC(k=100) ∩ SC(k=100) ∩ intersection(SC(k=100), NL(k=50, 'Christian Community Health Center'))",3
+chicago_open,chi-t5-L1,chicago-9b-think-noprof,"intersection(SC(k=100), NL(k=50, 'list my branch names with their ZIP codes')) ∩ difference(C(k=100), SC(k=100))",4

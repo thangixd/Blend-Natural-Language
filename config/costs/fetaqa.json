@@ -5,6 +5,8 @@
   "MultiColumnOverlap": 56.5,
   "NaturalLanguage_judge": 3349,
   "NaturalLanguage_nojudge": 543.6,
+  "NaturalLanguage_t_retrieval": 0.5297,
+  "NaturalLanguage_t_doc": 0.0567,
   "source": [
     "results/NLIntegration/fetaqa/2026-10-04T07-01-13Z__runtime/fetaqa/runtime_fetaqa.jsonl",
     "results/NLIntegration/fetaqa/2026-10-04T07-01-13Z__runtime/fetaqa/nl_runs_runtime_fetaqa.jsonl"

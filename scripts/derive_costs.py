@@ -22,12 +22,17 @@ def derive(lake: str) -> dict:
                                            if row['seeker'] == seeker and row.get('finished', True)) * 1000, 1)
              for seeker, name in TOKEN_SEEKERS.items()}
 
-    parts = [json.loads(line) for line in nl_path.read_text().splitlines()]
-    parts = [part for part in parts if part['arm'] != 'warm-up' and (part['k'], part['n']) == (PLAN_K, n)]
+    runs = [json.loads(line) for line in nl_path.read_text().splitlines()]
+    runs = [run for run in runs if run['arm'] != 'warm-up']
+    parts = [part for part in runs if (part['k'], part['n']) == (PLAN_K, n)]
     judge = statistics.median(part['total'] for part in parts if part['judge_on']) * 1000
     nojudge = statistics.median(part['total'] for part in parts if not part['judge_on']) * 1000
     costs['NaturalLanguage_judge'] = round(judge)
     costs['NaturalLanguage_nojudge'] = round(nojudge, 1)
+    # NaturalLanguage.ml_cost parameters in seconds, over all k and n.
+    costs['NaturalLanguage_t_retrieval'] = round(statistics.median(run['total'] for run in runs if not run['judge_on']), 4)
+    costs['NaturalLanguage_t_doc'] = round(statistics.median(run['judge'] / run['judge_calls'] for run in runs
+                                                             if run['judge_on']), 4)
     costs['source'] = [str(path.relative_to(ROOT)) for path in (token_path, nl_path)]
     return costs
 

@@ -5,6 +5,8 @@
   "MultiColumnOverlap": 60.0,
   "NaturalLanguage_judge": 3309,
   "NaturalLanguage_nojudge": 52.5,
+  "NaturalLanguage_t_retrieval": 0.0534,
+  "NaturalLanguage_t_doc": 0.065,
   "source": [
     "results/NLIntegration/chembl/2026-10-05T06-07-54Z__runtime/chembl/runtime_chembl.jsonl",
     "results/NLIntegration/chembl/2026-10-05T06-07-54Z__runtime/chembl/nl_runs_runtime_chembl.jsonl"

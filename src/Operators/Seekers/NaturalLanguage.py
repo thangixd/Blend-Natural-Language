@@ -1,3 +1,4 @@
+from src.Operators.OperatorBase import Operator
 from src.Operators.Seekers.SeekerBase import Seeker
 
 # Typing imports
@@ -13,7 +14,8 @@ class NaturalLanguage(Seeker):
     def __init__(self, query: str, k: int = 10, n: Optional[int] = None,
                  alpha: Optional[float] = None, index_name: Optional[str] = None,
                  rerank: bool = True) -> None:
-        super().__init__(k)
+        # No regression model, see ml_cost.
+        Operator.__init__(self, k)
         self.query = str(query)
         self.n = n
         self.alpha = alpha
@@ -33,13 +35,20 @@ class NaturalLanguage(Seeker):
     def cost(self) -> float:
         return self.DB.seeker_cost('NaturalLanguage_judge' if self.rerank else 'NaturalLanguage_nojudge', 11)
 
-    def _features(self, db: DBHandler) -> list:
+    def ml_cost(self, db: DBHandler) -> float:
+        """Seconds: retrieval plus, with judge, one call per pooled document (at most k * n).
+        Without measured parameters: rerank * k * n, enough to order NL seekers among themselves."""
+        if not db.USE_ML_OPTIMIZER:
+            return 1
         n = self.n
         if n is None:
             from src.NLSeeker.Config import NLSeekerConfig
             n = NLSeekerConfig.load(db.config_path).n
 
-        return [len(self.query.split()), self.k * n, int(self.rerank)]
+        costs = db.seeker_costs or {}
+        if 'NaturalLanguage_t_retrieval' not in costs or 'NaturalLanguage_t_doc' not in costs:
+            return self.rerank * self.k * n
+        return costs['NaturalLanguage_t_retrieval'] + self.rerank * self.k * n * costs['NaturalLanguage_t_doc']
 
     def _retrieve(self, db: DBHandler, additionals: str) -> List[int]:
         from dataclasses import replace

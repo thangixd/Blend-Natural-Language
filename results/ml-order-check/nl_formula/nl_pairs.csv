@@ -1,0 +1,7 @@
+lake,gold_plan_id,query,k,ml_cost_xgb_s,ml_cost_formula_s
+chembl,cht-f7,drugs occur anywhere in them,50,32.6388,16.3034
+chembl,cht-f7,my drugs,50,32.6388,16.3034
+chembl,cht-f7,my drugs occur anywhere in them,50,32.6388,16.3034
+chembl,cht-f7,tables containing drug information,50,32.6388,16.3034
+chembl,cht-s3,Tables that give each of my targets,50,32.6388,16.3034
+chembl,cht-s3,in one row,50,32.6388,16.3034
